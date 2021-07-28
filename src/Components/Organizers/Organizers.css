@@ -1,0 +1,56 @@
+.organizer {
+    background: #E3F2FD;
+    user-select: none;
+}
+
+.content-container {
+    padding: 5vh 5vw;
+}
+
+.title {
+    font-size: calc(1.5rem + 2vw);
+        text-align: center;
+        color: #f07008;
+        font-weight: 600;
+        padding: 1.5rem 0;
+        text-transform: ;
+        margin-bottom: 1rem;
+}
+
+.h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+
+.img1 {
+    max-height: 78px;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.amrita {
+    @media (min-width: 700px) {
+        border-right: 1px solid #999;
+    }
+}
+
+.cyber {
+    @media (min-width: 700px) {
+        border-left: 1px solid #999;
+    }
+}
+
+.col-md-4 {
+    padding: 1rem;
+}
+
+.p {
+    font-size: 12px;
+    max-width: 450px;
+    margin-bottom: 0;
+}
+
+.image {
+    max-width: 100%;
+}

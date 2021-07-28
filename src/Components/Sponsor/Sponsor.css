@@ -1,0 +1,16 @@
+
+
+.sponsor{
+    background-color: azure;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.title{
+    font-size: calc(1.5rem + 2vw);
+        text-align: center;
+        color: #f07008;
+        font-weight: 600;
+        padding: 1.5rem 0;
+        margin-bottom: 1rem;
+}
