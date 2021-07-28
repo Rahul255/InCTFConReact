@@ -3,7 +3,7 @@ import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/AboutUs';
-import Goal from './Pages/Goal';
+import Speakers from './Pages/Speakers';
 
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
         <Route path='/about'>
           <About />
         </Route>
-        <Route path='/goal'>
-          <Goal />
+        <Route path='/trainigs'>
+          <Speakers />
         </Route>
       </Router>
     </div>
