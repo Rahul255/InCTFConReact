@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import logo from '../../images/logomain.png';
 
 function Footer() {
 
@@ -20,19 +19,19 @@ function Footer() {
                     <div className="col-md-12">
                         <div className="middle">
                             <h2>Get In Touch</h2>
-                            <a className="btn facebook" href="#">
+                            <a className="btn facebook" href="twitter.com/manneri_bro">
                                 <i className="fab fa-facebook-f"></i>
                             </a>
-                            <a className="btn twitter" href="#">
+                            <a className="btn twitter" href="twitter.com/manneri_bro">
                                 <i className="fab fa-twitter"></i>
                             </a>
-                            <a className="btn google" href="#">
+                            <a className="btn google" href="twitter.com/manneri_bro">
                                 <i className="fab fa-google"></i>
                             </a>
-                            <a className="btn instagram" href="#">
+                            <a className="btn instagram" href="twitter.com/manneri_bro">
                                 <i className="fab fa-instagram"></i>
                             </a>
-                            <a className="btn youtube" href="#">
+                            <a className="btn youtube" href="twitter.com/manneri_bro">
                                 <i className="fab fa-youtube"></i>
                             </a>
 

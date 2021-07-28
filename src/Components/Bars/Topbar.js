@@ -88,38 +88,7 @@ const Topbar = () => {
         clearAllBodyScrollLocks();
     };
 
-    const socialMedia = [
-        {
-            "icon": "far fa-envelope",
-            "title": "Contact us through Email",
-            "url": "mailto:mail@shakticon.com"
-        },
-        {
-            "icon": "fab fa-instagram",
-            "title": "Follow our Instagram handle",
-            "url": "https://instagram.com/shakticon"
-        },
-        {
-            "icon": "fab fa-twitter",
-            "title": "Follow us on Twitter",
-            "url": "https://twitter.com/shakticon"
-        },
-        {
-            "icon": "fa fa-flag",
-            "title": "View our CTFTime ranking",
-            "url": "https://ctftime.org/team/61083"
-        },
-        {
-            "icon": "fab fa-discord",
-            "title": "Join Discord Server",
-            "url": "https://discord.gg/Dv8hEV7vWv"
-        },
-        {
-            "icon": "fab fa-github",
-            "title": "View our GitHub",
-            "url": "https://github.com/Team-Shakti"
-        }
-    ];
+    
 
     return (<React.Fragment>
         <Header ref={topbarRef}>

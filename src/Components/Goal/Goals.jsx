@@ -61,13 +61,7 @@ const EventGoals = () => {
         }
     ];
 
-    const UNSDGGoals = [
-        require('../../images/unsdg/sdg5.png').default,
-        require('../../images/unsdg/sdg5.png').default,
-        require('../../images/unsdg/sdg8.png').default,
-        require('../../images/unsdg/sdg10.png').default,
-        require('../../images/unsdg/sdg11.png').default,
-    ]
+   
 
     return (<GoalsContainer>
         <div className="container" style={{ maxWidth: '1333px' }}>

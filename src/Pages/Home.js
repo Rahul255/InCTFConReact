@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from '../Components/NavBar/NavBar'
 import Banner from '../Components/Banner/Banner'
 import About from '../Components/About/About'
 import Goals from '../Components/Goal/Goals'
