@@ -16,7 +16,7 @@ function App() {
         <Route path='/about'>
           <About />
         </Route>
-        <Route path='/trainigs'>
+        <Route path='/trainings'>
           <Speakers />
         </Route>
       </Router>
