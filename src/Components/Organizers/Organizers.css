@@ -1,6 +1,7 @@
 .organizer {
     background: #E3F2FD;
     user-select: none;
+    overflow: hidden;
 }
 
 .content-container {

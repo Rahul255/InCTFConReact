@@ -3,6 +3,7 @@
     background-color: rgb(233, 222, 222);
     width: auto;
     background-size: cover;
+    overflow: hidden;
 }
 
 .p{
