@@ -19,20 +19,14 @@ function Footer() {
                     <div className="col-md-12">
                         <div className="middle">
                             <h2>Get In Touch</h2>
-                            <a className="btn facebook" href="twitter.com/manneri_bro">
+                            <a className="btn facebook" href="https://www.facebook.com/InCTF/">
                                 <i className="fab fa-facebook-f"></i>
                             </a>
-                            <a className="btn twitter" href="twitter.com/manneri_bro">
+                            <a className="btn twitter" href="https://twitter.com/InCTF">
                                 <i className="fab fa-twitter"></i>
                             </a>
-                            <a className="btn google" href="twitter.com/manneri_bro">
-                                <i className="fab fa-google"></i>
-                            </a>
-                            <a className="btn instagram" href="twitter.com/manneri_bro">
+                            <a className="btn instagram" href="https://www.instagram.com/inctf">
                                 <i className="fab fa-instagram"></i>
-                            </a>
-                            <a className="btn youtube" href="twitter.com/manneri_bro">
-                                <i className="fab fa-youtube"></i>
                             </a>
 
                         </div>
