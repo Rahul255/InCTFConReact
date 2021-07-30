@@ -1,7 +1,6 @@
 .organizer {
     background: #E3F2FD;
     user-select: none;
-    overflow: hidden;
 }
 
 .content-container {
@@ -14,7 +13,7 @@
         color: #f07008;
         font-weight: 600;
         padding: 1.5rem 0;
-        text-transform: ;
+        text-transform: none;
         margin-bottom: 1rem;
 }
 
