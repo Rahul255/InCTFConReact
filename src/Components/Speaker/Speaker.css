@@ -27,6 +27,7 @@
     border-radius: 100vw;
     width: 250px;
     max-width: 100%;
+    border: 5px solid #ed563b;
 }
 
 .trainer-item span {
@@ -60,10 +61,10 @@ s .trainer-item ul.social-icons li:last-child {
 }
 
 .trainer-item ul.social-icons li a {
-    color: #232d39;
+    color: #ed563b;
     transition: all .3s;
 }
 
 .trainer-item ul.social-icons li a:hover {
-    color: #ed563b;
+    color: white;
 }
