@@ -44,19 +44,19 @@ const EventGoals = () => {
 
     const goals = [
         {
-            "cover": require('../../images/covers/women_cut_barriers.jpg').default,
+            "cover": require('../../images/covers/Data_security_01.jpg').default,
             "text": "Industry needs skilled professionals for securing the Digital world",
         },
         {
-            "cover": require('../../images/covers/women_dark_bg.jpg').default,
+            "cover": require('../../images/covers/Data_security_02.jpg').default,
             "text": "CyberSecurity as a profession is one where demand is outstripping supply"
         },
         {
-            "cover": require('../../images/covers/women_flag.jpg').default,
+            "cover": require('../../images/covers/Data_security_03.jpg').default,
             "text": "There will be triple the number of job openings over the next 5 years, with over 3.5 million new cybersecurity job openings in 2022."
         },
         {
-            "cover": require('../../images/covers/women_connections.jpg').default,
+            "cover": require('../../images/covers/Data_security_04.jpg').default,
             "text": "We need to high skilled professionals to protect the globe from the cyber pandemic"
         }
     ];
@@ -66,7 +66,7 @@ const EventGoals = () => {
     return (<GoalsContainer>
         <div className="container" style={{ maxWidth: '1333px' }}>
             <h2>Why InCFTCon</h2>
-            <ScrollContainer vertical={false} className="scroll-container py-2">
+            <ScrollContainer vertical={true} className="scroll-container py-2">
                 <div className="d-flex p-3">
                     {goals.map((g, index) =>
                         <GoalCard className="col-9 col-md-6 col-lg-3 p-2">
