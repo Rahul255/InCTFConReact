@@ -21,10 +21,6 @@
     border: 5px solid #f07008;
     background-color: white;
     padding: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
     width: 350px;
     height: 400px;
     transition: all 0.5s;
@@ -53,7 +49,7 @@
   }
   
   .card__img {
-    width: auto;
+    width: 190px;
     margin: 0 auto;
   }
   
@@ -118,10 +114,10 @@
       width: 80%;
     }
     #card-1 {
-      border-radius: 10px 10px 0px 0px;
+      border-radius: 10px 10px 10px 10px;
     }
     #card-3 {
-      border-radius: 0px 0px 10px 10px;
+      border-radius: 10px 10px 10px 10px;
     }
     .card-container {
       flex-wrap: wrap;

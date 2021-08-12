@@ -25,12 +25,12 @@ const CoverWrap = styled.div`
        text-align: center;
     }
     h1 {
-      font-size: calc(2.5rem + 3vw);
+      font-size: calc(3.5rem + 4vw);
       text-shadow: 3px 5px 8px rgba(0,0,0,0.5);
     }
     h2 {
        text-align: center;
-       font-size: calc(1.35rem + 1vw);
+       font-size: calc(2.35rem + 2vw);
        text-shadow: 2px 3px 4px rgba(0,0,0,0.5);
        color: #EEE;
        span {

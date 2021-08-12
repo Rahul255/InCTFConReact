@@ -1,8 +1,8 @@
 import React from 'react'
 import './EndProgram.css'
-import hack from '../../images/endprogram/hack.png'
-import conf from '../../images/endprogram/conf.png'
-import team from '../../images/endprogram/team.png'
+import hack from '../../images/endprogram/hack1.png'
+import conf from '../../images/endprogram/conf1.png'
+import team from '../../images/endprogram/team1.png'
 
 function EndProgram() {
     return (
