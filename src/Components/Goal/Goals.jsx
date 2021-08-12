@@ -45,19 +45,19 @@ const EventGoals = () => {
     const goals = [
         {
             "cover": require('../../images/covers/Data_security_01.jpg').default,
-            "text": "Industry needs skilled professionals for securing the Digital world",
+            "text": "There are a lot of untapped opportunities for people to take up the role of safeguarding a digital space.",
         },
         {
             "cover": require('../../images/covers/Data_security_02.jpg').default,
-            "text": "CyberSecurity as a profession is one where demand is outstripping supply"
+            "text": "There is a heavy global demand for cybersecurity professionals but there aren’t many skilled people out there. This job pays really well!"
         },
         {
             "cover": require('../../images/covers/Data_security_03.jpg').default,
-            "text": "There will be triple the number of job openings over the next 5 years, with over 3.5 million new cybersecurity job openings in 2022."
+            "text": "The projected growth of employment in cybersecurity is estimated to be around 3.5 million new job opportunities by 2022."
         },
         {
             "cover": require('../../images/covers/Data_security_04.jpg').default,
-            "text": "We need to high skilled professionals to protect the globe from the cyber pandemic"
+            "text": "The danger of a cyber pandemic is imminent and the world needs cybersecurity professionals to protect the world from such an attack – just like a superhero!"
         }
     ];
 

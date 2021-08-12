@@ -8,26 +8,24 @@ function About() {
     return (
         <div className="about">
             <div className="container">
-            <div className="row">
-            <div className="col-md-12">
-                    <h3 className="title_about" >
-                        What is InCTFcon
-                    </h3>
+                <div className="row">
+                    <div className="col-md-12">
+                        <h3 className="title_about" >
+                            What is InCTFcon
+                        </h3>
+                    </div>
                 </div>
-            </div>
 
                 <div className="row">
                     <div className="col-md-6 d-flex align-items-center">
                         <div>
                             <Fade left>
                                 <p className="para">
-                                    InCTFCon is a global conference focused on inspiring, training, and upskilling youth in cybersecurity.
-                                    InCTFCon includes keynote sessions, training, contests, and workshops. Our pre-conference National contest
-                                    - InCTF has attracted over 15,000 students from nearly 150 premier institutions, including IITs and NITs,
-                                    from 23 states taking part.</p>
+                                    InCTFCon is an international conference on cybersecurity aimed at inspiring youth to take up careers in cybersecurity and also provide them the necessary skill training. 
+                                    The Conference has many contests, training programs, workshops and keynote sessions. 
+                                    </p>
                                 <p className="para">
-                                    By doing this we hope to train a new generation of youngsters to be more actively engaged in the field and
-                                    enter the cybersecurity workforce.</p>
+                                Our pre-conference national contest (InCTF) boasts a participant strength of over 15000 students from all over India, from top institutes such as the IITs and NITs! The big dream behind this conference is that we hope to train a new generation of cybersecurity professionals to safeguard India’s future in the digital atmosphere.</p>
                             </Fade>
                         </div>
                     </div>

@@ -36,7 +36,7 @@ const Header = styled.header`
     nav {
        a {
           font-size: 16px;
-          color: #999;
+          color: white;
           padding: 8px 16px;
           text-decoration: none!important;
           &:hover {
