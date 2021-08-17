@@ -34,7 +34,7 @@ function Speaker() {
                                     <div className="down-content">
                                         <h4 style={{color: '#ed563b'}}>About the Author</h4>
                                         <p style={{color: 'white'}}>3rd year undergraduate in Amrita School of Engineering pursuing my Electronics And Communication Engineering degree. Currently working on Digital Forensics as a part of Team bi0s and Team Shakti.</p>
-                                        <ul className="social-icons">
+                                        <ul className="social-icons" >
                                             <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
                                             <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
                                             <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
