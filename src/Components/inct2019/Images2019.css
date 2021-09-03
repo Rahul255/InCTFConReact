@@ -1,4 +1,7 @@
-
+#root {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
   
   .image-card {
     width: 30vw;
@@ -31,7 +34,30 @@
   
   
   
-
+  /*Completely optional styling that has nothing to do with the lightbox*/
+  button {
+    color: white;
+    border: 2px solid #a167da;
+    background-color: #a167da;
+    font-size: 1.2rem;
+  }
+  
+  a {
+    color: #7a4baa;
+  }
+  
+  h1 {
+    color: #7a4baa;
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+  }
+  
+  img:hover, button:hover {
+    cursor: pointer;
+  }
   
   
   
