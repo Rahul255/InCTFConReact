@@ -1,0 +1,91 @@
+
+
+
+.special-guest {
+	padding-top: 85px
+}
+
+.section-title {
+	margin-bottom: 88px
+}
+
+.section-title h2 {
+	color: white;
+	font-size: 60px;
+	font-weight: 900
+}
+.section-title h2 {
+    font-size: 48px
+}
+.guest-img img {
+    border-radius: 6px; 
+    max-width: 100%;
+    border: 5px solid #ed563b;
+}
+
+.guest-info {
+	margin-top: -5px
+}
+
+.guest-info h2 {
+	color: white;
+	font-size: 36px;
+	font-weight: 900;
+	margin-bottom: 27px
+}
+
+.guest-info h2 span {
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 8px
+}
+
+.guest-info p {
+	color: white;
+	font-size: 18px;
+	font-weight: 400
+}
+
+.guest-info p.long-text {
+	margin-bottom: 30px
+}
+
+.guest-info .guest-links {
+	margin-top: 32px
+}
+
+.guest-info .guest-links a {
+	color: #fff;
+	font-size: 18px;
+	height: 36px;
+	width: 36px;
+	background: #ea4c89;
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50%;
+	margin-right: 5px
+}
+
+.guest-info .guest-links a.behance {
+	background: #0057ff
+}
+
+.guest-info .guest-links a.facebook {
+	background: #4267b2
+}
+
+.guest-info .guest-links a.linkedin {
+	background: #0077b5
+}
+
+.guest-info .guest-links a.twitter {
+	background: #1da1f2
+}
+
+
+.newone{
+    padding: 20px;
+    padding-bottom: 30px;
+}

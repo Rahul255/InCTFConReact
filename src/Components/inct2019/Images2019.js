@@ -20,7 +20,7 @@ const images = [image1, image2, image3, image4, image5, image6];
 //MAIN APP COMPONENT
 function Images2019() {
     return (
-        <div className="App">
+        <div className="root">
             <h3 className="title" style={{color: 'chocolate'}}>
                         Some last year images
                     </h3>

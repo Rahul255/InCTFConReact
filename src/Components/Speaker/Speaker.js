@@ -35,13 +35,12 @@ function Speaker() {
                                         <h4 style={{color: '#ed563b'}}>About the Author</h4>
                                         <p style={{color: 'white'}}>3rd year undergraduate in Amrita School of Engineering pursuing my Electronics And Communication Engineering degree. Currently working on Digital Forensics as a part of Team bi0s and Team Shakti.</p>
                                         <ul className="social-icons" >
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -70,10 +69,10 @@ function Speaker() {
                                         <h4 style={{color: '#ed563b'}}>About the Author</h4>
                                         <p style={{color: 'white'}}>I aspire to receive a Bachelor’s Degree in Computer Science and Engineering from Amrita Vishwa Vidyapeetham. I’m currently working on Digital Forensics as a part of Team bi0s.</p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -106,10 +105,10 @@ function Speaker() {
                                         <p style={{color: 'white'}}>3rd year undergraduate in Amrita School of Engineering pursuing my Electronics And Computer Engineering degree. Currently working on Digital Forensics as a part of Team bi0s.
                                         </p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -141,10 +140,10 @@ function Speaker() {
                                         <h4 style={{color: '#ed563b'}}>About the Author</h4>
                                         <p style={{color: 'white'}}>3rd year undergraduate in Amrita School of Engineering. Pursuing my degree in BTech CSE with AI. I have been an active member of Teambi0s since my first year and work in Reverse Engineering.</p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -177,10 +176,10 @@ function Speaker() {
                                         <p style={{color: 'white'}}>Also known as AmunRha. 2nd year CS undergrad at Amrita School of Engineering. I love playing CTFs and currently doing RE with team bi0s.
                                         </p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -213,10 +212,10 @@ function Speaker() {
                                         <p style={{color: 'white'}}>I am a 3rd year undergraduate at Amrita School of Engineering, pursuing an undergraduate degree in Btech-CSE. I have been an active member of Team bi0s since my first year and work in cryptography.
                                         </p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -249,10 +248,10 @@ function Speaker() {
                                         <h4 style={{color: '#ed563b'}}>About the Author</h4>
                                         <p style={{color: 'white'}}>Aka xxMajinxx, 3rd year CS undergrad at Amrita Engineering College and a member of Bi0s. One among the best undergrad Cryptographers in India (find me @ CryptoHack ;). I am interested in number theory and digital signatures.</p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -284,10 +283,10 @@ function Speaker() {
                                         <h4 style={{color: '#ed563b'}}>About the Author</h4>
                                         <p style={{color: 'white'}}>A first-year undergraduate in Amrita School of Engineering, pursuing a degree in Computer Science.</p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -319,10 +318,10 @@ function Speaker() {
                                         <h4 style={{color: '#ed563b'}}>About the Author</h4>
                                         <p style={{color: 'white'}}>Aka PwnSolo ,3rd year undergraduate in Amrita School of Engineering, pursuing an undergraduate degree in Computer Science. An active member of team bi0s and currently working on binary exploitation </p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -355,10 +354,10 @@ function Speaker() {
                                         <p style={{color: 'white'}}>2nd year CSE undergrad in Amrita School of Engineering. Pwner pwning with Team Shakti and bi0s.
                                         </p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -391,10 +390,10 @@ function Speaker() {
                                         <p style={{color: 'white'}}>I'm an Electrical and Computer Engineering Undergrad at Amrita Vishwa Vidyapeetham, Amritapuri.Currently doing Binary Exploitation with Team bi0s.
                                         </p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -427,10 +426,10 @@ function Speaker() {
                                         <h4 style={{color: '#ed563b'}}>About the Author</h4>
                                         <p style={{color: 'white'}}>I’m a first-year undergraduate student at Amrita School of Engineering and am pursuing a degree in Computer Science and Engineering. I’m part of Team Bi0s and Team Shakti and am currently focusing on web exploitation.</p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -464,10 +463,10 @@ function Speaker() {
                                         <p style={{color: 'white'}}>3rd-year undergraduate in Amrita School of Engineering, pursuing an undergraduate degree in Computer Science and Engineering. I have been an active member of Teambi0s for the past couple of years, and I Focus on Web Exploitation.
                                         </p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -501,10 +500,10 @@ function Speaker() {
                                         <p style={{color: 'white'}}>I am a third-year undergraduate at Amrita School of Engineering, Amritapuri pursuing a Bachelor of Technology in Computer Science and Engineering. I have been an active member of team bi0s for the past couple of years. My main interests are in the field of web exploitation and penetration testing.
                                         </p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -538,10 +537,10 @@ function Speaker() {
                                         <p style={{color: 'white'}}>3rd year undergraduate in Amrita School of Engineering, pursuing my degree in Computer Science and Engineering. Member of Team Bi0s, currently working on Reverse engineering.
                                         </p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -575,10 +574,10 @@ function Speaker() {
                                         <p style={{color: 'white'}}>3rd year undergraduate at Amrita School of Engineering pursuing my Electronics And Computer Engineering degree and currently working on Reverse engineering as part of team bi0s and Team Shakti.
                                         </p>
                                         <ul className="social-icons">
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href="https://twitter.com/inctf"><i className="fa fa-behance"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
