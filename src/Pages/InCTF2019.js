@@ -5,6 +5,7 @@ import Footer from '../Components/Footer/Footer'
 import Details from '../Components/inct2019/Details'
 import Inct2019Landing from '../Components/inct2019/Inct2019Landing'
 import Images2019 from '../Components/inct2019/Images2019'
+import MainSpeakers from '../Components/Speaker/mainSpeakers'
 
 function InCTF2019() {
     return (
@@ -14,6 +15,7 @@ function InCTF2019() {
             <Details />
             <Images2019 />
             <Organizers />
+            <MainSpeakers />
             <Footer />
         </div>
     )
