@@ -1,10 +1,11 @@
 import React from 'react';
 import './Promotes.css';
 import image from '../../images/inctfposter.jpg'
+import TweetEmbed from 'react-tweet-embed';
 
 function Promotes() {
     return (
-        <div className="promote">
+        <div className="promote" style={{ backgroundColor: 'white' }}>
             <section id="organize">
                 <div className="container zindex">
                     <div className="section_title">
@@ -25,7 +26,7 @@ function Promotes() {
                                     </div>
                                     <div className="col-lg-7 col-md-7">
                                         <div className="purchase-box">
-                                            <h3>Poster content</h3> <br />
+                                            <h3 style={{ color: 'chocolate' }}>Poster content</h3> <br />
                                             <b>
                                                 <p className="ptag">A noob looking to learn cybersec? Or a pro looking for a
                                                     refresh? Register now @ https://inctf.in/ <br />
@@ -63,33 +64,36 @@ function Promotes() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className=" event-header text-center">
-                                <h3>Facebook post</h3>
+                                <h3 style={{ color: 'chocolate' }}>Facebook Posts</h3>
 
                             </div>
-                            <div className="row">
-                                <iframe title="new"
-                                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInCTF%2Fposts%2F10158391652432503&show_text=true&width=500"
-                                    width="500" height="697" style={{ border: "NamedNodeMap", overflow: "hidden" }} scrolling="no" frameborder="0"
-                                    allowfullscreen="true"
-                                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-
-                                <iframe title="new"
+                            <div >
+                                <iframe title="new" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInCTF%2Fposts%2F10158391652432503&show_text=true&width=500" width="500" height="697" style={{ border: "none", overflow: "hidden", color: "white" }} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                                <br/>                         
+                            </div>
+                            <div>
+                            <iframe title="new"
                                     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInCTF%2Fposts%2F10158342523247503&show_text=true&width=500"
-                                    width="500" height="531" style={{ border: "none", overflow: "hidden" }} scrolling="no" frameborder="0"
+                                    width="500" height="531" style={{ border: "nameNodeMap", overflow: "hidden" }} scrolling="no" frameborder="0"
                                     allowfullscreen="true"
                                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-
                             </div>
+
                         </div>
                         <div className="col-lg-6">
                             <div className=" event-header text-center">
-                                <h3>Tweets</h3>
-
+                                <h3 style={{ color: 'chocolate' }}>Tweets</h3>
                             </div>
-                            <div className="tweets-container">
-                                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A noob looking to learn cybersec? Or a pro looking for a refresh? <br /><br />Prize pool of 3 lakhs, placement and internship opportunity from our sponsors awaits the participants<br /><br />Register now at <a href="https://t.co/5r6XrZDbyq">https://t.co/5r6XrZDbyq</a><a href="https://twitter.com/hashtag/inctf?src=hash&amp;ref_src=twsrc%5Etfw">#inctf</a> <a href="https://twitter.com/hashtag/ctf?src=hash&amp;ref_src=twsrc%5Etfw">#ctf</a> <a href="https://twitter.com/hashtag/InCTF?src=hash&amp;ref_src=twsrc%5Etfw">#InCTF</a> <a href="https://twitter.com/hashtag/InCTF21?src=hash&amp;ref_src=twsrc%5Etfw">#InCTF21</a> <a href="https://t.co/hMg9dG4lQi">pic.twitter.com/hMg9dG4lQi</a></p>&mdash; Amrita InCTF (@InCTF) <a href="https://twitter.com/InCTF/status/1433360732461043716?ref_src=twsrc%5Etfw">September 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <div>
+                                <TweetEmbed id='1433360732461043716' options={{ cards: 'hidden' }} />
+                            </div>
+                            <br/>
+                            <div>
+                                <TweetEmbed id='1423298024453804033' options={{ cards: 'hidden' }} />
+                            </div>
+                            <br/>
+                            <div>
+                                <TweetEmbed id='1401859079249612800' options={{ cards: 'hidden' }} />
                             </div>
                         </div>
                     </div>
