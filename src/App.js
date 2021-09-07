@@ -7,6 +7,7 @@ import Speakers from './Pages/Speakers';
 import InCTF2019 from './Pages/InCTF2019';
 import Schedules from './Pages/Schedules';
 import Guest from './Pages/Guest';
+import Promote from './Pages/Promote';
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path='/guest_speaker'>
           <Guest />
+        </Route>
+        <Route path='/promote'>
+          <Promote />
         </Route>
       </Router>
     </div>

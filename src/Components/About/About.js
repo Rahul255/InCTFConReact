@@ -21,11 +21,11 @@ function About() {
                         <div>
                             <Fade left>
                                 <p className="para">
-                                    InCTFCon is an international conference on cybersecurity aimed at inspiring youth to take up careers in cybersecurity and also provide them the necessary skill training. 
-                                    The Conference has many contests, training programs, workshops and keynote sessions. 
-                                    </p>
+                                    InCTFCon is an international conference on cybersecurity aimed at inspiring youth to take up careers in cybersecurity and also provide them the necessary skill training.
+                                    The Conference has many contests, training programs, workshops and keynote sessions.
+                                </p>
                                 <p className="para">
-                                Our pre-conference national contest (InCTF) boasts a participant strength of over 15000 students from all over India, from top institutes such as the IITs and NITs! The big dream behind this conference is that we hope to train a new generation of cybersecurity professionals to safeguard India’s future in the digital atmosphere.</p>
+                                    Our pre-conference national contest (InCTF) boasts a participant strength of over 15000 students from all over India, from top institutes such as the IITs and NITs! The big dream behind this conference is that we hope to train a new generation of cybersecurity professionals to safeguard India’s future in the digital atmosphere.</p>
                             </Fade>
                         </div>
                     </div>
