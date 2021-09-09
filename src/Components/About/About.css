@@ -1,31 +1,33 @@
 .about{
     padding-top: 20px;
-    background-color: rgb(233, 222, 222);
     width: auto;
+    background-color: #222;
     background-size: cover;
     overflow: hidden;
 }
 
 .p{
     font-size: 16px;
-    color: black;
+    color: white;
 }
 .span{
-    color: #F50057;
+    color: white;
+}
+.span2{
+    color: tomato;
 }
 
 .para{
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.2rem;
     padding-bottom: 0.3rem;
-    color: rgb(24, 21, 21);
+    color: white;
     padding-top: 30px;
 }
 
 .title_about{
         font-size: calc(1.5rem + 2vw);
-        text-align: center;
-        color: #f07008;
+       
+        color: tomato;
         font-weight: 600;
         padding: 1.5rem 0;
         margin-bottom: 1rem;

@@ -30,7 +30,7 @@ const CoverWrap = styled.div`
     }
     h2 {
        text-align: center;
-       font-size: calc(2.35rem + 2vw);
+       font-size: calc(1.35rem + 1vw);
        text-shadow: 2px 3px 4px rgba(0,0,0,0.5);
        color: #EEE;
        span {
@@ -95,8 +95,8 @@ function Banner() {
                                     <h3 className="font-weight-bold">April 9-11</h3>
                                 </div>
                             </div>
-                        </div>*/}
-                        <h5>December 2021</h5>
+                        </div>*/}<br/>
+                        <h5 className="bold">December 2021</h5>
                     </Fade>
                 </div>
             </CoverWrap>
