@@ -100,21 +100,27 @@ const Topbar = () => {
                 </div>
                 <div className="col-8 d-none d-md-flex justify-content-md-end align-items-center">
                     <nav>
-                        {/*<Fade delay={0}>
-                            <a className="newone" href="/about">About</a>
-                        </Fade>*/}
                         <Fade delay={0}>
                             <a className="newone" href="/">Home</a>
+                        </Fade>
+                        <Fade delay={100}>
+                            <a className="newone" href="/about">About</a>
                         </Fade>
                         <Fade delay={200}>
                             <a className="newone" href="/trainings">Training</a>
                         </Fade>
-                       {/* <Fade delay={450}>
+                        <Fade delay={300}>
+                            <a className="newone" href="/trainings">Speaker</a>
+                        </Fade>
+                        <Fade delay={400}>
+                            <a className="newone" href="/">Schedule</a>
+                        </Fade>
+                       <Fade delay={500}>
                             <a className="newone" href="/">Sponsors</a>
                         </Fade>
-                        <Fade delay={550}>
+                        <Fade delay={600}>
                             <a className="newone" href="/">Promote</a>
-                    </Fade>*/}
+                    </Fade>
                     </nav>
                 </div>
                 <div className="col-8 d-flex d-md-none align-items-center justify-content-end px-2">
