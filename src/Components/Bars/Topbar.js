@@ -3,6 +3,13 @@ import React, { useState, useRef } from 'react';
 import styled from "@emotion/styled";
 import Fade from 'react-reveal/Fade';
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+import { Link } from "react-router-dom";
+import {
+    ButtonDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem
+} from "reactstrap";
 
 import SideBar from "./Sidebar";
 
@@ -88,7 +95,7 @@ const Topbar = () => {
         clearAllBodyScrollLocks();
     };
 
-    
+
 
     return (<React.Fragment>
         <Header ref={topbarRef}>
@@ -115,12 +122,12 @@ const Topbar = () => {
                         <Fade delay={400}>
                             <a className="newone" href="/">Schedule</a>
                         </Fade>
-                       <Fade delay={500}>
+                        <Fade delay={500}>
                             <a className="newone" href="/">Sponsors</a>
                         </Fade>
                         <Fade delay={600}>
                             <a className="newone" href="/">Promote</a>
-                    </Fade>
+                        </Fade>
                     </nav>
                 </div>
                 <div className="col-8 d-flex d-md-none align-items-center justify-content-end px-2">
@@ -130,14 +137,14 @@ const Topbar = () => {
                 </div>
                 {/*<div className="col-3 d-none d-md-flex align-items-center">
                     {/*<Fade left>*/}
-                    {/*    <a*/}
-                    {/*       className="register-button" target="_blank" rel="noreferrer nofollow"*/}
-                    {/*       href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"*/}
-                    {/*    >*/}
-                    {/*        Register*/}
-                    {/*    </a>*/}
-                    {/*</Fade>*/}
-                    {/*socialMedia.map((s, index) =>
+                {/*    <a*/}
+                {/*       className="register-button" target="_blank" rel="noreferrer nofollow"*/}
+                {/*       href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"*/}
+                {/*    >*/}
+                {/*        Register*/}
+                {/*    </a>*/}
+                {/*</Fade>*/}
+                {/*socialMedia.map((s, index) =>
                         <Fade right delay={index*200}>
                             <a
                                 href={s.url}
@@ -153,7 +160,7 @@ const Topbar = () => {
                     </div>*/}
             </div>
         </Header>
-        {showMenu && <SideBar  onClose={onClose} />}
+        {showMenu && <SideBar onClose={onClose} />}
     </React.Fragment>);
 };
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import image from '../../images/desktop.png'
+import image from '../../images/desktop1.png'
 import Fade from 'react-reveal/Fade';
 
 function About() {
@@ -29,10 +29,11 @@ function About() {
                             </Fade>
                         </div>
                     </div>
-                    <div className="col-md-6 d-flex align-items-center " style={{border: "2px solid tomato",backgroundColor:"#231F20"}}>
+                    <div className="col-md-6 d-flex align-items-center " /*style={{border: "2px solid tomato",backgroundColor:"#231F20"}}*/>
                         <div className="col-md-12 ">
                             <Fade right>
                                 <img style={{ maxHeight: '100%', maxWidth: '100%' }} draggable="false" src={image} alt="INCTF participant" />
+                                <img style={{ maxHeight: '100%', maxWidth: '100%' }} draggable="false" src={image} alt="INCTF participant" />   
                             </Fade>
                         </div>
                     </div>
