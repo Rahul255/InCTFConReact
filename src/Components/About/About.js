@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import image from '../../images/desktop1.png'
+// import image from '../../images/desktop1.png'
 import Fade from 'react-reveal/Fade';
 
 function About() {
