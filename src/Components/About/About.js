@@ -30,16 +30,14 @@ function About() {
                         </div>
                     </div>
                     <Fade right>
-                    <div className="col-md-6 d-flex align-items-center " style={{backgroundImage:`url(${require('../../images/3198965.png').default})`,backgroundSize: "contain",border: "3px solid tomato"}}>
-                        <div className="col-md-12 ">
-                            <Fade right>
-                                {/* <img style={{ maxHeight: '100%', maxWidth: '100%' }} draggable="false" src={image} alt="INCTF participant" /> */}
-                            </Fade>
+                        <div className="col-12 col-md-6 d-flex  " style={{ backgroundImage: `url(${require('../../images/3198965.png').default})`, backgroundSize: "contain", border: "3px solid tomato" }}>
+
+                            <img style={{ maxHeight: '100%', maxWidth: '100%' }} draggable="false" src={require('../../images/3198965.png').default} alt="INCTF participant" />
+
                         </div>
-                    </div>
                     </Fade>
                 </div>
-                <br/><br/><br/><br/>
+                <br /><br /><br /><br />
             </div>
         </div>
     )
