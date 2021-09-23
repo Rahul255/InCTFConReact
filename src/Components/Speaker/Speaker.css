@@ -23,6 +23,10 @@
     padding-top: 20px;
 }
 
+.span{
+    color: white;
+    font-size: 30px;
+}
 .trainer-item img {
     border-radius: 100vw;
     width: 250px;
