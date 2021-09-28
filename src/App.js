@@ -8,6 +8,7 @@ import InCTF2019 from './Pages/InCTF2019';
 import Schedules from './Pages/Schedules';
 import Guest from './Pages/Guest';
 import Promote from './Pages/Promote';
+import ArjunTU from './Pages/ArjunTU';
 
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
         </Route>
         <Route path='/promote'>
           <Promote />
+        </Route>
+        <Route path='/session/windows-exploitation-beginner’s-track'>
+          <ArjunTU />
         </Route>
       </Router>
     </div>

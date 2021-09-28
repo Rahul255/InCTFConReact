@@ -10,6 +10,40 @@ function Speaker() {
                         InCTFcon Trainings
                     </h3>
                 </div>
+
+                <div className="section_title ">
+                    <h5 className="title" style={{ color: 'white', fontSize: '40px' }}>
+                        Paid Trainings
+                    </h5>
+                </div>
+                <div className="row trainer_row">
+                    <div className="col-lg-12">
+                        <div className="trainer-item">
+                            <div className="row">
+                                <div className="col-lg-8">
+                                    <div className="down-content">
+                                        <h2 style={{ color: 'white', fontWeight: 'bold' }}>Windows Exploitation: Beginner’s Track </h2>
+                                        <h5 style={{ color: 'chocolate' }}> Arjun TU</h5>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4">
+                                    <div class="browse_link"><a href="/session/windows-exploitation-beginner’s-track">View Session Details</a></div>
+                                    {/* <div class="p-2">
+                                        <a href="/session/windows-exploitation-beginner’s-track" style={{textDecoration: 'none'}} class="browse">
+                                            View Session Details</a>
+                                    </div> */}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="section_title ">
+                    <h5 className="title" style={{ color: 'white', fontSize: '40px' }}>
+                        Free Trainings
+                    </h5>
+                </div>
+
                 <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
@@ -17,7 +51,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Introduction to Cyber Forensics </h2>
-                                        <h5 style={{ color: 'chocolate' }}> K.Sridevi <span className="span" style={{ color: 'white', fontWeight: 'bold',fontSize:'20px' }}>&</span> S Abhishek</h5>
+                                        <h5 style={{ color: 'chocolate' }}> K.Sridevi <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> S Abhishek</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -133,7 +167,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Intro to Gameboy and NES ROM Reversing </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Gourav Singh Bajeli <span className="span" style={{ color: 'white', fontWeight: 'bold',fontSize:'20px' }}>&</span> Adhithya Suresh Kumar</h5>
+                                        <h5 style={{ color: 'chocolate' }}>Gourav Singh Bajeli <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Adhithya Suresh Kumar</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -249,7 +283,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Crypto for Beginners </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Alekh Avinash <span className="span" style={{ color: 'white', fontWeight: 'bold',fontSize:'20px' }}>&</span> Sahith M</h5>
+                                        <h5 style={{ color: 'chocolate' }}>Alekh Avinash <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Sahith M</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -361,7 +395,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Intro to Binary Exploitation </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Adhithya Sree Mohan <span className="span" style={{ color: 'white', fontWeight: 'bold',fontSize:'20px' }}>&</span> Nikhil Reddy</h5>
+                                        <h5 style={{ color: 'chocolate' }}>Adhithya Sree Mohan <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Nikhil Reddy</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -474,7 +508,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Exploring Web Exploitation Techniques </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Sayooj B Kumar <span className="span" style={{ color: 'white', fontWeight: 'bold',fontSize:'20px' }}>&</span> Yadhu Krishna M</h5>
+                                        <h5 style={{ color: 'chocolate' }}>Sayooj B Kumar <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Yadhu Krishna M</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -557,7 +591,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Introduction to Reverse Engineering </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Abhishek Barla <span className="span" style={{ color: 'white', fontWeight: 'bold',fontSize:'20px' }}>&</span> CH Revathi</h5>
+                                        <h5 style={{ color: 'chocolate' }}>Abhishek Barla <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> CH Revathi</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">

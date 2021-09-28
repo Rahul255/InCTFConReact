@@ -1,0 +1,477 @@
+
+
+
+
+
+
+
+.arjun{
+    overflow: hidden;
+}
+
+.h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+ .h4 {
+    font-size: 25px;
+    color: rgb(237, 86, 59);
+    padding-bottom: 7px;
+}
+
+.paragr {
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 47px;
+}
+
+.slider {
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(77, 72, 99, 0.8);
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.left_arrow {
+    color: #f1f1f1;
+    position: absolute;
+    font-size: 28px;
+    top: 50%;
+    left: 50px;
+    z-index: 99;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px dashed #f1f1f1;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -mos-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+.left_arrow:hover {
+    border: 1px dashed #fbaa33;
+    color: #fbaa33;
+}
+.image_paid_trainer{
+    border-radius: 100vw;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-right: auto;
+    border: 2px solid #ed563b;
+}
+
+.right_arrow {
+    color: #f1f1f1;
+    position: absolute;
+    font-size: 28px;
+    top: 50%;
+    right: 50px;
+    z-index: 99;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px dashed #f1f1f1;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -mos-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+#inner .bnr_text {
+    padding-bottom: 130px;
+}
+
+.right_arrow:hover {
+    border: 1px dashed #fbaa33;
+    color: #fbaa33;
+}
+
+.bnr_text {
+    padding-top: 138px;
+    padding-bottom: 200px;
+    color: #fff;
+}
+
+.bnr_text h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    font-family: "Mitr",sans-serif;
+    font-weight: bold;
+}
+
+.bnr_text h1 span {
+    font-size: 40px;
+    display: block;
+    color: #fbaa33;
+    font-family: pr;
+}
+
+.bnr_text p {
+    font-size: 16px;
+    padding-bottom: 12px;
+    padding-right: 510px;
+    font-family: pl;
+    line-height: 26px;
+}
+
+.bnr_text .start_course {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(20, 18, 18);
+    font-size: 20px;
+    display: inline-block;
+    font-family: pb;
+    padding: 14px 22px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-right: 20px;
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    transition: all linear .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+}
+
+.bnr_text .start_course:hover {
+    color: white;
+}
+.bnr_text .course_offer {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(20, 18, 18);
+    font-size: 20px;
+    display: inline-block;
+    font-family: pb;
+    padding: 14px 14px;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-right: 20px;
+}
+.course_offer{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-size: 15px;
+    display: inline-block;
+    font-family: pb;
+    padding: 14px 14px;
+    border-radius: 10px;
+    border: 2px solid rgb(10, 10, 10);
+    margin-right: 10px; 
+    align-items: center;
+}
+.course_offer_value{
+    font-size: 15px;
+}
+
+.slick-dots {
+    display: none !important;
+    padding-top: 8px;
+    outline: 0;
+    position: absolute;
+    bottom: 117px;
+    left: 300px;
+}
+
+.slick-dots li {
+    display: inline-block !important;
+    width: 15px;
+    height: 15px;
+    margin: 0 8px;
+    background: none;
+    border: 1px solid #fbaa33;
+    border-radius: 50%;
+    outline: 0;
+}
+
+.slick-dots li button {
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    outline: 0;
+}
+
+.slick-dots li.slick-active button {
+    background: #fbaa33;
+    outline: 0;
+}
+
+.slick-dots li.slick-active button:focus {
+    outline: 0;
+}
+
+
+li {
+    color: white;
+    list-style: none;
+    position: relative;
+    padding-left: 50px;
+    line-height: 2;
+    font-size: 16px;
+}
+
+li:before {
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    color: #318ca0;
+    font-size: 20px;
+}
+
+li.one:before {
+    content: "\f00c";
+}
+
+li.two:before {
+    content: "\f00c";
+}
+
+li.three:before {
+    content: "\f111";
+}
+
+li:hover:before {
+    color: #666;
+}
+
+/* collapse*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.accordion {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F0F1EF;
+    color: #344351;
+    cursor: pointer;
+    padding: 25px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    outline: none !important;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+.accordion:hover {
+    background-color: #344351;
+    color: #F0F1EF;
+}
+
+.activetoggle {
+    background-color: #344351;
+    color: #F0F1EF;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 0 28px;
+    display: none;
+    overflow: hidden;
+    color: #F0F1EF;
+    background-color: #b8c5d1;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #F0F1EF;
+    float: right;
+    margin-left: 5px;
+}
+
+.activetoggle:after {
+    content: "\2796";
+    color: #ffffff !important;
+}
+
+.wrap-accordion {
+    margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+.lbl-toggle {
+    display: block;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: #F0F1EF;
+    background: #F0F1EF;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.25s ease-out;
+}
+
+.lbl-toggle:hover {
+    color: #F0F1EF;
+}
+
+.lbl-toggle::before {
+    content: ' ';
+    display: inline-block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+    transition: transform .2s ease-out;
+}
+
+.toggle:checked+.lbl-toggle::before {
+    transform: rotate(90deg) translateX(-3px);
+}
+
+.accordion-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked+.lbl-toggle+.accordion-content {
+    max-height: 350px;
+}
+
+.toggle:checked+.lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.accordion-content .content-inner {
+    background: rgba(250, 224, 66, .2);
+    border-bottom: 1px solid rgba(250, 224, 66, .45);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: .5rem 1rem;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.something {
+    background-color: rgb(250, 248, 245);
+    border: 2px solid black;
+    margin-top: 10px;
+    animation-name: example1    ;
+    color: #131313;
+    font-size: 22px;
+    font-family: pb;
+    animation-duration: 10s;
+    
+}
+@keyframes example {
+    0%   {background-color: rgb(86, 167, 92);}
+    25%  {background-color: yellow;}
+    50%  {background-color: white;}
+    100% {background-color: rgb(61, 155, 155);}
+  }
+
+  .blink1 {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    
+  }
+  .plink1   {
+    animation: color-change 1s infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+  }
+
+  .something1{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: #131313;
+    font-size: 22px;
+    font-family: pb;
+    animation-duration: 10s;
+   /* added animation property to show the character one at a time*/
+   
+ }
+ .plink-head{
+    animation: color-change1 1s infinite;
+  }
+ /*set the background colour of div element to black */
+ @keyframes color-change1 {
+    0% { color: rgb(3, 22, 6); }
+    50% { color: rgb(233, 117, 8); }
+    100% { color: rgb(3, 22, 6); }
+  }
+
+  .browse {
+    padding: 60px 0 20px;
+}
+
+.browse a {
+    border: 2px dashed white;
+    color: white;
+    padding: 15px 21px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: pb;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.browse a:hover {
+    background: white;
+    color: black;
+}

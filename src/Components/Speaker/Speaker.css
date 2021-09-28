@@ -1,9 +1,20 @@
-.speaker{
+.speaker {
     padding-top: 60px;
     overflow: hidden;
 }
-.topic{
+
+.topic {
     color: white;
+}
+
+.title {
+    font-size: calc(1.5rem + 2vw);
+    text-align: center;
+    color: tomato;
+    font-weight: 600;
+    padding: 1.5rem 0;
+    text-transform: none;
+    margin-bottom: 1rem;
 }
 
 .trainer-item {
@@ -23,10 +34,11 @@
     padding-top: 20px;
 }
 
-.span{
+.span {
     color: white;
     font-size: 30px;
 }
+
 .trainer-item img {
     border-radius: 100vw;
     width: 250px;
@@ -71,4 +83,57 @@ s .trainer-item ul.social-icons li:last-child {
 
 .trainer-item ul.social-icons li a:hover {
     color: white;
+}
+
+.button-35 {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 90px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    align-items: center;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-35:hover {
+    box-shadow: white 0 0 0 3px, transparent 0 0 0 0;
+  }
+
+  .browse_link {
+    padding: 25px 0 20px;
+}
+
+.browse_link a {
+    border: 2px dashed white;
+    color: white;
+    padding: 15px 21px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: pb;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.browse_link a:hover {
+    color: rgb(237, 86, 59);
 }

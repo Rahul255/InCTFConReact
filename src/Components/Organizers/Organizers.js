@@ -6,7 +6,7 @@ function Organizers() {
     return (
         <div className="organizer">
             <div className="content-container">
-                <h3 className="title">Organized By</h3>
+                <h3 className="title_organizer">Organized By</h3>
                 <div className="row mx-0">
                     <Fade left>
                         <div className="col-md-4 order-md-1 order-2 text-right amrita">
