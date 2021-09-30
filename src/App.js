@@ -9,6 +9,7 @@ import Schedules from './Pages/Schedules';
 import Guest from './Pages/Guest';
 import Promote from './Pages/Promote';
 import ArjunTU from './Pages/ArjunTU';
+import AbhinandS from './Pages/AbhinandS';
 
 
 function App() {
@@ -38,6 +39,9 @@ function App() {
         </Route>
         <Route path='/session/windows-exploitation-beginner’s-track'>
           <ArjunTU />
+        </Route>
+        <Route path='/session/offensive-android-application-pentesting'>
+          <AbhinandS />
         </Route>
       </Router>
     </div>

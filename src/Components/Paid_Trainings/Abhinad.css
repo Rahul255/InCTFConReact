@@ -299,14 +299,12 @@ li:hover:before {
     border-radius: 8px 8px 0px 0px;
 }
 
-.content {
+.newone {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     padding: 0 28px;
-    display: none;
     overflow: hidden;
     color: #F0F1EF;
-    background-color: #b8c5d1;
     border-radius: 0px 0px 8px 8px;
 }
 
@@ -379,7 +377,7 @@ input[type='checkbox'] {
     border-bottom-left-radius: 0;
 }
 
-.accordion-content .content-inner {
+.accordion-content .newone-inner {
     background: rgba(250, 224, 66, .2);
     border-bottom: 1px solid rgba(250, 224, 66, .45);
     border-bottom-left-radius: 7px;

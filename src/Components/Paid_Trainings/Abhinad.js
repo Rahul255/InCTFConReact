@@ -1,7 +1,89 @@
 import React from 'react'
-import './Arjun.css'
+import './Abhinad.css'
+import Accordion from './Accordion';
 
-function Arjun() {
+const Abhinand = () => {
+    const data = [
+        {
+            name: 'Session Module',
+            captain: 'Virat',
+            players: [
+                {
+                    title: 'Module 1',
+                    content: 'Bat',
+                    items: [
+                        'Intro to Android and App Components',
+                        'Android Security Architecture',
+                        'Android App Components',
+                        'Android application structure',
+                        'Android Debugger - ADB  ',
+                        'Rooting Android devices',
+                        'Android Emulator and AVD'
+                    ]
+                },
+                {
+                    title: 'Module 2',
+                    content: 'Bat',
+                    items: [
+                        'Reverse Engineering Apps',
+                        'Understanding smali',
+                        'Native library',
+                        'Signing Apps',
+                        'Bundled apps '
+                    ]
+                },
+                {
+                    title: 'Module 3',
+                    content: 'Bat',
+                    items: [
+                        'Analyzing Android traffic',
+                        'Hooking with Frida',
+                        'Protection mechanisms and bypassing techniques'
+                    ]
+                },
+                {
+                    title: 'Module 4',
+                    content: 'Bat',
+                    items: [
+                        'Attack surface and basic tests',
+                        'Data Storage',
+                        'Weak Cryptography',
+                        'Side Channel Data Leakage',
+                        'Insecure Authorization',
+                        'Insecure Activities and Intents',
+                        'Insecure Broadcast Receivers',
+                        'Insecure Services and ContentProvider ',
+                        'Insecure Deeplinks ',
+                        'Client Side injections',
+                        'Memory Corruption issues'
+                    ]
+                }
+            ]
+
+        },
+        // {
+        //     name: 'Rajasthan Royals',
+        //     captain: 'Sanju',
+        //     players: [
+        //         {
+        //             title: 'sanchuutti',
+        //             content: 'Bat',
+        //             items: [
+        //                 'item 1',
+        //                 'item 2'
+        //             ]
+        //         },
+        //         {
+        //             title: 'thaivattiya',
+        //             content: 'Bat/ball ',
+        //             items: [
+        //                 'item 1',
+        //                 'item 2'
+        //             ]
+        //         }
+        //     ]
+        // }
+    ]
     return (
         <div className="arjun">
             <section id="banner">
@@ -11,13 +93,13 @@ function Arjun() {
                             <div class="row">
                                 <div class="col-12 col-lg-12">
                                     <div class="bnr_text">
-                                        <h1> Windows Exploitation: Beginner’s Track</h1>
+                                        <h1> Offensive Android Application Pentesting</h1>
                                         <p></p>
                                         <div>
                                             {/* <a class="start_course" href="#project">Course Module</a> */}
                                             {/* <a class="start_course" href="#project">
                                                 Projects </a> */}
-                                            <p class="course_offer">Offer ₹7000  <del className="course_offer_value">₹10000</del></p>
+                                            <p class="course_offer">Offer ₹12000  <del className="course_offer_value">₹15000</del></p>
                                             <a class="start_course" href="nothing">Register</a>
                                         </div>
                                     </div>
@@ -37,10 +119,8 @@ function Arjun() {
                         <div class="col-lg-8 col-12 about-text"><br /><br />
                             <div class=" m-auto about-head ">
                                 <h3 className="h3">About the Training</h3>
-                                <p className="paragr">Windows is one of the most popular OS’s (user side, not server side) and it’s not going away anytime soon. Windows exploitation has some quirks of its own, but the fundamentals of exploitation and the skills required is almost the same across OS’s (well most OS’s) and therefore you can learn or practise Linux exploitation and then pick up on the Windows specific details as required.</p>
-                                <p className="paragr">This training is an alternative, a way in which you can start your exploitation from Windows itself. Modern Windows has a great number of exploit mitigation mechanisms present and it might be difficult to follow outdated public guides while this training looks at all the exploitation mechanisms in the W10 environment (why they work and why some things don’t work). (Although W11 is the future, we won’t be looking at it now) We also will only be focusing on x86 (32bit) programs and exploits in this course (although we might touch upon some x86-64 things, that won’t be our focus)</p>
-                                <p className="paragr">We are also going to do most things manually without depending on many tools (even though it might be easier, tools obscure some details from you) so that the fundamentals are really hammered home.</p>
-                                <p className="paragr">The training will be done live, across 7 days, in 2 hour slots starting around 6:00 PM IST and ending around 8:00 PM IST.</p>
+                                <p className="paragr">This hands-on workshop provides you with the knowledge and best techniques to identify and exploit vulnerabilities in Android applications. It begins with an overview of Android components and reversing engineering techniques before various ways of exploitation techniques. The training will cover OWASP top 10 mobile vulnerabilities and OWASP Mobile Security Testing Guide (OWASP-MSTG) including exploiting local storage, weak cryptography, vulnerable activity components, intents, and broadcast receivers, insecure deeplinks, permission model flaws, memory corruption vulnerabilities, client side injections etc. </p>
+                                <p className="paragr">Whether you are completely new to Android security or a cybersecurity professional who want to know more about its current state, the key steps in pentesting Android apps, and to understand the latest attacks and discoveries in this area, this training is for you. Get hands-on experience in doing static and dynamic analysis of Android Application with real work examples. </p>
 
                             </div>
                             {/* <div class=" m-auto about-head ">
@@ -72,7 +152,7 @@ function Arjun() {
                             <div class=" m-auto about-head text-center">
                                 <br /> <br /> <br />
                                 <h3 className="h3">Trainer</h3>
-                                <h4 className="h4">Arjun TU</h4>
+                                <h4 className="h4">Abhinand</h4>
 
                             </div> <br />
                             <img className="image_paid_trainer" src={require('../../images/trainings/S_Abhishek.png').default} alt="" />
@@ -84,6 +164,23 @@ function Arjun() {
 
             </section>
             <br /><br />
+            {data.map((t) => 
+                <section>
+                    <div class="container">
+                <div>
+                    <h3 className="h3">{t.name}</h3>
+                    {/* <h2>{t.captain}</h2> */}
+                    <div className="row">
+                    {t.players.map((p) => 
+                        <div className="col-6 col-lg-6">
+                            <Accordion {...p} />
+                        </div>
+                    )}
+                    </div>
+                </div>
+                </div>
+                </section>
+            )}
             <section id="project">
                 <div class="container">
                     <div class="row">
@@ -148,4 +245,4 @@ function Arjun() {
     );
 }
 
-export default Arjun
+export default Abhinand

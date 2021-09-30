@@ -38,6 +38,28 @@ function Speaker() {
                         </div>
                     </div>
                 </div>
+                <div className="row trainer_row">
+                    <div className="col-lg-12">
+                        <div className="trainer-item">
+                            <div className="row">
+                                <div className="col-lg-8">
+                                    <div className="down-content">
+                                        <h2 style={{ color: 'white', fontWeight: 'bold' }}>Offensive Android Application Pentesting</h2>
+                                        <h5 style={{ color: 'chocolate' }}> Abhinand</h5>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4">
+                                    <div class="browse_link"><a href="/session/offensive-android-application-pentesting">View Session Details</a></div>
+                                    {/* <div class="p-2">
+                                        <a href="/session/windows-exploitation-beginner’s-track" style={{textDecoration: 'none'}} class="browse">
+                                            View Session Details</a>
+                                    </div> */}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="section_title ">
                     <h5 className="title" style={{ color: 'white', fontSize: '40px' }}>
                         Free Trainings
