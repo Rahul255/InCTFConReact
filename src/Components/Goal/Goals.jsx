@@ -65,7 +65,7 @@ const EventGoals = () => {
 
     return (<GoalsContainer>
         <div className="container" style={{ maxWidth: '1333px' }}>
-            <h2>Why InCFTCon</h2>
+            <h2>Why InCTFCon</h2>
             <ScrollContainer vertical={true} className="scroll-container py-2">
                 <div className="d-flex p-3">
                     {goals.map((g, index) =>
