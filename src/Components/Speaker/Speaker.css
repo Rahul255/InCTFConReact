@@ -133,6 +133,17 @@ s .trainer-item ul.social-icons li:last-child {
     -o-transition: all linear .3s;
     transition: all linear .3s;
 }
+/* .button_click {
+    border: 2px dashed white;
+    color: white;
+    padding: 15px 21px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: pb;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+} */
 
 .browse_link a:hover {
     color: rgb(237, 86, 59);

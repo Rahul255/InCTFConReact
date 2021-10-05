@@ -10,6 +10,7 @@ import Guest from './Pages/Guest';
 import Promote from './Pages/Promote';
 import ArjunTU from './Pages/ArjunTU';
 import AbhinandS from './Pages/AbhinandS';
+import Aswin from './Pages/Aswin';
 
 
 function App() {
@@ -42,6 +43,9 @@ function App() {
         </Route>
         <Route path='/session/offensive-android-application-pentesting'>
           <AbhinandS />
+        </Route>
+        <Route path='/session/privilege-escalation'>
+          <Aswin />
         </Route>
       </Router>
     </div>

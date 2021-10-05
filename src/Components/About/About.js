@@ -11,7 +11,7 @@ function About() {
                 <div className="row">
                     <div className="col-md-8">
                         <h3 className="title_about" >
-                            <span className="span">What is</span> InCTFcon <span className="span">?</span>
+                            <span className="about_span">What is</span> InCTFcon <span className="about_span">?</span>
                         </h3>
                     </div>
                 </div>

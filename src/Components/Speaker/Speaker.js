@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Abhinand from '../Paid_Trainings/Abhinad'
+import { PopUp } from '../Paid_Trainings/PopUp'
 import './Speaker.css'
 
+
 function Speaker() {
+    const [isOpen, setOpen] = useState(false)
     return (
         <div className="speaker">
             <div className="container">
@@ -60,6 +64,38 @@ function Speaker() {
                         </div>
                     </div>
                 </div>
+                <div className="row trainer_row">
+                    <div className="col-lg-12">
+                        <div className="trainer-item">
+                            <div className="row">
+                                <div className="col-lg-8">
+                                    <div className="down-content">
+                                        <h2 style={{ color: 'white', fontWeight: 'bold' }}>Privilege Escalation</h2>
+                                        <h5 style={{ color: 'chocolate' }}> Aswin M Guptha</h5>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4">
+                                    {/* <div class="browse_link"><button className="button_click" onClick={() => setOpen(true)}>
+                                        Open Popup
+                                    </button></div> */}
+                                    <div class="browse_link"><a href="/session/privilege-escalation">View Session Details</a></div>
+                                    {/* <div class="p-2">
+                                        <a href="/session/windows-exploitation-beginner’s-track" style={{textDecoration: 'none'}} class="browse">
+                                            View Session Details</a>
+                                    </div> */}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <PopUp
+                                    isOpen={isOpen}
+                                    onClose={() => setOpen(false)}
+                                >
+                                     <Abhinand />
+                                </PopUp>
                 <div className="section_title ">
                     <h5 className="title" style={{ color: 'white', fontSize: '40px' }}>
                         Free Trainings

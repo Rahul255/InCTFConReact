@@ -1,89 +1,7 @@
 import React from 'react'
-import './Abhinad.css'
-import Accordion from './Accordion';
+import './AswinG.css'
 
-const Abhinand = () => {
-    const data = [
-        {
-            name: 'Session Module',
-            captain: 'Virat',
-            players: [
-                {
-                    title: 'Module 1',
-                    content: 'Bat',
-                    items: [
-                        'Intro to Android and App Components',
-                        'Android Security Architecture',
-                        'Android App Components',
-                        'Android application structure',
-                        'Android Debugger - ADB  ',
-                        'Rooting Android devices',
-                        'Android Emulator and AVD'
-                    ]
-                },
-                {
-                    title: 'Module 2',
-                    content: 'Bat',
-                    items: [
-                        'Reverse Engineering Apps',
-                        'Understanding smali',
-                        'Native library',
-                        'Signing Apps',
-                        'Bundled apps '
-                    ]
-                },
-                {
-                    title: 'Module 3',
-                    content: 'Bat',
-                    items: [
-                        'Analyzing Android traffic',
-                        'Hooking with Frida',
-                        'Protection mechanisms and bypassing techniques'
-                    ]
-                },
-                {
-                    title: 'Module 4',
-                    content: 'Bat',
-                    items: [
-                        'Attack surface and basic tests',
-                        'Data Storage',
-                        'Weak Cryptography',
-                        'Side Channel Data Leakage',
-                        'Insecure Authorization',
-                        'Insecure Activities and Intents',
-                        'Insecure Broadcast Receivers',
-                        'Insecure Services and ContentProvider ',
-                        'Insecure Deeplinks ',
-                        'Client Side injections',
-                        'Memory Corruption issues'
-                    ]
-                }
-            ]
-
-        },
-        // {
-        //     name: 'Rajasthan Royals',
-        //     captain: 'Sanju',
-        //     players: [
-        //         {
-        //             title: 'sanchuutti',
-        //             content: 'Bat',
-        //             items: [
-        //                 'item 1',
-        //                 'item 2'
-        //             ]
-        //         },
-        //         {
-        //             title: 'thaivattiya',
-        //             content: 'Bat/ball ',
-        //             items: [
-        //                 'item 1',
-        //                 'item 2'
-        //             ]
-        //         }
-        //     ]
-        // }
-    ]
+function AswinG() {
     return (
         <div className="arjun">
             <section id="banner">
@@ -93,13 +11,13 @@ const Abhinand = () => {
                             <div class="row">
                                 <div class="col-12 col-lg-12">
                                     <div class="bnr_text">
-                                        <h1> Offensive Android Application Pentesting</h1>
+                                        <h1> Privilege Escalation</h1>
                                         <p></p>
                                         <div>
                                             {/* <a class="start_course" href="#project">Course Module</a> */}
                                             {/* <a class="start_course" href="#project">
                                                 Projects </a> */}
-                                            <p class="course_offer">Offer ₹12000  <del className="course_offer_value">₹15000</del></p>
+                                            <p class="course_offer">Offer ₹15000  <del className="course_offer_value">₹18000</del></p>
                                             <a class="start_course" href="nothing">Register</a>
                                         </div>
                                     </div>
@@ -119,9 +37,8 @@ const Abhinand = () => {
                         <div class="col-lg-8 col-12 about-text"><br /><br />
                             <div class=" m-auto about-head ">
                                 <h3 className="h3">About the Training</h3>
-                                <p className="paragr">This hands-on workshop provides you with the knowledge and best techniques to identify and exploit vulnerabilities in Android applications. It begins with an overview of Android components and reversing engineering techniques before various ways of exploitation techniques. The training will cover OWASP top 10 mobile vulnerabilities and OWASP Mobile Security Testing Guide (OWASP-MSTG) including exploiting local storage, weak cryptography, vulnerable activity components, intents, and broadcast receivers, insecure deeplinks, permission model flaws, memory corruption vulnerabilities, client side injections etc. </p>
-                                <p className="paragr">Whether you are completely new to Android security or a cybersecurity professional who want to know more about its current state, the key steps in pentesting Android apps, and to understand the latest attacks and discoveries in this area, this training is for you. Get hands-on experience in doing static and dynamic analysis of Android Application with real work examples. </p>
-
+                                <p className="paragr">Advance your knowledge of privilege escalation and learn how hackers gain full control of the systems they target. This highly technical course will teach you how to attack, gain higher privileges, and leverage those privileges to bypass security controls and escalate privileges to gain higher levels of access.</p>
+                                <p className="paragr">This course will give you enough knowledge to apply them to the real world. You will leave this course with a concrete understanding of what a hacker wants, how they go about it, and what you can do to secure your environment.</p>
                             </div>
                             {/* <div class=" m-auto about-head ">
                                 <h3>What Will You Learn? </h3>
@@ -152,7 +69,7 @@ const Abhinand = () => {
                             <div class=" m-auto about-head text-center">
                                 <br /> <br /> <br />
                                 <h3 className="h3">Trainer</h3>
-                                <h4 className="h4">Abhinand</h4>
+                                <h4 className="h4">Aswin M Guptha</h4>
 
                             </div> <br />
                             <img className="image_paid_trainer" src={require('../../images/trainings/S_Abhishek.png').default} alt="" />
@@ -164,23 +81,6 @@ const Abhinand = () => {
 
             </section>
             <br /><br />
-            {data.map((t) => 
-                <section>
-                    <div class="container">
-                <div>
-                    <h3 className="h3">{t.name}</h3>
-                    {/* <h2>{t.captain}</h2> */}
-                    <div className="row">
-                    {t.players.map((p) => 
-                        <div className="col-12 col-lg-6">
-                            <Accordion {...p} />
-                        </div>
-                    )}
-                    </div>
-                </div>
-                </div>
-                </section>
-            )}
             <section id="project">
                 <div class="container">
                     <div class="row">
@@ -245,4 +145,4 @@ const Abhinand = () => {
     );
 }
 
-export default Abhinand
+export default AswinG

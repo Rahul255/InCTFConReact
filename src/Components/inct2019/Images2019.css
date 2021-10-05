@@ -35,7 +35,7 @@
   
   
   /*Completely optional styling that has nothing to do with the lightbox*/
-  button {
+  .button {
     color: white;
     border: 2px solid #a167da;
     background-color: #a167da;
@@ -45,7 +45,7 @@
   
   
   
-  img:hover, button:hover {
+  img:hover, .button:hover {
     cursor: pointer;
   }
   
