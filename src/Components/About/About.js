@@ -30,7 +30,7 @@ function About() {
                         </div>
                     </div>
                     <Fade right>
-                        <div className="col-12 col-md-6 d-flex  " style={{ backgroundImage: `url(${require('../../images/3198965.png').default})`, backgroundSize: "contain", border: "3px solid tomato" }}>
+                        <div className="col-12 col-md-6 d-flex  " >
 
                             <img style={{ maxHeight: '100%', maxWidth: '100%' }} draggable="false" src={require('../../images/3198965.png').default} alt="INCTF participant" />
 

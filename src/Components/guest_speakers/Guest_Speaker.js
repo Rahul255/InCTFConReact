@@ -21,7 +21,7 @@ function Guest_Speaker() {
                         </div>
                         <div class="col-xl-8 col-lg-7">
                             <div class="guest-info">
-                                <h2>Jessica Doe <span>Former Lead UX Hulu</span></h2>
+                                <h2>Rahul Manneri <span>Former CISO</span></h2>
                                 <p class="long-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat dui,
                                     tincidunt vitae tortor at, ultrices faucibus mauris. Vestibulum quis auctor risus. Donec
                                     fringilla faucibus eros, ut suscipit risus accumsan eu. Sed aliquam, mi in fermentum
@@ -47,7 +47,7 @@ function Guest_Speaker() {
                         </div>
                         <div class="col-xl-8 col-lg-7">
                             <div class="guest-info">
-                                <h2>Jessica Doe <span>Former Lead UX Hulu</span></h2>
+                                <h2>Rahul Manneri <span>Former CISO</span></h2>
                                 <p class="long-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat dui,
                                     tincidunt vitae tortor at, ultrices faucibus mauris. Vestibulum quis auctor risus. Donec
                                     fringilla faucibus eros, ut suscipit risus accumsan eu. Sed aliquam, mi in fermentum
