@@ -71,11 +71,11 @@ function Banner() {
             <CoverWrap>
                 <div className="container text-center px-2">
                     <Fade left>
-                        <img
+                        {/* <img
                             className="mb-0 " alt="Amrita Vishwa Vidyapeetham"
                             style={{ maxHeight: '72px', maxWidth: '50vw', width: 'auto' }}
                             src={require('../../images/amrita_logo_light.png').default}
-                        />
+                        /> */}
                         <h1 className="font-weight-bold mb-2">InCTFCon</h1>
                     </Fade>
                     <Fade right>

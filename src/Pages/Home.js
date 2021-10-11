@@ -6,6 +6,7 @@ import Footer from '../Components/Footer/Footer'
 import EndProgram from '../Components/EndProgram/EndProgram'
 import Organizers from '../Components/Organizers/Organizers'
 import Topbar from '../Components/Bars/Topbar'
+// import FAQSection from '../Components/FAQ/FAQ'
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
             <EndProgram />
             <Goals />
             <Organizers/>
+            {/* <FAQSection /> */}
             <Footer />
         </div>
     )

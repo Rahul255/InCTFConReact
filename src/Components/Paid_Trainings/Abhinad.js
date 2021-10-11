@@ -148,14 +148,14 @@ const Abhinand = () => {
 
                             </div> */}
                         </div>
-                        <div className="image-thumb col-12 col-lg-4"><br /><br />
+                        <div className="image-thumb col-12 col-lg-4">
                             <div class=" m-auto about-head text-center">
-                                <br /> <br /> <br />
+                                <br /> <br />
                                 <h3 className="h3">Trainer</h3>
                                 <h4 className="h4">Abhinand</h4>
 
                             </div> <br />
-                            <img className="image_paid_trainer" src={require('../../images/trainings/S_Abhishek.png').default} alt="" />
+                            <img className="image_paid_trainer" src={require('../../images/trainings/download.jpeg').default} alt="" />
                         </div>
 
                     </div>
@@ -164,21 +164,21 @@ const Abhinand = () => {
 
             </section>
             <br /><br />
-            {data.map((t) => 
+            {data.map((t) =>
                 <section>
                     <div class="container">
-                <div>
-                    <h3 className="h3">{t.name}</h3>
-                    {/* <h2>{t.captain}</h2> */}
-                    <div className="row">
-                    {t.players.map((p) => 
-                        <div className="col-12 col-lg-6">
-                            <Accordion {...p} />
+                        <div>
+                            <h3 className="h3">{t.name}</h3>
+                            {/* <h2>{t.captain}</h2> */}
+                            <div className="row">
+                                {t.players.map((p) =>
+                                    <div className="col-12 col-lg-6">
+                                        <Accordion {...p} />
+                                    </div>
+                                )}
+                            </div>
                         </div>
-                    )}
                     </div>
-                </div>
-                </div>
                 </section>
             )}
             <section id="project">
@@ -187,21 +187,20 @@ const Abhinand = () => {
 
                         <div class="col-lg-8 about-text"><br /><br />
                             <div class=" m-auto about-head ">
-                                <h3 className="h3">Intended Audience </h3>
-                                <p className="paragr">If you have any previous exploitation experience, even a passing one, this course is not for you.
-                                    If you have experience, then you can get the Windows specific quirks down on your own without much effort. This course is squarely aimed at people who are absolutely new to exploitation, who haven’t done any buffer overflow exercises or even heard about the same until now.
+                                <h3 className="h3">About the Trainer </h3>
+                                <p className="paragr">abx works as a security researcher at Amrita Center for CyberSecurity. He focuses on Android Security and have experience in analyzing Android Application. He had also worked with analyzing a family of malware called stalkerwares, of which he has analyzed and reported various samples of the same. He was an intern at a cybersecurity research lab at National university of Singapore before joining Amrita. Additionally, he is also an open source enthusiast and was a Google Summer of Code student with Wikimedia Foundation.
                                 </p>
-                                <p className="paragr">Because this is really important, let me tell you one more time.
+                                {/* <p className="paragr">Because this is really important, let me tell you one more time.
                                     If you have exploitation experience, this course is not for you (even buffer overflow counts).
-                                </p>
+                                </p> */}
 
                             </div>
-                            <div class=" m-auto about-head ">
+                            {/* <div class=" m-auto about-head ">
                                 <h3 className="h3">Prerequisites </h3>
                                 <p className="paragr">Beginner at exploitation doesn’t mean a beginner at programming. We expect you to have experience in C programming. We won’t be going over the basics of the same in this course. Ofcourse, by experience we don’t mean just knowing how to write a program that spits out factorials in C, you should be comfortable reading, writing and debugging C programs.
                                 </p>
 
-                            </div>
+                            </div> */}
                         </div>
                         <div class="col-lg-4 ">
                             <br /><br /><br />

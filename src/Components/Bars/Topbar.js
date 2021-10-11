@@ -104,14 +104,14 @@ const Topbar = () => {
                         <Fade delay={0}>
                             <a className="newone" href="/">Home</a>
                         </Fade>
-                        <Fade delay={100}>
+                        {/* <Fade delay={100}>
                             <a className="newone" href="/about">About</a>
-                        </Fade>
+                        </Fade> */}
                         <Fade delay={200}>
-                            <a className="newone" href="/trainings">Training</a>
+                            <a className="newone" href="/trainings">Trainings</a>
                         </Fade>
                         <Fade delay={300}>
-                            <a className="newone" href="/trainings">Speaker</a>
+                            <a className="newone" href="/trainings">Speakers</a>
                         </Fade>
                         <Fade delay={400}>
                             <a className="newone" href="/">Schedule</a>
