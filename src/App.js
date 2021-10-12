@@ -11,6 +11,7 @@ import Promote from './Pages/Promote';
 import ArjunTU from './Pages/ArjunTU';
 import AbhinandS from './Pages/AbhinandS';
 import Aswin from './Pages/Aswin';
+import AnirudhW from './Pages/AnirudhW';
 
 
 function App() {
@@ -46,6 +47,9 @@ function App() {
         </Route>
         <Route path='/session/privilege-escalation'>
           <Aswin />
+        </Route>
+        <Route path='/session/hacking-modern-web-apps-master-the-future-of-attack-vector'>
+          <AnirudhW />
         </Route>
       </Router>
     </div>

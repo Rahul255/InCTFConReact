@@ -6,7 +6,7 @@ const Abhinand = () => {
     const data = [
         {
             name: 'Session Module',
-            captain: 'Virat',
+            captain: 'abhi',
             players: [
                 {
                     title: 'Module 1',

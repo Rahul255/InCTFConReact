@@ -48,6 +48,31 @@ function Speaker() {
                             <div className="row">
                                 <div className="col-lg-8">
                                     <div className="down-content">
+                                        <h2 style={{ color: 'white', fontWeight: 'bold' }}>Hacking Modern
+                                            Web apps: Master
+                                            the Future of Attack
+                                            Vectors </h2>
+                                        <h5 style={{ color: 'chocolate' }}>  Anirudh Anand</h5>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4">
+                                    <div class="browse_link"><a href="/session/hacking-modern-web-apps-master-the-future-of-attack-vector">View Session Details</a></div>
+                                    {/* <div class="p-2">
+                                        <a href="/session/windows-exploitation-beginner’s-track" style={{textDecoration: 'none'}} class="browse">
+                                            View Session Details</a>
+                                    </div> */}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row trainer_row">
+                    <div className="col-lg-12">
+                        <div className="trainer-item">
+                            <div className="row">
+                                <div className="col-lg-8">
+                                    <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Offensive Android Application Pentesting</h2>
                                         <h5 style={{ color: 'chocolate' }}> Abhinand</h5>
                                     </div>
@@ -91,12 +116,12 @@ function Speaker() {
                 </div>
 
                 <PopUp
-                                    isOpen={isOpen}
-                                    onClose={() => setOpen(false)}
-                                >
-                                     <Abhinand />
-                                </PopUp>
-                <div className="section_title ">
+                    isOpen={isOpen}
+                    onClose={() => setOpen(false)}
+                >
+                    <Abhinand />
+                </PopUp>
+                {/* <div className="section_title ">
                     <h5 className="title" style={{ color: 'white', fontSize: '40px' }}>
                         Free Trainings
                     </h5>
@@ -146,7 +171,7 @@ function Speaker() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
@@ -218,7 +243,7 @@ function Speaker() {
                         </div>
                     </div>
                 </div> */}
-                <div className="row trainer_row">
+                {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
                             <div className="row">
@@ -261,7 +286,7 @@ function Speaker() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
@@ -298,7 +323,7 @@ function Speaker() {
                         </div>
                     </div>
                 </div> */}
-                <div className="row trainer_row">
+                {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
                             <div className="row">
@@ -322,10 +347,10 @@ function Speaker() {
                                         <p style={{ color: 'white' }}>I am a 3rd year undergraduate at Amrita School of Engineering, pursuing an undergraduate degree in Btech-CSE. I have been an active member of Team bi0s since my first year and work in cryptography.
                                         </p>
                                         <ul className="social-icons">
-                                            {/* <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li> */}
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-facebook"></i></a></li>
                                             <li><a href="https://twitter.com/inctf"><i className="fab fa-twitter"></i></a></li>
                                             <li><a href="https://twitter.com/inctf"><i className="fab fa-linkedin"></i></a></li>
-                                            {/* <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li> */}
+                                            <li><a href="https://twitter.com/inctf"><i className="fab fa-behance"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -333,8 +358,8 @@ function Speaker() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row trainer_row">
+                </div> */}
+                {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
                             <div className="row">
@@ -377,7 +402,7 @@ function Speaker() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
@@ -446,7 +471,7 @@ function Speaker() {
                         </div>
                     </div>
                 </div> */}
-                <div className="row trainer_row">
+                {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
                             <div className="row">
@@ -490,7 +515,7 @@ function Speaker() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
@@ -525,7 +550,7 @@ function Speaker() {
                         </div>
                     </div>
                 </div> */}
-                <div className="row trainer_row">
+                {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
                             <div className="row">
@@ -604,7 +629,7 @@ function Speaker() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
@@ -642,7 +667,7 @@ function Speaker() {
                         </div>
                     </div>
                 </div> */}
-                <div className="row trainer_row">
+                {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
                             <div className="row">
@@ -687,7 +712,7 @@ function Speaker() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="row trainer_row">
                     <div className="col-lg-12">
                         <div className="trainer-item">
