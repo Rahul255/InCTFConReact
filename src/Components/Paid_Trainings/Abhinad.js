@@ -155,7 +155,7 @@ const Abhinand = () => {
                                 <h4 className="h4">Abhinand</h4>
 
                             </div> <br />
-                            <img className="image_paid_trainer" src={require('../../images/trainings/download.jpeg').default} alt="" />
+                            <img className="image_paid_trainer" src={require('../../images/trainings/abhinand.png').default} alt="" />
                         </div>
 
                     </div>

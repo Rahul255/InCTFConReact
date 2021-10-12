@@ -9,61 +9,85 @@ function AnirudhAndro() {
             captain: 'abhi',
             players: [
                 {
-                    title: 'Module 1 - Modern Web App Security Crash Course',
+                    title: 'Module 1 - Android Security Crash Course',
                     content: 'Bat',
                     items: [
-                        'The state of Modern Web App Security',
-                        'Modern Web App architecture',
-                        ' Introduction to Modern Web Apps',
-                        'Modern Web Apps the filesystem',
-                        'JavaScript prototypes',
-                        'Recommended lab setup tips'
+                        ' Android Security Crash Course',
+                        'The state of Android Security',
+                        ' Android security architecture and its components',
+                        'Android apps and the filesystem',
+                        'Android app signing, sandboxing and provisioning',
+                        'Recommended lab setup tips',
+                        
+
                     ]
                 },
                 {
-                    title: 'Module 2 - Modern Web App frameworks and Tools',
+                    title: 'Module 2 - Static Analysis with Runtime Checks',
                     content: 'Bat',
                     items: [
-                        'Modern Web App frameworks and their components',
-                        'Finding vulnerabilities in Modern Web App dependencies',
-                        'Common misconfigurations / flaws in Modern Web App applications and frameworks',
-                        'Tools and techniques to find security flaws in Modern Web Apps'
+                        'Static Analysis with Runtime Checks',
+                        'Tools and techniques to retrieve/decompile/reverse and review APKs',
+                        'Identification of the attack surface of Android apps and general information gathering',
+                        ' Identification of common vulnerability patterns in Android apps',
+                        'Hardcoded secrets,Logic bugs,',
+                        'Access control flaws,Intents,Cool injection attacks and more',
+                        'Tips to get around not having root',
+                        'Manipulating the Android Manifest',
+                        'Defeating SSL/TLS pinning',
+                        'Defeating root detection',
+                        'Dealing with apps in foreign languages and more',
                     ]
                 },
                 {
-                    title: 'Module 3 - Finding and fixing Modern Web App vulnerabilities',
+                    title: 'Module 3 - Dynamic Analysis',
                     content: 'Bat',
                     items: [
-                        'Identification of the attack surface of Modern Web Apps and general information gathering',
-                        'Identification of common vulnerability patterns in Modern Web Apps',
-                        'CSRF',
-                        'XSS',
-                        'Access control flaws',
-                        'NOSQL Injection, MongoDB attacks',
-                        'SQL Injection',
-                        'RCE',
-                        'Crypto',
-                        'Monitoring data: Logs, Insecure file storage, etc.',
-                        'Test your skill with CTF time',
+                        'Monitoring data: LogCat, Insecure file storage, Android Keystore, etc.',
+                        'The art of MitM: Intercepting Network Communicationss',
+                        'The art of Instrumentation: Hooking with Xposed',
+                        'App behaviour monitoring at runtime',
+                        'Defeating Certificate Pinning and root detection at runtime',
+                        'Modifying app behaviour at runtime',
+                        'Test your skill with CTF time, including finding IoT vulnerabilities through app analysis',
                     ]
                 },
                 {
-                    title: 'Module 4 - Advanced Attacks on Modern Web Apps',
+                    title: 'Module 4 - iOS Security Crash Course',
                     content: 'Bat',
                     items: [
-                        'Leaking data from memory at runtime',
-                        'Prototype Pollution Attack',
-                        'From deserialization to RCE',
-                        'Server Side Template Injection',
-                        'OAuth attacks',
-                        'JWT attacks',
-                        'Scenarios with CSP',
-                        'Scenarios with Angular.js ',
-                        'Race conditions',
-                        'Sandbox related security',
-                        ' Real world case studies',
-                        'Advanced Modern Web Apps CTF',
-                        'Challenges to practice advanced attacks'
+                        'The state of iOS Security',
+                        'iOS security architecture and its components',
+                        'iOS app signing, sandboxing and provisioning',
+                        'iOS apps and the filesystem',
+                        'Recommended lab setup tips',
+                    ]
+                },
+                {
+                    title: 'Module 5 - Static Analysis with runtime checks',
+                    content: 'Bat',
+                    items: [
+                        'Tools and techniques to retrieve/decompile/reverse and review IPAs',
+                        'Identification of the attack surface of iOS apps and general information gathering',
+                        'Identification of common vulnerability patterns in iOS apps',
+                        'hardcoded secrets,logic bugs',
+                        'access control flaws,URL handlers',
+                        'cool injection attacks, and more',
+                        'Patching and Resigning iOS binaries to alter app behaviour',
+                        'Tips to test without a jailbreak',
+                    ]
+                },
+                {
+                    title: 'Module 6 - Dynamic Analysis',
+                    content: 'Bat',
+                    items: [
+                        'Crypto flaws',
+                        'The art of MitM: Intercepting Network Communications',
+                        'Defeating certificate pinning and jailbreak detection at runtime',
+                        'The art of Instrumentation: Introduction to Frida, Objection',
+                        'App behaviour monitoring at runtime',
+                        'Modifying app behaviour at runtime',
+                        'Test your skill with CTF time, including finding IoT vulnerabilities through app analysis'
                     ]
                 }
             ]
