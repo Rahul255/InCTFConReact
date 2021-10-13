@@ -74,7 +74,7 @@
 }
 .image_paid_trainer{
     border-radius: 100vw;
-    height: auto;
+    height: 100%;
     max-width: 100%;
     display: block;
     margin-right: auto;

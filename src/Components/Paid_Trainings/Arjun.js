@@ -30,7 +30,7 @@ function Arjun() {
 
                 </div>
             </section>
-            <section id="service">
+            <section id="service">  
                 <div class="container">
                     <div class="row">
 
@@ -75,7 +75,7 @@ function Arjun() {
                                 <h4 className="h4">Arjun TU</h4>
 
                             </div> <br />
-                            <img className="image_paid_trainer" src={require('../../images/trainings/S_Abhishek.png').default} alt="" />
+                            <img className="image_paid_trainer" src={require('../../images/trainings/arjun-tu.png').default} alt="" />
                         </div>
 
                     </div>
@@ -109,7 +109,7 @@ function Arjun() {
                         <div class="col-lg-4 ">
                             <br /><br /><br />
                             <div class=" m-auto about-head ">
-                                <h3 className="h3">Course Requirements</h3>
+                                <h3 className="h3">Topics Covered</h3>
                                 <ul>
                                     <li class="two" >
                                         Basic overflow exploits</li>
