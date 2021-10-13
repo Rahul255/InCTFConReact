@@ -203,7 +203,7 @@ function AnirudhAndro() {
                                 <h4 className="h4">Anirudh Anand</h4>
 
                             </div> <br />
-                            <img className="image_paid_trainer" src={require('../../images/trainings/S_Abhishek.png').default} alt="" />
+                            <img className="image_paid_trainer" src={require('../../images/trainings/anirudh.jpeg').default} alt="" />
                         </div>
 
                     </div>
