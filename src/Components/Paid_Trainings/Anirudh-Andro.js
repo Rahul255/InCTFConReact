@@ -133,7 +133,7 @@ function AnirudhAndro() {
                                             {/* <a class="start_course" href="#project">Course Module</a> */}
                                             {/* <a class="start_course" href="#project">
                                                 Projects </a> */}
-                                            <p class="course_offer">Offer ₹20000  <del className="course_offer_value">₹23000</del></p>
+                                            <p class="course_offer">Offer ₹25000  <del className="course_offer_value">₹28000</del></p>
                                             <a class="start_course" href="nothing">Register</a>
                                         </div>
                                     </div>

@@ -138,6 +138,24 @@ function Speaker() {
                         </div>
                     </div>
                 </div>
+                {/* <div className="row trainer_row">
+                    <div className="col-lg-12">
+                        <div className="trainer-item">
+                            <div className="row">
+                                <div className="col-lg-8">
+                                    <div className="down-content">
+                                        <h2 style={{ color: 'white', fontWeight: 'bold' }}>Privilege Escalation</h2>
+                                        <h5 style={{ color: 'chocolate' }}> Aswin M Guptha</h5>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4">
+                                    <div class="browse_link"><a href="/session/privilege-escalation">View Session Details</a></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
 
                 <PopUp
                     isOpen={isOpen}
