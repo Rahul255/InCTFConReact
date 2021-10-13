@@ -8,6 +8,7 @@ import Organizers from '../Components/Organizers/Organizers'
 import Topbar from '../Components/Bars/Topbar'
 // import FAQSection from '../Components/FAQ/FAQ'
 import LandingSponsorship from '../Components/Sponsor/Sponsors'
+import Sponsor from '../Components/Sponsor/Sponsor'
 
 function Home() {
     return (
@@ -17,7 +18,8 @@ function Home() {
             <About />
             <EndProgram />
             <Goals />
-            <LandingSponsorship />
+            {/* <LandingSponsorship /> */}
+            <Sponsor />
             <Organizers/>
             {/* <FAQSection /> */}
             <Footer />

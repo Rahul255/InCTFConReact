@@ -143,7 +143,7 @@ const LandingSponsorship = () => {
         },
     ]
 
-    return <SponsorshipArea className="row mx-0">
+    return <SponsorshipArea className="row">
         <Fade left>
             <div className="col-lg-6 p-1 p-lg-5 p-md-3">
                 <div className="px-4 md:px-8 lg:px-12">
@@ -184,7 +184,7 @@ const LandingSponsorship = () => {
             </div>
         </Fade>
         <Fade right>
-            <div className="w-full lg:w-1/2">
+            <div className="col-lg-6">
                 <LogoWall>
                     <div className="bg-white rounded-xl shadow-md px-2 py-8 md:p-4">
                         {/* <div className="flex flex-wrap">

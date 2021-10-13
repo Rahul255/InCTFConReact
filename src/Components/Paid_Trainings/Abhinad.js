@@ -208,19 +208,11 @@ const Abhinand = () => {
                                 <h3 className="h3">Course Requirements</h3>
                                 <ul>
                                     <li class="two" >
-                                        Basic overflow exploits</li>
+                                        Laptop</li>
                                     <li class="two" >
-                                        x86 Windows shellcode creation</li>
+                                        Linux Os</li>
                                     <li class="two" >
-                                        SEH overflow exploit</li>
-                                    <li class="two" >
-                                        x86 Windows Egghunter creation</li>
-                                    <li class="two" >
-                                        Writing a custom unicode shellcode encoder</li>
-                                    <li class="two" >
-                                        Unicode exploitation</li>
-                                    <li class="two" >
-                                        Return Oriented Programming
+                                        Android Studio Installed
                                     </li>
                                 </ul>
                             </div>
