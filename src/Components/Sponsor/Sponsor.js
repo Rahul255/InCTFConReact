@@ -1,11 +1,11 @@
 import React from 'react'
 import './Sponsor.css'
-import brand1 from '../../images/sponsor/zoho-1e78182f2870ef5f7277b10047c556e1.png'
-import brand2 from '../../images/brand/brand2.png'
-import brand3 from '../../images/brand/brand3.png'
-import brand4 from '../../images/brand/brand4.png'
-import brand5 from '../../images/brand/brand5.png'
-import brand6 from '../../images/brand/brand6.png'
+import brand1 from '../../images/sponsor/salesforce.png'
+import brand2 from '../../images/sponsor/zoho-1e78182f2870ef5f7277b10047c556e1.png'
+import brand3 from '../../images/sponsor/vmware-54e2f942b7201762830671db2d5b73ae.png'
+import brand4 from '../../images/sponsor/crowdstrike.png'
+import brand5 from '../../images/sponsor/social-cred.png'
+import brand6 from '../../images/sponsor/hrblock.jpeg'
 
 function Sponsor() {
     return (
@@ -30,34 +30,34 @@ function Sponsor() {
                         <div class="row brand_1">
                             <div class="col-lg-3 col-md-3 col-3 text-center">
                                 <img draggable="false" src={brand1} alt="brand-img" class="img-fluid" />
-                                <h3>Gold Sponsor</h3>
+                                <h5>Gold Sponsor</h5>
                             </div>
                             <div class="col-lg-1 col-1 col-md-1"></div>
                             <div class="col-lg-3 col-3 col-md-3 text-center">
                                 <img draggable="false" src={brand2} alt="brand-img" class="img-fluid" />
-                                <h3>Gold Sponsor</h3>
+                                <h5>Gold Sponsor</h5>
                             </div>
                             <div class="col-lg-1 col-1 col-md-1"></div>
                             <div class="col-lg-3 col-3 col-md-3 text-center">
                                 <img draggable="false" src={brand3} alt="brand-img" class="img-fluid" />
-                                <h3>Gold Sponsor</h3>
+                                <h5>Gold Sponsor</h5>
                             </div>
                         </div>
                         <br /><br />
                         <div class="row brand_2">
                             <div class="col-lg-3 col-3 col-md-3 text-center">
                                 <img draggable="false" src={brand4} alt="brand-img" class="img-fluid" />
-                                <h3>Gold Sponsor</h3>
+                                <h5>Gold Sponsor</h5>
                             </div>
                             <div class="col-lg-1 col-1 col-md-1"></div>
                             <div class="col-lg-3 col-3 col-md-3 text-center">
                                 <img draggable="false" src={brand5} alt="brand-img" class="img-fluid" />
-                                <h3>Gold Sponsor</h3>
+                                <h5>Gold Sponsor</h5>
                             </div>
                             <div class="col-lg-1 col-1 col-md-1"></div>
                             <div class="col-lg-3 col-3 col-md-3 text-center">
                                 <img draggable="false" src={brand6} alt="brand-img" class="img-fluid" />
-                                <h3>Gold Sponsor</h3>
+                                <h5>Gold Sponsor</h5>
                             </div>
                         </div>
                     </div>
