@@ -163,7 +163,7 @@ const LandingSponsorship = () => {
                         <a className="contact-us-button" href="mailto:inctfj@am.amrita.edu">Contact Us</a>
                     </div>
                 </div>
-                {/* <LogoWall style={{ width: '100%', maxWidth: '700px' }}>
+                <LogoWall style={{ width: '100%', maxWidth: '700px' }}>
                     <div className="bg-white rounded-xl shadow-md p-0 my-6 md:p-6">
                         <div className="flex flex-wrap">
                             <div className="inctfj-sponsors text-red-500 w-full p-0 mt-3 mb-3 opacity-80 text-lg text-center">
@@ -180,14 +180,14 @@ const LandingSponsorship = () => {
                             )}
                         </div>
                     </div>
-                </LogoWall> */}
+                </LogoWall>
             </div>
         </Fade>
         <Fade right>
             <div className="col-lg-6">
                 <LogoWall>
                     <div className="bg-white rounded-xl shadow-md px-2 py-8 md:p-4">
-                        {/* <div className="flex flex-wrap">
+                        <div className="flex flex-wrap">
                             <div className="inctfj-sponsors text-red-500 w-full p-0 mt-3 mb-3 opacity-80 text-lg text-center">InCTF Jr 2021 Sponsors</div>
                             <div className="w-full flex justify-center">
                                 <p className="text-center opacity-8 mb-3" style={{ maxWidth: '100%', fontSize: '95%', lineHeight: 1.4, width: '450px' }}>
@@ -207,7 +207,7 @@ const LandingSponsorship = () => {
                                     </Fade>
                                 </div>
                             )}
-                        </div> */}
+                        </div>
                         <div className="flex my-3 flex-wrap my-6">
                             <div className="w-full p-0 mt-3 mb-3 text-red-500 opacity-80 text-center">InCTF 2021 Sponsors</div>
                             <div className="w-full flex justify-center">
@@ -230,14 +230,14 @@ const LandingSponsorship = () => {
                                 </div>
                             )}
                         </div>
-                        {/* <div className="flex my-3 past-sponsors flex-wrap">
+                        <div className="flex my-3 past-sponsors flex-wrap">
                             <div className="w-full p-0 mt-3 mb-3 text-red-500 opacity-80 text-center">InCTF 2019 Sponsors</div>
                             {pastSponsors.map((s) =>
                                 <div className="md:w-1/5 px-1 flex items-center justify-center w-1/3 p-1">
                                     <Fade><img draggable="false" alt="Sponsor Logo" src={s.image} /></Fade>
                                 </div>
                             )}
-                        </div> */}
+                        </div>
                     </div>
                 </LogoWall>
             </div>

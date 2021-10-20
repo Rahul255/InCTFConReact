@@ -1,11 +1,11 @@
 import React from "react";
 import "./Sponsor.css";
-import brand1 from "../../images/sponsor/salesforce.png";
-import brand2 from "../../images/sponsor/zoho-1e78182f2870ef5f7277b10047c556e1.png";
-import brand3 from "../../images/sponsor/vmware-54e2f942b7201762830671db2d5b73ae.png";
-import brand4 from "../../images/sponsor/crowdstrike.png";
-import brand5 from "../../images/sponsor/social-cred.png";
-import brand6 from "../../images/sponsor/hrblock.jpeg";
+// import brand1 from "../../images/sponsor/salesforce.png";
+// import brand2 from "../../images/sponsor/zoho-1e78182f2870ef5f7277b10047c556e1.png";
+// import brand3 from "../../images/sponsor/vmware-54e2f942b7201762830671db2d5b73ae.png";
+// import brand4 from "../../images/sponsor/crowdstrike.png";
+// import brand5 from "../../images/sponsor/social-cred.png";
+// import brand6 from "../../images/sponsor/hrblock.jpeg";
 
 function Sponsor() {
   var data = [
