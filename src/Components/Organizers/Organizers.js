@@ -81,7 +81,7 @@ function Organizers() {
           </Fade>
         </div>
       </div>
-      {/* <div className="py-2 text-center">
+      <div className="py-2 text-center">
         <h3 style={{ fontWeight: 600 }} className="mb-1">
           Community Partners
         </h3>
@@ -93,7 +93,7 @@ function Organizers() {
             <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
               <Fade down>
                 <a
-                  href="https://www.dsci.in/"
+                  href="https://www.isacacochin.org/"
                   className="plain-link"
                   rel="noreferrer nofollow"
                   target="_blank"
@@ -103,49 +103,39 @@ function Organizers() {
                     alt="Data Security Council of India"
                     draggable="false"
                     className="partner_logo"
-                    src={require("../../images/logos/bi0s_dark.png").default}
+                    src={require("../../images/community-partners/ISACA_logo_Cochin_RGB.png").default}
                   />
                 </a>
               </Fade>
             </div>
             <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
               <Fade up>
-                <a
-                  href="https://blackhoodie.re/"
-                  className="plain-link"
-                  rel="noreferrer nofollow"
-                  target="_blank"
-                >
+               
                   <img
                     alt="black hoodie"
                     draggable="false"
                     className="partner_logo"
-                    src={require("../../images/logos/bi0s_dark.png").default}
+                    src={require("../../images/community-partners/goa.png").default}
                   />
-                </a>
+                
               </Fade>
             </div>
             <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
               <Fade up>
-                <a
-                  href="https://wicys.org/"
-                  className="plain-link"
-                  rel="noreferrer nofollow"
-                  target="_blank"
-                >
+                
                   <img
                     alt="WiCys"
                     draggable="false"
                     className="partner_logo"
-                    src={require("../../images/logos/bi0s_dark.png").default}
+                    src={require("../../images/community-partners/ieee.png").default}
                   />
-                </a>
+                
               </Fade>
             </div>
             <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
               <Fade down>
                 <a
-                  href="https://bi0s.in"
+                  href="https://amfoss.in/"
                   className="plain-link"
                   rel="noreferrer nofollow"
                   target="_blank"
@@ -154,7 +144,7 @@ function Organizers() {
                     alt="team bi0s"
                     draggable="false"
                     className="partner_logo"
-                    src={require("../../images/logos/bi0s_dark.png").default}
+                    src={require("../../images/community-partners/amfosslogo.png").default}
                   />
                 </a>
               </Fade>
@@ -162,7 +152,7 @@ function Organizers() {
             <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
               <Fade up>
                 <a
-                  href="https://bsidesdelhi.in/"
+                  href="https://www.shakticon.com/"
                   className="plain-link"
                   rel="noreferrer nofollow"
                   target="_blank"
@@ -171,49 +161,15 @@ function Organizers() {
                     alt="BSides Delhi "
                     draggable="false"
                     className="partner_logo"
-                    src={require("../../images/logos/bi0s_dark.png").default}
+                    src={require("../../images/community-partners/shakti.png").default}
                   />
                 </a>
               </Fade>
             </div>
-            <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
-              <Fade down>
-                <a
-                  href="https://owasp.org/www-committee-wia/"
-                  className="plain-link"
-                  rel="noreferrer nofollow"
-                  target="_blank"
-                >
-                  <img
-                    alt="WIA"
-                    draggable="false"
-                    className="partner_logo"
-                    src={require("../../images/logos/bi0s_dark.png").default}
-                  />
-                </a>
-              </Fade>
-            </div>
-            <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
-              <Fade down>
-                <a
-                  href="https://www.shehackske.com/"
-                  className="plain-link"
-                  rel="noreferrer nofollow"
-                  target="_blank"
-                >
-                  <img
-                    style={{ width: "auto" }}
-                    alt="She Hacks"
-                    draggable="false"
-                    className="partner_logo"
-                    src={require("../../images/logos/bi0s_dark.png").default}
-                  />
-                </a>
-              </Fade>
-            </div>
+            
           </div>
         </div>
-      </div> */}
+      </div><br/><br/>
       <img
         className="image"
         alt="amritapuri vector illustration"
