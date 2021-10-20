@@ -1,14 +1,14 @@
 import React from 'react'
-import About from '../Components/About/About'
 import Footer from '../Components/Footer/Footer'
 import Topbar from '../Components/Bars/Topbar'
 import Organizers from '../Components/Organizers/Organizers'
+import AboutIntro from '../Components/AboutPage/AboutIntro'
 
 function AboutUs() {
     return (
         <div>
             <Topbar />
-            <About />
+            <AboutIntro />
             <Organizers />
             <Footer />
         </div>
