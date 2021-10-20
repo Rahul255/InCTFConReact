@@ -49,7 +49,7 @@ function Sponsor() {
     <div className="sponsor">
       <div class="container">
         <div class="section_title">
-          <h3 class="title">Our Sponsor</h3>
+          <h3 class="title">Our Sponsors</h3>
         </div>
         <div className="row">
           <p

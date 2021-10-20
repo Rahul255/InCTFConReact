@@ -23,14 +23,14 @@ function EndProgram() {
                             </div>
                         </article>
                         <article>
-                            <img draggable="false" src={team} alt="brand-img" className="img-fluid" />
+                            <img draggable="false" src={conf} alt="brand-img" className="img-fluid" />
                             <div className="text">
                                 <h3 className="endhead">Trainings Programmes</h3>
                                 <p className="enddet">Exciting training sessions and workshops to recognize and nurture talents in the field of cyber-security and empowering them to take it up in their career paths.</p>
                             </div>
                         </article>
                         <article>
-                            <img draggable="false" src={conf} alt="brand-img" className="img-fluid" />
+                            <img draggable="false" src={team} alt="brand-img" className="img-fluid" />
                             <div className="text">
                                 <h3 className="endhead">CyberSecurity Conference</h3>
                                 <p className="enddet">Talks, Panel Discussions and insightful Keynote sessions on cybersecurity by top global experts in the field.</p>
