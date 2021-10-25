@@ -18,9 +18,9 @@
     font-size: 48px
 }
 .guest-img img {
-    border-radius: 6px; 
+    border-radius: 10px; 
     max-width: 100%;
-    border: 5px solid #ed563b;
+    border: 2px solid #ed563b;
 }
 
 .guest-info {
@@ -88,4 +88,5 @@
 .newone{
     padding: 20px;
     padding-bottom: 30px;
+	
 }
