@@ -92,10 +92,10 @@ const SideBar = ({ onClose, darkenOnSidebar }) => {
         { icon: "fa fa-home mr-2", "title": "Home", "href": "/" },
         // { icon: "fa fa-home mr-2", "title": "About", "href": "/about" },
         { icon: "fa fa-home mr-2", "title": "Trainings", "href": "/trainings" },
-        { icon: "fa fa-home mr-2", "title": "Speakers", "href": "/speakers" },
-        { icon: "fa fa-home mr-2", "title": "Schedule", "href": "/about" },
+        { icon: "fa fa-home mr-2", "title": "Speakers", "href": "/guest_speakers" },
+        { icon: "fa fa-home mr-2", "title": "Schedule", "href": "/schedule" },
         { icon: "fa fa-home mr-2", "title": "Sponsors", "href": "/sponsors" },
-        { icon: "fa fa-home mr-2", "title": "Promote", "href": "/about" },
+        { icon: "fa fa-home mr-2", "title": "Promote", "href": "/promote" },
     ];
 
     return <TopbarWrap darken={darkenOnSidebar} onClick={onClose}>

@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
 import Fade from "react-reveal/Fade";
-import ScrollContainer from "react-indiana-drag-scroll";
 
 const IntroSectionWrap = styled.section`
   background: ${({ bg }) => (bg ? `url(${bg})` : "#333")};
