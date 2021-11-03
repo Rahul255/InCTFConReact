@@ -519,10 +519,11 @@ const Schedule = () => {
     return <ScheduleModuleWrap>
         <div className="container-lg px-0 p-md-2">
             <div className="row mx-0">
-                <div className="col-md-8 my-5 my-md-0 px-3 px-md-2">
+                <div className="col-md-8 my-5 my-md-0 px-3 px-md-2 pt-5">
                     <h1>InCTFCon Schedule</h1>
                 </div>
-                <div className="col-md-4 d-flex align-items-center justify-content-end  mb-3 my-md-0 px-2">
+                </div>  
+                <div className="d-flex align-items-center justify-content-end  mb-3 my-md-0 px-2">
                     <TabSwitcher>
                         {scheduleList?.map((day, index) =>
                             <button
@@ -534,7 +535,7 @@ const Schedule = () => {
                         )}
                     </TabSwitcher>
                 </div>
-            </div>
+            
             <div className="p-1 p-md-2">
                 <ScheduleDay {...scheduleList[activeDay]} />
             </div>
