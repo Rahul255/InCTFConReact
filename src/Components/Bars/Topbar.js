@@ -111,16 +111,16 @@ const Topbar = () => {
                             <a className="newone" href="/trainings">Trainings</a>
                         </Fade>
                         <Fade delay={300}>
-                            <a className="newone" href="/trainings">Speakers</a>
+                            <a className="newone" href="/guest_speakers">Speakers</a>
                         </Fade>
                         <Fade delay={400}>
-                            <a className="newone" href="/">Schedule</a>
+                            <a className="newone" href="/schedule">Schedule</a>
                         </Fade>
                         <Fade delay={500}>
-                            <a className="newone" href="/">Sponsors</a>
+                            <a className="newone" href="/sponsors">Sponsors</a>
                         </Fade>
                         <Fade delay={600}>
-                            <a className="newone" href="/">Promote</a>
+                            <a className="newone" href="/promote">Promote</a>
                         </Fade>
                     </nav>
                 </div>
