@@ -13,6 +13,7 @@ import AbhinandS from './Pages/AbhinandS';
 import Aswin from './Pages/Aswin';
 import AnirudhW from './Pages/AnirudhW';
 import AnirudhA from './Pages/AnirudhA';
+import SponsorPage from './Pages/SponsorPage';
 
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
         </Route>
         <Route path='/promote'>
           <Promote />
+        </Route>
+        <Route path='/sponsors'>
+          <SponsorPage />
         </Route>
         <Route path='/session/windows-exploitation-beginner’s-track'>
           <ArjunTU />

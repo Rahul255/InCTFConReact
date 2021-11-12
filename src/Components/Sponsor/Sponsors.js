@@ -1,249 +1,75 @@
-import React from 'react';
-import styled from "@emotion/styled";
-import Fade from 'react-reveal/Fade';
-
-const SponsorshipArea = styled.section`
-    justify-content: center;
-    padding: 5vh 0;
-    h2 {
-      font-weight: 700;
-      font-size: 32px;
-      margin-bottom: 1rem;
-      div {
-        font-size: 90%;
-      }
-    }
-    p {
-        max-width: 650px;
-        div {
-          font-size: 16px;
-          font-weight: 500;
-        }
-    }
-    a {
-       display: inline-block;
-       color: white;
-       font-weight: 600;
-       padding: 0.5rem 1rem;
-       text-decoration: none!important;
-       border-radius: 8px;
-       box-shadow: 2px 6px 12px rgba(0,0,0,0.3);
-       margin: 0.5rem 0;
-    }
-    .sponsorship-brochure-button {
-       background: #E65100;
-    }
-    .contact-us-button {
-        background: #1A237E;
-    }
-`;
-
-const LogoWall = styled.div`
-    max-width: 100%;
-    width: 900px;
-    a {
-      box-shadow: none!important;
-      color: black;
-      text-align: center;
-    }
-    .h5 {
-      color: #555;
-      font-size: 18px;
-    }
-    .past-sponsors {
-      img {
-        height: 64px!important;
-        filter: saturate(0) contrast(50%);
-        &:hover {
-          filter: none!important;
-        }
-      }
-    }
-    .inctfj-sponsors {
-      img {
-        height: 90px!important;
-      }
-    }
-    img {
-       display: inline;
-       max-height: 90px;
-       width: auto;
-       max-width: 100%;
-    }
-`
+import React from "react";
+// import styled from "@emotion/styled";
+// import Fade from "react-reveal/Fade";
+import "./Sponsors.css";
 
 const LandingSponsorship = () => {
+  const inCTFSponsors = [
+    {
+      name: "Salesforce",
+      image: require("../../images/sponsor/salesforce.png").default,
+      desg: "Event Sponsor",
+      details:
+        "Salesforce, the Customer Success Platform and world’s #1 CRM, empowers companies to connect with their customers in a whole new way. The company was founded on three disruptive ideas: a new technology model in cloud computing, a pay-as-you-go business model, and a new integrated corporate philanthropy model. These founding principles have taken our company to great heights, including being named one of Forbes’s “World’s Most Innovative Company” five years in a row and one of Fortune’s “100 Best Companies to Work For” eight years in a row. We are the fastest growing of the top 10 enterprise software companies, and this level of growth equals incredible opportunities to grow a career at Salesforce.",
+    },
+    {
+      name: "Zoho",
+      image:
+        require("../../images/sponsor/zoho-1e78182f2870ef5f7277b10047c556e1.png")
+          .default,
+      desg: "Diamond Sponsor",
+      details:
+        "At ZOHO Security team, we do a lot of exciting stuff including Security Source code Analysis, Intrusion Detection System, WAF and whatnot. The cool part is most of the security tools we use here are in-house tools built by our awesome team from scratch. We do have our internal red team who simulates a lot of offensive operations like Social Engineering, Application Hacking, Hijacking security cameras and simply compromise whatever is vulnerable from machines to humans. We have got a quite balance of red and blue team. Would you like to join our team ZHIELD? (Oh yea, That's how we call ourselves!) , Send your resume to security@zohocorp.com",
+    },
+    {
+      name: "Crowdstrike",
+      image: require("../../images/sponsor/crowdstrike.png").default,
+      desg: "Platinum Sponsor",
+      details:
+        "CrowdStrike is a leading cybersecurity company protecting customers from all cyber threats by leveraging its Security Cloud to stop breaches. From its inception in 2011, CrowdStrike was created as a different kind of cybersecurity company. Cloud-native, CrowdStrike immediately brought a threat perspective, effectiveness, scalability, and flexibility never seen before in the industry – seamlessly aligning People, Technology, and Processes. And it doesn’t stop there. At CrowdStrike we’re on a mission - to stop breaches. Our ground breaking technology, services delivery, and intelligence gathering together with our innovations in machine learning and behavioural-based detection, allow our customers to not only defend themselves, but do so in a future-proof manner. Because of that we’ve earned numerous honours and top rankings for our technology, organization and talent. Our culture was purpose-built to be remote first, and we offer flexible work arrangements to help our people manage their personal and professional lives in a way that works for them. If you’re ready to work on unrivalled technology with a team that makes a difference every day, let’s talk",
+    },
+  ];
 
-    const pastSponsors = [
-        {
-            image: require('../../images/brand/brand6.png'),
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-        }
-    ];
-
-    const inCTFSponsors = [
-        {
-            image: require('../../images/brand/brand6.png'),
-            desg: "Event Sponsor",
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-            desg: "Diamond Sponsor",
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-            desg: "Diamond Sponsor",
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-            desg: "Platinum Sponsor",
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-            desg: "Gold Sponsor",
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-            maxHeight: '50px',
-            desg: "Silver Sponsor",
-        },
-    ];
-
-    const inCTFJrSponsors = [
-        {
-            image: require('../../images/brand/brand6.png'),
-            link: "https://traboda.com",
-            desg: "Platform Sponsor"
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-            link: "https://jnanamarga.in/",
-            desg: "Silver Sponsor"
-        },
-    ]
-
-    const inCTFJrPartners = [
-        {
-            image: require('../../images/brand/brand6.png'),
-            link: "https://cbseacademic.nic.in/web_material/Circulars/2021/93_Circular_2021.pdf",
-        },
-        {
-            image: require('../../images/brand/brand6.png'),
-        },
-    ]
-
-    return <SponsorshipArea className="row">
-        <Fade left>
-            <div className="col-lg-6 p-1 p-lg-5 p-md-3">
-                <div className="px-4 md:px-8 lg:px-12">
-                    <div className="mb-2">Not a Student?</div>
-                    <h2>
-                        Today You Can Help Us to
-                        Make CyberSec Warriors of Tomorrow
-                    </h2>
-                    <p>
-                        InCTFj is India's first & only cyber security & CTF hacking championship for school students, having
-                        helped over 20000 student participants from 23 states of India for the last 5 years.
-                        We are offering a limited number of exclusive sponsorship opportunities to companies & organizations.
-                        <div className="text-lg mt-3">Help us & take part in shaping cyber security warriors of tomorrow!</div>
-                    </p>
-                    <div className="mt-2 mx-0 mb-8">
-                        {/*<a className="sponsorship-brochure-button" href="/sponsor">Sponsorship Brochure</a>*/}
-                        <a className="contact-us-button" href="mailto:inctfj@am.amrita.edu">Contact Us</a>
-                    </div>
-                </div>
-                <LogoWall style={{ width: '100%', maxWidth: '700px' }}>
-                    <div className="bg-white rounded-xl shadow-md p-0 my-6 md:p-6">
-                        <div className="flex flex-wrap">
-                            <div className="inctfj-sponsors text-red-500 w-full p-0 mt-3 mb-3 opacity-80 text-lg text-center">
-                                InCTF Jr 2021 - Official Partners
-                            </div>
-                            {inCTFJrPartners.map((s) =>
-                                <div className="md:w-1/2 p-1 w-full flex items-center">
-                                    <Fade>
-                                        <a href={s.link} target="_blank">
-                                            <img draggable="false" alt="Sponsor Logo" src={s.image} />
-                                        </a>
-                                    </Fade>
-                                </div>
-                            )}
-                        </div>
-                    </div>
-                </LogoWall>
+  return (
+    <div className="sponsors pt-5">
+      <div className="container p-5 pt-5" style={{ backgroundColor: "white" }}>
+        <div className="text-center">
+          <h1 className="text-center" style={{ color: "red" }}>
+            InCTF 2021 Sponsors
+          </h1>
+        </div>
+        <div>
+          <p
+            className="text-center "
+            style={{
+              fontSize: "95%",
+              lineHeight: 1.4,
+            }}
+          >
+            We thank these organizations for investing in the CyberSecurity
+            Workforce of Tomorrow.
+          </p>
+        </div>
+        {inCTFSponsors.map((s, index) => (
+          <div>
+            <h1 className="text-center p-5">{s.desg}</h1>
+            <div
+              className="row "
+              style={{ border: "1px solid black", borderRadius: "10px" }}
+            >
+              <div className=" col-md-5 p-3">
+                <img src={s.image} draggable="false" alt="" style={{ width: "100%" }}></img>
+              </div>
+              <div className=" col-md-7 p-3">
+                <h1 className="text-center p-1">{s.name}</h1>
+                <p>{s.details}</p>
+              </div>
             </div>
-        </Fade>
-        <Fade right>
-            <div className="col-lg-6">
-                <LogoWall>
-                    <div className="bg-white rounded-xl shadow-md px-2 py-8 md:p-4">
-                        <div className="flex flex-wrap">
-                            <div className="inctfj-sponsors text-red-500 w-full p-0 mt-3 mb-3 opacity-80 text-lg text-center">InCTF Jr 2021 Sponsors</div>
-                            <div className="w-full flex justify-center">
-                                <p className="text-center opacity-8 mb-3" style={{ maxWidth: '100%', fontSize: '95%', lineHeight: 1.4, width: '450px' }}>
-                                    We thank these organizations for believing that <br/> CyberSecurity Education Should Start From School.
-                                </p>
-                            </div>
-                            {inCTFJrSponsors.map((s) =>
-                                <div className="md:w-1/2 px-2 w-1/2 flex justify-center items-end p-1">
-                                    <Fade>
-                                        <a href={s.link} target="_blank">
-                                            <img
-                                                style={{ maxHeight: s?.maxHeight }}
-                                                draggable="false" alt="Sponsor Logo" src={s.image}
-                                            />
-                                            {s?.desg && (<div className="text-sm mt-3 font-light">{s.desg}</div>)}
-                                        </a>
-                                    </Fade>
-                                </div>
-                            )}
-                        </div>
-                        <div className="flex my-3 flex-wrap my-6">
-                            <div className="w-full p-0 mt-3 mb-3 text-red-500 opacity-80 text-center">InCTF 2021 Sponsors</div>
-                            <div className="w-full flex justify-center">
-                                <p className="text-center opacity-8 mb-3" style={{ maxWidth: '100%', fontSize: '95%', lineHeight: 1.4, width: '450px' }}>
-                                    We thank these organizations for investing in the CyberSecurity Workforce of Tomorrow.
-                                </p>
-                            </div>
-                            {inCTFSponsors.map((s) =>
-                                <div className="md:w-1/4 px-2 w-1/2 p-1 flex justify-center text-center items-end">
-                                    <div className="text-center">
-                                        <Fade>
-                                            <img
-                                                style={{ maxHeight: s?.maxHeight }}
-                                                draggable="false" alt="Sponsor Logo"
-                                                src={s.image}
-                                            />
-                                            {s?.desg && (<div className="text-sm mt-3 font-light">{s.desg}</div>)}
-                                        </Fade>
-                                    </div>
-                                </div>
-                            )}
-                        </div>
-                        <div className="flex my-3 past-sponsors flex-wrap">
-                            <div className="w-full p-0 mt-3 mb-3 text-red-500 opacity-80 text-center">InCTF 2019 Sponsors</div>
-                            {pastSponsors.map((s) =>
-                                <div className="md:w-1/5 px-1 flex items-center justify-center w-1/3 p-1">
-                                    <Fade><img draggable="false" alt="Sponsor Logo" src={s.image} /></Fade>
-                                </div>
-                            )}
-                        </div>
-                    </div>
-                </LogoWall>
-            </div>
-        </Fade>
-    </SponsorshipArea>
-
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default LandingSponsorship;
