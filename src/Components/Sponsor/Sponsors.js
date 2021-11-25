@@ -50,7 +50,7 @@ const LandingSponsorship = () => {
             Workforce of Tomorrow.
           </p>
         </div>
-        {inCTFSponsors.map((s, index) => (
+        {/* {inCTFSponsors.map((s, index) => (
           <div>
             <h1 className="text-center p-5">{s.desg}</h1>
             <div
@@ -66,7 +66,28 @@ const LandingSponsorship = () => {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
+        <div>
+          <h1 className="text-center p-5">Event Sponosr</h1>
+          <div
+            className="row "
+            style={{ border: "1px solid black", borderRadius: "10px" }}
+          >
+            <div className=" col-md-5 p-3"><br/><br/>
+              <img src={require("../../images/sponsor/salesforce.png").default} draggable="false" alt="" style={{ width: "100%" }}></img>
+            </div>
+            <div className=" col-md-7 p-3">
+              <h1 className="text-center p-1">Salesforce</h1>
+              <h3 className="text-center p-1">company overview</h3>
+              <p>Salesforce, the Customer Success Platform and world’s #1 CRM, empowers companies to connect with their customers in a whole new way. The company was founded on three disruptive ideas: a new technology model in cloud computing, a pay-as-you-go business model, and a new integrated corporate philanthropy model. These founding principles have taken our company to great heights, including being named one of Forbes’s “World’s Most Innovative Company” five years in a row and one of Fortune’s “100 Best Companies to Work For” eight years in a row. We are the fastest growing of the top 10 enterprise software companies, and this level of growth equals incredible opportunities to grow a career at Salesforce.</p>
+              <h3 className="text-center p-1">security overview</h3>
+              <p>Salesforce has one of the best Information Security teams in the world and growing this piece of the business in India is a top priority! Our Information Security teams work hand in hand with the business to ensure the highest security around all of our applications. For example, the Detection & Response function is responsible for 24x7x365 security monitoring and rapid incident response across all Salesforce environments. The Salesforce Security Engineering team provides the fundamental building blocks to improve and preserve customer trust in Salesforce’s products across multiple public cloud substrates and our own network infrastructure. Similarly, we have teams that oversee our network security, identity and access management, threat & vulnerability management, system security, security GRC, compliance etc. all working towards the common goal of upholding our foundational values of Trust and Customer Success.</p>
+              <p>We are always looking out for talent, reach out to us on India Cyber Security Careers</p>
+              <p>To know more visit Salesforce India University Recruiting</p>
+              <p>Learn in-demand cybersecurity skills </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
