@@ -96,7 +96,7 @@ function Banner() {
                                 </div>
                             </div>
                         </div>*/}<br/>
-                        <h5 className="bold">December 2021</h5>
+                        <h5 className="bold">January 2022</h5>
                     </Fade>
                 </div>
             </CoverWrap>
