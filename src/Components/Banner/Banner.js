@@ -10,7 +10,25 @@ const CoverContainer = styled.section`
     position: relative;
     overflow: hidden;
 `;
-
+const GoalCard = styled.div`
+    img {
+      max-width: 100%;
+    }
+    p {
+      color: #AAA;
+      text-align: center;
+      margin-top: 13px;
+      font-size: 14px;
+    }
+    transition: all 1s ease;
+    &:hover {
+        transform: translateY(-20px);
+        transition: all 1s ease;
+        p {
+           color: white;
+        }
+    }
+`;
 const CoverWrap = styled.div`
     {/*backdrop-filter: blur(1px) brightness(0.45);*/}
     width: 100%;
@@ -63,26 +81,57 @@ const CoverWrap = styled.div`
         margin-right: 5px;
     }
 `
+const inCTFSponsors = [
+    {
+        image: require("../../images/sponsor/salesforce.png").default,
+        text: "EVENT SPONSOR",
+    },
+    {
+        image: require("../../images/sponsor/zoho-1e78182f2870ef5f7277b10047c556e1.png").default,
+        text: "DIAMOND SPONSOR",
+        
+    },
+    {
+        image: require("../../images/sponsor/vmware-54e2f942b7201762830671db2d5b73ae.png").default,
+        text: "DIAMOND SPONSOR"
+    },
+    {
+        image: require("../../images/sponsor/crowdstrike.png").default,
+        text: "PLATINUM SPONSOR",
+    },
+    {
+        image: require("../../images/sponsor/social-cred.png").default,
+        text: "GOLD SPONSOR"
+    },
+    {
+        image: require("../../images/sponsor/hrblock.jpeg").default,
+        text: "GOLD SPONSOR"
+    },
+    {
+        image: require("../../images/sponsor/crowdstrike.png").default,
+        text: "PLATINUM SPONSOR",
+    },
+];
 
 function Banner() {
     return (
         <React.Fragment>
-        <CoverContainer>
-            <CoverWrap>
-                <div className="container text-center px-2">
-                    <Fade left>
-                        {/* <img
+            <CoverContainer>
+                <CoverWrap>
+                    <div className="container text-center px-2">
+                        <Fade left>
+                            {/* <img
                             className="mb-0 " alt="Amrita Vishwa Vidyapeetham"
                             style={{ maxHeight: '72px', maxWidth: '50vw', width: 'auto' }}
                             src={require('../../images/amrita_logo_light.png').default}
                         /> */}
-                        <h1 className="font-weight-bold mb-2">InCTFCon</h1>
-                    </Fade>
-                    <Fade right>
-                        <h2>
-                            International Cybersecurity Conference & Trainings  
-                        </h2>
-                        {/*<div className="d-flex w-100 justify-content-center mt-3 align-content-center">
+                            <h1 className="font-weight-bold mb-2">InCTFCon</h1>
+                        </Fade>
+                        <Fade right>
+                            <h2>
+                                International Cybersecurity Conference & Trainings
+                            </h2>
+                            {/*<div className="d-flex w-100 justify-content-center mt-3 align-content-center">
                             <div className="d-flex w-50 justify-content-end text-right border-right mr-3 pr-3 pl-2">
                                 <div>
                                     <div>CTF</div>
@@ -95,13 +144,26 @@ function Banner() {
                                     <h3 className="font-weight-bold">April 9-11</h3>
                                 </div>
                             </div>
-                        </div>*/}<br/>
-                        <h5 className="bold">January 2022</h5>
-                    </Fade>
-                </div>
-            </CoverWrap>
-        </CoverContainer>
-    </React.Fragment>
+                        </div>*/}<br />
+                            <h5 className="bold">January 2022</h5>
+                        </Fade>
+                    </div>
+                   
+                </CoverWrap>
+                <div className="container" style={{ maxWidth: 'auto', backgroundColor: "white" }}>
+                            <div className="d-flex" style={{backgroundColor: "white"}}>
+                                {inCTFSponsors.map((g, index) =>
+                                    <GoalCard className="col-1 col-md-1 col-lg-1 p-2">
+                                        <Fade up={index % 2 === 0} down={index % 2 !== 0} delay={index * 350}>
+                                            <img alt="illustration" draggable="false" src={g.image} />
+                                            {/* <p>{g.text}</p> */}
+                                        </Fade>
+                                    </GoalCard>
+                                )}
+                            </div>
+                    </div>
+            </CoverContainer>
+        </React.Fragment>
     )
 }
 
