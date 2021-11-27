@@ -12,7 +12,7 @@ const CoverContainer = styled.section`
 `;
 const GoalCard = styled.div`
     img {
-      max-width: 100%;
+      max-width: 50%;
     }
     p {
       color: #AAA;
@@ -22,7 +22,7 @@ const GoalCard = styled.div`
     }
     transition: all 1s ease;
     &:hover {
-        transform: translateY(-20px);
+        transform: translateY(10px);
         transition: all 1s ease;
         p {
            color: white;
@@ -107,10 +107,6 @@ const inCTFSponsors = [
         image: require("../../images/sponsor/hrblock.jpeg").default,
         text: "GOLD SPONSOR"
     },
-    {
-        image: require("../../images/sponsor/crowdstrike.png").default,
-        text: "PLATINUM SPONSOR",
-    },
 ];
 
 function Banner() {
@@ -153,7 +149,7 @@ function Banner() {
                 <div className="container" style={{ maxWidth: 'auto', backgroundColor: "white" }}>
                             <div className="d-flex" style={{backgroundColor: "white"}}>
                                 {inCTFSponsors.map((g, index) =>
-                                    <GoalCard className="col-1 col-md-1 col-lg-1 p-2">
+                                    <GoalCard className="col-2 col-md-2 col-lg-2 p-2">
                                         <Fade up={index % 2 === 0} down={index % 2 !== 0} delay={index * 350}>
                                             <img alt="illustration" draggable="false" src={g.image} />
                                             {/* <p>{g.text}</p> */}
