@@ -12,22 +12,24 @@ const CoverContainer = styled.section`
 `;
 const GoalCard = styled.div`
     img {
-      max-width: 50%;
+        text-align: center;
+        display: block;
+        max-width: 50%;
     }
     p {
       color: #AAA;
-      text-align: center;
+      margin-left: 19px;
       margin-top: 13px;
-      font-size: 14px;
+      font-size: 10px;
     }
     transition: all 1s ease;
-    &:hover {
-        transform: translateY(10px);
-        transition: all 1s ease;
-        p {
-           color: white;
-        }
-    }
+    // &:hover {
+    //     transform: translateY(10px);
+    //     transition: all 1s ease;
+    //     p {
+    //        color: white;
+    //     }
+    // }
 `;
 const CoverWrap = styled.div`
     {/*backdrop-filter: blur(1px) brightness(0.45);*/}
@@ -95,18 +97,18 @@ const inCTFSponsors = [
         image: require("../../images/sponsor/vmware-54e2f942b7201762830671db2d5b73ae.png").default,
         text: "DIAMOND SPONSOR"
     },
-    {
-        image: require("../../images/sponsor/crowdstrike.png").default,
-        text: "PLATINUM SPONSOR",
-    },
-    {
-        image: require("../../images/sponsor/social-cred.png").default,
-        text: "GOLD SPONSOR"
-    },
-    {
-        image: require("../../images/sponsor/hrblock.jpeg").default,
-        text: "GOLD SPONSOR"
-    },
+    // {
+    //     image: require("../../images/sponsor/crowdstrike.png").default,
+    //     text: "PLATINUM SPONSOR",
+    // },
+    // {
+    //     image: require("../../images/sponsor/social-cred.png").default,
+    //     text: "GOLD SPONSOR"
+    // },
+    // {
+    //     image: require("../../images/sponsor/hrblock.jpeg").default,
+    //     text: "GOLD SPONSOR"
+    // },
 ];
 
 function Banner() {
@@ -149,12 +151,15 @@ function Banner() {
                 <div className="container" style={{ maxWidth: 'auto', backgroundColor: "white" }}>
                             <div className="d-flex" style={{backgroundColor: "white"}}>
                                 {inCTFSponsors.map((g, index) =>
-                                    <GoalCard className="col-2 col-md-2 col-lg-2 p-2">
-                                        <Fade up={index % 2 === 0} down={index % 2 !== 0} delay={index * 350}>
+                                
+                                    <GoalCard className="col-4 col-md-4 col-lg-4 p-2" style={{marginLeft:""}}>
+                                        {/* <Fade up={index % 2 === 0} down={index % 2 !== 0} delay={index * 350}> */}
                                             <img alt="illustration" draggable="false" src={g.image} />
-                                            {/* <p>{g.text}</p> */}
-                                        </Fade>
+                                            <p>{g.text}</p>
+                                        {/* </Fade> */}
+                                        
                                     </GoalCard>
+                                    
                                 )}
                             </div>
                     </div>
