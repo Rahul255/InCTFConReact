@@ -7,7 +7,7 @@ import EndProgram from '../Components/EndProgram/EndProgram'
 import Organizers from '../Components/Organizers/Organizers'
 import Timeline from '../Components/Timeline'
 import Topbar from '../Components/Bars/Topbar'
-// import FAQSection from '../Components/FAQ/FAQ'
+import FAQSection from '../Components/FAQ/FAQ'
 // import LandingSponsorship from '../Components/Sponsor/Sponsors'
 import Sponsor from '../Components/Sponsor/Sponsor'
 
@@ -23,7 +23,7 @@ function Home() {
             {/* <LandingSponsorship /> */}
             <Sponsor />
             <Organizers/>
-            {/* <FAQSection /> */}
+            <FAQSection />
             <Footer />
         </div>
     )
