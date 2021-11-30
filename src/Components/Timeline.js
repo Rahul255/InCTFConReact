@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import Fade from 'react-reveal/Fade';
 
 const TimelineWrapper = styled.div`
-    background: #213;
+    
     color: white;
     padding: 5vh 2vw;
     display: flex;
@@ -20,7 +20,7 @@ const TimelineWrapper = styled.div`
     }
     h4 {
        font-weight: 600;
-       color: #fd7e14;
+       color: tomato;
        margin-bottom: 5px;
     }
     .phase-timeframe {
@@ -42,7 +42,7 @@ const TimelineWrapper = styled.div`
       font-size: 13px;
     }
     h5 {
-        color: #fd7e14;
+        color: tomato;
         margin-bottom: 5px;
         font-size: calc(1rem + 0.25vw);
     }
@@ -59,13 +59,13 @@ const Timeline = () => {
     const timeline = [
         {
             "title": "Phase 1",
-            "timeline": "December 2020 - February 2021",
+            "timeline": "October 2021 - December 2021",
             "events": [
                 {
                     "isCompleted": true,
-                    "title": "ShaktiCTF - Beginner Round",
-                    "date": "December 4, 2020",
-                    "description": "Beginner level women-only CTF"
+                    "title": "InCTF Training Round & Team Registration",
+                    "date": "",
+                    "description": "Participants will solve Beginner level Challenges"
                 },
                 {
                     "title": "Beginner-Level Training",
@@ -75,31 +75,31 @@ const Timeline = () => {
         },
         {
             "title": "Phase 2",
-            "timeline": "February 2021 - March 2021",
+            "timeline": "December 2021",
             "events": [
                 {
-                    "title": "Challenge Phase (powered by Traboda)",
+                    "title": "Qualifer Round",
                     "description": "Participants enhance their skills by practising different CTF-challenges from the Traboda Labs platform.",
                 },
                 {
-                    "title": "Intermediate-Level Training",
-                    "description": "Participants receive advanced trainings in different cybersecurity areas to level up their skills."
+                    "title": "Pre - conference talks",
+                    "description": "Participants receive advanced talks in different cybersecurity areas to level up their skills."
                 }
             ],
         },
         {
             "title": "Phase 3",
-            "timeline": "March 2021 - April 2021",
+            "timeline": "January 2022",
             "events": [
                 {
-                    "title": "ShaktiCTF - Finals",
-                    "date": "April 3 - 4, 2021",
-                    "description": "Finale of ShaktiCTF - Women-Only Jeopardy Style CTF, organized by the organizers of InCTF",
+                    "title": "InCTF - Finals",
+                    "date": "",
+                    "description": "Finale of InCTF - Jeopardy Style CTF, organized by teambi0s",
                 },
                 {
                     "title": "Final Summit",
-                    "date": "April 9 - 11, 2021",
-                    "description": "3-day CyberSecurity Conference exclusively for Women, that will feature talks, panel-discussions, seminars etc.",
+                    "date": "",
+                    "description": "3-day CyberSecurity Conference, that will feature talks, panel-discussions, seminars etc.",
                 }
             ]
         }
@@ -113,18 +113,18 @@ const Timeline = () => {
                 </Fade>
             </div>
             {timeline.map((p, index) =>
-                <div className="col-md-4 p-1 p-md-2">
-                    <div style={{ background: `rgba(130,130,120, 0.2)` }} className="h-100 p-3">
+                <div className="col-md-4 p-1 p-md-2" >
+                    <div style={{ background: `rgba(130,130,120, 0.2)` }} className="h-100 p-3" style={{border:"1px solid white", borderRadius:"10px"}}>
                         <Fade up delay={150*index}>
                             <h4 className="font-weight-bold">{p.title}</h4>
                         </Fade>
                         <Fade left delay={150*index}>
                             <div className="phase-timeframe">{p.timeline}</div>
                         </Fade>
-                        <div className="my-1">
+                        <div className="my-1" >
                             {p.events.map((e, i) =>
                                 <Fade up delay={500*i}>
-                                    <div  className="pt-4">
+                                    <div  className="pt-4" >
                                         <h5>{e.title}</h5>
                                         {e.date && <div className="date"><i className="far fa-calendar-alt mr-1" /> {e.date}</div>}
                                         <p>{e.description}</p>
