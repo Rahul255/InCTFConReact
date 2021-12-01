@@ -48,11 +48,11 @@ const WomenInCyberSection = styled.section`
 const CyberSecurityRelevance = () => {
 
     const UNSDGGoals = [
-        require('../../images/unsdg/sdg4.png'),
-        require('../../images/unsdg/sdg5.png'),
-        require('../../images/unsdg/sdg8.png'),
-        require('../../images/unsdg/sdg10.png'),
-        require('../../images/unsdg/sdg11.png'),
+        require('../../images/unsdg/sdg4.png').default,
+        require('../../images/unsdg/sdg5.png').default,
+        require('../../images/unsdg/sdg8.png').default,
+        require('../../images/unsdg/sdg10.png').default,
+        require('../../images/unsdg/sdg11.png').default,
     ]
 
     return <CyberSecRelevanceWrap>
@@ -118,10 +118,10 @@ const CyberSecurityRelevance = () => {
                     style={{ fontSize: 'calc(0.8rem + 0.35vw)' }}
                     className="mb-0"
                 >
-                    Amrita Vishwa Vidyapeetham through ShaktiCon proudly supports
+                    Amrita Vishwa Vidyapeetham through InCTFCon proudly supports
                 </div>
                 <img
-                    src={require('../../images/unsdg/logo.png')}
+                    src={require('../../images/unsdg/logo.png').default}
                     className="mb-0" style={{ maxHeight: '160px', maxWidth: '100%' }}
                     alt="ShaktiCon & Amrita takes pride in supporting the UN Sustainable Development Goals"
                 />
