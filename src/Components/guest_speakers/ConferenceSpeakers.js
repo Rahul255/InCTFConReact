@@ -234,32 +234,25 @@ const ConSpeakers = ({ hideTitle = false }) => {
         //                 </p>
         //             },
         //         },
-        //         {
-        //             "slug": "threat-modeling",
-        //             "title": "Threat Modeling",
-        //             "abstract": <>
-        //                 In this talk, you will learn why Threat Modeling (TM) is important, what TM is (what it can prevent
-        //                 and what it cannot), and how TM fits into the overall Product Development Lifecycle and Secure
-        //                 Development Lifecycle. This talk will also introduce various threat modeling methodologies.
-        //             </>,
-        //             "speaker": {
-        //                 "name": "Sung Lee",
-        //                 "designation": "Staff Security Architect",
-        //                 "company": "VMware",
-        //                 "image": require('../../../images/speakers/sung.JPG'),
-        //                 "links": {
-        //                     "linkedin": "https://www.linkedin.com/in/sylee/",
-        //                 },
-        //                 "bio": <p>
-        //                     Sung joined VMware in 2020 as a security architect. She developed an interest in security in the
-        //                     early 2000s, while she was leading a research team in the area of Pervasive Computing, a
-        //                     predecessor of Internet of Things. Prior to joining VMware, she served in various roles at several
-        //                     companies, including product development, R&D, standards development, and defining product and
-        //                     business strategy. She received B.S., M.S., and Ph.D. degrees in Computer Science from the
-        //                     University of Maryland, College Park
-        //                 </p>
-        //             },
-        //         },
+        {
+            "slug": "threat-modeling",
+            "title": "Protecting containers and the ship throughout their journey",
+            "abstract": <>
+                Container orchestration platforms have revolutionised application delivery with agile deployment, high speed iteration, auto scaling and transparent fault tolerance. This new application deployment stack has brought new security challenges with it which warrant fresh approach, tools and best practices. In this session, we’ll cover how security outlook differs for container workloads from traditional ones. We’ll go over new approach, tools and best practices for the new stack which provide comprehensive security without slowing down the application delivery
+            </>,
+            "speaker": {
+                "name": "Ajit Dhumale",
+                "designation": "Senior Engineer ",
+                "company": "CrowdStrike",
+                "image": require("../../images/speakers/AjitDhumale-Saurabh-Gawas.jpg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                    Ajit Dhumale is a software security enthusiast with over 25 years of experience in software product development. He works on cloud workload protection products at CrowdStrike. Previously he led blackbox web application security scanner and signature development team. He holds multiple patents in data protection area. He has been a chapter co-leader and an active speaker at OWASP Pune chapter. Ajit holds a BE degree in Computer Science from Mumbai University.
+                </p>
+            },
+        },
         //         {
         //             "slug": "Inaugural Session",
         //             "title": "Inaugural Session", 
@@ -993,7 +986,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
     ]
 
     return <TrainingModuleWrap id="conference-speakers">
-        {/* <div className="container"><br/><br/> <br/> 
+        <div className="container"><br/><br/> <br/> 
             {!hideTitle && <h2>Conference Speakers</h2>}
             <div className="py-4 px-2">
                 {SpeakersList.map((s) =>
@@ -1004,7 +997,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     </Fade>
                 )}
             </div>
-        </div> */}
+        </div>
         <div className="container"><br /><br /> <br />
             {!hideTitle && <h2>Pre-Conference Speakers</h2>}
             <div className="py-4 px-2">

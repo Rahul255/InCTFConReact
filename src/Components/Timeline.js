@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "@emotion/styled";
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 const TimelineWrapper = styled.div`
     
@@ -114,7 +114,7 @@ const Timeline = () => {
             </div>
             {timeline.map((p, index) =>
                 <div className="col-md-4 p-1 p-md-2" >
-                    <div style={{ background: `rgba(130,130,120, 0.2)` }} className="h-100 p-3" style={{border:"1px solid white", borderRadius:"10px"}}>
+                    <div  className="h-100 p-3" style={{border:"1px solid white", borderRadius:"10px"}}>
                         {/* <Fade up delay={150*index}> */}
                             <h4 className="font-weight-bold">{p.title}</h4>
                         {/* </Fade> */}
