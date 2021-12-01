@@ -23,12 +23,13 @@ const IntroSectionWrap = styled.section`
   color: #eee;
   margin-top: 50px;
   h4 {
+    font-weight: 900;
     text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
-    font-size: calc(1rem + 0.5vw);
+    font-size: calc(1.8rem + 1.2vw);
   }
   h1 {
     font-weight: 900;
-    font-size: calc(1.5rem + 1.5vw);
+    font-size: calc(2rem + 1.2vw);
     text-transform: uppercase;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
   }
@@ -43,8 +44,8 @@ const IntroSectionWrap = styled.section`
   }
   p {
     color: white;
-    font-size: 14px;
-    max-width: 600px;
+    font-size: 20px;
+    max-width: 900px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     b {
       font-weight: 600;
@@ -55,28 +56,33 @@ const IntroSectionWrap = styled.section`
 
 const AboutIntro = () => {
   return (
-    <IntroSectionWrap bg={require("../../images/banner.jpeg").default}>
+    <IntroSectionWrap bg={require("../../images/com.jpg").default}>
       <div className="wrapper d-md-flex align-items-center justify-content-end">
-        <div style={{ maxWidth: "720px" }}>
+        <div style={{ maxWidth: "1000px" }}>
           <Fade>
-            <h4>What is InCTFCon?</h4>
+            <h4 style={{color:"tomato"}}>What is InCTFCon?</h4>
           </Fade>
           <Fade delay={200}>
             <h1>Inspiring & Empowering Youth in CyberSecurity</h1>
           </Fade>
           <div>
             <Fade delay={350}>
-              <p>
+              <p style={{color:""}}>
                 InCTFCon is a global conference aimed at training, encouraging
                 and educating young people to pursue, espouse and embrace
                 cybersecurity.
               </p>
             </Fade>
             <Fade delay={500}>
-              <p>
+              <p style={{color:""}}>
                 InCTFCOn offers contests, programs and world-class workshops
                 along with the pre-conference event InCTF, which is one of the
-                biggest cybersecurity contests in India. Over the years,
+                biggest cybersecurity contests in India. 
+              </p>
+            </Fade>
+            <Fade delay={650}>
+              <p>
+              Over the years,
                 InCTFCon has created a unique, ever-growing community with
                 people from academia and the industry, ready to empower young
                 people for years to come.
