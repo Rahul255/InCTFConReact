@@ -40,7 +40,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
         {
             "slug": "cybersecurity-for-iot-ics",
             "title": "Evolution of eCrimes",
-            "registerURL": "https://register.shakticon.com/",
+            "registerURL": "",
             "sessions": [
                 {
                     "date": "28th December, 2021",
@@ -63,52 +63,72 @@ const ConSpeakers = ({ hideTitle = false }) => {
     ];
 
     const SpeakersList = [
-        {
-            "slug": "inaugural-ceremony",
-            "title": "Inaugural Ceremony",
-            "speaker": {
-                "name": "Meenakshi Lekhi",
-                "designation": "Member of Parliament",
-                "company": "Lok Sabha, Delhi",
-                "image": require("../../images/sponsor/crowdstrike.png").default,
-                "links": {
-                    "twitter": "https://twitter.com/M_Lekhi",
-                    "linkedin": "https://www.linkedin.com/in/meenakshi-lekhi-bjp/"
-                },
-                "bio": <p>
-                    Meenakashi Lekhi is a Member of Parliament from the New Delhi Parliamentary constituency.
-                    She enrolled with the Bar Council of Delhi in 1990, and started practicing at the Supreme
-                    Court of India, Delhi High Court, other courts, tribunals and forums in Delhi and other
-                    parts of the country. She has argued a wide variety of matters, such as bails, revisions,
-                    trials, appeals, criminal writs, murder references, Prevention of Corruption Act/Official
-                    Secrets Act/Customs Act/FERA prosecutions, Domestic Violence and Family Law dispute. Lekhi
-                    has been part of the Drafting Committees for bills like “Women Reservation Bill” and “Problem
-                    of Sexual Harassment at Workplace”. She has been in National Commission for Women (NCW)’s
-                    special committee, Chairperson of Special Task Force on Women Empowerment, Vice Chairperson
-                    of JPM, Blind School, New Delhi & Jt. Secretary Blind Relief Association.
+        // {
+        //     "slug": "inaugural-ceremony",
+        //     "title": "Inaugural Ceremony",
+        //     "speaker": {
+        //         "name": "Meenakshi Lekhi",
+        //         "designation": "Member of Parliament",
+        //         "company": "Lok Sabha, Delhi",
+        //         "image": require("../../images/sponsor/crowdstrike.png").default,
+        //         "links": {
+        //             "twitter": "https://twitter.com/M_Lekhi",
+        //             "linkedin": "https://www.linkedin.com/in/meenakshi-lekhi-bjp/"
+        //         },
+        //         "bio": <p>
+        //             Meenakashi Lekhi is a Member of Parliament from the New Delhi Parliamentary constituency.
+        //             She enrolled with the Bar Council of Delhi in 1990, and started practicing at the Supreme
+        //             Court of India, Delhi High Court, other courts, tribunals and forums in Delhi and other
+        //             parts of the country. She has argued a wide variety of matters, such as bails, revisions,
+        //             trials, appeals, criminal writs, murder references, Prevention of Corruption Act/Official
+        //             Secrets Act/Customs Act/FERA prosecutions, Domestic Violence and Family Law dispute. Lekhi
+        //             has been part of the Drafting Committees for bills like “Women Reservation Bill” and “Problem
+        //             of Sexual Harassment at Workplace”. She has been in National Commission for Women (NCW)’s
+        //             special committee, Chairperson of Special Task Force on Women Empowerment, Vice Chairperson
+        //             of JPM, Blind School, New Delhi & Jt. Secretary Blind Relief Association.
 
-                </p>
-            }
-        },
+        //         </p>
+        //     }
+        // },
         {
-            "slug": "inaugural-ceremony",
-            "title": "Inaugural Ceremony",
+            "slug": "threat-modeling",
+            "title": "Introduction to Containers and Kubernetes",
+            "abstract": <>
+                Now days we are moving from hosted infrastructure to cloud with cloud native infrastructure. But why containers and Kubernetes, because these provides essential solution to scalability and orchestration. Also shift left approach, by tools like docker, for building environment to run apps has made CI-CD much easier and smooth.
+                We will dive deep into these with very basic examples from day to day life
+            </>,
             "speaker": {
-                "name": "Swamini Krishnamrita Prana",
-                "designation": "",
-                "company": "Mata Amritanandamayi Math",
-                "image": require("../../images/sponsor/crowdstrike.png").default,
+                "name": "Ramesh Kumar",
+                "designation": "Senior Engineer ",
+                "company": "CrowdStrike",
+                "image": require("../../images/speakers/Ramesh-kumar.jpeg").default,
                 "links": {
-                    "linkedin": "https://twitter.com/amritapuri"
+                    "linkedin": "",
                 },
                 "bio": <p>
-                    Swamini Krishnamrita Prana is a senior most disciple of world renowned humanitarian, <a href="https://amma.org">Mata
-                        Amritanandamayi Devi</a>. Swamini plays an integral role in several humanitarian initiatives of the Mata
-                    Amritanandamayi Math. She is the author of several books(some of which can be found <a href="https://theammashop.org/search?type=products&q=swamini%20krishnamrita%20prana*">here</a>),
-                    and a speaker at several international conferences.
+                    Ramesh is working in cyber security domain for about 5 years now, with specialisation in container and cloud security. Before this he wrote vrest, a Rest API validation tool. He also wrote few other open source tools, allrounder, templist and more. If not working, you may find him playing ukulele in one of the mountains.
                 </p>
-            }
+            },
         },
+        // {
+        //     "slug": "inaugural-ceremony",
+        //     "title": "Inaugural Ceremony",
+        //     "speaker": {
+        //         "name": "Swamini Krishnamrita Prana",
+        //         "designation": "",
+        //         "company": "Mata Amritanandamayi Math",
+        //         "image": require("../../images/sponsor/crowdstrike.png").default,
+        //         "links": {
+        //             "linkedin": "https://twitter.com/amritapuri"
+        //         },
+        //         "bio": <p>
+        //             Swamini Krishnamrita Prana is a senior most disciple of world renowned humanitarian, <a href="https://amma.org">Mata
+        //                 Amritanandamayi Devi</a>. Swamini plays an integral role in several humanitarian initiatives of the Mata
+        //             Amritanandamayi Math. She is the author of several books(some of which can be found <a href="https://theammashop.org/search?type=products&q=swamini%20krishnamrita%20prana*">here</a>),
+        //             and a speaker at several international conferences.
+        //         </p>
+        //     }
+        // },
         //         {
         //             "slug": "inaugural-ceremony",
         //             "title": "Inaugural Ceremony",
@@ -986,7 +1006,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
     ]
 
     return <TrainingModuleWrap id="conference-speakers">
-        <div className="container"><br/><br/> <br/> 
+        <div className="container"><br /><br /> <br />
             {!hideTitle && <h2>Conference Speakers</h2>}
             <div className="py-4 px-2">
                 {SpeakersList.map((s) =>
