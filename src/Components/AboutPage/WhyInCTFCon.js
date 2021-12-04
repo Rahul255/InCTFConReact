@@ -62,12 +62,12 @@ const CyberSecurityRelevance = () => {
                 <div className="col-md-8 px-2">
                     <div className="py-2">
                         <Fade>
-                            <h3>Why ShaktiCon?</h3>
+                            <h3>Why InCTFCon?</h3>
                         </Fade>
                         <Fade delay={150}>
                             <h1>
-                                <span className="d-md-inline-block">The Industry Needs Women,</span>
-                                <span className="d-md-inline-block">& also Needs to Open Up For Them.</span>
+                                <span className="d-md-inline-block">Industry needs skilled professionals </span>
+                                <span className="d-md-inline-block">for securing the Digital world</span>
                             </h1>
                         </Fade>
                         <Fade delay={300}>
@@ -81,17 +81,12 @@ const CyberSecurityRelevance = () => {
                             CyberSecurity as a profession is one where demand is outstripping supply, and based on the technological
                             evolutions and ever-increasing threat landscape, it is expected that there will be triple the number
                             of job openings over the next 5 years, with <b>over 3.5 million new cybersecurity job openings in 2021</b>.
-                            Although women represent half the population, and around 48% of the general workforce,
-                            the number of <b>women professionals is only about 20% of the total cybersecurity workforce</b>.
-                            Of those women, <b>only 1% percent of female cybersecurity  workers are in C-suite leadership
-                            positions</b>, and this glass ceiling is even higher for women of color. The future of the cybersecurity
-                            industry depends on its ability to attract, retain and promote women, who represent a skilled
-                            and under-tapped resource.
+                            
                         </p>
                     </Fade>
                 </div>
                 <div className="col-md-4 d-flex align-items-center p-2">
-                    <div>
+                    {/* <div>
                         <Fade right>
                             <div className="pb-4">
                                 <blockquote>
@@ -109,6 +104,15 @@ const CyberSecurityRelevance = () => {
                                 </blockquote>
                                 <div>- Jessica Ortega, SiteLock</div>
                             </div>
+                        </Fade>
+                    </div> */}
+                    <div>
+                        <Fade right>
+                        <img
+                            src={require('../../images/landing-cover-image.png').default}
+                            draggable="false"
+                            alt="Amrita Center for CyberSecurity Systemts & Networks"
+                        />
                         </Fade>
                     </div>
                 </div>
