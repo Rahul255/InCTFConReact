@@ -25,7 +25,7 @@ const WomenInCyberSection = styled.section`
       margin-bottom: 0.5rem;
       max-width: 650px;
       line-height: 1.35;
-      color: #FFD600;
+      color: tomato;
     }
     p {
         font-size: 14px;
@@ -59,7 +59,7 @@ const CyberSecurityRelevance = () => {
         <WomenInCyberSection>
             <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet" />
             <div className="row mx-0">
-                <div className="col-md-8 px-2">
+                <div className="col-md-7 px-2">
                     <div className="py-2">
                         <Fade>
                             <h3>Why InCTFCon?</h3>
@@ -72,7 +72,7 @@ const CyberSecurityRelevance = () => {
                         </Fade>
                         <Fade delay={300}>
                             <div className="subtitle">
-                                To fill the world’s open security positions, we’ll need to <span className="d-md-inline-block">aim for 50% women in cyber over the next decade.</span>
+                            We need to high skilled professionals to  <span className="d-md-inline-block">protect the globe from the cyber pandemic.</span>
                             </div>
                         </Fade>
                     </div>
@@ -85,7 +85,7 @@ const CyberSecurityRelevance = () => {
                         </p>
                     </Fade>
                 </div>
-                <div className="col-md-4 d-flex align-items-center p-2">
+                <div className="col-md-5 d-flex align-items-center p-2">
                     {/* <div>
                         <Fade right>
                             <div className="pb-4">
