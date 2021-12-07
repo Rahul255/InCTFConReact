@@ -10,6 +10,7 @@ import Topbar from '../Components/Bars/Topbar'
 import FAQSection from '../Components/FAQ/FAQ'
 // import LandingSponsorship from '../Components/Sponsor/Sponsors'
 import Sponsor from '../Components/Sponsor/Sponsor'
+import ConferenceSpeakers from '../Components/Speaker/mainSpeakers'
 
 function Home() {
     return (
@@ -19,6 +20,7 @@ function Home() {
             <About />
             <EndProgram />
             <Goals />
+            <ConferenceSpeakers />
             <Timeline />
             {/* <LandingSponsorship /> */}
             <Sponsor />
