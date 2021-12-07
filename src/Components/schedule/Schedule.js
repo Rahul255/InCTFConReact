@@ -518,12 +518,12 @@ const Schedule = () => {
     
     return <ScheduleModuleWrap>
         <div className="container-lg px-0 p-md-2">
-            <div className="row mx-0">
+            <div className="row mx-0 text-center">
                 <div className="col-md-8 my-5 my-md-0 px-3 px-md-2 pt-5">
-                    <h1>InCTFCon Schedule</h1>
+                    <h1>InCTFCon Schedule will update soon...</h1>
                 </div>
                 </div>  
-                <div className="d-flex align-items-center justify-content-end  mb-3 my-md-0 px-2">
+                {/* <div className="d-flex align-items-center justify-content-end  mb-3 my-md-0 px-2">
                     <TabSwitcher>
                         {scheduleList?.map((day, index) =>
                             <button
@@ -550,7 +550,7 @@ const Schedule = () => {
                         </button>
                     )}
                 </TabSwitcher>
-            </div>
+            </div> */}
         </div>
     </ScheduleModuleWrap>
 
