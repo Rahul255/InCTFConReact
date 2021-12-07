@@ -110,6 +110,26 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "threat-modeling",
+            "title": "The Genesis of Cyber Espionage",
+            "abstract": <>
+                Espionage is the practice of spying or using spies. In this talk, listen to the mindblowing stories about how the art and science of espionage has evolved over time. 
+
+            </>,
+            "speaker": {
+                "name": "Aniket Amdekar",
+                "designation": "General Manager - Cyber Defence Education ",
+                "company": "Great Learning",
+                "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                   Aniket Amdekar is an accomplished cyber security professional. He has more than 15 years of experience in cyber security. He has lead the cyber security posture monitoring and threat intelligence for multiple teams.
+                </p>
+            },
+        },
         // {
         //     "slug": "inaugural-ceremony",
         //     "title": "Inaugural Ceremony",
