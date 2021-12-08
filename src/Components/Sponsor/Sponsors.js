@@ -105,7 +105,7 @@ const LandingSponsorship = () => {
           </div>
         </div>
         <div>
-          <h1 className="text-center p-5" style={{color:"tomato"}}>Diamond Sponosr</h1>
+          <h1 className="text-center p-5" style={{color:"tomato"}}></h1>
           <div
             className="row "
             style={{ border: "1px solid black", borderRadius: "10px" }}
@@ -159,6 +159,23 @@ const LandingSponsorship = () => {
               <p>For financial institutions: CRED offers a low-risk environment for financial institutions to craft and offer new products to members, increase credit utilization, and expand consumption. Current offerings include CRED Cash- an instant, three-step personal credit line; CRED Max- which allows members to pay monthly rent or education EMIs on their credit card for a small transaction fee, and CRED Mint -an easy-to-use, low-risk investment product that lets members put idle money to work. CRED is working to make more transactions friction-less, and to partner with more financial institutions for new products.</p>
               <p>For brands and merchants: The CRED Commerce offering - CRED Store, Rewards, and CRED Pay - is a meaningful channel for young, independent consumer brands to be discovered by and engage with potential customers on CRED and their own platforms. Over 2000 brands have participated in CRED Commerce, which has emerged as a medium for young Indian consumer startups to build their brand. On CRED, these brands are positioned alongside aspirational global brands and can build traction with taste-making consumers.</p>
               
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 className="text-center p-5" style={{color:"tomato"}}></h1>
+          <div
+            className="row "
+            style={{ border: "1px solid black", borderRadius: "10px" }}
+          >
+            <div className=" col-md-5 p-3"><br/><br/>
+              <img src={require("../../images/sponsor/secfence.jpg").default} draggable="false" alt="" style={{ width: "100%" }}></img>
+            </div>
+            <div className=" col-md-7 p-3">
+              <h1 className="text-center p-1">Secfence</h1>
+              <p>Secfence has been the pioneer of Defensive & Offensive Security in India for over a decade. We are a research-based organization focusing on Vulnerability Research & Exploit Development. Along with our in-house research teams, we have formed global alliances to bring the state-of-the-art capabilities to our clients. We take pride in working with Governments, Law Enforcement & Intelligence Agencies to help their homeland security.</p>
+              <p>We are always looking out for talent, reach out to us on contact@secfence.com (PGP: 0x1A3AB75C08723D81)</p>
+              <p>To know more visit  <a href="https://www.secfence.com/" style={{textDecoration:"none"}}>www.secfence.com</a></p>
             </div>
           </div>
         </div>
