@@ -39,7 +39,17 @@ function Sponsor() {
       maxHeight: "220px",
     },
     {
-      image: require("../../images/sponsor/hrblock.jpeg").default,
+      image: require("../../images/sponsor/secfence.jpg").default,
+      description: "Gold sponsor",
+      maxHeight: "220px",
+    },
+    {
+      image: require("../../images/sponsor/bugcrowd-122228569701528ab41479b9971fa337.png").default,
+      description: "Gold sponsor",
+      maxHeight: "220px",
+    },
+    {
+      image: require("../../images/sponsor/h&rblock-4ae0508ccf57e1083a8885e5952fb16d.png").default,
       description: "Silver Sponsor",
       maxHeight: "180px",
     },
