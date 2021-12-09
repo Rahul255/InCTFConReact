@@ -108,7 +108,7 @@ const CyberSecurityRelevance = () => {
                     </div> */}
                     <div>
                         <Fade right>
-                        <img
+                        <img style={{width:"100%"}}
                             src={require('../../images/landing-cover-image.png').default}
                             draggable="false"
                             alt="Amrita Center for CyberSecurity Systemts & Networks"
