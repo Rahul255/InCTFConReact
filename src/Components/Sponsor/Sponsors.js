@@ -105,7 +105,7 @@ const LandingSponsorship = () => {
           </div>
         </div>
         <div>
-          <h1 className="text-center p-5" style={{color:"tomato"}}></h1>
+          {/* <h1 className="text-center p-5" style={{color:"tomato"}}></h1> */}
           <div
             className="row "
             style={{ border: "1px solid black", borderRadius: "10px" }}
@@ -163,7 +163,7 @@ const LandingSponsorship = () => {
           </div>
         </div>
         <div>
-          <h1 className="text-center p-5" style={{color:"tomato"}}></h1>
+          {/* <h1 className="text-center p-5" style={{color:"tomato"}}></h1> */}
           <div
             className="row "
             style={{ border: "1px solid black", borderRadius: "10px" }}

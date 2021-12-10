@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import styled from "@emotion/styled";
-import ScheduleDay from "./ScheduleDay";
+// import ScheduleDay from "./ScheduleDay";
 
 const ScheduleModuleWrap = styled.section`
     
@@ -9,44 +9,44 @@ const ScheduleModuleWrap = styled.section`
     padding: 10vh 2vw;
 `;
 
-const TabSwitcher = styled.div`
-    button {
-        border: none;
-        font-size: 20px;
-        padding: 6px 10px;
-        background: chocolate;
-        color: white;
-        &:focus {
-            outline: none!important;
-        }
-    }
-    .is_active {
-        background: white;
-        color: chocolate;
-    }
-`;
+// const TabSwitcher = styled.div`
+//     button {
+//         border: none;
+//         font-size: 20px;
+//         padding: 6px 10px;
+//         background: chocolate;
+//         color: white;
+//         &:focus {
+//             outline: none!important;
+//         }
+//     }
+//     .is_active {
+//         background: white;
+//         color: chocolate;
+//     }
+// `;
 
 const Schedule = () => {
 
-    const [activeDay, setActiveDay] = useState(2);
+    // const [activeDay, setActiveDay] = useState(2);
 
-    const scheduleList = [
-        {
-            "date": "09 December 2021",
-            "title": "December 9",
-            "events": [
-                {
-                    "time": "08:00 - 08:45 IST",
-                    "title": "Speaker",
-                    "speakers": [
-                        {
-                            "name": "Rahul Manneri",
-                            "designation": "Speaker",
-                            "organization": "Amrita",
-                            "avatar": require('../../images/rahul.jpg').default
-                        }
-                    ],
-                },
+    // const scheduleList = [
+    //     {
+    //         "date": "09 December 2021",
+    //         "title": "December 9",
+    //         "events": [
+    //             {
+    //                 "time": "08:00 - 08:45 IST",
+    //                 "title": "Speaker",
+    //                 "speakers": [
+    //                     {
+    //                         "name": "Rahul Manneri",
+    //                         "designation": "Speaker",
+    //                         "organization": "Amrita",
+    //                         "avatar": require('../../images/rahul.jpg').default
+    //                     }
+    //                 ],
+    //             },
         //         {
         //             "time": "08:45 - 09:30 IST",
         //             "title": "Keynote",
@@ -209,24 +209,24 @@ const Schedule = () => {
                         
         //             ],
                 // },    
-            ]
-        },
-        {
-            "date": "10 December 2021",
-            "title": "December 10",
-            "events": [
-                {
-                    "time": "08:00 - 08:30 IST",
-                    "title": "Speaker",
-                    "speakers": [
-                        {
-                            "name": "Rahul Manneri",
-                            "designation": "Speaker",
-                            "organization": " Amrita",
-                            "avatar": require('../../images/rahul.jpg').default
-                        }
-                    ],
-                },
+        //     ]
+        // },
+        // {
+            // "date": "10 December 2021",
+            // "title": "December 10",
+            // "events": [
+            //     {
+            //         "time": "08:00 - 08:30 IST",
+            //         "title": "Speaker",
+            //         "speakers": [
+            //             {
+            //                 "name": "Rahul Manneri",
+            //                 "designation": "Speaker",
+            //                 "organization": " Amrita",
+            //                 "avatar": require('../../images/rahul.jpg').default
+            //             }
+            //         ],
+            //     },
                 // {
                 //     "time": "08:30 - 09:00 IST",
                 //     "title": "Achieving Excellence in Cybersecurity",
@@ -374,24 +374,24 @@ const Schedule = () => {
                 //         }
                 //     ],
                 // },
-            ],
-        },
-        {
-            "date": "11 December 2021",
-            "title": "December 11",
-            "events": [
-            {
-                    "time": "08:30 - 09:30 IST",
-                    "title": "Speech",
-                    "speakers": [
-                        {
-                            "name": "Rahul Manneri",
-                            "designation": "Researcher",
-                            "organization": "Amrita ",
-                            "avatar": require('../../images/rahul.jpg').default
-                        }
-                    ],
-                },
+        //     ],
+        // },
+        // {
+        //     "date": "11 December 2021",
+        //     "title": "December 11",
+        //     "events": [
+        //     {
+        //             "time": "08:30 - 09:30 IST",
+        //             "title": "Speech",
+        //             "speakers": [
+        //                 {
+        //                     "name": "Rahul Manneri",
+        //                     "designation": "Researcher",
+        //                     "organization": "Amrita ",
+        //                     "avatar": require('../../images/rahul.jpg').default
+        //                 }
+        //             ],
+        //         },
                 // {
                 //     "time": "09:30 - 09:45 IST",
                 //     "title": "A Few Thoughts on Authenticated Encryption",
@@ -512,9 +512,9 @@ const Schedule = () => {
                 //         },
                 //     ]
                 // }
-            ],
-        }
-    ]
+    //         ],
+    //     }
+    // ]
     
     return <ScheduleModuleWrap>
         <div className="container-lg px-0 p-md-2">
