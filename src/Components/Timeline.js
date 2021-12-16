@@ -24,12 +24,12 @@ const TimelineWrapper = styled.div`
        margin-bottom: 5px;
     }
     .phase-timeframe {
-       font-size: 15px;
+       
        line-height: 1.2;
        color: #EEE;
     }
     p {
-       font-size: 13px;
+       
        margin-bottom: 0;
        color: #BBB;
     }
@@ -39,7 +39,7 @@ const TimelineWrapper = styled.div`
       border: 1px solid;
       padding: 3.5px 8px;
       border-radius: 2px;
-      font-size: 13px;
+     
     }
     h5 {
         color: tomato;
