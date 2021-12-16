@@ -35,7 +35,7 @@ function App() {
         <Route path='/schedule'>
           <Schedules />
         </Route>
-        <Route path='/guest_speaker'>
+        <Route path='/speakers'>
           <Guest />
         </Route>
         <Route path='/promote'>
