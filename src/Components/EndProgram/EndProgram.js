@@ -19,13 +19,13 @@ function EndProgram() {
                             <img draggable="false" src={hack} alt="brand-img" className="img-fluid" />
                             <div className="text">
                                 <h3 className="endhead">CTF Hacking Conference</h3>
-                                <p className="enddet">A PAN India CTF final round, which is a centre stage that showcases the best talent in cybersecurity, with the winners getting cool rewards and scholarships.</p>
+                                <p className="enddet">A pan India CTF final round, which is a centre stage that showcases the best talent in cybersecurity, with the winners getting cool rewards and scholarships.</p>
                             </div>
                         </article>
                         <article>
                             <img draggable="false" src={conf} alt="brand-img" className="img-fluid" />
                             <div className="text">
-                                <h3 className="endhead">Trainings Programmes</h3>
+                                <h3 className="endhead">Training Programmes</h3>
                                 <p className="enddet">Exciting training sessions and workshops to recognize and nurture talents in the field of cyber-security and empowering them to take it up in their career paths.</p>
                             </div>
                         </article>
