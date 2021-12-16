@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 // import Fade from 'react-reveal/Fade';
 
 const TimelineWrapper = styled.div`
-    
+    background: #222;
     color: white;
     padding: 5vh 2vw;
     display: flex;

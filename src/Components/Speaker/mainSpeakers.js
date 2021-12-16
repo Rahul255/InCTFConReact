@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import shortid from "shortid";
 
 const SpeakersContainer = styled.div`
-    background: #223;
+    
     padding: 6vh 1rem;
     display: flex;
     align-items: center;
@@ -31,7 +31,6 @@ const SpeakersContainer = styled.div`
 
 const SpeakerCard = styled.div`
     text-align: center;
-    background: rgba(0,0,30,0.3);
     color: #eee;
     padding: 0 0.35rem;
     border-radius: 10px;
