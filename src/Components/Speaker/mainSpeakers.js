@@ -133,7 +133,25 @@ const ConferenceSpeakers = () => {
             "name": "Aniket Amdekar",
             "designation": "General Manager - Cyber Defence Education",
             "company": "Great Learning",
+            "image": require("../../images/speakers/Lazarovitz_CyberArk.JPG").default,
+        },
+        {
+            "name": "Lavi Lazarovitz",
+            "designation": "Cyberark Head of Research",
+            "company": "Cyberark",
             "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
+        },
+        {
+            "name": "Prajeesh Prathap",
+            "designation": "Head of Platform and Operations",
+            "company": "IT&Care",
+            "image": "",
+        },
+        {
+            "name": "Aniket Amdekar",
+            "designation": "General Manager - Cyber Defence Education",
+            "company": "Great Learning",
+            "image": require("../../images/speakers/Lazarovitz_CyberArk.JPG").default,
         },
         // {
         //     "name": "Zoey Garvey",
