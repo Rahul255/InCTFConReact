@@ -35,7 +35,7 @@ function Footer() {
                 <br/> <br/> <br/>
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <p className="copyright">© InCTF 2020 - 2021. All Rights Reserved.</p>
+                        <p className="copyright">© InCTF 2021 - 2022. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
