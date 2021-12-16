@@ -23,10 +23,10 @@ const GoalCard = styled.div`
       box-shadow: 2px 3px 8px rgba(0,0,0,0.35);
     }
     p {
-      color: #AAA;
+      color: white;
       text-align: center;
       margin-top: 13px;
-      font-size: 14px;
+      
     }
     transition: all 1s ease;
     &:hover {
