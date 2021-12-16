@@ -10,7 +10,7 @@ function About() {
         <div className="row">
           <div className="col-md-8">
             <h3 className="title_about">
-              <span className="about_span">What is</span> InCTFcon{" "}
+              <span className="about_span">What is</span> InCTFCon{" "}
               <span className="about_span">?</span>
             </h3>
           </div>
@@ -21,7 +21,7 @@ function About() {
             <div>
               <Fade left>
                 <p className="para">
-                  <span className="span2">InCTFCon</span> is an international Cybersecurity conference organised on behalf of Amrita InCTF to address the skill gap, 
+                  <span className="span2">InCTFCon</span> is an International Cybersecurity conference organised on behalf of Amrita InCTF to address the skill gap, 
                   to inspire and empower the youth to take up careers in cyberspace. 
                 </p>
                 <p className="para">
@@ -30,7 +30,7 @@ function About() {
                     participant strength of over 15000 students from all over
                     India
                   </strong>
-                  , from top institutes such as the IITs and NITs.The big dream behind this conference is 
+                  , from top institutes such as the IITs and NITs. The big dream behind this conference is 
                   to inculcate a new generation of cybersecurity professionals to protect the globe from a cyber pandemic and to 
                   safeguard India's future in the digital atmosphere.
                 </p>
@@ -54,7 +54,7 @@ function About() {
                     </Fade> */}
                 <Fade delay={500}>
                   <p className="para">
-                    InCTFCOn offers contests, programs and world-class
+                    InCTFCon offers contests, programs and world-class
                     workshops along with the pre-conference event InCTF,
                     which is one of the biggest cybersecurity contests in
                     India. Over the years, InCTFCon has created a unique,
