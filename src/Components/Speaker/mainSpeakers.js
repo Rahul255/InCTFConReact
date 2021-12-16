@@ -148,10 +148,10 @@ const ConferenceSpeakers = () => {
             "image": "",
         },
         {
-            "name": "Aniket Amdekar",
-            "designation": "General Manager - Cyber Defence Education",
-            "company": "Great Learning",
-            "image": require("../../images/speakers/Lazarovitz_CyberArk.JPG").default,
+            "name": "Richard Chow",
+            "designation": "University Research Manager and Scientist",
+            "company": "Intel",
+            "image": require("../../images/speakers/RichardChow.jpg").default,
         },
         // {
         //     "name": "Zoey Garvey",
