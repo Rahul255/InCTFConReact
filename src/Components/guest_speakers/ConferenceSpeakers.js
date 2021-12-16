@@ -62,6 +62,53 @@ const ConSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "cybersecurity-for-iot-ics",
+            "title": "The Genesis of Cyber Espionage",
+            "registerURL": "",
+            "sessions": [
+                {
+                    "date": "24th December, 2021",
+                    "time": "6.00 pm to 7.00 pm"
+                }
+            ],
+            "abstract": <>
+                Espionage is the practice of spying or using spies. In this talk, listen to the mindblowing stories about how the art and science of espionage has evolved over time. 
+                PS: Its not always about the technology.
+            </>,
+            "speaker": {
+                "name": "Aniket Amdekar",
+                "designation": "General Manager - Cyber Defence Education",
+                "company": "Great Learning",
+                "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
+                "bio": <p>
+                    Aniket Amdekar is an accomplished cyber security professional. He has more than 15 years of experience in cyber security. He has lead the cyber security posture monitoring and threat intelligence for multiple teams.
+                </p>
+            },
+        },
+        {
+            "slug": "cybersecurity-for-iot-ics",
+            "title": "Cyber Security Agenda for 2022",
+            "registerURL": "",
+            "sessions": [
+                {
+                    "date": "30th December, 2021",
+                    "time": "6.00 pm to 7.00 pm"
+                }
+            ],
+            "abstract": <>
+                As we start to wrap up 2021,we can introspect on the risks and threats that we witnessed in 2021 and plan the strategy for 2022. In this talk, lets discuss the strategies in place, and the ones that are being formed for the coming year.
+            </>,
+            "speaker": {
+                "name": "Aniket Amdekar",
+                "designation": "General Manager - Cyber Defence Education",
+                "company": "Great Learning",
+                "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
+                "bio": <p>
+                    Aniket Amdekar is an accomplished cyber security professional. He has more than 15 years of experience in cyber security. He has lead the cyber security posture monitoring and threat intelligence for multiple teams.
+                </p>
+            },
+        },
+        {
+            "slug": "cybersecurity-for-iot-ics",
             "title": "Bypassing Windows Hello For Business & Pleasure",
             "registerURL": "",
             "sessions": [
@@ -135,21 +182,21 @@ const ConSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "threat-modeling",
-            "title": "The Genesis of Cyber Espionage",
+            "title": "Decadal Plan for Research in Security and Privacy",
             "abstract": <>
-                Espionage is the practice of spying or using spies. In this talk, listen to the mindblowing stories about how the art and science of espionage has evolved over time. 
+                The pace that today’s systems are increasing in intelligence and ubiquity is astounding, and yet these advances in capability must go hand-in-hand with advances in security and privacy of these systems. The production and collection of data to feed AI-based engines has become today’s archetypal design pattern for decision-making, analysis, actuation, prediction, and control. The scale and complexity of these data-based systems continues to grow, forcing hardware specialization and optimization to meet multiplying performance challenges. These systems have a plethora of new security and privacy demands, for instance, weaknesses in the machine-learning or conventional cryptography, privacy of personal data, and vulnerabilities in the supply-chain or hardware. This talk will discuss some of these challenges and outline research areas that address them. 
 
             </>,
             "speaker": {
-                "name": "Aniket Amdekar",
-                "designation": "General Manager - Cyber Defence Education ",
-                "company": "Great Learning",
-                "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
+                "name": "Richard Chow",
+                "designation": "University Research Manager and Scientist",
+                "company": "Intel",
+                "image": require("../../images/speakers/RichardChow.jpg").default,
                 "links": {
                     "linkedin": "",
                 },
                 "bio": <p>
-                   Aniket Amdekar is an accomplished cyber security professional. He has more than 15 years of experience in cyber security. He has lead the cyber security posture monitoring and threat intelligence for multiple teams.
+                   Richard Chow is University Research Manager and Scientist in the University Research and Collaboration office within Intel Labs. He guides several of Intel’s academic research centers in the areas of security, networking, autonomous systems, and machine learning. In the past, Richard held positions as Research Scientist at PARC, Research Scientist at Samsung Electronics R&D, and Security Architect at Yahoo and Motorola. His work concentrates on privacy, big data, mobile, and machine learning. He has over 25 granted US patents and over 40 peer-reviewed conference papers, journals, and book chapters. He was awarded runner-up for the 2010 PET Award for Outstanding Research in Privacy Enhancing Technologies. He has given invited talks at academic conferences and industry venues such as the RSA Conference, BlackHat, and OWASP. Richard has a Ph.D. in mathematics from UCLA and a B.A. in mathematics from the University of Pennsylvania.
                 </p>
             },
         },
@@ -297,6 +344,25 @@ const ConSpeakers = ({ hideTitle = false }) => {
         //                 </p>
         //             },
         //         },
+        {
+            "slug": "threat-modeling",
+            "title": "Protecting containers and the ship throughout their journey",
+            "abstract": <>
+                Container orchestration platforms have revolutionised application delivery with agile deployment, high speed iteration, auto scaling and transparent fault tolerance. This new application deployment stack has brought new security challenges with it which warrant fresh approach, tools and best practices. In this session, we’ll cover how security outlook differs for container workloads from traditional ones. We’ll go over new approach, tools and best practices for the new stack which provide comprehensive security without slowing down the application delivery
+            </>,
+            "speaker": {
+                "name": "Ajit Dhumale",
+                "designation": "Senior Engineer ",
+                "company": "CrowdStrike",
+                "image": require("../../images/speakers/AjitDhumale-Saurabh-Gawas.jpg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                    Ajit Dhumale is a software security enthusiast with over 25 years of experience in software product development. He works on cloud workload protection products at CrowdStrike. Previously he led blackbox web application security scanner and signature development team. He holds multiple patents in data protection area. He has been a chapter co-leader and an active speaker at OWASP Pune chapter. Ajit holds a BE degree in Computer Science from Mumbai University.
+                </p>
+            },
+        },
         {
             "slug": "threat-modeling",
             "title": "Protecting containers and the ship throughout their journey",
