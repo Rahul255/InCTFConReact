@@ -9,7 +9,7 @@ function Promotes() {
             <section id="organize">
                 <div className="container zindex">
                     <div className="section_title">
-                        <h3 className="title" style={{ color: 'chocolate' }}>
+                        <h3 className="title" style={{ color: 'tomato' }}>
                             Promote
                         </h3>
                     </div>
@@ -26,7 +26,7 @@ function Promotes() {
                                     </div>
                                     <div className="col-lg-7 col-md-7">
                                         <div className="purchase-box">
-                                            <h3 style={{ color: 'chocolate' }}>Poster content</h3> <br />
+                                            <h3 style={{ color: 'tomato' }}>Poster content</h3> <br />
                                             <b>
                                                 <p className="ptag">A noob looking to learn cybersec? Or a pro looking for a
                                                     refresh? Register now @ https://inctf.in/ <br />
@@ -64,7 +64,7 @@ function Promotes() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className=" event-header text-center">
-                                <h3 style={{ color: 'chocolate' }}>Facebook Posts</h3>
+                                <h3 style={{ color: 'tomato' }}>Facebook Posts</h3>
 
                             </div>
                             <div >
@@ -82,7 +82,7 @@ function Promotes() {
                         </div>
                         <div className="col-lg-6">
                             <div className=" event-header text-center">
-                                <h3 style={{ color: 'chocolate' }}>Tweets</h3>
+                                <h3 style={{ color: 'tomato' }}>Tweets</h3>
                             </div>
                             <div>
                                 <TweetEmbed id='1433360732461043716' options={{ cards: 'hidden' }} />

@@ -169,7 +169,7 @@ const LandingSponsorship = () => {
             style={{ border: "2px solid black", borderRadius: "10px" }}
           >
             <div className=" col-md-5 p-3"><br/><br/>
-              <img src={require("../../images/sponsor/secfence.jpg").default} draggable="false" alt="" style={{ width: "100%" }}></img>
+              <img src={require("../../images/sponsor/logo-dark.png").default} draggable="false" alt="" style={{ width: "100%" }}></img>
             </div>
             <div className=" col-md-7 p-3">
               <h1 className="text-center p-1" style={{fontWeight:"bold"}}>Secfence</h1>

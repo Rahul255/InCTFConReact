@@ -10,8 +10,8 @@ function Speaker() {
         <div className="speaker">
             <div className="container">
                 <div className="section_title">
-                    <h3 className="title" style={{ color: 'chocolate' }}>
-                        InCTFcon Trainings
+                    <h3 className="title" style={{ color: 'tomato' }}>
+                        InCTFCon Trainings
                     </h3>
                 </div>
 
@@ -27,7 +27,7 @@ function Speaker() {
                                 <div className="col-lg-8">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Windows Exploitation: Beginner’s Track </h2>
-                                        <h5 style={{ color: 'chocolate' }}> Arjun TU</h5>
+                                        <h5 style={{ color: 'tomato' }}> Arjun TU</h5>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
@@ -52,7 +52,7 @@ function Speaker() {
                                             Web apps: Master
                                             the Future of Attack
                                             Vectors </h2>
-                                        <h5 style={{ color: 'chocolate' }}>  Anirudh Anand</h5>
+                                        <h5 style={{ color: 'tomato' }}>  Anirudh Anand</h5>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
@@ -74,7 +74,7 @@ function Speaker() {
                                 <div className="col-lg-8">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Offensive Android Application Pentesting</h2>
-                                        <h5 style={{ color: 'chocolate' }}> Abhinand</h5>
+                                        <h5 style={{ color: 'tomato' }}> Abhinand</h5>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
@@ -98,7 +98,7 @@ function Speaker() {
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Hacking Android,
                                             iOS and IoT apps
                                             by Example</h2>
-                                        <h5 style={{ color: 'chocolate' }}>  Anirudh Anand</h5>
+                                        <h5 style={{ color: 'tomato' }}>  Anirudh Anand</h5>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
@@ -120,7 +120,7 @@ function Speaker() {
                                 <div className="col-lg-8">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Privilege Escalation</h2>
-                                        <h5 style={{ color: 'chocolate' }}> Aswin M Guptha</h5>
+                                        <h5 style={{ color: 'tomato' }}> Aswin M Guptha</h5>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
@@ -145,7 +145,7 @@ function Speaker() {
                                 <div className="col-lg-8">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Privilege Escalation</h2>
-                                        <h5 style={{ color: 'chocolate' }}> Aswin M Guptha</h5>
+                                        <h5 style={{ color: 'tomato' }}> Aswin M Guptha</h5>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">
@@ -176,7 +176,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Introduction to Cyber Forensics </h2>
-                                        <h5 style={{ color: 'chocolate' }}> K.Sridevi <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> S Abhishek</h5>
+                                        <h5 style={{ color: 'tomato' }}> K.Sridevi <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> S Abhishek</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -221,7 +221,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Introduction to Cyber Forensics </h2>
-                                        <h5 style={{ color: 'chocolate' }}>S Abhishek</h5>
+                                        <h5 style={{ color: 'tomato' }}>S Abhishek</h5>
                                     </div>
                                     <div className="image-thumb">
                                         <img src={require('../../images/trainings/S_Abhishek.png').default} alt="" />
@@ -256,7 +256,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Introduction to Cyber Forensics </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Pranav Nair </h5>
+                                        <h5 style={{ color: 'tomato' }}>Pranav Nair </h5>
                                     </div>
                                     <div className="image-thumb">
                                         <img src={require('../../images/rahul.jpg').default} alt="" />
@@ -292,7 +292,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Intro to Gameboy and NES ROM Reversing </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Gourav Singh Bajeli <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Adhithya Suresh Kumar</h5>
+                                        <h5 style={{ color: 'tomato' }}>Gourav Singh Bajeli <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Adhithya Suresh Kumar</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -336,7 +336,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Intro to Gameboy and NES ROM Reversing </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Adhithya Suresh Kumar</h5>
+                                        <h5 style={{ color: 'tomato' }}>Adhithya Suresh Kumar</h5>
                                     </div>
                                     <div className="image-thumb">
                                         <img src={require('../../images/rahul.jpg').default} alt="" />
@@ -372,7 +372,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Vulnerabilities In Real World Crypto </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Vishvesh Rao</h5>
+                                        <h5 style={{ color: 'tomato' }}>Vishvesh Rao</h5>
                                     </div>
                                     <div className="image-thumb">
                                         <img src={require('../../images/trainings/vishvesh.png').default} alt="" />
@@ -408,7 +408,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Crypto for Beginners </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Alekh Avinash <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Sahith M</h5>
+                                        <h5 style={{ color: 'tomato' }}>Alekh Avinash <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Sahith M</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -452,7 +452,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Crypto for Beginners</h2>
-                                        <h5 style={{ color: 'chocolate' }}>Sahith M</h5>
+                                        <h5 style={{ color: 'tomato' }}>Sahith M</h5>
                                     </div>
                                     <div className="image-thumb">
                                         <img src={require('../../images/trainings/sahith_m.png').default} alt="" />
@@ -485,7 +485,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Intro to Binary Exploitation </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Hrishikesh Pankaj</h5>
+                                        <h5 style={{ color: 'tomato' }}>Hrishikesh Pankaj</h5>
                                     </div>
                                     <div className="image-thumb">
                                         <img src={require('../../images/rahul.jpg').default} alt="" />
@@ -520,7 +520,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Intro to Binary Exploitation </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Adhithya Sree Mohan <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Nikhil Reddy</h5>
+                                        <h5 style={{ color: 'tomato' }}>Adhithya Sree Mohan <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Nikhil Reddy</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -565,7 +565,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Intro to Binary Exploitation </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Nikhil Reddy</h5>
+                                        <h5 style={{ color: 'tomato' }}>Nikhil Reddy</h5>
                                     </div>
                                     <div className="image-thumb">
                                         <img src={require('../../images/rahul.jpg').default} alt="" />
@@ -599,7 +599,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Introduction to the Web </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Srividhya Vasanth</h5>
+                                        <h5 style={{ color: 'tomato' }}>Srividhya Vasanth</h5>
                                     </div>
                                     <div className="image-thumb">
                                         <img src={require('../../images/trainings/download.jpeg').default} alt="" />
@@ -633,7 +633,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Exploring Web Exploitation Techniques </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Sayooj B Kumar <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Yadhu Krishna M</h5>
+                                        <h5 style={{ color: 'tomato' }}>Sayooj B Kumar <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> Yadhu Krishna M</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -679,7 +679,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Exploring Web Exploitation Techniques</h2>
-                                        <h5 style={{ color: 'chocolate' }}>Yadhu Krishna M</h5>
+                                        <h5 style={{ color: 'tomato' }}>Yadhu Krishna M</h5>
                                     </div>
                                     <div className="image-thumb">
                                         <img src={require('../../images/rahul.jpg').default} alt="" />
@@ -716,7 +716,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Introduction to Reverse Engineering </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Abhishek Barla <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> CH Revathi</h5>
+                                        <h5 style={{ color: 'tomato' }}>Abhishek Barla <span className="span" style={{ color: 'white', fontWeight: 'bold', fontSize: '20px' }}>&</span> CH Revathi</h5>
                                     </div>
                                     <div className="row">
                                         <div className="image-thumb col-6">
@@ -762,7 +762,7 @@ function Speaker() {
                                 <div className="col-lg-6">
                                     <div className="down-content">
                                         <h2 style={{ color: 'white', fontWeight: 'bold' }}>Introduction to Reverse Engineering </h2>
-                                        <h5 style={{ color: 'chocolate' }}>Ch. Revathi </h5>
+                                        <h5 style={{ color: 'tomato' }}>Ch. Revathi </h5>
                                     </div>
                                     <div className="image-thumb">
                                         <img src={require('../../images/rahul.jpg').default} alt="" />

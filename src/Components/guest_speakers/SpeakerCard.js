@@ -10,7 +10,7 @@ const TrainerCardWrap = styled.div`
         margin-bottom: 5px;
     }
     h4 {
-        color: #fd7e14;
+        color: tomato;
         margin-bottom: 5px;
     }
     h5 {
