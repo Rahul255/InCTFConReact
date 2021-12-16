@@ -78,9 +78,9 @@ const LandingSponsorship = () => {
             </div>
             <div className=" col-md-7 p-3">
               <h1 className="text-center p-1" style={{fontWeight:"bold"}}>Salesforce</h1>
-              <h3 className="text-center p-1">company overview</h3>
+              <h3 className="text-center p-1">Company Overview</h3>
               <p>Salesforce, the Customer Success Platform and world’s #1 CRM, empowers companies to connect with their customers in a whole new way. The company was founded on three disruptive ideas: a new technology model in cloud computing, a pay-as-you-go business model, and a new integrated corporate philanthropy model. These founding principles have taken our company to great heights, including being named one of Forbes’s “World’s Most Innovative Company” five years in a row and one of Fortune’s “100 Best Companies to Work For” eight years in a row. We are the fastest growing of the top 10 enterprise software companies, and this level of growth equals incredible opportunities to grow a career at Salesforce.</p>
-              <h3 className="text-center p-1">security overview</h3>
+              <h3 className="text-center p-1">Security Overview</h3>
               <p>Salesforce has one of the best Information Security teams in the world and growing this piece of the business in India is a top priority! Our Information Security teams work hand in hand with the business to ensure the highest security around all of our applications. For example, the Detection & Response function is responsible for 24x7x365 security monitoring and rapid incident response across all Salesforce environments. The Salesforce Security Engineering team provides the fundamental building blocks to improve and preserve customer trust in Salesforce’s products across multiple public cloud substrates and our own network infrastructure. Similarly, we have teams that oversee our network security, identity and access management, threat & vulnerability management, system security, security GRC, compliance etc. all working towards the common goal of upholding our foundational values of Trust and Customer Success.</p>
               <p>We are always looking out for talent, reach out to us on <a style={{textDecoration:"none"}} href="https://www.salesforce.com/company/careers/university-recruiting/">India Cyber Security Careers</a></p>
               <p>To know more visit  <a style={{textDecoration:"none"}} href="https://salesforce.wd2.myworkdayjobs-impl.com/External_Career_Site/job/India---Hyderabad/Intern-Security-Event-Analyst_JR117289-2">Salesforce India University Recruiting</a></p>
@@ -99,7 +99,7 @@ const LandingSponsorship = () => {
             </div>
             <div className=" col-md-7 p-3">
               <h1 className="text-center p-1" style={{fontWeight:"bold"}}>Zoho</h1>
-              <p>At ZOHO Security team, we do a lot of exciting stuff including Security Source code Analysis, Intrusion Detection System, WAF and whatnot. The cool part is most of the security tools we use here are in-house tools built by our awesome team from scratch. We do have our internal red team who simulates a lot of offensive operations like Social Engineering, Application Hacking, Hijacking security cameras and simply compromise whatever is vulnerable from machines to humans. We have got a quite balance of red and blue team. Would you like to join our team ZHIELD? (Oh yea, That's how we call ourselves!) , Send your resume to <span style={{textDecoration:"none", color:"blue"}}>zhield-hiring@zohocorp.com </span></p>
+              <p>At ZOHO Security team, we do a lot of exciting stuff including Security Source code Analysis, Intrusion Detection System, WAF and whatnot. The cool part is most of the security tools we use here are in-house tools built by our awesome team from scratch. We do have our internal red team who simulates a lot of offensive operations like Social Engineering, Application Hacking, Hijacking security cameras and simply compromise whatever is vulnerable from machines to humans. We have got a quite balance of red and blue team. Would you like to join our team ZHIELD? (Oh yea, That's how we call ourselves!) , Send your resume to <span style={{textDecoration:"none", color:"#007bff"}}>zhield-hiring@zohocorp.com </span></p>
               
             </div>
           </div>
@@ -189,7 +189,7 @@ const LandingSponsorship = () => {
               <img src={require("../../images/sponsor/h&rblock-4ae0508ccf57e1083a8885e5952fb16d.png").default} draggable="false" alt="" style={{ width: "100%" }}></img>
             </div>
             <div className=" col-md-7 p-3">
-              <h1 className="text-center p-1" style={{fontWeight:"bold"}}>H&R Block</h1>
+              <h1 className="text-center p-1" style={{fontWeight:"bold"}}>H&R BLOCK</h1>
               <p>H&R Block <a href="https://www.hrblock.com/" style={{textDecoration:"none"}}>(www.hrblock.com)</a> is a 3 billion dollar company headquartered in Kansas City, MO, and is the world’s largest assisted tax preparation company with Operations in the US, Australia, Canada and India. H&R Block provides Digital tax services and Retail tax services through more than 12,000 retail offices. H&R Block’s Trivandrum Technopark location serves as the Global Technology Center of H&R Block and consists of approximately 700 full time associates at Trivandrum.</p>
               
             </div>
