@@ -111,7 +111,7 @@ const Topbar = () => {
                             <a className="newone" href="/trainings">Trainings</a>
                         </Fade>
                         <Fade delay={300}>
-                            <a className="newone" href="/guest_speaker">Speakers</a>
+                            <a className="newone" href="/speakers">Speakers</a>
                         </Fade>
                         <Fade delay={400}>
                             <a className="newone" href="/schedule">Schedule</a>

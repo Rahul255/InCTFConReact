@@ -54,7 +54,8 @@ const SpeakerCard = styled.div`
     img {
       max-height: 180px;
       max-width: 100%;
-      border-radius: 100vw;
+      border-radius: 10px;
+      border: 2px solid white;
       margin-bottom: 1rem;
       transition: all 0.7s ease;
       display: block;
@@ -133,7 +134,7 @@ const ConferenceSpeakers = () => {
             "name": "Aniket Amdekar",
             "designation": "General Manager - Cyber Defence Education",
             "company": "Great Learning",
-            "image": require("../../images/speakers/Lazarovitz_CyberArk.JPG").default,
+            "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
         },
         {
             "name": "Lavi Lazarovitz",

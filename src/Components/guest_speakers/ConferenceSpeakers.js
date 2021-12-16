@@ -124,7 +124,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Lavi Lazarovitz",
                 "designation": "Cyberark Head of Research",
                 "company": "Cyberark",
-                "image": require("../../images/speakers/Lazarovitz_CyberArk.JPG").default,
+                "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
                 "bio": <p>
                     Lavi is the head of security research at CyberArk Labs. He and his team focus on offensive security and security innovation. They specialize in spotting security gaps in emerging technologies and developing innovative new security layers and effective mitigations to fill those gaps. Recent research vectors include acclaimed work on: cloud security, containers and Kubernetes security and authentication and identity security.
                 </p>
