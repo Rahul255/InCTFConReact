@@ -37,6 +37,55 @@ const TrainingModuleWrap = styled.section`
 const ConSpeakers = ({ hideTitle = false }) => {
 
     const PreConfList = [
+        
+        {
+            "slug": "cybersecurity-for-iot-ics",
+            "title": "The Genesis of Cyber Espionage",
+            "registerURL": "",
+            "sessions": [
+                {
+                    "date": "24th December, 2021",
+                    "time": "6.00 pm to 7.00 pm"
+                }
+            ],
+            "abstract": <>
+                Espionage is the practice of spying or using spies. In this talk, listen to the mindblowing stories about how the art and science of espionage has evolved over time. 
+                PS: Its not always about the technology.
+            </>,
+            "speaker": {
+                "name": "Aniket Amdekar",
+                "designation": "General Manager - Cyber Defence Education",
+                "company": "Great Learning",
+                "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
+                "bio": <p>
+                    Aniket Amdekar is an accomplished cyber security professional. He has more than 15 years of experience in cyber security. He has lead the cyber security posture monitoring and threat intelligence for multiple teams.
+                </p>
+            },
+        },
+        
+        {
+            "slug": "cybersecurity-for-iot-ics",
+            "title": "Bypassing Windows Hello For Business & Pleasure",
+            "registerURL": "",
+            "sessions": [
+                {
+                    "date": "27th December, 2021",
+                    "time": "6.00 pm to 7.00 pm"
+                }
+            ],
+            "abstract": <>
+                Windows Hello is the most popular passwordless solution that includes authentication by either PIN code or biometric authentication. Windows Hello promises better security – but is it the truth? In this session, I'll discuss face recognition bypass vectors and introduce Cyberark Labs research that shows how an attacker can bypass Windows Hello without a camera.
+            </>,
+            "speaker": {
+                "name": "Lavi Lazarovitz",
+                "designation": "Cyberark Head of Research",
+                "company": "Cyberark",
+                "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
+                "bio": <p>
+                    Lavi is the head of security research at CyberArk Labs. He and his team focus on offensive security and security innovation. They specialize in spotting security gaps in emerging technologies and developing innovative new security layers and effective mitigations to fill those gaps. Recent research vectors include acclaimed work on: cloud security, containers and Kubernetes security and authentication and identity security.
+                </p>
+            },
+        },
         {
             "slug": "cybersecurity-for-iot-ics",
             "title": "Evolution of eCrimes",
@@ -62,30 +111,6 @@ const ConSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "cybersecurity-for-iot-ics",
-            "title": "The Genesis of Cyber Espionage",
-            "registerURL": "",
-            "sessions": [
-                {
-                    "date": "24th December, 2021",
-                    "time": "6.00 pm to 7.00 pm"
-                }
-            ],
-            "abstract": <>
-                Espionage is the practice of spying or using spies. In this talk, listen to the mindblowing stories about how the art and science of espionage has evolved over time. 
-                PS: Its not always about the technology.
-            </>,
-            "speaker": {
-                "name": "Aniket Amdekar",
-                "designation": "General Manager - Cyber Defence Education",
-                "company": "Great Learning",
-                "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
-                "bio": <p>
-                    Aniket Amdekar is an accomplished cyber security professional. He has more than 15 years of experience in cyber security. He has lead the cyber security posture monitoring and threat intelligence for multiple teams.
-                </p>
-            },
-        },
-        {
-            "slug": "cybersecurity-for-iot-ics",
             "title": "Cyber Security Agenda for 2022",
             "registerURL": "",
             "sessions": [
@@ -104,29 +129,6 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
                 "bio": <p>
                     Aniket Amdekar is an accomplished cyber security professional. He has more than 15 years of experience in cyber security. He has lead the cyber security posture monitoring and threat intelligence for multiple teams.
-                </p>
-            },
-        },
-        {
-            "slug": "cybersecurity-for-iot-ics",
-            "title": "Bypassing Windows Hello For Business & Pleasure",
-            "registerURL": "",
-            "sessions": [
-                {
-                    "date": "27th December, 2021",
-                    "time": "6.00 pm to 7.00 pm"
-                }
-            ],
-            "abstract": <>
-                Windows Hello is the most popular passwordless solution that includes authentication by either PIN code or biometric authentication. Windows Hello promises better security – but is it the truth? In this session, I'll discuss face recognition bypass vectors and introduce Cyberark Labs research that shows how an attacker can bypass Windows Hello without a camera.
-            </>,
-            "speaker": {
-                "name": "Lavi Lazarovitz",
-                "designation": "Cyberark Head of Research",
-                "company": "Cyberark",
-                "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
-                "bio": <p>
-                    Lavi is the head of security research at CyberArk Labs. He and his team focus on offensive security and security innovation. They specialize in spotting security gaps in emerging technologies and developing innovative new security layers and effective mitigations to fill those gaps. Recent research vectors include acclaimed work on: cloud security, containers and Kubernetes security and authentication and identity security.
                 </p>
             },
         },
