@@ -365,20 +365,31 @@ const ConSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "threat-modeling",
-            "title": "Protecting containers and the ship throughout their journey",
+            "title": "DevSecOps – Putting security in DevOps (IT&Care)",
             "abstract": <>
-                Container orchestration platforms have revolutionised application delivery with agile deployment, high speed iteration, auto scaling and transparent fault tolerance. This new application deployment stack has brought new security challenges with it which warrant fresh approach, tools and best practices. In this session, we’ll cover how security outlook differs for container workloads from traditional ones. We’ll go over new approach, tools and best practices for the new stack which provide comprehensive security without slowing down the application delivery
+                As fast-paced agile project delivery has become the norm for today’s business, ensuring security in software solutions are becoming increasingly challenging for the teams. Most of the time security is prioritized at the very end of the product cycle. Raphael da la Vienne and Prajeesh Prathap demonstrates how DevSecOps integrates security with the agile processes and DevOps pipeline to shorten the time to market.
+
+            This session will shed light on the vital role security plays in the overall DevOps life cycle, by highlighting the difference between DevOps & DevSecOps, the impacts of not considering security when setting up DevOps practices, and the different perspectives of implementing a proper DevSecOps practice.
+
+            Led by Prajeesh Prathap (Head of Platform team - IT&Care) & Rapahel de la Veinne (Technical Security Officer) you'll hear about:
+
+            <li>1. What DevSecOps is and how it is different from DevOps</li>
+            <li>2. How DevSecOps has helped IT&Care increase their service delivery agility</li>
+            <li>3. Best practices when implementing DevSecOps</li>
+
             </>,
             "speaker": {
-                "name": "Ajit Dhumale",
-                "designation": "Senior Engineer ",
-                "company": "CrowdStrike",
-                "image": require("../../images/speakers/AjitDhumale-Saurabh-Gawas.jpg").default,
+                "name": "Prajeesh Prathap",
+                "designation": "Head of Platform and Operations",
+                "company": "IT&Care",
+                "image": "",
                 "links": {
                     "linkedin": "",
                 },
                 "bio": <p>
-                    Ajit Dhumale is a software security enthusiast with over 25 years of experience in software product development. He works on cloud workload protection products at CrowdStrike. Previously he led blackbox web application security scanner and signature development team. He holds multiple patents in data protection area. He has been a chapter co-leader and an active speaker at OWASP Pune chapter. Ajit holds a BE degree in Computer Science from Mumbai University.
+                    Prajeesh Prathap is an experienced technologist specializing in building web scale, cloud native applications with special interest in event-driven, distributed systems. Prajeesh currently works for IT&Care in the Netherlands as the head of platform and operations teams specializing in setting up the containerized environments, CI/CD using Azure DevOps, observability platforms etc. He is a regular speaker at numerous technology conferences and has authored courses on Reactive Microservices in .NET Core, Continuous Delivery with VSTS & PowerShell DSC.
+
+You can find more details of his work and publications at his website <a href="www.prajeeshprathap.com">www.prajeeshprathap.com</a>
                 </p>
             },
         },
