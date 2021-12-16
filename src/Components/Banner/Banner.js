@@ -143,7 +143,7 @@ function Banner() {
                                 </div>
                             </div>
                         </div>*/}<br />
-                            <h5 className="bold">January 21-23, 2022</h5>
+                            <h5 className="bold">January 21 - 23, 2022</h5>
                         </Fade>
                     </div>
                    
