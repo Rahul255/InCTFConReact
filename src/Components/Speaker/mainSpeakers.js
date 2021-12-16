@@ -113,6 +113,19 @@ const ConferenceSpeakers = () => {
 
     const speakers = [
         {
+            "name": "Lavi Lazarovitz",
+            "designation": "Cyberark Head of Research",
+            "company": "Cyberark",
+            "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
+        },
+        {
+            "name": "Aniket Amdekar",
+            "designation": "General Manager - Cyber Defence Education",
+            "company": "Great Learning",
+            "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
+            
+        },
+        {
             "name": "Ramesh Kumar",
             "designation": "Senior Engineer",
             "company": "CrowdStrike",
@@ -130,18 +143,7 @@ const ConferenceSpeakers = () => {
             "company": "CrowdStrike",
             "image": require("../../images/speakers/Sagar_Gulhane.jpg").default,
         },
-        {
-            "name": "Aniket Amdekar",
-            "designation": "General Manager - Cyber Defence Education",
-            "company": "Great Learning",
-            "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
-        },
-        {
-            "name": "Lavi Lazarovitz",
-            "designation": "Cyberark Head of Research",
-            "company": "Cyberark",
-            "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
-        },
+        
         {
             "name": "Prajeesh Prathap",
             "designation": "Head of Platform and Operations",
