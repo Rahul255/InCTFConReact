@@ -113,7 +113,7 @@ const ConferenceSpeakers = () => {
     const speakers = [
         {
             "name": "Lavi Lazarovitz",
-            "designation": "Cyberark Head of Research",
+            "designation": "Head of Research",
             "company": "Cyberark",
             "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
         },
@@ -123,6 +123,12 @@ const ConferenceSpeakers = () => {
             "company": "Great Learning",
             "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
             
+        },
+        {
+            "name": "Dotan Sagi",
+            "designation": "Founder & CEO ",
+            "company": "Be-Strategic Solutions",
+            "image": require("../../images/speakers/DotanSagi_BeST.png").default,
         },
         {
             "name": "Ramesh Kumar",
