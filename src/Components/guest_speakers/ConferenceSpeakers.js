@@ -78,7 +78,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
             </>,
             "speaker": {
                 "name": "Lavi Lazarovitz",
-                "designation": "Cyberark Head of Research",
+                "designation": "Head of Research",
                 "company": "Cyberark",
                 "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
                 "bio": <p>
