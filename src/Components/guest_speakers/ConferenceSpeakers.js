@@ -164,6 +164,26 @@ const ConSpeakers = ({ hideTitle = false }) => {
         // },
         {
             "slug": "threat-modeling",
+            "title": "Lessons learned from managing crisis in a VUCA (volatility, uncertainty, complexity, and ambiguity) World",
+            "abstract": <>
+                This Presentation will present case studies and lessons learned from war gaming simulations carried out for 40 different organizations (banking, smart cities, transportation, communication, cyber and natural disasters) during the past 24 months. the lessons learned include correlation between procedures and actual behavior, situational awareness when confronting crisis and many more. 
+            </>,
+            "speaker": {
+                "name": "Dotan Sagi",
+                "designation": "Founder & CEO ",
+                "company": "Be-Strategic Solutions",
+                "image": require("../../images/speakers/DotanSagi_BeST.png").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                   Dotan Sagi is the founder and CEO of Be Strategic Solutions – a disruptive technology that has already begun to revolutionize the crisis management world by digitally transforming the world of War-Gaming and Table-Top exercises. 
+
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
             "title": "Introduction to Containers and Kubernetes",
             "abstract": <>
                 Now days we are moving from hosted infrastructure to cloud with cloud native infrastructure. But why containers and Kubernetes, because these provides essential solution to scalability and orchestration. Also shift left approach, by tools like docker, for building environment to run apps has made CI-CD much easier and smooth.
