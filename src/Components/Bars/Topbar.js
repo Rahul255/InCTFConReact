@@ -101,15 +101,15 @@ const Topbar = () => {
                 </div>
                 <div className="col-8 d-none d-md-flex justify-content-md-end align-items-center">
                     <nav>
-                        <Fade delay={0}>
+                        {/* <Fade delay={0}>
                             <a className="newone" href="/">Home</a>
-                        </Fade>
+                        </Fade> */}
                         {/* <Fade delay={100}>
                             <a className="newone" href="/about">About</a>
                         </Fade> */}
-                        <Fade delay={200}>
+                        {/* <Fade delay={200}>
                             <a className="newone" href="/trainings">Trainings</a>
-                        </Fade>
+                        </Fade> */}
                         <Fade delay={300}>
                             <a className="newone" href="/speakers">Speakers</a>
                         </Fade>

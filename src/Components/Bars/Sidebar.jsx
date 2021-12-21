@@ -89,9 +89,9 @@ const SocialMediaLinks = styled.div`
 const SideBar = ({ onClose, darkenOnSidebar }) => {
 
     const sidebarLinks =  [
-        { icon: "fa fa-home mr-2", "title": "Home", "href": "/" },
+        // { icon: "fa fa-home mr-2", "title": "Home", "href": "/" },
         // { icon: "fa fa-home mr-2", "title": "About", "href": "/about" },
-        { icon: "fa fa-home mr-2", "title": "Trainings", "href": "/trainings" },
+        // { icon: "fa fa-home mr-2", "title": "Trainings", "href": "/trainings" },
         { icon: "fa fa-home mr-2", "title": "Speakers", "href": "/speakers" },
         { icon: "fa fa-home mr-2", "title": "Schedule", "href": "/schedule" },
         { icon: "fa fa-home mr-2", "title": "Sponsors", "href": "/sponsors" },
