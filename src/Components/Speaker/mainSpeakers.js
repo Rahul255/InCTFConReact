@@ -131,6 +131,18 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/DotanSagi_BeST.png").default,
         },
         {
+            "name": "Arundhati Bhattacharya",
+            "designation": "Chairperson and Chief Executive Officer ",
+            "company": "Salesforce India",
+            "image": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
+        },
+        // {
+        //     "name": "Madhusudhan H. N",
+        //     "designation": "Senior Security Engineering Manager ",
+        //     "company": "VMware",
+        //     "image": require("../../images/speakers/madhu.png").default,
+        // },
+        {
             "name": "Ramesh Kumar",
             "designation": "Senior Engineer",
             "company": "CrowdStrike",
