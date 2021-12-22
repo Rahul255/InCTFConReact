@@ -105,7 +105,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "company": "CrowdStrike",
                 "image": require("../../images/speakers/Sagar_Gulhane.jpg").default,
                 "bio": <p>
-                    Sagar has 11 years of experience in Malware analysis field, worked for legacy as well as Next-Gen security product. Currently he is a Senior Threat Researcher at CrowdStrike in the Malware Research Centre. Sagar holds a Bachelor of Engineering in Information Technology. Sagar has over decade of experience in Cybersecurity with focus on Reverse Engineering malware binaries. He has worked on both legacy Antivirus as well as on next-Gen EDR products where he has been contributing by adding detections for latest threats and working on new features to counter latest threat vectors. His expertise lies in analysing File Infectors and creating repair routines. In his free time he likes to keep track of the evolving Threat Landscape and its impact.
+                    Sagar has over decade of experience in CyberSecurity with focus on Reverse Engineering malware binaries. He has worked on both legacy Antivirus as well as on next-Gen EDR products where he has been contributing by adding detections for latest threats and working on new features to counter latest threat vectors. His expertise lies in analysing File Infectors and creating repair routines. In his free time he likes to keep track of the evolving Threat Landscape and its impact.
                 </p>
             },
         },
