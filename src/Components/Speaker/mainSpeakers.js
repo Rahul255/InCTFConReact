@@ -130,6 +130,12 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
         },
         {
+            "name": "Joshua Brown",
+            "designation": "Vice President – Global Chief Information Security Officer",
+            "company": "H&R Block",
+            "image": require("../../images/speakers/Joshua-Brown.jpg").default,
+        },
+        {
             "name": "Aniket Amdekar",
             "designation": "General Manager - Cyber Defence Education",
             "company": "Great Learning",
