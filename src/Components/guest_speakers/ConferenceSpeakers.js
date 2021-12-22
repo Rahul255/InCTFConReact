@@ -63,29 +63,29 @@ const ConSpeakers = ({ hideTitle = false }) => {
             },
         },
         
-        {
-            "slug": "cybersecurity-for-iot-ics",
-            "title": "Bypassing Windows Hello For Business & Pleasure",
-            "registerURL": "",
-            "sessions": [
-                {
-                    "date": "27th December, 2021",
-                    "time": "6.00 pm to 7.00 pm"
-                }
-            ],
-            "abstract": <>
-                Windows Hello is the most popular passwordless solution that includes authentication by either PIN code or biometric authentication. Windows Hello promises better security – but is it the truth? In this session, I'll discuss face recognition bypass vectors and introduce Cyberark Labs research that shows how an attacker can bypass Windows Hello without a camera.
-            </>,
-            "speaker": {
-                "name": "Lavi Lazarovitz",
-                "designation": "Head of Research",
-                "company": "Cyberark",
-                "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
-                "bio": <p>
-                    Lavi is the head of security research at CyberArk Labs. He and his team focus on offensive security and security innovation. They specialize in spotting security gaps in emerging technologies and developing innovative new security layers and effective mitigations to fill those gaps. Recent research vectors include acclaimed work on: cloud security, containers and Kubernetes security and authentication and identity security.
-                </p>
-            },
-        },
+        // {
+        //     "slug": "cybersecurity-for-iot-ics",
+        //     "title": "Bypassing Windows Hello For Business & Pleasure",
+        //     "registerURL": "",
+        //     "sessions": [
+        //         {
+        //             "date": "27th December, 2021",
+        //             "time": "6.00 pm to 7.00 pm"
+        //         }
+        //     ],
+        //     "abstract": <>
+        //         Windows Hello is the most popular passwordless solution that includes authentication by either PIN code or biometric authentication. Windows Hello promises better security – but is it the truth? In this session, I'll discuss face recognition bypass vectors and introduce Cyberark Labs research that shows how an attacker can bypass Windows Hello without a camera.
+        //     </>,
+        //     "speaker": {
+        //         "name": "Lavi Lazarovitz",
+        //         "designation": "Head of Research",
+        //         "company": "Cyberark",
+        //         "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
+        //         "bio": <p>
+        //             Lavi is the head of security research at CyberArk Labs. He and his team focus on offensive security and security innovation. They specialize in spotting security gaps in emerging technologies and developing innovative new security layers and effective mitigations to fill those gaps. Recent research vectors include acclaimed work on: cloud security, containers and Kubernetes security and authentication and identity security.
+        //         </p>
+        //     },
+        // },
         {
             "slug": "cybersecurity-for-iot-ics",
             "title": "Evolution of eCrimes",
@@ -162,6 +162,26 @@ const ConSpeakers = ({ hideTitle = false }) => {
         //         </p>
         //     }
         // },
+        {
+            "slug": "threat-modeling",
+            "title": "Bypassing Windows Hello For Business & Pleasure",
+            "abstract": <>
+                Windows Hello is the most popular passwordless solution that includes authentication by either PIN code or biometric authentication. Windows Hello promises better security – but is it the truth? In this session, I'll discuss face recognition bypass vectors and introduce Cyberark Labs research that shows how an attacker can bypass Windows Hello without a camera.
+            </>,
+            "speaker": {
+                "name": "Lavi Lazarovitz",
+                "designation": " Head of Research ",
+                "company": "Cyberark",
+                "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                   Lavi is the head of security research at CyberArk Labs. He and his team focus on offensive security and security innovation. They specialize in spotting security gaps in emerging technologies and developing innovative new security layers and effective mitigations to fill those gaps. Recent research vectors include acclaimed work on: cloud security, containers and Kubernetes security and authentication and identity security.
+
+                </p>
+            },
+        },
         {
             "slug": "threat-modeling",
             "title": "Lessons learned from managing crisis in a VUCA (volatility, uncertainty, complexity, and ambiguity) World",
