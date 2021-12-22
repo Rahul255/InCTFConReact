@@ -112,6 +112,18 @@ const ConferenceSpeakers = () => {
 
     const speakers = [
         {
+            "name": "Rajesh Pant",
+            "designation": "National Cyber Security Coordinator",
+            "company": "National Security Council Secretariat of India",
+            "image": require("../../images/speakers/rajesh_pant.jpg").default,
+        },
+        {
+            "name": "Arundhati Bhattacharya",
+            "designation": "Chairperson and Chief Executive Officer ",
+            "company": "Salesforce India",
+            "image": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
+        },
+        {
             "name": "Lavi Lazarovitz",
             "designation": "Head of Research",
             "company": "Cyberark",
@@ -129,12 +141,6 @@ const ConferenceSpeakers = () => {
             "designation": "Founder & CEO ",
             "company": "Be-Strategic Solutions",
             "image": require("../../images/speakers/DotanSagi_BeST.png").default,
-        },
-        {
-            "name": "Arundhati Bhattacharya",
-            "designation": "Chairperson and Chief Executive Officer ",
-            "company": "Salesforce India",
-            "image": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
         },
         // {
         //     "name": "Madhusudhan H. N",
