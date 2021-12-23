@@ -94,7 +94,7 @@ const SpeakerCard = ({
                                     <div style={{ fontSize: 'calc(13px + 0.2vw)' }}>
                                          {s.passCode}
                                     </div>
-                                    <div style={{ fontSize: 'calc(13px + 0.2vw)' }}>
+                                    <div style={{ fontSize: 'calc(16px + 0.2vw)' }}>
                                         {s.date} {s.time && `- ${s.time}`}
                                     </div>
                                 </div>
