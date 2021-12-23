@@ -61,7 +61,7 @@ function Sponsor() {
     {
       image: require("../../images/sponsor/h&rblock-4ae0508ccf57e1083a8885e5952fb16d.png").default,
       description: "Silver Sponsor",
-      maxHeight: "180px",
+      maxHeight: "220px",
     },
   ];
 
