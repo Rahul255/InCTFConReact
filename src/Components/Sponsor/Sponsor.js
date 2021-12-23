@@ -54,6 +54,11 @@ function Sponsor() {
       maxHeight: "220px",
     },
     {
+      image: require("../../images/sponsor/SchneiderGreen.png").default,
+      description: "Gold sponsor",
+      maxHeight: "220px",
+    },
+    {
       image: require("../../images/sponsor/h&rblock-4ae0508ccf57e1083a8885e5952fb16d.png").default,
       description: "Silver Sponsor",
       maxHeight: "180px",
