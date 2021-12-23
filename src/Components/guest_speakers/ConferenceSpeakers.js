@@ -41,7 +41,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
         {
             "slug": "cybersecurity-for-iot-ics",
             "title": "The Genesis of Cyber Espionage",
-            "registerURL": "",
+            "registerURL": "https://us06web.zoom.us/j/85717212069?pwd=Y2VtOG9HUXhBa1dVc2NFdGNtd1NUQT09l",
             "sessions": [
                 {
                     "date": "24th December, 2021",

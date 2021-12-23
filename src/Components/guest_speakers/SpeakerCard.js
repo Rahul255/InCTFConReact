@@ -77,10 +77,10 @@ const SpeakerCard = ({
                 </h5>}
             </div>
             <div className="col-md-5 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
-                <div className="p-2">
+                <div className="p-2" >
                     {registerURL &&
                     <a href={registerURL} style={{ background: 'white', color: 'black' }} className="plain-link px-4 py-3 rounded-0">
-                        Register Now
+                        Zoom Meeting Link
                     </a>}
                     {sessions?.length>0 &&
                     <div className="mt-4">
