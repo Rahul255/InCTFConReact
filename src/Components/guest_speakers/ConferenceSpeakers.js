@@ -44,6 +44,8 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "registerURL": "https://us06web.zoom.us/j/85717212069?pwd=Y2VtOG9HUXhBa1dVc2NFdGNtd1NUQT09l",
             "sessions": [
                 {
+                    "meetingId":"Meeting ID : 857 1721 2069",
+                    "passCode":"Pass Code : 61EFmu",
                     "date": "24th December, 2021",
                     "time": "6.00 pm to 7.00 pm"
                 }

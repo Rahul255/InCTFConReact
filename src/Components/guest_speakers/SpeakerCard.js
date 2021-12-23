@@ -68,62 +68,72 @@ const SpeakerCard = ({
                 <h3>{title}</h3>
                 <h4>{speaker?.name}</h4>
                 {
-                speaker?.company && <h5>
-                    {
-                        (speaker.designation.length > 0) ?
-                        <div>{speaker.designation}, <span>{speaker.company}</span></div> :
-                        <div><span>{speaker.company}</span></div>
-                    }
-                </h5>}
+                    speaker?.company && <h5>
+                        {
+                            (speaker.designation.length > 0) ?
+                                <div>{speaker.designation}, <span>{speaker.company}</span></div> :
+                                <div><span>{speaker.company}</span></div>
+                        }
+                    </h5>}
             </div>
             <div className="col-md-5 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
                 <div className="p-2" >
                     {registerURL &&
-                    <a href={registerURL} style={{ background: 'white', color: 'black' }} className="plain-link px-4 py-3 rounded-0">
-                        Zoom Meeting Link
-                    </a>}
-                    {sessions?.length>0 &&
-                    <div className="mt-4">
-                        {sessions.map((s) =>
-                            <div style={{ fontSize: 'calc(13px + 0.2vw)'}}>
-                                {s.date} {s.time && `- ${s.time}`}
-                            </div>
-                        )}
-                    </div>}
+                        <a href={registerURL} target="_blank" rel="noopener noreferrer" style={{ background: 'white', color: 'black' }} className="plain-link px-4 py-3 rounded-0">
+                            Zoom Meeting Link
+                        </a>
+                    }
+
+                    {sessions?.length > 0 &&
+                        <div className="mt-4">
+                            {sessions.map((s) =>
+                                <div>
+                                    <div style={{ fontSize: 'calc(13px + 0.2vw)' }}>
+                                        {s.meetingId}
+                                    </div>
+                                    <div style={{ fontSize: 'calc(13px + 0.2vw)' }}>
+                                         {s.passCode}
+                                    </div>
+                                    <div style={{ fontSize: 'calc(13px + 0.2vw)' }}>
+                                        {s.date} {s.time && `- ${s.time}`}
+                                    </div>
+                                </div>
+                            )}
+                        </div>}
                 </div>
             </div>
             {speaker.bio &&
-            <div className="col-md-4 text-center col-lg-3">
-                <img draggable="false" alt={speaker?.name} src={speaker?.image} />
-                {speaker?.links &&
-                <div className="social-media-links my-4">
-                    {speaker.links?.twitter &&
-                    <a href={speaker.links.twitter} rel="noreferrer nofollow" target="_blank">
-                        <i className="fab fa-twitter" />
-                    </a>}
-                    {speaker.links?.linkedin &&
-                    <a href={speaker.links.linkedin} rel="noreferrer nofollow" target="_blank">
-                        <i className="fab fa-linkedin" />
-                    </a>}
-                    {speaker.links?.website &&
-                    <a href={speaker.links.website} rel="noreferrer nofollow" target="_blank">
-                        <i className="far fa-globe" />
-                    </a>}
+                <div className="col-md-4 text-center col-lg-3">
+                    <img draggable="false" alt={speaker?.name} src={speaker?.image} />
+                    {speaker?.links &&
+                        <div className="social-media-links my-4">
+                            {speaker.links?.twitter &&
+                                <a href={speaker.links.twitter} rel="noreferrer nofollow" target="_blank">
+                                    <i className="fab fa-twitter" />
+                                </a>}
+                            {speaker.links?.linkedin &&
+                                <a href={speaker.links.linkedin} rel="noreferrer nofollow" target="_blank">
+                                    <i className="fab fa-linkedin" />
+                                </a>}
+                            {speaker.links?.website &&
+                                <a href={speaker.links.website} rel="noreferrer nofollow" target="_blank">
+                                    <i className="far fa-globe" />
+                                </a>}
+                        </div>}
                 </div>}
-            </div>}
             {speaker.bio &&
-            <div className="col-md-8 col-lg-9">
-                {speaker.bio &&
-                <div>
-                    <div className="font-weight-bold"><i className="far fa-id-card mr-1" /> About {speaker.name}</div>
-                    {speaker.bio}
+                <div className="col-md-8 col-lg-9">
+                    {speaker.bio &&
+                        <div>
+                            <div className="font-weight-bold"><i className="far fa-id-card mr-1" /> About {speaker.name}</div>
+                            {speaker.bio}
+                        </div>}
+                    {abstract &&
+                        <div>
+                            <div className="font-weight-bold"><i className="far fa-id-card mr-1" /> Talk Overview</div>
+                            <p>{abstract}</p>
+                        </div>}
                 </div>}
-                {abstract &&
-                <div>
-                    <div className="font-weight-bold"><i className="far fa-id-card mr-1" /> Talk Overview</div>
-                    <p>{abstract}</p>
-                </div>}
-            </div>}
         </div>
     </TrainerCardWrap>
 
