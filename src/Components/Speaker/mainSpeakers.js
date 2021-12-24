@@ -177,7 +177,7 @@ const ConferenceSpeakers = () => {
             "name": "Prajeesh Prathap",
             "designation": "Head of Platform and Operations",
             "company": "IT&Care",
-            "image": "",
+            "image": require("../../images/speakers/prajeesh-Prathap.jpg").default,
         },
         {
             "name": "Richard Chow",
