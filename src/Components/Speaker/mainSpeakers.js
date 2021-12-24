@@ -185,6 +185,12 @@ const ConferenceSpeakers = () => {
             "company": "Intel",
             "image": require("../../images/speakers/RichardChow.jpg").default,
         },
+        {
+            "name": "Raphael de la Vienne",
+            "designation": "Technical Security Officer",
+            "company": "IT&Care",
+            "image": require("../../images/speakers/Raphael.jpg").default,
+        },
         // {
         //     "name": "Zoey Garvey",
         //     "isTrainer": true,
