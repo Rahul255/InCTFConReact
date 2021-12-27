@@ -91,9 +91,11 @@ const ConSpeakers = ({ hideTitle = false }) => {
         {
             "slug": "cybersecurity-for-iot-ics",
             "title": "Evolution of eCrimes",
-            "registerURL": "",
+            "registerURL": "https://us06web.zoom.us/j/84053486578?pwd=OTVmRnlEcnFPK0phMVJLU2xTTXNydz09",
             "sessions": [
                 {
+                    "meetingId":"Meeting ID : 840 5348 6578",
+                    "passCode":"Pass Code : ypgr2D",
                     "date": "28th December, 2021",
                     "time": "6.00 pm to 7.00 pm"
                 }
