@@ -116,9 +116,12 @@ const ConSpeakers = ({ hideTitle = false }) => {
         {
             "slug": "cybersecurity-for-iot-ics",
             "title": "Cyber Security Agenda for 2022",
-            "registerURL": "",
+            "registerURL": " https://us06web.zoom.us/j/84554605854?pwd=RWxtNHBvVU11WjQ0Z2dUa3VwSUM1dz09",
+            "youtubeURL": " https://youtu.be/gbDgo5TEP2Q",
             "sessions": [
                 {
+                    "meetingId":"Meeting ID : 845 5460 5854",
+                    "passCode":"Pass Code : 3rKNTP",
                     "date": "30th December, 2021",
                     "time": "6.00 pm to 7.00 pm"
                 }
