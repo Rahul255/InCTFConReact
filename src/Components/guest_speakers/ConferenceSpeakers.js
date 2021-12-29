@@ -92,6 +92,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "slug": "cybersecurity-for-iot-ics",
             "title": "Evolution of eCrimes",
             "registerURL": "https://us06web.zoom.us/j/84053486578?pwd=OTVmRnlEcnFPK0phMVJLU2xTTXNydz09",
+            "youtubeURL": " https://youtu.be/L1a7RaHb9VE",
             "sessions": [
                 {
                     "meetingId":"Meeting ID : 840 5348 6578",

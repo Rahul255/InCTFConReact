@@ -79,13 +79,13 @@ const SpeakerCard = ({
             <div className="col-md-5 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
                 <div className="p-2" >
                 {youtubeURL &&
-                        <a href={youtubeURL} target="_blank" rel="noopener noreferrer" style={{ background: 'grey', color: 'black' }} className="plain-link px-4 py-3 rounded-0">
-                            Youtube Link
+                        <a href={youtubeURL} target="_blank" rel="noopener noreferrer" style={{ background: 'grey', color: 'white' , marginRight:"5px"}} className="plain-link px-4 py-3 rounded-0">
+                            YouTube Link
                         </a>
                     }
                     {registerURL &&
                         <a href={registerURL} target="_blank" rel="noopener noreferrer" style={{ background: 'white', color: 'black' }} className="plain-link px-4 py-3 rounded-0">
-                            Zoom Meeting Link
+                            Zoom Link
                         </a>
                     }
                     
