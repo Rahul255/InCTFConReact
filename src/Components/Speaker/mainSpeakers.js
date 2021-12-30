@@ -143,6 +143,13 @@ const ConferenceSpeakers = () => {
             
         },
         {
+            "name": "Uri Shai",
+            "designation": "",
+            "company": "Independent Consultant",
+            "image": require("../../images/speakers/Uri-Shai.png").default,
+            
+        },
+        {
             "name": "Dotan Sagi",
             "designation": "Founder & CEO ",
             "company": "Be-Strategic Solutions",
@@ -165,6 +172,12 @@ const ConferenceSpeakers = () => {
             "designation": "Senior Engineer",
             "company": "CrowdStrike",
             "image": require("../../images/speakers/AjitDhumale-Saurabh-Gawas.jpg").default,
+        },
+        {
+            "name": "Dr. Altaf Shaik",
+            "designation": "Senior Researcher",
+            "company": "Technical University of Berlin",
+            "image": require("../../images/speakers/altafshaik.jpeg").default,
         },
         {
             "name": "Sagar Gulhane",
