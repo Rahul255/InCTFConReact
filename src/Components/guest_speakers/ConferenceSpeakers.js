@@ -276,6 +276,28 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "threat-modeling",
+            "title": "5G IMSI catchers mirage",
+            "abstract": <>
+                IMSI catchers aka Stingrays aka fake base stations are well-known privacy threats to almost every mobile phone with SIM card connectivity (including iOS or Android-based) in the world. The cellular network generations such as 2G, 3G, and 4G are vulnerable to such almost undetectable and silent attacks. Finally, new security mechanisms in the next generation 5G networks have been added to address these types of issues.
+
+                In this talk, we carefully investigate new security protection techniques in 5G and perform practical experiments using commercial 5G devices. Besides, we explain our failure and successful attempts at building 5G IMSI catchers for our research. Finally, we conclude with results explaining the impact of 5G IMSI catchers against 5G users without downgrading to legacy networks, guidelines for the cellular device vendors, operators, and end-users and directions towards fixing the problem in 6G networks.
+
+            </>,
+            "speaker": {
+                "name": "Dr. Altaf Shaik",
+                "designation": "Senior Researcher",
+                "company": "Technical University of Berlin",
+                "image": require("../../images/speakers/altafshaik.jpeg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                Dr. Altaf Shaik is currently a senior researcher at the Technical University of Berlin in Germany. He conducts research in telecommunications, especially 5G radio access and core network security. He combines a professional background in programming, wireless communications, and offensive network security. His renowned research exposed several vulnerabilities in the commercial 4G and 5G specifications and commercial networks that allow attackers to perform powerful attacks affecting millions of base stations, handsets, M2M, and NB-IoT devices. Altaf is a frequent speaker at various prestigious international security conferences such as Black Hat USA & Europe, Troopers, T2, SECT, Nullcon, Hardware.io, HITB, and many others. His accomplishments landed him in the hall of fame of Google, Qualcomm, Huawei, and GSMA. He also trains various companies and organizations in exploit development and also building secure networks including their testing and security evaluation.
+                </p>
+            },
+        },
         // {
         //     "slug": "inaugural-ceremony",
         //     "title": "Inaugural Ceremony",
