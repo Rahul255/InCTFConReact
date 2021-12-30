@@ -250,6 +250,32 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "threat-modeling",
+            "title": "The challenge of IOT Security",
+            "abstract": <>
+                Though IOT is everywhere, it is not well protected against numerous cyber attack scenarios.
+                The lecture depicts some scenarios and potential implications, the concept of cyber risk management and principals of designing and implementing cyber security architectures in general and specifically in physical security and IOT environments.
+
+            </>,
+            "speaker": {
+                "name": "Uri Shai",
+                "designation": "",
+                "company": "Independent Consultant",
+                "image": require("../../images/speakers/Uri-Shai.png").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                Independent consultant since 2014, specialized in IT and OT cyber security.
+                Between 2006 and 2014 held a variety of executive management positions in the IT industry.
+                Until 2006 served in the Israeli Defence Forces as an Information Technology and Cyber Security officer.
+
+                M.Sc. Telecommunications, 1996 (University of Colorado, Boulder, USA)
+                B.Sc. Electrical and Electronics Engineering, 1987 (Tel-Aviv University, Israel)
+                </p>
+            },
+        },
         // {
         //     "slug": "inaugural-ceremony",
         //     "title": "Inaugural Ceremony",
