@@ -298,6 +298,50 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "threat-modeling",
+            "title": "Dynamic Instrumentation 101",
+            "abstract": <>
+                Hooking into dynamically loaded classes has proven to be useful in investigating potential types of vulnerabilities, along with understanding a software's internals and discovering private APIs.
+                In this session, we'll leverage Frida to probe around in Windows registry entries, drivers, and APIs to assist fuzzing and how we could use this information to design more exploits. We can even leverage the framework to deobfuscate the data. We will see how fast and flexible this framework is.
+                We will present basic examples and sample programs of how to use dynamic instrumentation to a treasure ton of information on absolutely any platform and process in this lecture, which is ideal for beginners.
+
+            </>,
+            "speaker": {
+                "name": "Nishaanth G",
+                "designation": "Security Researcher",
+                "company": "MDSec",
+                "image": "",
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                Nishaanth has been working as a security researcher in the application security industry for the last 5 years. He has reported vulnerabilities in Apple, AT&T, Microsoft, Dell, JUUL with CVEs and 0-days. He is interested in mobile application security, exploit development and red teaming. Speaker at PHDays 2021.
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
+            "title": "Dynamic Instrumentation 101",
+            "abstract": <>
+                Hooking into dynamically loaded classes has proven to be useful in investigating potential types of vulnerabilities, along with understanding a software's internals and discovering private APIs.
+                In this session, we'll leverage Frida to probe around in Windows registry entries, drivers, and APIs to assist fuzzing and how we could use this information to design more exploits. We can even leverage the framework to deobfuscate the data. We will see how fast and flexible this framework is.
+                We will present basic examples and sample programs of how to use dynamic instrumentation to a treasure ton of information on absolutely any platform and process in this lecture, which is ideal for beginners.
+
+            </>,
+            "speaker": {
+                "name": "Akshay Jain",
+                "designation": "Security Researcher",
+                "company": "PhonePe",
+                "image": '',
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                Security researcher, who has been working in the cybersecurity industry for the last few years and is interested in application security and reverse engineering. He has found multiple vulnerabilities and reported responsibly to Adobe, Apple, HP, Google, with multiple CVEs and acknowledgements. Speaker at Phdays 2021
+                </p>
+            },
+        },
         // {
         //     "slug": "inaugural-ceremony",
         //     "title": "Inaugural Ceremony",
