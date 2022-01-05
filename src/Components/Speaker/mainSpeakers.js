@@ -204,6 +204,24 @@ const ConferenceSpeakers = () => {
             "company": "IT&Care",
             "image": require("../../images/speakers/Raphael.jpg").default,
         },
+        {
+            "name": "Nishaanth G",
+            "designation": "Security Researcher",
+            "company": "MDSec",
+            "image": require("../../images/speakers/Nishaanth.png").default,
+        },
+        {
+            "name": "Akshay Jain",
+            "designation": "Security Researcher",
+            "company": "PhonePe",
+            "image": require("../../images/speakers/AkshyJain.png").default,
+        },
+        {
+            "name": "Sam Paterson",
+            "designation": "IR Analyst",
+            "company": "MDSec",
+            "image": require("../../images/speakers/sam.png").default,
+        },
         // {
         //     "name": "Zoey Garvey",
         //     "isTrainer": true,
