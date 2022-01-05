@@ -311,7 +311,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Nishaanth G",
                 "designation": "Security Researcher",
                 "company": "MDSec",
-                "image": "",
+                "image": require("../../images/speakers/Nishaanth.png").default,
                 "links": {
                     "linkedin": "",
                 },
@@ -333,12 +333,78 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Akshay Jain",
                 "designation": "Security Researcher",
                 "company": "PhonePe",
-                "image": '',
+                "image": require("../../images/speakers/AkshyJain.png").default,
                 "links": {
                     "linkedin": "",
                 },
                 "bio": <p>
                 Security researcher, who has been working in the cybersecurity industry for the last few years and is interested in application security and reverse engineering. He has found multiple vulnerabilities and reported responsibly to Adobe, Apple, HP, Google, with multiple CVEs and acknowledgements. Speaker at Phdays 2021
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
+            "title": "Getting started with IR/Blue Teaming",
+            "abstract": <>
+                Finishing university and moving to into the workplace can be daunting, especially if you're unsure about where you'd like to take your next step. 
+                One way to help with this is speaking to people within the industry and getting some more information about their role and what they do. This talk will provide an introduction to working within Incident Response from an experienced consultant's perspective. 
+                We will be covering the process and lifecycle of handling an incident, as well as how the role fits within defensive security as a whole.
+                We'll also take a look at some of the common tasks and tools you will encounter during log analysis, imaging acquisition and disk triaging.
+                The talk will be aimed at beginners, students and anyone interested in starting a role within Incident Response or a similar position.
+
+            </>,
+            "speaker": {
+                "name": "Sam Paterson",
+                "designation": "IR Analyst",
+                "company": "MDSec",
+                "image": require("../../images/speakers/sam.png").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                Sam has been working as an Incident Response Consultant for 2 years, after completing his BSc and Post Graduate Diploma in Cyber Security at Staffordshire University. 
+                He has assisted in several incidents, ranging from ransomware to web attacks. 
+                He has a keen interest in both offensive and defensive security, and also enjoys learning about hardware hacking in his own time.
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
+            "title": "Learning Java Security the Jnana Marga Way and Finding Careers in Security",
+            "abstract": <>
+                Jnana Marga develops new learning paradigms that develops eBooks into Courses. The system employs a patented Collaborative Learning Methodology. We showcase our IT Certificate that can help ready students for Careers in IT. We also introduce a way to learn Java Security using the Jnana Marga Platform and the freely available JSSEC book. The lecture will quickly introduce the first chapter of the JSSEC book and will help students learn about Java Security which is part of the second level Java Course.
+
+            </>,
+            "speaker": {
+                "name": "Srinivas Bharadwaj",
+                "designation": "Lead Founder",
+                "company": "Jnana Marga Technologies",
+                "image": '',
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                Srinivas Bharadwaj has been a Java Engineer since 1997. He also holds an MS in CS from Georgia Tech, an MBA, CFA and FRM. He also holds patents and is Lead Founder at Jnana Marga Technologies which builds an edTech platform for High Schoolers and College Students.
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
+            "title": "Hardware Security",
+            "abstract": <>
+                Security of the system ought to be built on underlying foundations provided by the hardware. The session is on support of hardware features such as Hardware Root of Trust, Trusted Execution Environment, Trusted Storage, Key generation, Device Identity.
+
+            </>,
+            "speaker": {
+                "name": "Mini TT",
+                "designation": "Security Technologist",
+                "company": "Dell",
+                "image": '',
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                Srinivas Bharadwaj has been a Java Engineer since 1997. He also holds an MS in CS from Georgia Tech, an MBA, CFA and FRM. He also holds patents and is Lead Founder at Jnana Marga Technologies which builds an edTech platform for High Schoolers and College Students.
                 </p>
             },
         },
