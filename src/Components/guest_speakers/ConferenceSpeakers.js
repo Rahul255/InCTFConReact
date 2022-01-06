@@ -420,7 +420,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "speaker": {
                 "name": "Atul Agarwal",
                 "designation": "CEO",
-                "company": "Aspirify Enterprises Pvt Ltd.",
+                "company": "Secfence",
                 "image": '',
                 "links": {
                     "linkedin": "",
