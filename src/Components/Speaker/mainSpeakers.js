@@ -164,7 +164,7 @@ const ConferenceSpeakers = () => {
         {
             "name": "Yogi Kapur",
             "designation": "Director, SOC",
-            "company": "Secfence",
+            "company": "Salesforce",
             "image": require("../../images/speakers/YogiPhoto.png").default,
         },
         {
