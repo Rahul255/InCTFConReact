@@ -162,6 +162,30 @@ const ConferenceSpeakers = () => {
         //     "image": require("../../images/speakers/madhu.png").default,
         // },
         {
+            "name": "Yogi Kapur",
+            "designation": "Director, SOC",
+            "company": "Secfence",
+            "image": require("../../images/speakers/YogiPhoto.png").default,
+        },
+        {
+            "name": "Sam Paterson",
+            "designation": "IR Analyst",
+            "company": "MDSec",
+            "image": require("../../images/speakers/sam.png").default,
+        },
+        {
+            "name": "Mini TT",
+            "designation": "Security Technologist",
+            "company": "Dell",
+            "image": require("../../images/speakers/Mini-TT.jpeg").default,
+        },
+        {
+            "name": "Atul Agarwal",
+            "designation": "CEO",
+            "company": "Secfence",
+            "image": require("../../images/speakers/atul-agarwal.jpg").default,
+        },
+        {
             "name": "Ramesh Kumar",
             "designation": "Senior Engineer",
             "company": "CrowdStrike",
@@ -216,24 +240,7 @@ const ConferenceSpeakers = () => {
             "company": "PhonePe",
             "image": require("../../images/speakers/AkshyJain.png").default,
         },
-        {
-            "name": "Sam Paterson",
-            "designation": "IR Analyst",
-            "company": "MDSec",
-            "image": require("../../images/speakers/sam.png").default,
-        },
-        {
-            "name": "Mini TT",
-            "designation": "Security Technologist",
-            "company": "Dell",
-            "image": require("../../images/speakers/Mini-TT.jpeg").default,
-        },
-        {
-            "name": "Atul Agarwal",
-            "designation": "CEO",
-            "company": "Secfence",
-            "image": require("../../images/speakers/atul-agarwal.jpg").default,
-        },
+        
         // {
         //     "name": "Zoey Garvey",
         //     "isTrainer": true,
