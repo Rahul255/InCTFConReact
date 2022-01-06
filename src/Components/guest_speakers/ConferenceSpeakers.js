@@ -399,7 +399,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Mini TT",
                 "designation": "Security Technologist",
                 "company": "Dell",
-                "image": '',
+                "image": require("../../images/speakers/Mini-TT.jpeg").default,
                 "links": {
                     "linkedin": "",
                 },
@@ -421,7 +421,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Atul Agarwal",
                 "designation": "CEO",
                 "company": "Secfence",
-                "image": '',
+                "image": require("../../images/speakers/atul-agarwal.jpg").default,
                 "links": {
                     "linkedin": "",
                 },
