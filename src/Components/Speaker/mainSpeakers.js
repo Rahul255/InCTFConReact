@@ -222,6 +222,18 @@ const ConferenceSpeakers = () => {
             "company": "MDSec",
             "image": require("../../images/speakers/sam.png").default,
         },
+        {
+            "name": "Mini TT",
+            "designation": "Security Technologist",
+            "company": "Dell",
+            "image": require("../../images/speakers/Mini-TT.jpeg").default,
+        },
+        {
+            "name": "Atul Agarwal",
+            "designation": "CEO",
+            "company": "Secfence",
+            "image": require("../../images/speakers/atul-agarwal.jpg").default,
+        },
         // {
         //     "name": "Zoey Garvey",
         //     "isTrainer": true,
