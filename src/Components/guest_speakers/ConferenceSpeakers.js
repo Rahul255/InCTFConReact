@@ -408,6 +408,32 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "threat-modeling",
+            "title": "Android Exploitation & Protection: A 1-Click Full-Chain View ",
+            "abstract": <>
+                In this talk, we will look at an Android Full Android Full Chain, with an objective to understand the key components (Remote Code Execution, Sandbox Escape & Local Privilege Escalation), mitigations and classes of vulnerabilities in such a chain. 
+
+                Understanding the Infection process gives an insight into the defensive challenges present at each stage, and why traditional protection mechanisms fail to stop such attacks at every step.
+
+            </>,
+            "speaker": {
+                "name": "Atul Agarwal",
+                "designation": "CEO",
+                "company": "Aspirify Enterprises Pvt Ltd.",
+                "image": '',
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                A technology enthusiast with over a decade of experience in building startups and nurturing talent. Atul is Founder of Secfence, multifold barrier breaking Cyber Security Organisation which is trusted by the top Government, Intelligence, Defence agencies, LEA's & Corporates. 
+
+                As a High School Grad just out of school, Atul has previously co-founded a high growth cyber security training & Ad-Tech start-up. 
+
+                Known for his technical prowess and country first approach, he's surely made a stamp in the InfoSec space and has helped client organisations to be result oriented and to make India a safer Cyber place to live in. 
+                </p>
+            },
+        },
         // {
         //     "slug": "inaugural-ceremony",
         //     "title": "Inaugural Ceremony",
