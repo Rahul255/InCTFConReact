@@ -63,6 +63,11 @@ function Sponsor() {
       description: "Silver Sponsor",
       maxHeight: "220px",
     },
+    {
+      image: require("../../images/sponsor/Audius_Logo.png").default,
+      description: "Prize sponsor",
+      maxHeight: "220px",
+    },
   ];
 
   return (
