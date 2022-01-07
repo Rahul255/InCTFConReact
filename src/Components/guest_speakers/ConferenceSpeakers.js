@@ -404,7 +404,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                Srinivas Bharadwaj has been a Java Engineer since 1997. He also holds an MS in CS from Georgia Tech, an MBA, CFA and FRM. He also holds patents and is Lead Founder at Jnana Marga Technologies which builds an edTech platform for High Schoolers and College Students.
+                Mini TT works with Dell Technologies, Bangalore in the domain of embedded system security. Prior to this, she has worked in research and development with Philips and ABB producing innovating products, publications, and patents. She has experience in defence, semiconductors, consumer electronics, substation automation and industrial measurements. She had started her career with Bharat Electronics developing command and control systems for Indian Defence. Her specialization is in cybersecurity, embedded systems, and system architecture. She holds an MTech in Embedded Systems from BITS Pilani, and a degree in Computer Science and Engineering from the University of Kerala.
                 </p>
             },
         },
