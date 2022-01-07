@@ -110,7 +110,13 @@ const SpeakerCard = ({
             </div>
             {speaker.bio &&
                 <div className="col-md-4 text-center col-lg-3">
+                    {speaker.image && 
                     <img draggable="false" alt={speaker?.name} src={speaker?.image} />
+                    }
+                    {speaker.image1 && 
+                    <img draggable="false" style={{marginTop:"10px"}} alt={speaker?.name} src={speaker?.image1} />
+                    }
+                    {/* <img draggable="false" alt="" src={speaker?.image1} /> */}
                     {speaker?.links &&
                         <div className="social-media-links my-4">
                             {speaker.links?.twitter &&

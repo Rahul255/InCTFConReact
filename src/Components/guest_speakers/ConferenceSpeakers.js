@@ -308,40 +308,46 @@ const ConSpeakers = ({ hideTitle = false }) => {
 
             </>,
             "speaker": {
-                "name": "Nishaanth G",
+                "name": "Nishaanth G , Akshay Jain",
                 "designation": "Security Researcher",
-                "company": "MDSec",
-                "image": require("../../images/speakers/Nishaanth.png").default,
+                "company": "MDSec & PhonePe",
+                "image": require("../../images/speakers/NishaanthSmall.png").default,
+                "image1": require("../../images/speakers/AkshyJainSmall.png").default,
                 "links": {
                     "linkedin": "",
                 },
-                "bio": <p>
+                "bio": <><p>
                 Nishaanth has been working as a security researcher in the application security industry for the last 5 years. He has reported vulnerabilities in Apple, AT&T, Microsoft, Dell, JUUL with CVEs and 0-days. He is interested in mobile application security, exploit development and red teaming. Speaker at PHDays 2021.
+                
                 </p>
+                <p>
+                Akshay Jain is a Security researcher, who has been working in the cybersecurity industry for the last few years and is interested in application security and reverse engineering. He has found multiple vulnerabilities and reported responsibly to Adobe, Apple, HP, Google, with multiple CVEs and acknowledgements. Speaker at Phdays 2021
+                </p>
+                </>
             },
         },
-        {
-            "slug": "threat-modeling",
-            "title": "Dynamic Instrumentation 101",
-            "abstract": <>
-                Hooking into dynamically loaded classes has proven to be useful in investigating potential types of vulnerabilities, along with understanding a software's internals and discovering private APIs.
-                In this session, we'll leverage Frida to probe around in Windows registry entries, drivers, and APIs to assist fuzzing and how we could use this information to design more exploits. We can even leverage the framework to deobfuscate the data. We will see how fast and flexible this framework is.
-                We will present basic examples and sample programs of how to use dynamic instrumentation to a treasure ton of information on absolutely any platform and process in this lecture, which is ideal for beginners.
+        // {
+        //     "slug": "threat-modeling",
+        //     "title": "Dynamic Instrumentation 101",
+        //     "abstract": <>
+        //         Hooking into dynamically loaded classes has proven to be useful in investigating potential types of vulnerabilities, along with understanding a software's internals and discovering private APIs.
+        //         In this session, we'll leverage Frida to probe around in Windows registry entries, drivers, and APIs to assist fuzzing and how we could use this information to design more exploits. We can even leverage the framework to deobfuscate the data. We will see how fast and flexible this framework is.
+        //         We will present basic examples and sample programs of how to use dynamic instrumentation to a treasure ton of information on absolutely any platform and process in this lecture, which is ideal for beginners.
 
-            </>,
-            "speaker": {
-                "name": "Akshay Jain",
-                "designation": "Security Researcher",
-                "company": "PhonePe",
-                "image": require("../../images/speakers/AkshyJain.png").default,
-                "links": {
-                    "linkedin": "",
-                },
-                "bio": <p>
-                Security researcher, who has been working in the cybersecurity industry for the last few years and is interested in application security and reverse engineering. He has found multiple vulnerabilities and reported responsibly to Adobe, Apple, HP, Google, with multiple CVEs and acknowledgements. Speaker at Phdays 2021
-                </p>
-            },
-        },
+        //     </>,
+        //     "speaker": {
+        //         "name": "Akshay Jain",
+        //         "designation": "Security Researcher",
+        //         "company": "PhonePe",
+        //         "image": require("../../images/speakers/AkshyJain.png").default,
+        //         "links": {
+        //             "linkedin": "",
+        //         },
+        //         "bio": <p>
+        //         Security researcher, who has been working in the cybersecurity industry for the last few years and is interested in application security and reverse engineering. He has found multiple vulnerabilities and reported responsibly to Adobe, Apple, HP, Google, with multiple CVEs and acknowledgements. Speaker at Phdays 2021
+        //         </p>
+        //     },
+        // },
         {
             "slug": "threat-modeling",
             "title": "Getting started with IR/Blue Teaming",
@@ -613,48 +619,51 @@ const ConSpeakers = ({ hideTitle = false }) => {
 
             </>,
             "speaker": {
-                "name": "Prajeesh Prathap",
-                "designation": "Head of Platform and Operations",
+                "name": "Prajeesh Prathap , Raphael de la Vienne",
+                "designation": "",
                 "company": "IT&Care",
                 "image": require("../../images/speakers/prajeesh-Prathap.jpg").default,
+                "image1": require("../../images/speakers/Raphael.jpg").default,
                 "links": {
                     "linkedin": "",
                 },
-                "bio": <p>
-                    Prajeesh Prathap is an experienced technologist specializing in building web scale, cloud native applications with special interest in event-driven, distributed systems. Prajeesh currently works for IT&Care in the Netherlands as the head of platform and operations teams specializing in setting up the containerized environments, CI/CD using Azure DevOps, observability platforms etc. He is a regular speaker at numerous technology conferences and has authored courses on Reactive Microservices in .NET Core, Continuous Delivery with VSTS & PowerShell DSC.
-
-                    You can find more details of his work and publications at his website <a href="www.prajeeshprathap.com">www.prajeeshprathap.com</a>
+                "bio": <><p>
+                    Prajeesh Prathap is an experienced technologist specializing in building web scale, cloud native applications with special interest in event-driven, distributed systems. Prajeesh currently works for IT&Care in the Netherlands as the head of platform and operations teams specializing in setting up the containerized environments, CI/CD using Azure DevOps, observability platforms etc.
                 </p>
+                <p>
+                Raphael is a very experienced security expert (and former red-teamer) who has been interested in all facets of the IT world from an early age. It started innocently with guessing a lost password, all the way to the "dark" corners of the internet. He specializes in Web Security, and reverse engineering and is one of the better known hackers and researchers in the world
+                </p>
+                </>
             },
         },
-        {
-            "slug": "threat-modeling",
-            "title": "DevSecOps – Putting security in DevOps",
-            "abstract": <>
-                As fast-paced agile project delivery has become the norm for today’s business, ensuring security in software solutions are becoming increasingly challenging for the teams. Most of the time security is prioritized at the very end of the product cycle. Raphael da la Vienne and Prajeesh Prathap demonstrates how DevSecOps integrates security with the agile processes and DevOps pipeline to shorten the time to market.
+        // {
+        //     "slug": "threat-modeling",
+        //     "title": "DevSecOps – Putting security in DevOps",
+        //     "abstract": <>
+        //         As fast-paced agile project delivery has become the norm for today’s business, ensuring security in software solutions are becoming increasingly challenging for the teams. Most of the time security is prioritized at the very end of the product cycle. Raphael da la Vienne and Prajeesh Prathap demonstrates how DevSecOps integrates security with the agile processes and DevOps pipeline to shorten the time to market.
 
-            This session will shed light on the vital role security plays in the overall DevOps life cycle, by highlighting the difference between DevOps & DevSecOps, the impacts of not considering security when setting up DevOps practices, and the different perspectives of implementing a proper DevSecOps practice.
+        //     This session will shed light on the vital role security plays in the overall DevOps life cycle, by highlighting the difference between DevOps & DevSecOps, the impacts of not considering security when setting up DevOps practices, and the different perspectives of implementing a proper DevSecOps practice.
 
-            Led by Prajeesh Prathap (Head of Platform team - IT&Care) & Rapahel de la Veinne (Technical Security Officer) you'll hear about:
+        //     Led by Prajeesh Prathap (Head of Platform team - IT&Care) & Rapahel de la Veinne (Technical Security Officer) you'll hear about:
 
-            <li>1. What DevSecOps is and how it is different from DevOps</li>
-            <li>2. How DevSecOps has helped IT&Care increase their service delivery agility</li>
-            <li>3. Best practices when implementing DevSecOps</li>
+        //     <li>1. What DevSecOps is and how it is different from DevOps</li>
+        //     <li>2. How DevSecOps has helped IT&Care increase their service delivery agility</li>
+        //     <li>3. Best practices when implementing DevSecOps</li>
 
-            </>,
-            "speaker": {
-                "name": "Raphael de la Vienne",
-                "designation": "Technical Security Officer",
-                "company": "IT&Care",
-                "image": require("../../images/speakers/Raphael.jpg").default,
-                "links": {
-                    "linkedin": "",
-                },
-                "bio": <p>
-                    Raphael is a very experienced security expert (and former red-teamer) who has been interested in all facets of the IT world from an early age. It started innocently with guessing a lost password, all the way to the "dark" corners of the internet. He specializes in Web Security, and reverse engineering and is one of the better known hackers and researchers in the world. In addition to carrying out very specific assignments, Raphael is an enthusiastic lead trainer and developer of course materials, an expert at Computable for the topic Security and a lecturer at various universities. In addition, Raphael works as a Technical Security Officer at IT&Care and ensures that both policy and technical security are in good working order, with the aim of increasing digital resilience.
-                </p>
-            },
-        },
+        //     </>,
+        //     "speaker": {
+        //         "name": "Raphael de la Vienne",
+        //         "designation": "Technical Security Officer",
+        //         "company": "IT&Care",
+        //         "image": require("../../images/speakers/Raphael.jpg").default,
+        //         "links": {
+        //             "linkedin": "",
+        //         },
+        //         "bio": <p>
+        //             Raphael is a very experienced security expert (and former red-teamer) who has been interested in all facets of the IT world from an early age. It started innocently with guessing a lost password, all the way to the "dark" corners of the internet. He specializes in Web Security, and reverse engineering and is one of the better known hackers and researchers in the world. In addition to carrying out very specific assignments, Raphael is an enthusiastic lead trainer and developer of course materials, an expert at Computable for the topic Security and a lecturer at various universities. In addition, Raphael works as a Technical Security Officer at IT&Care and ensures that both policy and technical security are in good working order, with the aim of increasing digital resilience.
+        //         </p>
+        //     },
+        // },
         //         {
         //             "slug": "Inaugural Session",
         //             "title": "Inaugural Session", 
