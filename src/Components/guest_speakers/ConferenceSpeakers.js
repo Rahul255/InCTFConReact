@@ -440,6 +440,26 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "threat-modeling",
+            "title": "Data privacy and security in global education technology",
+            "abstract": <>
+                Overview of how data privacy and security practices have evolved as education technology plays a broader role in student and faculty life.  Topics include data locality, data security practices, security around emerging use-cases such as student ID verification and remote test monitoring.  
+
+            </>,
+            "speaker": {
+                "name": "Chris Caren",
+                "designation": "CEO",
+                "company": "Turnitin",
+                "image": require("../../images/speakers/Chris-Caren.jpeg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                Chris Caren joined Turnitin in 2009 as Chief Executive Officer. Chris led the transition of Turnitin from a company focused on plagiarism prevention to one that provides solutions that promote academic integrity, streamline grading and feedback, and improve outcomes across educational levels and content areas. Chris previously worked for Microsoft Corporation as GM of Microsoft Business Solutions. Although his career has focused on software businesses, he comes from a family of scientists and educators. He holds an MBA with distinction from Kellogg School of Management and a bachelor of science in Engineering from Stanford University.
+                </p>
+            },
+        },
         // {
         //     "slug": "inaugural-ceremony",
         //     "title": "Inaugural Ceremony",
