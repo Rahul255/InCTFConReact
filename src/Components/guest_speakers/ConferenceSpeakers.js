@@ -396,9 +396,11 @@ const ConSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "threat-modeling",
-            "title": "Hardware Security",
+            "title": "End to End Device Security - Enhanced by Hardware",
             "abstract": <>
-                Security of the system ought to be built on underlying foundations provided by the hardware. The session is on support of hardware features such as Hardware Root of Trust, Trusted Execution Environment, Trusted Storage, Key generation, Device Identity.
+               An embedded device goes through multiple stages in its lifecycle from manufacturing to retirement. They face various security challenges targeted at the underlying firmware and hardware. 
+ 
+                Irrespective of the security robustness of software, if the underlying hardware is lacking, the device will be vulnerable to attacks. On-chip security features such as Hardware Root of Trust, Trusted Execution Environment, Trusted Storage, Key generation, Device Identity can provide a foundation on which other security functions can be created. This session discusses the hardware supported features to enhance security across the life cycle of the device.
 
             </>,
             "speaker": {
