@@ -37,21 +37,21 @@ const TrainingModuleWrap = styled.section`
 const ConSpeakers = ({ hideTitle = false }) => {
 
     const PreConfList = [
-        
+
         {
             "slug": "cybersecurity-for-iot-ics",
             "title": "The Genesis of Cyber Espionage",
             "registerURL": "https://us06web.zoom.us/j/85717212069?pwd=Y2VtOG9HUXhBa1dVc2NFdGNtd1NUQT09l",
             "sessions": [
                 {
-                    "meetingId":"Meeting ID : 857 1721 2069",
-                    "passCode":"Pass Code : 61EFmu",
+                    "meetingId": "Meeting ID : 857 1721 2069",
+                    "passCode": "Pass Code : 61EFmu",
                     "date": "24th December, 2021",
                     "time": "6.00 pm to 7.00 pm"
                 }
             ],
             "abstract": <>
-                Espionage is the practice of spying or using spies. In this talk, listen to the mindblowing stories about how the art and science of espionage has evolved over time. 
+                Espionage is the practice of spying or using spies. In this talk, listen to the mindblowing stories about how the art and science of espionage has evolved over time.
                 PS: Its not always about the technology.
             </>,
             "speaker": {
@@ -64,7 +64,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
-        
+
         // {
         //     "slug": "cybersecurity-for-iot-ics",
         //     "title": "Bypassing Windows Hello For Business & Pleasure",
@@ -95,8 +95,8 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "youtubeURL": " https://youtu.be/L1a7RaHb9VE",
             "sessions": [
                 {
-                    "meetingId":"Meeting ID : 840 5348 6578",
-                    "passCode":"Pass Code : ypgr2D",
+                    "meetingId": "Meeting ID : 840 5348 6578",
+                    "passCode": "Pass Code : ypgr2D",
                     "date": "28th December, 2021",
                     "time": "6.00 pm to 7.00 pm"
                 }
@@ -121,8 +121,8 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "youtubeURL": " https://youtu.be/gbDgo5TEP2Q",
             "sessions": [
                 {
-                    "meetingId":"Meeting ID : 845 5460 5854",
-                    "passCode":"Pass Code : 3rKNTP",
+                    "meetingId": "Meeting ID : 845 5460 5854",
+                    "passCode": "Pass Code : 3rKNTP",
                     "date": "30th December, 2021",
                     "time": "6.00 pm to 7.00 pm"
                 }
@@ -185,16 +185,39 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                   Lavi is the head of security research at CyberArk Labs. He and his team focus on offensive security and security innovation. They specialize in spotting security gaps in emerging technologies and developing innovative new security layers and effective mitigations to fill those gaps. Recent research vectors include acclaimed work on: cloud security, containers and Kubernetes security and authentication and identity security.
+                    Lavi is the head of security research at CyberArk Labs. He and his team focus on offensive security and security innovation. They specialize in spotting security gaps in emerging technologies and developing innovative new security layers and effective mitigations to fill those gaps. Recent research vectors include acclaimed work on: cloud security, containers and Kubernetes security and authentication and identity security.
 
                 </p>
             },
         },
         {
             "slug": "threat-modeling",
+            "title": "Down the Rabbit Hole: the Future of CyberSecurity",
+            "abstract": <>
+                Cybersecurity a relatively young offshoot of information technology has been given an unenviable task: cook a nutritious and delicious meal without having taken part in the selection of the ingredients.  Or, in more business friendly terms, protect everything that is important without knowing definitively what that means; do so with significant constraints (money, time, people) that do not hinder the adversary; and do so without negatively impacting productivity or creativity.  In this presentation, Joshua Brown will explore some of the challenges facing the cybersecurity team of the present and the future while suggesting ways to improve our odds of success, and to transform information security into a business enabler rather than merely a cost center.
+            </>,
+            "speaker": {
+                "name": "Joshua Brown",
+                "designation": " Vice President – Global Chief Information Security Officer",
+                "company": "H&R Block",
+                "image": require("../../images/speakers/Joshua-Brown.jpg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <><p>
+                    Joshua Brown is the Vice President and Global Chief Information Security Officer of H&R Block. In this role, he leads the teams responsible for identifying, tracking, and mitigating security risk, ultimately ensuring the company can move quickly and safely to innovate and fulfill its ambitious Block Horizons growth strategy.
+
+                </p>  <p>
+                        Prior to H&R Block, Brown worked for several different entities within the Omnicom Group of companies, where he was a founding member of the corporate CISO council to drive security throughout the organization.  Before that, he cut his technology teeth at the financial education firm, The Motley Fool.  His love of teaching and lifelong learning led him to become a mentor for the SANS Institute, the leading authority for information security education. He has been a frequent author and speaker on myriad information security topics, including speaking at the InfoSec World conference, the ISC2 World Congress, and has been published in Security Current magazine, CIO Review magazine and Enterprise Security magazine. Brown holds a Bachelor’s degree from Duke University and a Master’s degree from Georgetown University.
+
+                    </p></>
+            },
+        },
+        {
+            "slug": "threat-modeling",
             "title": "Lessons learned from managing crisis in a VUCA (volatility, uncertainty, complexity, and ambiguity) World",
             "abstract": <>
-                This Presentation will present case studies and lessons learned from war gaming simulations carried out for 40 different organizations (banking, smart cities, transportation, communication, cyber and natural disasters) during the past 24 months. the lessons learned include correlation between procedures and actual behavior, situational awareness when confronting crisis and many more. 
+                This Presentation will present case studies and lessons learned from war gaming simulations carried out for 40 different organizations (banking, smart cities, transportation, communication, cyber and natural disasters) during the past 24 months. the lessons learned include correlation between procedures and actual behavior, situational awareness when confronting crisis and many more.
             </>,
             "speaker": {
                 "name": "Dotan Sagi",
@@ -205,7 +228,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                   Dotan Sagi is the founder and CEO of Be Strategic Solutions – a disruptive technology that has already begun to revolutionize the crisis management world by digitally transforming the world of War-Gaming and Table-Top exercises. 
+                    Dotan Sagi is the founder and CEO of Be Strategic Solutions – a disruptive technology that has already begun to revolutionize the crisis management world by digitally transforming the world of War-Gaming and Table-Top exercises.
 
                 </p>
             },
@@ -234,7 +257,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "slug": "threat-modeling",
             "title": "Decadal Plan for Research in Security and Privacy",
             "abstract": <>
-                The pace that today’s systems are increasing in intelligence and ubiquity is astounding, and yet these advances in capability must go hand-in-hand with advances in security and privacy of these systems. The production and collection of data to feed AI-based engines has become today’s archetypal design pattern for decision-making, analysis, actuation, prediction, and control. The scale and complexity of these data-based systems continues to grow, forcing hardware specialization and optimization to meet multiplying performance challenges. These systems have a plethora of new security and privacy demands, for instance, weaknesses in the machine-learning or conventional cryptography, privacy of personal data, and vulnerabilities in the supply-chain or hardware. This talk will discuss some of these challenges and outline research areas that address them. 
+                The pace that today’s systems are increasing in intelligence and ubiquity is astounding, and yet these advances in capability must go hand-in-hand with advances in security and privacy of these systems. The production and collection of data to feed AI-based engines has become today’s archetypal design pattern for decision-making, analysis, actuation, prediction, and control. The scale and complexity of these data-based systems continues to grow, forcing hardware specialization and optimization to meet multiplying performance challenges. These systems have a plethora of new security and privacy demands, for instance, weaknesses in the machine-learning or conventional cryptography, privacy of personal data, and vulnerabilities in the supply-chain or hardware. This talk will discuss some of these challenges and outline research areas that address them.
 
             </>,
             "speaker": {
@@ -246,7 +269,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                   Richard Chow is University Research Manager and Scientist in the University Research and Collaboration office within Intel Labs. He guides several of Intel’s academic research centers in the areas of security, networking, autonomous systems, and machine learning. In the past, Richard held positions as Research Scientist at PARC, Research Scientist at Samsung Electronics R&D, and Security Architect at Yahoo and Motorola. His work concentrates on privacy, big data, mobile, and machine learning. He has over 25 granted US patents and over 40 peer-reviewed conference papers, journals, and book chapters. He was awarded runner-up for the 2010 PET Award for Outstanding Research in Privacy Enhancing Technologies. He has given invited talks at academic conferences and industry venues such as the RSA Conference, BlackHat, and OWASP. Richard has a Ph.D. in mathematics from UCLA and a B.A. in mathematics from the University of Pennsylvania.
+                    Richard Chow is University Research Manager and Scientist in the University Research and Collaboration office within Intel Labs. He guides several of Intel’s academic research centers in the areas of security, networking, autonomous systems, and machine learning. In the past, Richard held positions as Research Scientist at PARC, Research Scientist at Samsung Electronics R&D, and Security Architect at Yahoo and Motorola. His work concentrates on privacy, big data, mobile, and machine learning. He has over 25 granted US patents and over 40 peer-reviewed conference papers, journals, and book chapters. He was awarded runner-up for the 2010 PET Award for Outstanding Research in Privacy Enhancing Technologies. He has given invited talks at academic conferences and industry venues such as the RSA Conference, BlackHat, and OWASP. Richard has a Ph.D. in mathematics from UCLA and a B.A. in mathematics from the University of Pennsylvania.
                 </p>
             },
         },
@@ -267,12 +290,12 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                Independent consultant since 2014, specialized in IT and OT cyber security.
-                Between 2006 and 2014 held a variety of executive management positions in the IT industry.
-                Until 2006 served in the Israeli Defence Forces as an Information Technology and Cyber Security officer.
+                    Independent consultant since 2014, specialized in IT and OT cyber security.
+                    Between 2006 and 2014 held a variety of executive management positions in the IT industry.
+                    Until 2006 served in the Israeli Defence Forces as an Information Technology and Cyber Security officer.
 
-                M.Sc. Telecommunications, 1996 (University of Colorado, Boulder, USA)
-                B.Sc. Electrical and Electronics Engineering, 1987 (Tel-Aviv University, Israel)
+                    M.Sc. Telecommunications, 1996 (University of Colorado, Boulder, USA)
+                    B.Sc. Electrical and Electronics Engineering, 1987 (Tel-Aviv University, Israel)
                 </p>
             },
         },
@@ -294,7 +317,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                Dr. Altaf Shaik is currently a senior researcher at the Technical University of Berlin in Germany. He conducts research in telecommunications, especially 5G radio access and core network security. He combines a professional background in programming, wireless communications, and offensive network security. His renowned research exposed several vulnerabilities in the commercial 4G and 5G specifications and commercial networks that allow attackers to perform powerful attacks affecting millions of base stations, handsets, M2M, and NB-IoT devices. Altaf is a frequent speaker at various prestigious international security conferences such as Black Hat USA & Europe, Troopers, T2, SECT, Nullcon, Hardware.io, HITB, and many others. His accomplishments landed him in the hall of fame of Google, Qualcomm, Huawei, and GSMA. He also trains various companies and organizations in exploit development and also building secure networks including their testing and security evaluation.
+                    Dr. Altaf Shaik is currently a senior researcher at the Technical University of Berlin in Germany. He conducts research in telecommunications, especially 5G radio access and core network security. He combines a professional background in programming, wireless communications, and offensive network security. His renowned research exposed several vulnerabilities in the commercial 4G and 5G specifications and commercial networks that allow attackers to perform powerful attacks affecting millions of base stations, handsets, M2M, and NB-IoT devices. Altaf is a frequent speaker at various prestigious international security conferences such as Black Hat USA & Europe, Troopers, T2, SECT, Nullcon, Hardware.io, HITB, and many others. His accomplishments landed him in the hall of fame of Google, Qualcomm, Huawei, and GSMA. He also trains various companies and organizations in exploit development and also building secure networks including their testing and security evaluation.
                 </p>
             },
         },
@@ -317,12 +340,12 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <><p>
-                Nishaanth has been working as a security researcher in the application security industry for the last 5 years. He has reported vulnerabilities in Apple, AT&T, Microsoft, Dell, JUUL with CVEs and 0-days. He is interested in mobile application security, exploit development and red teaming. Speaker at PHDays 2021.
-                
+                    Nishaanth has been working as a security researcher in the application security industry for the last 5 years. He has reported vulnerabilities in Apple, AT&T, Microsoft, Dell, JUUL with CVEs and 0-days. He is interested in mobile application security, exploit development and red teaming. Speaker at PHDays 2021.
+
                 </p>
-                <p>
-                Akshay Jain is a Security researcher, who has been working in the cybersecurity industry for the last few years and is interested in application security and reverse engineering. He has found multiple vulnerabilities and reported responsibly to Adobe, Apple, HP, Google, with multiple CVEs and acknowledgements. Speaker at Phdays 2021
-                </p>
+                    <p>
+                        Akshay Jain is a Security researcher, who has been working in the cybersecurity industry for the last few years and is interested in application security and reverse engineering. He has found multiple vulnerabilities and reported responsibly to Adobe, Apple, HP, Google, with multiple CVEs and acknowledgements. Speaker at Phdays 2021
+                    </p>
                 </>
             },
         },
@@ -352,8 +375,8 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "slug": "threat-modeling",
             "title": "Getting started with IR/Blue Teaming",
             "abstract": <>
-                Finishing university and moving to into the workplace can be daunting, especially if you're unsure about where you'd like to take your next step. 
-                One way to help with this is speaking to people within the industry and getting some more information about their role and what they do. This talk will provide an introduction to working within Incident Response from an experienced consultant's perspective. 
+                Finishing university and moving to into the workplace can be daunting, especially if you're unsure about where you'd like to take your next step.
+                One way to help with this is speaking to people within the industry and getting some more information about their role and what they do. This talk will provide an introduction to working within Incident Response from an experienced consultant's perspective.
                 We will be covering the process and lifecycle of handling an incident, as well as how the role fits within defensive security as a whole.
                 We'll also take a look at some of the common tasks and tools you will encounter during log analysis, imaging acquisition and disk triaging.
                 The talk will be aimed at beginners, students and anyone interested in starting a role within Incident Response or a similar position.
@@ -368,9 +391,9 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                Sam has been working as an Incident Response Consultant for 2 years, after completing his BSc and Post Graduate Diploma in Cyber Security at Staffordshire University. 
-                He has assisted in several incidents, ranging from ransomware to web attacks. 
-                He has a keen interest in both offensive and defensive security, and also enjoys learning about hardware hacking in his own time.
+                    Sam has been working as an Incident Response Consultant for 2 years, after completing his BSc and Post Graduate Diploma in Cyber Security at Staffordshire University.
+                    He has assisted in several incidents, ranging from ransomware to web attacks.
+                    He has a keen interest in both offensive and defensive security, and also enjoys learning about hardware hacking in his own time.
                 </p>
             },
         },
@@ -390,7 +413,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                Srinivas Bharadwaj has been a Java Engineer since 1997. He also holds an MS in CS from Georgia Tech, an MBA, CFA and FRM. He also holds patents and is Lead Founder at Jnana Marga Technologies which builds an edTech platform for High Schoolers and College Students.
+                    Srinivas Bharadwaj has been a Java Engineer since 1997. He also holds an MS in CS from Georgia Tech, an MBA, CFA and FRM. He also holds patents and is Lead Founder at Jnana Marga Technologies which builds an edTech platform for High Schoolers and College Students.
                 </p>
             },
         },
@@ -398,8 +421,8 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "slug": "threat-modeling",
             "title": "End to End Device Security - Enhanced by Hardware",
             "abstract": <>
-               An embedded device goes through multiple stages in its lifecycle from manufacturing to retirement. They face various security challenges targeted at the underlying firmware and hardware. 
- 
+                An embedded device goes through multiple stages in its lifecycle from manufacturing to retirement. They face various security challenges targeted at the underlying firmware and hardware.
+
                 Irrespective of the security robustness of software, if the underlying hardware is lacking, the device will be vulnerable to attacks. On-chip security features such as Hardware Root of Trust, Trusted Execution Environment, Trusted Storage, Key generation, Device Identity can provide a foundation on which other security functions can be created. This session discusses the hardware supported features to enhance security across the life cycle of the device.
 
             </>,
@@ -412,7 +435,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                Mini TT works with Dell Technologies, Bangalore in the domain of embedded system security. Prior to this, she has worked in research and development with Philips and ABB producing innovating products, publications, and patents. She has experience in defence, semiconductors, consumer electronics, substation automation and industrial measurements. She had started her career with Bharat Electronics developing command and control systems for Indian Defence. Her specialization is in cybersecurity, embedded systems, and system architecture. She holds an MTech in Embedded Systems from BITS Pilani, and a degree in Computer Science and Engineering from the University of Kerala.
+                    Mini TT works with Dell Technologies, Bangalore in the domain of embedded system security. Prior to this, she has worked in research and development with Philips and ABB producing innovating products, publications, and patents. She has experience in defence, semiconductors, consumer electronics, substation automation and industrial measurements. She had started her career with Bharat Electronics developing command and control systems for Indian Defence. Her specialization is in cybersecurity, embedded systems, and system architecture. She holds an MTech in Embedded Systems from BITS Pilani, and a degree in Computer Science and Engineering from the University of Kerala.
                 </p>
             },
         },
@@ -420,7 +443,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "slug": "threat-modeling",
             "title": "Android Exploitation & Protection: A 1-Click Full-Chain View ",
             "abstract": <>
-                In this talk, we will look at an Android Full Android Full Chain, with an objective to understand the key components (Remote Code Execution, Sandbox Escape & Local Privilege Escalation), mitigations and classes of vulnerabilities in such a chain. 
+                In this talk, we will look at an Android Full Android Full Chain, with an objective to understand the key components (Remote Code Execution, Sandbox Escape & Local Privilege Escalation), mitigations and classes of vulnerabilities in such a chain.
 
                 Understanding the Infection process gives an insight into the defensive challenges present at each stage, and why traditional protection mechanisms fail to stop such attacks at every step.
 
@@ -434,11 +457,11 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                A technology enthusiast with over a decade of experience in building startups and nurturing talent. Atul is Founder of Secfence, multifold barrier breaking Cyber Security Organisation which is trusted by the top Government, Intelligence, Defence agencies, LEA's & Corporates. 
+                    A technology enthusiast with over a decade of experience in building startups and nurturing talent. Atul is Founder of Secfence, multifold barrier breaking Cyber Security Organisation which is trusted by the top Government, Intelligence, Defence agencies, LEA's & Corporates.
 
-                As a High School Grad just out of school, Atul has previously co-founded a high growth cyber security training & Ad-Tech start-up. 
+                    As a High School Grad just out of school, Atul has previously co-founded a high growth cyber security training & Ad-Tech start-up.
 
-                Known for his technical prowess and country first approach, he's surely made a stamp in the InfoSec space and has helped client organisations to be result oriented and to make India a safer Cyber place to live in. 
+                    Known for his technical prowess and country first approach, he's surely made a stamp in the InfoSec space and has helped client organisations to be result oriented and to make India a safer Cyber place to live in.
                 </p>
             },
         },
@@ -446,7 +469,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "slug": "threat-modeling",
             "title": "Data privacy and security in global education technology",
             "abstract": <>
-                Overview of how data privacy and security practices have evolved as education technology plays a broader role in student and faculty life.  Topics include data locality, data security practices, security around emerging use-cases such as student ID verification and remote test monitoring.  
+                Overview of how data privacy and security practices have evolved as education technology plays a broader role in student and faculty life.  Topics include data locality, data security practices, security around emerging use-cases such as student ID verification and remote test monitoring.
 
             </>,
             "speaker": {
@@ -458,7 +481,26 @@ const ConSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "",
                 },
                 "bio": <p>
-                Chris Caren joined Turnitin in 2009 as Chief Executive Officer. Chris led the transition of Turnitin from a company focused on plagiarism prevention to one that provides solutions that promote academic integrity, streamline grading and feedback, and improve outcomes across educational levels and content areas. Chris previously worked for Microsoft Corporation as GM of Microsoft Business Solutions. Although his career has focused on software businesses, he comes from a family of scientists and educators. He holds an MBA with distinction from Kellogg School of Management and a bachelor of science in Engineering from Stanford University.
+                    Chris Caren joined Turnitin in 2009 as Chief Executive Officer. Chris led the transition of Turnitin from a company focused on plagiarism prevention to one that provides solutions that promote academic integrity, streamline grading and feedback, and improve outcomes across educational levels and content areas. Chris previously worked for Microsoft Corporation as GM of Microsoft Business Solutions. Although his career has focused on software businesses, he comes from a family of scientists and educators. He holds an MBA with distinction from Kellogg School of Management and a bachelor of science in Engineering from Stanford University.
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
+            "title": "Cyber Risk Management",
+            "abstract": <>
+                How can a company asses their cyber risk, think & organize diffrently, in an era of cyber everywhere and ever growing Advanced Persistent Threats (APT) attacks?
+            </>,
+            "speaker": {
+                "name": "Dr. Amir Schreiber",
+                "designation": "CEO",
+                "company": "Turnitin",
+                "image": require("../../images/speakers/Chris-Caren.jpeg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                    Dr. Amir Schreiber is a senior director in “Bank Hapoalim”, head of Cyber Risk Management, former Chief Information Security Officer (CISO) & Chief Cyber Defense Officer (CCDO) in “Isracard Group” (including MC and all subsidiaries). In addition to cyber security skills, Amir is an innovative social networks & Internet researcher, a keynote speaker in International & government conferences and directors programs. Previously, founder and director of the Internet & Mobile Department in Bank Hapoalim. Research domains: cyber risk, social networks, eye tracking, digital democracy, digital divide.
                 </p>
             },
         },
@@ -631,13 +673,13 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "abstract": <>
                 As fast-paced agile project delivery has become the norm for today’s business, ensuring security in software solutions are becoming increasingly challenging for the teams. Most of the time security is prioritized at the very end of the product cycle. Raphael da la Vienne and Prajeesh Prathap demonstrates how DevSecOps integrates security with the agile processes and DevOps pipeline to shorten the time to market.
 
-            This session will shed light on the vital role security plays in the overall DevOps life cycle, by highlighting the difference between DevOps & DevSecOps, the impacts of not considering security when setting up DevOps practices, and the different perspectives of implementing a proper DevSecOps practice.
+                This session will shed light on the vital role security plays in the overall DevOps life cycle, by highlighting the difference between DevOps & DevSecOps, the impacts of not considering security when setting up DevOps practices, and the different perspectives of implementing a proper DevSecOps practice.
 
-            Led by Prajeesh Prathap (Head of Platform team - IT&Care) & Rapahel de la Veinne (Technical Security Officer) you'll hear about:
+                Led by Prajeesh Prathap (Head of Platform team - IT&Care) & Rapahel de la Veinne (Technical Security Officer) you'll hear about:
 
-            <li>1. What DevSecOps is and how it is different from DevOps</li>
-            <li>2. How DevSecOps has helped IT&Care increase their service delivery agility</li>
-            <li>3. Best practices when implementing DevSecOps</li>
+                <li>1. What DevSecOps is and how it is different from DevOps</li>
+                <li>2. How DevSecOps has helped IT&Care increase their service delivery agility</li>
+                <li>3. Best practices when implementing DevSecOps</li>
 
             </>,
             "speaker": {
@@ -652,9 +694,9 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "bio": <><p>
                     Prajeesh Prathap is an experienced technologist specializing in building web scale, cloud native applications with special interest in event-driven, distributed systems. Prajeesh currently works for IT&Care in the Netherlands as the head of platform and operations teams specializing in setting up the containerized environments, CI/CD using Azure DevOps, observability platforms etc.
                 </p>
-                <p>
-                Raphael is a very experienced security expert (and former red-teamer) who has been interested in all facets of the IT world from an early age. It started innocently with guessing a lost password, all the way to the "dark" corners of the internet. He specializes in Web Security, and reverse engineering and is one of the better known hackers and researchers in the world
-                </p>
+                    <p>
+                        Raphael is a very experienced security expert (and former red-teamer) who has been interested in all facets of the IT world from an early age. It started innocently with guessing a lost password, all the way to the "dark" corners of the internet. He specializes in Web Security, and reverse engineering and is one of the better known hackers and researchers in the world
+                    </p>
                 </>
             },
         },
