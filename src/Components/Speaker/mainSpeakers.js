@@ -186,6 +186,12 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/atul-agarwal.jpg").default,
         },
         {
+            "name": "Chris Caren",
+            "designation": "CEO",
+            "company": "Turnitin",
+            "image": require("../../images/speakers/Chris-Caren.jpeg").default,
+        },
+        {
             "name": "Ramesh Kumar",
             "designation": "Senior Engineer",
             "company": "CrowdStrike",
