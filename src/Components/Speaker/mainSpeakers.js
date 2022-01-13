@@ -52,8 +52,8 @@ const SpeakerCard = styled.div`
     }
     img {
         float: left;
-        width:  100px;
-        height: 100px;
+        width:  140px;
+        height: 150px;
         object-fit: cover;
       border-radius: 10px;
       border: 2px solid white;
