@@ -112,7 +112,7 @@ const ConferenceSpeakers = () => {
 
     const speakers = [
         {
-            "name": "Lt. General (Dr) Rajesh Pant retd",
+            "name": "Lt. General (Dr) Rajesh Pant (retd.)",
             "designation": "National Cyber Security Coordinator",
             "company": "National Security Council Secretariat of India",
             "image": require("../../images/speakers/rajeshPant.jpg").default,
