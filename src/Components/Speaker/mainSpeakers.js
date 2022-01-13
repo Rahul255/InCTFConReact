@@ -115,7 +115,7 @@ const ConferenceSpeakers = () => {
             "name": "Lt. General (Dr) Rajesh Pant retd",
             "designation": "National Cyber Security Coordinator",
             "company": "National Security Council Secretariat of India",
-            "image": require("../../images/speakers/rajesh_pant.jpg").default,
+            "image": require("../../images/speakers/rajeshPant.jpg").default,
         },
         {
             "name": "Arundhati Bhattacharya",
