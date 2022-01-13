@@ -490,6 +490,26 @@ const ConSpeakers = ({ hideTitle = false }) => {
             "title": "Cyber Risk Management",
             "abstract": <>
                 How can a company asses their cyber risk, think & organize diffrently, in an era of cyber everywhere and ever growing Advanced Persistent Threats (APT) attacks?
+
+            </>,
+            "speaker": {
+                "name": "Dr. Amir Schreiber",
+                "designation": "Senior Director",
+                "company": "Bank Hapoalim",
+                "image": require("../../images/speakers/amir.jpeg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                    Dr. Amir Schreiber is a senior director in “Bank Hapoalim”, head of Cyber Risk Management, former Chief Information Security Officer (CISO) & Chief Cyber Defense Officer (CCDO) in “Isracard Group” (including MC and all subsidiaries). In addition to cyber security skills, Amir is an innovative social networks & Internet researcher, a keynote speaker in International & government conferences and directors programs. Previously, founder and director of the Internet & Mobile Department in Bank Hapoalim. Research domains: cyber risk, social networks, eye tracking, digital democracy, digital divide.
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
+            "title": "Cyber Risk Management",
+            "abstract": <>
+                How can a company asses their cyber risk, think & organize diffrently, in an era of cyber everywhere and ever growing Advanced Persistent Threats (APT) attacks?
             </>,
             "speaker": {
                 "name": "Dr. Amir Schreiber",
