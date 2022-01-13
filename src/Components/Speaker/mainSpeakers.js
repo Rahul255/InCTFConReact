@@ -40,7 +40,7 @@ const SpeakerCard = styled.div`
     flex: 1 1;
     user-select: none;
     transition: all 0.5s ease;
-    border: ${({ isTrainer }) => isTrainer ? `2px solid #9C27B0` : `2px solid tomato` };
+    border: ${({ isTrainer }) => isTrainer ? `2px solid tomato` : `2px solid tomato` };
     &:hover {
        transform: translateY(-8px);
        transition: all 0.5s ease;
@@ -82,7 +82,7 @@ const SpeakerCard = styled.div`
        transform: translateY(-12px);
     }
     .trainer-badge {
-        background: #9C27B0;
+        background: tomato;
     }
     .speaker-badge {
          background: tomato;
@@ -114,6 +114,8 @@ const ConferenceSpeakers = () => {
         {
             "name": "Lt. General (Dr) Rajesh Pant (retd.)",
             "designation": "National Cyber Security Coordinator",
+            "isTrainer": true,
+            "speakType": "Keynote",
             "company": "National Security Council Secretariat of India",
             "image": require("../../images/speakers/rajeshPant.jpg").default,
         },
@@ -289,7 +291,7 @@ const ConferenceSpeakers = () => {
                     <SpeakerCard isTrainer={s.isTrainer}>
                         <div>
                             {s.isTrainer ?
-                                <div className="trainer-badge">Trainer</div>
+                                <div className="trainer-badge">{s.speakType}</div>
                                 : <div className="speaker-badge">Speaker</div>
                             }
                             <div className="d-flex justify-content-center">
