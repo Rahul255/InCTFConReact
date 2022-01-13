@@ -32,9 +32,13 @@ const TrainerCardWrap = styled.div`
       margin-bottom: 0.35rem;
     }
     img {
+        float: left;
+        width:  250px;
+        height: 250px;
+        object-fit: cover;
         border-radius: 10px;
         border: 2px solid white;
-        width: 250px;
+       
         max-width: 100%;
     }
     .social-media-links {
