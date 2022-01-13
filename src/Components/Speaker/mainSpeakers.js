@@ -196,6 +196,12 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/Chris-Caren.jpeg").default,
         },
         {
+            "name": "Dr. Amir Schreiber",
+            "designation": "Senior Director",
+            "company": "Bank Hapoalim",
+            "image": require("../../images/speakers/amir.jpeg").default,
+        },
+        {
             "name": "Ramesh Kumar",
             "designation": "Senior Engineer",
             "company": "CrowdStrike",
