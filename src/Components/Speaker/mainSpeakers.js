@@ -51,8 +51,10 @@ const SpeakerCard = styled.div`
        }
     }
     img {
-      max-height: 180px;
-      max-width: 100%;
+        float: left;
+        width:  100px;
+        height: 100px;
+        object-fit: cover;
       border-radius: 10px;
       border: 2px solid white;
       margin-bottom: 1rem;
