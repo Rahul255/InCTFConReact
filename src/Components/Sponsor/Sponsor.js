@@ -35,17 +35,17 @@ function Sponsor() {
     },
     {
       image: require("../../images/sponsor/social-cred.png").default,
-      description: "Gold sponsor",
+      description: "Gold Sponsor",
       maxHeight: "220px",
     },
     {
       image: require("../../images/sponsor/secfence.jpg").default,
-      description: "Gold sponsor",
+      description: "Gold Sponsor",
       maxHeight: "220px",
     },
     {
       image: require("../../images/sponsor/bugcrowd-122228569701528ab41479b9971fa337.png").default,
-      description: "Gold sponsor",
+      description: "Gold Sponsor",
       maxHeight: "220px",
     },
     {
@@ -55,7 +55,7 @@ function Sponsor() {
     },
     {
       image: require("../../images/sponsor/SchneiderGreen.png").default,
-      description: "Gold sponsor",
+      description: "Gold Sponsor",
       maxHeight: "220px",
     },
     {
@@ -65,7 +65,7 @@ function Sponsor() {
     },
     {
       image: require("../../images/sponsor/Audius_Logo.png").default,
-      description: "Prize sponsor",
+      description: "Prize Sponsor",
       maxHeight: "220px",
     },
   ];
