@@ -117,7 +117,7 @@ const FAQSection = () => {
             </>
         },
         {
-            "question": "where does this happen?",
+            "question": "Where does this happen?",
             "answer": <>
                 The Internet! The competition will be indefinitely available online at this website. As long as you have the ability to install software and have unfiltered Internet access, the participants can compete from anywhere in India.
             </>
