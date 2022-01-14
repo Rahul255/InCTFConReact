@@ -21,7 +21,7 @@ function About() {
             <div>
               <Fade left>
                 <p className="para">
-                  <span className="span2">InCTFCon</span> is an International Cybersecurity conference organised on behalf of Amrita InCTF to address the skill gap, 
+                  <span className="span2">InCTFCon</span> is an International Cybersecurity conference organised on behalf of Amrita InCTF to address the skill gap, to ensure the online safety of children,
                   to inspire and empower the youth to take up careers in cyberspace. 
                 </p>
                 <p className="para">
