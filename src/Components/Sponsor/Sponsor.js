@@ -50,7 +50,7 @@ function Sponsor() {
     },
     {
       image: require("../../images/sponsor/GreatLearning.png").default,
-      description: "Gold sponsor",
+      description: "Gold Sponsor",
       maxHeight: "220px",
     },
     {
