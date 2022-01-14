@@ -191,7 +191,7 @@ const LandingSponsorship = () => {
             </div>
             <div className=" col-md-7 p-3">
               <h1 className="text-center p-1" style={{fontWeight:"bold", fontSize:"2rem"}}>Schneider Electric</h1>
-              <p>Schneider’s purpos­e is to empower all to make the most of our energy and resources, bridging progress and sustainability for all. We call this Life Is On. Our mission is to be your digital partner for Sustainability and Efficiency. We drive digital transformation by integrating world-leading process and energy technologies, endpoint to cloud connecting products, controls, software, and services, across the entire lifecycle, enabling integrated company management, for homes, buildings, data centres, infrastructure, and industries. We are the most local of global companies. We are advocates of open standards and partnership ecosystems that are passionate about our shared Meaningful Purpose, Inclusive, and Empowered values.</p>
+              <p>Schneider’s purpose­ is to empower all to make the most of our energy and resources, bridging progress and sustainability for all. We call this Life Is On. Our mission is to be your digital partner for Sustainability and Efficiency. We drive digital transformation by integrating world-leading process and energy technologies, endpoint to cloud connecting products, controls, software, and services, across the entire lifecycle, enabling integrated company management, for homes, buildings, data centres, infrastructure, and industries. We are the most local of global companies. We are advocates of open standards and partnership ecosystems that are passionate about our shared Meaningful Purpose, Inclusive, and Empowered values.</p>
               
             </div>
           </div>
