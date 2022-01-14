@@ -134,14 +134,6 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/Joshua-Brown.jpg").default,
         },
         {
-            "name": "Aniket Amdekar",
-            "designation": "General Manager - Cyber Defence Education",
-            "company": "Great Learning",
-            "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
-            
-        },
-        
-        {
             "name": "Dotan Sagi",
             "designation": "Founder & CEO ",
             "company": "Be-Strategic Solutions",
@@ -195,6 +187,13 @@ const ConferenceSpeakers = () => {
             "designation": "",
             "company": "Independent Consultant",
             "image": require("../../images/speakers/Uri-Shai.png").default,
+            
+        },
+        {
+            "name": "Aniket Amdekar",
+            "designation": "General Manager - Cyber Defence Education",
+            "company": "Great Learning",
+            "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
             
         },
         {
