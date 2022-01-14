@@ -69,7 +69,7 @@ const LandingSponsorship = () => {
           </div>
         ))} */}
         <div>
-          <h1 className="text-center p-3" style={{color:"tomato"}}>Event Sponosr</h1>
+          <h1 className="text-center p-3" style={{color:"tomato"}}>Event Sponsor</h1>
           <div
             className="row "
             style={{ border: "2px solid black", borderRadius: "10px" }}
@@ -90,7 +90,7 @@ const LandingSponsorship = () => {
           </div>
         </div>
         <div>
-          <h1 className="text-center p-3" style={{color:"tomato"}}>Diamond Sponosr</h1>
+          <h1 className="text-center p-3" style={{color:"tomato"}}>Diamond Sponsor</h1>
           <div
             className="row "
             style={{ border: "2px solid black", borderRadius: "10px" }}
@@ -128,7 +128,7 @@ const LandingSponsorship = () => {
         </div>
 
         <div>
-          <h1 className="text-center p-3" style={{color:"tomato"}}>Platinum Sponosr</h1>
+          <h1 className="text-center p-3" style={{color:"tomato"}}>Platinum Sponsor</h1>
           <div
             className="row "
             style={{ border: "2px solid black", borderRadius: "10px" }}
@@ -144,7 +144,7 @@ const LandingSponsorship = () => {
           </div>
         </div>
         <div>
-          <h1 className="text-center p-3" style={{color:"tomato"}}>Gold Sponosr</h1>
+          <h1 className="text-center p-3" style={{color:"tomato"}}>Gold Sponsor</h1>
           <div
             className="row "
             style={{ border: "2px solid black", borderRadius: "10px" }}
@@ -197,7 +197,7 @@ const LandingSponsorship = () => {
           </div>
         </div>
         <div>
-          <h1 className="text-center p-3" style={{color:"tomato"}}>Silver Sponosr</h1>
+          <h1 className="text-center p-3" style={{color:"tomato"}}>Silver Sponsor</h1>
           <div
             className="row "
             style={{ border: "2px solid black", borderRadius: "10px" }}
