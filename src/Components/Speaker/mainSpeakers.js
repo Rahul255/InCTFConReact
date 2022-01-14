@@ -128,12 +128,6 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
         },
         {
-            "name": "Lavi Lazarovitz",
-            "designation": "Head of Research",
-            "company": "Cyberark",
-            "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
-        },
-        {
             "name": "Joshua Brown",
             "designation": "Vice President – Global Chief Information Security Officer",
             "company": "H&R Block",
@@ -146,13 +140,7 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
             
         },
-        {
-            "name": "Uri Shai",
-            "designation": "",
-            "company": "Independent Consultant",
-            "image": require("../../images/speakers/Uri-Shai.png").default,
-            
-        },
+        
         {
             "name": "Dotan Sagi",
             "designation": "Founder & CEO ",
@@ -172,18 +160,6 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/YogiPhoto.png").default,
         },
         {
-            "name": "Sam Paterson",
-            "designation": "IR Analyst",
-            "company": "MDSec",
-            "image": require("../../images/speakers/sam.png").default,
-        },
-        {
-            "name": "Mini TT",
-            "designation": "Security Technologist",
-            "company": "Dell",
-            "image": require("../../images/speakers/Mini-TT.jpeg").default,
-        },
-        {
             "name": "Atul Agarwal",
             "designation": "CEO",
             "company": "Secfence",
@@ -200,6 +176,44 @@ const ConferenceSpeakers = () => {
             "designation": "Senior Director",
             "company": "Bank Hapoalim",
             "image": require("../../images/speakers/amir.jpeg").default,
+        },
+        {
+            "name": "Lavi Lazarovitz",
+            "designation": "Head of Research",
+            "company": "Cyberark",
+            "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
+        },
+        {
+            "name": "Richard Chow",
+            "designation": "University Research Manager and Scientist",
+            "company": "Intel",
+            "image": require("../../images/speakers/RichardChow.jpg").default,
+        },
+        
+        {
+            "name": "Uri Shai",
+            "designation": "",
+            "company": "Independent Consultant",
+            "image": require("../../images/speakers/Uri-Shai.png").default,
+            
+        },
+        {
+            "name": "Prajeesh Prathap",
+            "designation": "Head of Platform and Operations",
+            "company": "IT&Care",
+            "image": require("../../images/speakers/prajeesh-Prathap.jpg").default,
+        },
+        {
+            "name": "Sam Paterson",
+            "designation": "IR Analyst",
+            "company": "MDSec",
+            "image": require("../../images/speakers/sam.png").default,
+        },
+        {
+            "name": "Mini TT",
+            "designation": "Security Technologist",
+            "company": "Dell",
+            "image": require("../../images/speakers/Mini-TT.jpeg").default,
         },
         {
             "name": "Ramesh Kumar",
@@ -226,18 +240,6 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/Sagar_Gulhane.jpg").default,
         },
         
-        {
-            "name": "Prajeesh Prathap",
-            "designation": "Head of Platform and Operations",
-            "company": "IT&Care",
-            "image": require("../../images/speakers/prajeesh-Prathap.jpg").default,
-        },
-        {
-            "name": "Richard Chow",
-            "designation": "University Research Manager and Scientist",
-            "company": "Intel",
-            "image": require("../../images/speakers/RichardChow.jpg").default,
-        },
         {
             "name": "Raphael de la Vienne",
             "designation": "Technical Security Officer",
