@@ -695,7 +695,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
 
                 This session will shed light on the vital role security plays in the overall DevOps life cycle, by highlighting the difference between DevOps & DevSecOps, the impacts of not considering security when setting up DevOps practices, and the different perspectives of implementing a proper DevSecOps practice.
 
-                Led by Prajeesh Prathap (Head of Platform team - IT&Care) & Rapahel de la Veinne (Technical Security Officer) you'll hear about:
+                Led by Prajeesh Prathap (Head of Platform team - IT&Care) & Raphael de la Veinne (Technical Security Officer) you'll hear about:
 
                 <li>1. What DevSecOps is and how it is different from DevOps</li>
                 <li>2. How DevSecOps has helped IT&Care increase their service delivery agility</li>
