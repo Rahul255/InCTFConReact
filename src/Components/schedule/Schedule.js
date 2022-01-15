@@ -60,44 +60,33 @@ const Schedule = () => {
     //                 ],
     //             },
     //             {
-    //                 "time": "09:30 - 10:30 IST",
+    //                 "time": "10:00 - 11:00 IST",
     //                 "title": "Inaugural Session",
     //                 "speakers": [
                     
     //                     {
-    //                         "name": "Krishnashree Achuthan",
-    //                         "designation": "Dean PG Programs",
-    //                         "organization": "Amrita University",
+    //                         "name": "Ajay Prakash Sawhney",
+    //                         "designation": "Secretary. Ministry of Electronics & IT",
+    //                         "organization": "Government of India",
     //                         "avatar": require('../../images/rahul.jpg').default
     //                     },
     //                     {
-    //                         "name": "Eric Falt", 
-    //                         "designation": "Director & UNESCO Representative",
-    //                         "organization": "Bhutan, India, Maldives and Sri Lanka",
-    //                         "avatar": require('../../images/rahul.jpg').default
+    //                         "name": "Lt. General (Dr) Rajesh Pant (retd.)", 
+    //                         "designation": "National Cyber Security Coordinator",
+    //                         "organization": "National Security Council Secretariat of India",
+    //                         "avatar": require("../../images/speakers/rajeshPant.jpg").default,
     //                     },
     //                     {
-    //                         "name": "Meenakshi Lekhi",
-    //                         "designation": "Member of Parliament",
-    //                         "organization": "Lok Sabha, Delhi",
-    //                         "avatar": require('../../images/rahul.jpg').default
+    //                         "name": "Arundhati Bhattacharya",
+    //                         "designation": "Chairperson and Chief Executive Officer",
+    //                         "organization": "Salesforce India",
+    //                         "avatar": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
     //                     },
-    //                     {
-    //                         "name": "Swamini Krishnamrita Prana",
-    //                         "designation": "",
-    //                         "organization": "Mata Amritanandamayi Math",
-    //                         "avatar": require('../../images/rahul.jpg').default
-    //                     },
-    //                     {
-    //                         "name": "Sreepriya Chalakkal",
-    //                         "designation": "Security Analyst",
-    //                         "organization": "Siemens",
-    //                         "avatar": require('../../images/rahul.jpg').default
-    //                     },
+    //                     
     //                 ],
     //             },
     //             {
-    //                 "time": "11:00 - 11:30 IST",
+    //                 "time": "11:15 - 12:00 IST",
     //                 "title": "From Technologist to Board Room, a Cybersecurity Journey",
     //                 "speakers": [
     //                     {
@@ -108,18 +97,7 @@ const Schedule = () => {
     //                     }
     //                 ],
     //             },
-    //             {
-    //                 "time": "11:30 - 12:15 IST",
-    //                 "title": "Keynote",
-    //                 "speakers": [
-    //                     {
-    //                         "name": "Ratnaboli Ghorai Dinda",
-    //                         "designation": "Deputy Director General(Scientist-G)",
-    //                         "organization": "National Informatics Centre",
-    //                         "avatar": require('../../images/rahul.jpg').default
-    //                     }
-    //                 ],
-    //             },
+    //             
     //            {
     //                 "time": "14:00 - 14:45 IST",
     //                 "title": "Dynamic Instrumentation 101",
@@ -153,7 +131,7 @@ const Schedule = () => {
     //             },
     //             {
     //                 "time": "15:30 - 16:15 IST",
-    //                 "title": "DEVSECOPS – PUTTING SECURITY IN DEVOPS",
+    //                 "title": "DevSecOps – Putting security in DevOps",
     //                 "speakers": [
     //                     {
     //                         "name": "Prajeesh Prathap",
@@ -171,7 +149,7 @@ const Schedule = () => {
     //             },  
     //             {
     //                 "time": "16:15 - 17:00 IST",
-    //                 "title": "INTRODUCTION TO CONTAINERS AND KUBERNETES",
+    //                 "title": "Introduction to Containers and Kubernetes",
     //                 "speakers": [
     //                     {
     //                         "name": "Ramesh Kumar",
@@ -184,7 +162,7 @@ const Schedule = () => {
     //             },  
     //             {
     //                 "time": "20:00 - 20:45 IST",
-    //                 "title": "LESSONS LEARNED FROM MANAGING CRISIS IN A VUCA (VOLATILITY, UNCERTAINTY, COMPLEXITY, AND AMBIGUITY) WORLD",
+    //                 "title": "Lessons learned from managing crisis in a VUCA (volatility, uncertainty, complexity, and ambiguity) World",
     //                 "speakers": [
     //                     {
     //                         "name": "Dotan Sagi",
@@ -196,14 +174,14 @@ const Schedule = () => {
     //                 ],
     //             },
     //             {
-    //                 "time": "20:30 - 21:30 IST",
+    //                 "time": "20:45 - 21:30 IST",
     //                 "title": "Try your hand at Machine Learning for Security",
     //                 "speakers": [
     //                     {
-    //                         "name": "Bhavna Soman",
-    //                         "designation": "ML Security Researcher",
-    //                         "organization": "Microsoft",
-    //                         "avatar": require('../../images/rahul.jpg').default
+    //                         "name": "Joshua Brown",
+    //                         "designation": "Vice President – Global Chief Information Security Officer",
+    //                         "organization": "H&R Block",
+    //                         "avatar": require("../../images/speakers/Joshua-Brown.jpg").default,
     //                     },
                         
     //                 ],
@@ -228,7 +206,7 @@ const Schedule = () => {
     //         "title": "January 22",
     //         "events": [
     //             {
-    //                 "time": "08:00 - 08:30 IST",
+    //                 "time": "08:00 - 08:45 IST",
     //                 "title": "Speaker",
     //                 "speakers": [
     //                     {
@@ -240,149 +218,126 @@ const Schedule = () => {
     //                 ],
     //             },
     //             {
-    //                 "time": "08:30 - 09:00 IST",
-    //                 "title": "Achieving Excellence in Cybersecurity",
+    //                 "time": "08:45 - 09:30 IST",
+    //                 "title": "Speaker",
     //                 "speakers": [
     //                     {
-    //                         "name": "Asha Poluru",
-    //                         "designation": "Head HR",
-    //                         "organization": " Sophos, India",
+    //                         "name": "Rahul Manneri",
+    //                         "designation": "Speaker",
+    //                         "organization": " Amrita",
     //                         "avatar": require('../../images/rahul.jpg').default
     //                     }
     //                 ],
     //             },
     //             {
-    //                 "time": "09:00 - 09:30 IST",
-    //                 "title": "Decoding the Cybersecurity Career Path",
+    //                 "time": "09:30 - 10:15 IST",
+    //                 "title": "Decadal Plan for Research in Security and Privacy",
     //                 "speakers": [
     //                     {
-    //                         "name": "Sabna Sainudeen",
-    //                         "designation": "President",
-    //                         "organization": " (Women in CyberSecurity) WiCyS India",
-    //                         "avatar": require('../../images/rahul.jpg').default
+    //                         "name": "Richard Chow",
+    //                         "designation": "University Research Manager and Scientist",
+    //                         "organization": " Intel",
+    //                         "avatar": require("../../images/speakers/RichardChow.jpg").default,
     //                     }
     //                 ],
     //             },
     //             {
-    //                 "time": "09:30 - 10:30 IST",
-    //                 "title": "CTFs and Cybersecurity Reasearch",
+    //                 "time": "10:15 - 11:00 IST",
+    //                 "title": "Android Exploitation & Protection: A 1-Click Full-Chain View ",
     //                 "speakers": [
     //                     {
-    //                         "name": "Tiffany Bao",
-    //                         "designation": "Assistant Professor",
-    //                         "organization": " Arizona State University",
-    //                         "avatar": require('../../images/rahul.jpg').default
+    //                         "name": "Atul Agarwal",
+    //                         "designation": "CEO",
+    //                         "organization": "Secfence",
+    //                         "avatar": require("../../images/speakers/atul-agarwal.jpg").default,
     //                     }
     //                 ],
     //             },
     //             {
-    //                 "time": "10:30 - 11:00 IST",
-    //                 "title": "Cyber Event - How to treat it right?",
+    //                 "time": "11:00 - 11:45 IST",
+    //                 "title": "Protecting containers and the ship throughout their journey",
     //                 "speakers": [
     //                     {
-    //                         "name": "Liora Itkin",
-    //                         "designation": "Head of Cybersecurity Department (of SOC and DFIR teams)",
-    //                         "organization": " Israel Ministry of Defense",
-    //                         "avatar": require('../../images/rahul.jpg').default
+    //                         "name": "Ajit Dhumale",
+    //                         "designation": "Senior Engineer ",
+    //                         "organization": " CrowdStrike",
+    //                         "avatar": require("../../images/speakers/AjitDhumale-Saurabh-Gawas.jpg").default,
     //                     }
     //                 ],
     //             },
                 
     //             {
-    //                 "time": "11:30 - 13:00 IST",
-    //                 "title": "Panel Discussion: Cybercrime and Pathways Ahead",
+    //                 "time": "11:45 - 12:30 IST",
+    //                 "title": "End to End Device Security - Enhanced by Hardware",
     //                 "speakers": [
     //                     {
-    //                         "name": "Liora Itkin",
-    //                         "designation": "Head of Cybersecurity Department (of SOC and DFIR teams)",
-    //                         "organization": " Israel Ministry of Defense",
-    //                         "avatar": require('../../images/rahul.jpg').default
+    //                         "name": "Mini TT",
+    //                         "designation": "Security Technologist",
+    //                         "organization": "Dell",
+    //                         "avatar": require("../../images/speakers/Mini-TT.jpeg").default,
     //                     },
-    //                     {
-    //                         "name": "Evelyn Kilel",
-    //                         "designation": "Co-Founder",
-    //                         "organization": "SheHacksKe",
-    //                         "avatar": require('../../images/rahul.jpg').default
-    //                     },
-    //                     {
-    //                         "name": "Anyesh Roy",
-    //                         "designation": "IPS - DCP",
-    //                         "organization": "Cyber Crime, Delhi Police",
-    //                         "avatar": require('../../images/rahul.jpg').default
-    //                     },
-    //                     {
-    //                         "name": "Dave Chatterjee",
-    //                         "designation": "Associate Professor",
-    //                         "organization": "The University of Georgia",
-    //                         "avatar": require('../../images/rahul.jpg').default
-    //                     },
-    //                     {
-    //                         "name": "Krishnashree Achuthan",
-    //                         "designation": "Dean PG Programs",
-    //                         "organization": "Amrita Vishwa Vidyapeetham",
-    //                         "avatar": require('../../images/rahul.jpg').default
-    //                     },
+    //                 
     //                 ],
     //                 },
                     
                     
     //             {
-    //                 "time": "15:00 - 16:00 IST",
-    //                 "title": "Recon to Software Supply Chain Attack",
+    //                 "time": "14:30 - 15:15 IST",
+    //                 "title": "Speaker",
     //                 "speakers": [
     //                     {
-    //                         "name": "Komal Armarkar",
-    //                         "designation": "Security Analyst",
-    //                         "organization": "CrowdStrike",
+    //                         "name": "Rahul Manneri",
+    //                         "designation": "cyber",
+    //                         "organization": "amrita",
     //                         "avatar": require('../../images/rahul.jpg').default
+    //                     }
+    //                 ],
+    //             },
+    //             {
+    //                 "time": "15:15 - 16:00 IST",
+    //                 "title": "Getting started with IR/Blue Teaming",
+    //                 "speakers": [
+    //                     {
+    //                         "name": "Sam Paterson",
+    //                         "designation": "IR Analyst",
+    //                         "organization": "MDSec",
+    //                         "avatar": require("../../images/speakers/sam.png").default,
     //                     }
     //                 ],
     //             },
     //             {
     //                 "time": "16:00 - 16:45 IST",
-    //                 "title": "Kick-Start to Secure Software Development",
+    //                 "title": "Speaker",
     //                 "speakers": [
     //                     {
-    //                         "name": "Arya M Sankar",
-    //                         "designation": "Security Researcher",
-    //                         "organization": "Siemens",
-    //                         "avatar": require('../../images/rahul.jpg').default
-    //                     }
-    //                 ],
-    //             },
-    //             {
-    //                 "time": "16:45 - 17:30 IST",
-    //                 "title": "Techniques and tooling with FLARE-ON'20",
-    //                 "speakers": [
-    //                     {
-    //                         "name": "Sreelakshmi Panangatt",
+    //                         "name": "Rahul Manneri",
     //                         "designation": "Security Engineer",
-    //                         "organization": "VMware",
+    //                         "organization": "Amrita",
     //                         "avatar": require('../../images/rahul.jpg').default
     //                     }
     //                 ],
     //             },
     //             {
-    //                 "time": "20.30 - 21.30 IST",
-    //                 "title": "Privacy preserving Data Analysis",
+    //                 "time": "20.00 - 20.45 IST",
+    //                 "title": "Indigenous Cyber Issues - Problem Statements",
     //                 "speakers": [
     //                     {
-    //                         "name": "Mina Sheikhalishahi",
-    //                         "designation": "Security Researcher",
-    //                         "organization": "Eindhoven University of Technology",
+    //                         "name": "Rushi",
+    //                         "designation": "Senior Program Manager",
+    //                         "organization": "Ministry of Home Affairs",
     //                         "avatar": require('../../images/rahul.jpg').default
     //                     }
     //                 ],
     //             },
     //             {
-    //                 "time": "21:30 - 22:30 IST",
-    //                 "title": "Cybersecurity of Embedded Networks in Heavy Vehicles",
+    //                 "time": "20:45 - 21:30 IST",
+    //                 "title": "Cyber Risk Management",
     //                 "speakers": [
     //                     {
-    //                         "name": "Indrakshi Ray",
-    //                         "designation": "Professor, Computer Science Department",
-    //                         "organization": "Colorado State University",
-    //                         "avatar": require('../../images/rahul.jpg').default
+    //                         "name": "Dr. Amir Schreiber",
+    //                         "designation": "Senior Director",
+    //                         "organization": "Bank Hapoalim",
+    //                         "avatar": require("../../images/speakers/amir.jpeg").default,
     //                     }
     //                 ],
     //             },
