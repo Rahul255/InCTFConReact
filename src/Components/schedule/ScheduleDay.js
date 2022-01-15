@@ -5,7 +5,7 @@ const ScheduleDayWrap = styled.div`
     background: white;
     padding: 1rem;
     color: black;
-    border: 2px solid #ed563b;
+   
     h3 {
       color: chocolate;
       font-size: calc(1.35rem + 0.35vw);
@@ -15,21 +15,27 @@ const ScheduleDayWrap = styled.div`
 
 const ScheduleEvent = styled.div`
     background: rgba(250, 250, 0, 0.05);
+    border-radius:10px;
+    
     padding: 1rem;
     .schedule-time {
         font-size: calc(1.15rem + 0.25vw);
     }
     h4 {
         margin-bottom: 1rem;
-        font-size: calc(1.35rem + 0.35vw);
+        font-size: calc(1.5rem + 0.35vw);
+        font-weight:bold;
     }
 `;
 
 const SpeakerCard = styled.div`
     img {
-        max-width: 100%;
-        width: 72px;
-        border-radius: 100vw;
+        
+        float: left;
+        width:  140px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
     }
     h5 {
         font-weight: 500;

@@ -408,7 +408,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Srinivas Bharadwaj",
                 "designation": "Lead Founder",
                 "company": "Jnana Marga Technologies",
-                "image": '',
+                "image": require('../../images/speakers/srinivas-final.png').default,
                 "links": {
                     "linkedin": "",
                 },

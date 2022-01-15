@@ -164,6 +164,12 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/Chris-Caren.jpeg").default,
         },
         {
+            "name": "Srinivas Bharadwaj",
+            "designation": "Lead Founder",
+            "company": "Jnana Marga Technologies",
+            "image": require('../../images/speakers/srinivas-final.png').default,
+        },
+        {
             "name": "Dr. Amir Schreiber",
             "designation": "Senior Director",
             "company": "Bank Hapoalim",
