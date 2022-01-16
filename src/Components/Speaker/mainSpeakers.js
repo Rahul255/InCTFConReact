@@ -114,6 +114,14 @@ const ConferenceSpeakers = () => {
 
     const speakers = [
         {
+            "name": "Ajay Prakash Sawhney",
+            "designation": "Secretary. Ministry of Electronics & IT",
+            "isTrainer": true,
+            "speakType": "Keynote",
+            "company": "Government of India",
+            "image": require('../../images/speakers/Ajay-Prakash-Sawhney.jpeg').default
+        },
+        {
             "name": "Lt. General (Dr) Rajesh Pant (retd.)",
             "designation": "National Cyber Security Coordinator",
             "isTrainer": true,
@@ -124,6 +132,8 @@ const ConferenceSpeakers = () => {
         {
             "name": "Arundhati Bhattacharya",
             "designation": "Chairperson and Chief Executive Officer ",
+            "isTrainer": true,
+            "speakType": "Keynote",
             "company": "Salesforce India",
             "image": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
         },

@@ -170,26 +170,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
         //         </p>
         //     }
         // },
-        {
-            "slug": "threat-modeling",
-            "title": "Bypassing Windows Hello For Business & Pleasure",
-            "abstract": <>
-                Windows Hello is the most popular passwordless solution that includes authentication by either PIN code or biometric authentication. Windows Hello promises better security – but is it the truth? In this session, I'll discuss face recognition bypass vectors and introduce Cyberark Labs research that shows how an attacker can bypass Windows Hello without a camera.
-            </>,
-            "speaker": {
-                "name": "Lavi Lazarovitz",
-                "designation": " Head of Research ",
-                "company": "Cyberark",
-                "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
-                "links": {
-                    "linkedin": "",
-                },
-                "bio": <p>
-                    Lavi is the head of security research at CyberArk Labs. He and his team focus on offensive security and security innovation. They specialize in spotting security gaps in emerging technologies and developing innovative new security layers and effective mitigations to fill those gaps. Recent research vectors include acclaimed work on: cloud security, containers and Kubernetes security and authentication and identity security.
-
-                </p>
-            },
-        },
+        
         {
             "slug": "threat-modeling",
             "title": "Down the Rabbit Hole: the Future of CyberSecurity",
@@ -235,24 +216,91 @@ const ConSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "threat-modeling",
-            "title": "Introduction to Containers and Kubernetes",
+            "title": "Android Exploitation & Protection: A 1-Click Full-Chain View ",
             "abstract": <>
-                Now days we are moving from hosted infrastructure to cloud with cloud native infrastructure. But why containers and Kubernetes, because these provides essential solution to scalability and orchestration. Also shift left approach, by tools like docker, for building environment to run apps has made CI-CD much easier and smooth.
-                We will dive deep into these with very basic examples from day to day life
+                In this talk, we will look at an Android Full Android Full Chain, with an objective to understand the key components (Remote Code Execution, Sandbox Escape & Local Privilege Escalation), mitigations and classes of vulnerabilities in such a chain.
+
+                Understanding the Infection process gives an insight into the defensive challenges present at each stage, and why traditional protection mechanisms fail to stop such attacks at every step.
+
             </>,
             "speaker": {
-                "name": "Ramesh Kumar",
-                "designation": "Senior Engineer ",
-                "company": "CrowdStrike",
-                "image": require("../../images/speakers/Ramesh-kumar.jpeg").default,
+                "name": "Atul Agarwal",
+                "designation": "CEO",
+                "company": "Secfence",
+                "image": require("../../images/speakers/atul-agarwal.jpg").default,
                 "links": {
                     "linkedin": "",
                 },
                 "bio": <p>
-                    Ramesh is working in cyber security domain for about 5 years now, with specialisation in container and cloud security. Before this he wrote vrest, a Rest API validation tool. He also wrote few other open source tools, allrounder, templist and more. If not working, you may find him playing ukulele in one of the mountains.
+                    A technology enthusiast with over a decade of experience in building startups and nurturing talent. Atul is Founder of Secfence, multifold barrier breaking Cyber Security Organisation which is trusted by the top Government, Intelligence, Defence agencies, LEA's & Corporates.
+
+                    As a High School Grad just out of school, Atul has previously co-founded a high growth cyber security training & Ad-Tech start-up.
+
+                    Known for his technical prowess and country first approach, he's surely made a stamp in the InfoSec space and has helped client organisations to be result oriented and to make India a safer Cyber place to live in.
                 </p>
             },
         },
+        {
+            "slug": "threat-modeling",
+            "title": "Data privacy and security in global education technology",
+            "abstract": <>
+                Overview of how data privacy and security practices have evolved as education technology plays a broader role in student and faculty life.  Topics include data locality, data security practices, security around emerging use-cases such as student ID verification and remote test monitoring.
+
+            </>,
+            "speaker": {
+                "name": "Chris Caren",
+                "designation": "CEO",
+                "company": "Turnitin",
+                "image": require("../../images/speakers/Chris-Caren.jpeg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                    Chris Caren joined Turnitin in 2009 as Chief Executive Officer. Chris led the transition of Turnitin from a company focused on plagiarism prevention to one that provides solutions that promote academic integrity, streamline grading and feedback, and improve outcomes across educational levels and content areas. Chris previously worked for Microsoft Corporation as GM of Microsoft Business Solutions. Although his career has focused on software businesses, he comes from a family of scientists and educators. He holds an MBA with distinction from Kellogg School of Management and a bachelor of science in Engineering from Stanford University.
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
+            "title": "Learning Java Security the Jnana Marga Way and Finding Careers in Security",
+            "abstract": <>
+                Jnana Marga develops new learning paradigms that develops eBooks into Courses. The system employs a patented Collaborative Learning Methodology. We showcase our IT Certificate that can help ready students for Careers in IT. We also introduce a way to learn Java Security using the Jnana Marga Platform and the freely available JSSEC book. The lecture will quickly introduce the first chapter of the JSSEC book and will help students learn about Java Security which is part of the second level Java Course.
+
+            </>,
+            "speaker": {
+                "name": "Srinivas Bharadwaj",
+                "designation": "Lead Founder",
+                "company": "Jnana Marga Technologies",
+                "image": require('../../images/speakers/srinivas-final.png').default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                    Srinivas Bharadwaj has been a Java Engineer since 1997. He also holds an MS in CS from Georgia Tech, an MBA, CFA and FRM. He also holds patents and is Lead Founder at Jnana Marga Technologies which builds an edTech platform for High Schoolers and College Students.
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
+            "title": "Cyber Risk Management",
+            "abstract": <>
+                How can a company asses their cyber risk, think & organize diffrently, in an era of cyber everywhere and ever growing Advanced Persistent Threats (APT) attacks?
+
+            </>,
+            "speaker": {
+                "name": "Dr. Amir Schreiber",
+                "designation": "Senior Director",
+                "company": "Bank Hapoalim",
+                "image": require("../../images/speakers/amir.jpeg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                    Dr. Amir Schreiber is a senior director in “Bank Hapoalim”, head of Cyber Risk Management, former Chief Information Security Officer (CISO) & Chief Cyber Defense Officer (CCDO) in “Isracard Group” (including MC and all subsidiaries). In addition to cyber security skills, Amir is an innovative social networks & Internet researcher, a keynote speaker in International & government conferences and directors programs. Previously, founder and director of the Internet & Mobile Department in Bank Hapoalim. Research domains: cyber risk, social networks, eye tracking, digital democracy, digital divide.
+                </p>
+            },
+        },
+        
         {
             "slug": "threat-modeling",
             "title": "Decadal Plan for Research in Security and Privacy",
@@ -296,6 +344,26 @@ const ConSpeakers = ({ hideTitle = false }) => {
 
                     M.Sc. Telecommunications, 1996 (University of Colorado, Boulder, USA)
                     B.Sc. Electrical and Electronics Engineering, 1987 (Tel-Aviv University, Israel)
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
+            "title": "Bypassing Windows Hello For Business & Pleasure",
+            "abstract": <>
+                Windows Hello is the most popular passwordless solution that includes authentication by either PIN code or biometric authentication. Windows Hello promises better security – but is it the truth? In this session, I'll discuss face recognition bypass vectors and introduce Cyberark Labs research that shows how an attacker can bypass Windows Hello without a camera.
+            </>,
+            "speaker": {
+                "name": "Lavi Lazarovitz",
+                "designation": " Head of Research ",
+                "company": "Cyberark",
+                "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                    Lavi is the head of security research at CyberArk Labs. He and his team focus on offensive security and security innovation. They specialize in spotting security gaps in emerging technologies and developing innovative new security layers and effective mitigations to fill those gaps. Recent research vectors include acclaimed work on: cloud security, containers and Kubernetes security and authentication and identity security.
+
                 </p>
             },
         },
@@ -397,26 +465,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
-        {
-            "slug": "threat-modeling",
-            "title": "Learning Java Security the Jnana Marga Way and Finding Careers in Security",
-            "abstract": <>
-                Jnana Marga develops new learning paradigms that develops eBooks into Courses. The system employs a patented Collaborative Learning Methodology. We showcase our IT Certificate that can help ready students for Careers in IT. We also introduce a way to learn Java Security using the Jnana Marga Platform and the freely available JSSEC book. The lecture will quickly introduce the first chapter of the JSSEC book and will help students learn about Java Security which is part of the second level Java Course.
-
-            </>,
-            "speaker": {
-                "name": "Srinivas Bharadwaj",
-                "designation": "Lead Founder",
-                "company": "Jnana Marga Technologies",
-                "image": require('../../images/speakers/srinivas-final.png').default,
-                "links": {
-                    "linkedin": "",
-                },
-                "bio": <p>
-                    Srinivas Bharadwaj has been a Java Engineer since 1997. He also holds an MS in CS from Georgia Tech, an MBA, CFA and FRM. He also holds patents and is Lead Founder at Jnana Marga Technologies which builds an edTech platform for High Schoolers and College Students.
-                </p>
-            },
-        },
+        
         {
             "slug": "threat-modeling",
             "title": "End to End Device Security - Enhanced by Hardware",
@@ -441,70 +490,25 @@ const ConSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "threat-modeling",
-            "title": "Android Exploitation & Protection: A 1-Click Full-Chain View ",
+            "title": "Introduction to Containers and Kubernetes",
             "abstract": <>
-                In this talk, we will look at an Android Full Android Full Chain, with an objective to understand the key components (Remote Code Execution, Sandbox Escape & Local Privilege Escalation), mitigations and classes of vulnerabilities in such a chain.
-
-                Understanding the Infection process gives an insight into the defensive challenges present at each stage, and why traditional protection mechanisms fail to stop such attacks at every step.
-
+                Now days we are moving from hosted infrastructure to cloud with cloud native infrastructure. But why containers and Kubernetes, because these provides essential solution to scalability and orchestration. Also shift left approach, by tools like docker, for building environment to run apps has made CI-CD much easier and smooth.
+                We will dive deep into these with very basic examples from day to day life
             </>,
             "speaker": {
-                "name": "Atul Agarwal",
-                "designation": "CEO",
-                "company": "Secfence",
-                "image": require("../../images/speakers/atul-agarwal.jpg").default,
+                "name": "Ramesh Kumar",
+                "designation": "Senior Engineer ",
+                "company": "CrowdStrike",
+                "image": require("../../images/speakers/Ramesh-kumar.jpeg").default,
                 "links": {
                     "linkedin": "",
                 },
                 "bio": <p>
-                    A technology enthusiast with over a decade of experience in building startups and nurturing talent. Atul is Founder of Secfence, multifold barrier breaking Cyber Security Organisation which is trusted by the top Government, Intelligence, Defence agencies, LEA's & Corporates.
-
-                    As a High School Grad just out of school, Atul has previously co-founded a high growth cyber security training & Ad-Tech start-up.
-
-                    Known for his technical prowess and country first approach, he's surely made a stamp in the InfoSec space and has helped client organisations to be result oriented and to make India a safer Cyber place to live in.
+                    Ramesh is working in cyber security domain for about 5 years now, with specialisation in container and cloud security. Before this he wrote vrest, a Rest API validation tool. He also wrote few other open source tools, allrounder, templist and more. If not working, you may find him playing ukulele in one of the mountains.
                 </p>
             },
         },
-        {
-            "slug": "threat-modeling",
-            "title": "Data privacy and security in global education technology",
-            "abstract": <>
-                Overview of how data privacy and security practices have evolved as education technology plays a broader role in student and faculty life.  Topics include data locality, data security practices, security around emerging use-cases such as student ID verification and remote test monitoring.
-
-            </>,
-            "speaker": {
-                "name": "Chris Caren",
-                "designation": "CEO",
-                "company": "Turnitin",
-                "image": require("../../images/speakers/Chris-Caren.jpeg").default,
-                "links": {
-                    "linkedin": "",
-                },
-                "bio": <p>
-                    Chris Caren joined Turnitin in 2009 as Chief Executive Officer. Chris led the transition of Turnitin from a company focused on plagiarism prevention to one that provides solutions that promote academic integrity, streamline grading and feedback, and improve outcomes across educational levels and content areas. Chris previously worked for Microsoft Corporation as GM of Microsoft Business Solutions. Although his career has focused on software businesses, he comes from a family of scientists and educators. He holds an MBA with distinction from Kellogg School of Management and a bachelor of science in Engineering from Stanford University.
-                </p>
-            },
-        },
-        {
-            "slug": "threat-modeling",
-            "title": "Cyber Risk Management",
-            "abstract": <>
-                How can a company asses their cyber risk, think & organize diffrently, in an era of cyber everywhere and ever growing Advanced Persistent Threats (APT) attacks?
-
-            </>,
-            "speaker": {
-                "name": "Dr. Amir Schreiber",
-                "designation": "Senior Director",
-                "company": "Bank Hapoalim",
-                "image": require("../../images/speakers/amir.jpeg").default,
-                "links": {
-                    "linkedin": "",
-                },
-                "bio": <p>
-                    Dr. Amir Schreiber is a senior director in “Bank Hapoalim”, head of Cyber Risk Management, former Chief Information Security Officer (CISO) & Chief Cyber Defense Officer (CCDO) in “Isracard Group” (including MC and all subsidiaries). In addition to cyber security skills, Amir is an innovative social networks & Internet researcher, a keynote speaker in International & government conferences and directors programs. Previously, founder and director of the Internet & Mobile Department in Bank Hapoalim. Research domains: cyber risk, social networks, eye tracking, digital democracy, digital divide.
-                </p>
-            },
-        },
+        
         // {
         //     "slug": "threat-modeling",
         //     "title": "Cyber Risk Management",
