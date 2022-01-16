@@ -138,10 +138,22 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
         },
         {
+            "name": "Prof. Krishnashree Achuthan",
+            "designation": "Dean & Director, Centre for Cybersecurity Systems & Networks",
+            "company": "Amrita Vishwa Vidyapeetham",
+            "image": require("../../images/speakers/krishnashree.jpg").default,
+        },
+        {
             "name": "Joshua Brown",
             "designation": "Vice President – Global Chief Information Security Officer",
             "company": "H&R Block",
             "image": require("../../images/speakers/Joshua-Brown.jpg").default,
+        },
+        {
+            "name": "Chris Caren",
+            "designation": "CEO",
+            "company": "Turnitin",
+            "image": require("../../images/speakers/Chris-Caren.jpeg").default,
         },
         {
             "name": "Dotan Sagi",
@@ -167,12 +179,7 @@ const ConferenceSpeakers = () => {
             "company": "Secfence",
             "image": require("../../images/speakers/atul-agarwal.jpg").default,
         },
-        {
-            "name": "Chris Caren",
-            "designation": "CEO",
-            "company": "Turnitin",
-            "image": require("../../images/speakers/Chris-Caren.jpeg").default,
-        },
+        
         {
             "name": "Srinivas Bharadwaj",
             "designation": "Lead Founder",
@@ -197,7 +204,12 @@ const ConferenceSpeakers = () => {
             "company": "Intel",
             "image": require("../../images/speakers/RichardChow.jpg").default,
         },
-        
+        {
+            "name": "Prof. Raghu Raman",
+            "designation": "Dean, Amrita School of Business",
+            "company": "Amrita Vishwa Vidyapeetham",
+            "image": require("../../images/speakers/RaghuRaman.jpg").default,
+        },
         {
             "name": "Uri Shai",
             "designation": "",

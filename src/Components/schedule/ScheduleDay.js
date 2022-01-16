@@ -26,6 +26,11 @@ const ScheduleEvent = styled.div`
         font-size: calc(1.5rem + 0.35vw);
         font-weight:bold;
     }
+    h6{
+        margin-bottom: 1rem;
+        font-size: calc(1.0rem + 0.35vw);
+        font-weight:bold;
+    }
 `;
 
 const SpeakerCard = styled.div`
@@ -75,6 +80,7 @@ const ScheduleDay = ({
                                         />
                                     </div>}
                                     <div className="px-2">
+                                        <h6 >{s.role}</h6>
                                         <h5>{s.name}</h5>
                                         <div>
                                             {
