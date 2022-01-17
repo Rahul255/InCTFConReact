@@ -464,24 +464,19 @@ const Schedule = () => {
                     ],
                 },
                 
-                // {
-                //     "time": "17:15 - 17:45 IST",
-                //     "title": "Valedictory Ceremony",
-                //     "speakers": [
-                //         {
-                //             "name": "Micha Weis",
-                //             "designation": "CyberSecurity Advisor",
-                //             "organization": "Ministry of Finance",
-                //             "avatar": require('../../images/rahul.jpg').default
-                //         },
-                //         {
-                //             "name": "Vipin Pavithran",
-                //             "designation": "Founder & Chief Mentor of Team Shakti, Team bi0s, amFOSS",
-                //             "organization": "Amrita University",
-                //             "avatar": require('../../images/rahul.jpg').default
-                //         },
-                //     ]
-                // }
+                {
+                    "time": "17:00 - 18:00 IST",
+                    "title": "Closing Ceremony",
+                    "speakers": [
+                        
+                        {
+                            "name": "Vipin Pavithran",
+                            "designation": "Founder & Chief Mentor of Team bi0s, amFOSS,Team Shakti, InCTF & InCTFj",
+                            "organization": "Amrita University",
+                            "avatar": require('../../images/speakers/vipinpavithran.jpg').default
+                        },
+                    ]
+                }
             ],
         }
     ]

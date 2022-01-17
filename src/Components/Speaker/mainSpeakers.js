@@ -156,6 +156,12 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/Chris-Caren.jpeg").default,
         },
         {
+            "name": "Shri. Atanu Chakraborty",
+            "designation": "Chairman",
+            "company": "HDFC Bank",
+            "image": require("../../images/speakers/HDFC-Chairman.jpg").default,
+        },
+        {
             "name": "Dotan Sagi",
             "designation": "Founder & CEO ",
             "company": "Be-Strategic Solutions",
@@ -172,6 +178,12 @@ const ConferenceSpeakers = () => {
             "designation": "Director, SOC",
             "company": "Salesforce",
             "image": require("../../images/speakers/YogiPhoto.png").default,
+        },
+        {
+            "name": "Sandeep Shukla",
+            "designation": "Professor",
+            "company": "Indian Institute of Technology Kanpur",
+            "image": require('../../images/speakers/Prof_Sandeep_Shukla.jpg').default
         },
         {
             "name": "Atul Agarwal",
@@ -203,6 +215,12 @@ const ConferenceSpeakers = () => {
             "designation": "University Research Manager and Scientist",
             "company": "Intel",
             "image": require("../../images/speakers/RichardChow.jpg").default,
+        },
+        {
+            "name": "Rushi",
+            "designation": "Senior Program Manager",
+            "company": "Ministry of Home Affairs",
+            "image": require('../../images/speakers/rushi.jpg').default,
         },
         {
             "name": "Prof. Raghu Raman",
@@ -242,6 +260,12 @@ const ConferenceSpeakers = () => {
             "company": "Dell",
             "image": require("../../images/speakers/Mini-TT.jpeg").default,
         },
+        // {
+        //     "name": "Vipin Pavithran",
+        //     "designation": "Founder & Chief Mentor of Team bi0s, amFOSS,Team Shakti, InCTF & InCTFj",
+        //     "company": "Amrita University",
+        //     "image": require('../../images/speakers/vipinpavithran.jpg').default
+        // },
         {
             "name": "Ramesh Kumar",
             "designation": "Senior Engineer",

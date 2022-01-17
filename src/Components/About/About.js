@@ -21,8 +21,7 @@ function About() {
             <div>
               <Fade left>
                 <p className="para">
-                  <span className="span2">InCTFCon</span> is an International Cybersecurity conference organised on behalf of Amrita InCTF to address the skill gap, to ensure the online safety of children,
-                  to inspire and empower the youth to take up careers in cyberspace. 
+                  <span className="span2">InCTFCon</span> is an International Cybersecurity conference organized on behalf of Amrita InCTF. Our mission is to educate and promote a culture of online and technology safety and security. We want to empower those that are technologically savvy to take up the cybersecurity mantle in order to find a fulfilling career in cyberspace while serving those in need.  InCTFCon offers multiple avenues of entry into cybersecurity both professionally and academically. 
                 </p>
                 <p className="para">
                   Our pre-conference national contest (InCTF) boasts a{" "}
