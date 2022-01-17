@@ -46,9 +46,9 @@ const Header = styled.header`
        }
     }
     .register-button {
-        padding: 5px 12px;
+        padding: 10px 15px;
         border-radius: 3px;
-        border: 1px solid #666;
+        border: 2px solid #666;
         color: #EEE;
         text-decoration: none!important;
         transition: all 0.5s linear;
@@ -123,22 +123,23 @@ const Topbar = () => {
                             <a className="newone" href="/promote">Promote</a>
                         </Fade>
                     </nav>
+                    <Fade left>
+                        <a
+                            className="register-button" target="_blank" rel="noreferrer nofollow"
+                            href="https://forms.gle/a9gPwADoyKcLkp5c7"
+                        >
+                            Register 
+                        </a>
+                    </Fade>
                 </div>
                 <div className="col-8 d-flex d-md-none align-items-center justify-content-end px-2">
                     <button onClick={onOpen}>
                         <i class="fa fa-bars text-light color" aria-hidden="true"></i>
                     </button>
                 </div>
-                {/*<div className="col-3 d-none d-md-flex align-items-center">
-                    {/*<Fade left>*/}
-                {/*    <a*/}
-                {/*       className="register-button" target="_blank" rel="noreferrer nofollow"*/}
-                {/*       href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"*/}
-                {/*    >*/}
-                {/*        Register*/}
-                {/*    </a>*/}
-                {/*</Fade>*/}
-                {/*socialMedia.map((s, index) =>
+                <div className="col-3 d-none d-md-flex align-items-center">
+
+                    {/* {socialMedia.map((s, index) =>
                         <Fade right delay={index*200}>
                             <a
                                 href={s.url}
@@ -150,8 +151,8 @@ const Topbar = () => {
                                 <i className={s.icon} aria-hidden="true" />
                             </a>
                         </Fade>
-                    )}
-                    </div>*/}
+                    )} */}
+                </div>
             </div>
         </Header>
         {showMenu && <SideBar onClose={onClose} />}

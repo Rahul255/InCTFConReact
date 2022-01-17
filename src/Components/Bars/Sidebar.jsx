@@ -42,6 +42,20 @@ const SideBarMenu = styled.div`
         outline: none!important;
       }
   }
+  .register-button {
+    padding: 10px 15px;
+    margin-left : 45px;
+    border-radius: 3px;
+    border: 1px solid #666;
+    color: #EEE;
+    text-decoration: none!important;
+    transition: all 0.5s linear;
+    &:hover {
+       color: #F50057;
+       transition: all 0.5s linear;
+    }
+    margin-right: 5px;
+}
   li {
     list-style-type: none;
     padding: 0.5rem 1rem;
@@ -121,23 +135,31 @@ const SideBar = ({ onClose, darkenOnSidebar }) => {
                             </li>
                         </Fade>
                     )}</ol>
+                    <Fade left>
+                   <a
+                className="register-button" target="_blank" rel="noreferrer nofollow"
+                href="https://forms.gle/a9gPwADoyKcLkp5c7"
+                 >
+                Register
+              </a>
+                </Fade>
                     <div style={{ color: '#999' }} className="text-center pt-4">
                         follow us on
                     </div>
                     <SocialMediaLinks className="social-bar d-flex align-items-center justify-content-center px-2">
                         <Fade delay={50}>
-                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/manneri_bro">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/inctf.in/">
                                 <i className="fab fa-instagram" />
                             </a>
                         </Fade>
                         <Fade delay={250}>
-                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/manneri_bro">
+                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/inctf">
                                 <i className="fab fa-twitter" />
                             </a>
                         </Fade>
                         <Fade delay={500}>
-                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/manneri_bro">
-                                <i className="fab fa-discord" />
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/InCTF">
+                                <i className="fab fa-facebook" />
                             </a>
                         </Fade>
                     </SocialMediaLinks>
