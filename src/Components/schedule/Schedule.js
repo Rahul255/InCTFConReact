@@ -444,10 +444,10 @@ const Schedule = () => {
                 //     "title": "speaker",
                 //     "speakers": [
                 //         {
-                //             "name": "Rahul",
-                //             "designation": "cyber",
-                //             "organization": "amrita",
-                //             "avatar": require('../../images/rahul.jpg').default
+                //             "name": "Suvabrata Sinha",
+                //             "designation": "Chief Information Security Officer",
+                //             "organization": "NXP Semiconductors",
+                //             "avatar": require("../../images/speakers/Suvabrata-Sinha.jpg").default,
                 //         },  
                 //     ],
                 // },

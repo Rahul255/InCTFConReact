@@ -161,7 +161,12 @@ const ConferenceSpeakers = () => {
             "company": "Turnitin",
             "image": require("../../images/speakers/Chris-Caren.jpeg").default,
         },
-        
+        {
+            "name": "Suvabrata Sinha ",
+            "designation": "Chief Information Security Officer",
+            "company": "NXP Semiconductors",
+            "image": require("../../images/speakers/Suvabrata-Sinha.jpg").default,
+        }, 
         {
             "name": "Dotan Sagi",
             "designation": "Founder & CEO ",
