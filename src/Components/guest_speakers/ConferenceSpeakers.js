@@ -263,7 +263,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
         
         {
             "slug": "threat-modeling",
-            "title": "Learning Java Security the Jnana Marga Way and Finding Careers in Security",
+            "title": "OWASP Security Code Review for Young Developers seeking Technology Careers - Backend Perspectives recommended for Java and other Cloud and Backend Engineer",
             "abstract": <>
                 Jnana Marga develops new learning paradigms that develops eBooks into Courses. The system employs a patented Collaborative Learning Methodology. We showcase our IT Certificate that can help ready students for Careers in IT. We also introduce a way to learn Java Security using the Jnana Marga Platform and the freely available JSSEC book. The lecture will quickly introduce the first chapter of the JSSEC book and will help students learn about Java Security which is part of the second level Java Course.
 

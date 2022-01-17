@@ -16,7 +16,7 @@ const ScheduleDayWrap = styled.div`
 const ScheduleEvent = styled.div`
     background: rgba(250, 250, 0, 0.05);
     border-radius:10px;
-    
+    border: 2px solid black;
     padding: 1rem;
     .schedule-time {
         font-size: calc(1.15rem + 0.25vw);
@@ -40,7 +40,8 @@ const SpeakerCard = styled.div`
         width:  140px;
         height: 150px;
         object-fit: cover;
-        border-radius: 10px;
+        border-radius: 100px;
+        
     }
     h5 {
         font-weight: 500;
@@ -55,9 +56,10 @@ const ScheduleDay = ({
 }) => {
 
     return <ScheduleDayWrap>
-        <h3>{title}</h3>
-        <div className="date-title">
-            {date}
+        {/* <h3>{title}</h3> */}
+        <div className="date-title ">
+            <h3>{date}</h3>
+            {/* <h6>Schedule of Events</h6> */}
         </div>
         {events?.length > 0 &&
         <div className="py-3">
@@ -73,7 +75,7 @@ const ScheduleDay = ({
                             {e.speakers.map((s) =>
                                 <SpeakerCard className="w-100 d-flex align-items-center mb-3">
                                     {s.avatar &&
-                                    <div className="mr-3">
+                                    <div className="mr-2">
                                         <img
                                             src={s.avatar}
                                             alt={s.name} draggable="false"
