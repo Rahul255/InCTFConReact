@@ -68,16 +68,16 @@ const CoverWrap = styled.div`
     }
     .register-button {
         margin-top: 2vh;
-        display: block;
-        padding: 12px 18px;
+   
+        padding: 15px 40px;
         border-radius: 3px;
         font-size: 18px;
-        background: #4A148C;
+        background: tomato;
         color: white;
         text-decoration: none!important;
         transition: all 0.35s linear;
         &:hover {
-           background: #F50057;
+          color: 
            transition: all 0.35s linear;
         }
         margin-right: 5px;
@@ -144,6 +144,14 @@ function Banner() {
                             </div>
                         </div>*/}<br />
                             <h5 className="bold">January 21 - 23, 2022</h5>
+                        </Fade><br/>
+                        <Fade left>
+                        <a
+                            className="register-button" target="_blank" rel="noreferrer nofollow"
+                            href="https://forms.gle/a9gPwADoyKcLkp5c7"
+                        >
+                            Register 
+                        </a>
                         </Fade>
                     </div>
                    

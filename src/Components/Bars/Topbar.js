@@ -53,7 +53,7 @@ const Header = styled.header`
         text-decoration: none!important;
         transition: all 0.5s linear;
         &:hover {
-           color: #F50057;
+           
            transition: all 0.5s linear;
         }
         margin-right: 5px;
