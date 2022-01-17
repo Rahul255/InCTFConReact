@@ -30,7 +30,7 @@ const TabSwitcher = styled.div`
 
 const Schedule = () => {
 
-    const [activeDay, setActiveDay] = useState(2);
+    const [activeDay, setActiveDay] = useState(0);
 
     const scheduleList = [
         {
