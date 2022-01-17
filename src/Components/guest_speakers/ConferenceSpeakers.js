@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "@emotion/styled";
 import Fade from "react-reveal/Fade";
+import shortid from "shortid";
 
 import SpeakerCard from "./SpeakerCard";
 
@@ -33,6 +34,113 @@ const TrainingModuleWrap = styled.section`
       }
    }
 `;
+
+const SpeakersContainer = styled.div`
+    background: #112;
+    color: #eee;
+    min-height: 45vh;
+    padding: 5vh 2vw;
+    h2 {
+        font-size: calc(1.5rem + 1.5vw);
+       font-weight: 600;
+       margin-bottom: 0.75rem;
+       color: tomato;
+       text-align: center;
+    }
+    .scroll-container {
+      &::-webkit-scrollbar{
+          background: rgba(2,2,2,0.5);
+          width: 8px;
+      }
+      ::-webkit-scrollbar-thumb {
+          background: rgba(120,20,150,0.5);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+           background: rgba(120,20,150,0.8);
+      }
+    }
+`
+
+const SpeakerCardMain = styled.div`
+    text-align: center;
+    color: #eee;
+    padding: 0 0.35rem;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    user-select: none;
+    transition: all 0.5s ease;
+    border: ${({ isTrainer }) => isTrainer ? `2px solid white` : `2px solid white`};
+    &:hover {
+       
+       transition: all 0.5s ease;
+       border-radius: 10px;
+       img {
+         border-radius: 15px;
+         transition: all 0.7s ease;
+       }
+    }
+    img {
+        float: left;
+        width:  140px;
+        height: 150px;
+        object-fit: cover;
+      border-radius: 100px;
+      border: 2px solid white;
+      margin-bottom: 1rem;
+      transition: all 0.7s ease;
+      display: block;
+    }
+    h3 {
+       font-size: calc(0.9rem + 0.15vw);
+        color: #fd7e14;
+        margin-bottom: 5px;
+    }
+    h4 {
+       font-size: calc(0.75rem + 0.15vw);
+       color: #eee;
+       margin-bottom: 3px;
+    }
+    h5 {
+       font-size: calc(0.8rem + 0.2vw);
+       color: #FFF;
+       font-weight: 600;
+    }
+    .trainer-badge, .speaker-badge {
+       display: inline-block;
+       padding: 3.5px 10px;
+       font-size: calc(0.8rem + 0.25vw);
+       border-radius: 5px;
+       transform: translateY(-12px);
+    }
+    .trainer-badge {
+        background: tomato;
+    }
+    .speaker-badge {
+         background: tomato;
+
+    }
+    .social-media-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8px;
+      a {
+          margin-right: 8px;
+          i {
+            color: #AAA;
+            font-size: 24px;
+          }
+          &:hover {
+            i {
+              color: white;
+            }
+          }
+        }
+    }
+`
 
 const ConSpeakers = ({ hideTitle = false }) => {
 
@@ -170,7 +278,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
         //         </p>
         //     }
         // },
-        
+
         {
             "slug": "threat-modeling",
             "title": "Down the Rabbit Hole: the Future of CyberSecurity",
@@ -260,7 +368,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
-        
+
         {
             "slug": "threat-modeling",
             "title": "OWASP Security Code Review for Young Developers seeking Technology Careers - Backend Perspectives recommended for Java and other Cloud and Backend Engineer",
@@ -301,7 +409,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
-        
+
         {
             "slug": "threat-modeling",
             "title": "Decadal Plan for Research in Security and Privacy",
@@ -466,7 +574,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
-        
+
         {
             "slug": "threat-modeling",
             "title": "End to End Device Security - Enhanced by Hardware",
@@ -509,7 +617,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
-        
+
         // {
         //     "slug": "threat-modeling",
         //     "title": "Cyber Risk Management",
@@ -1485,33 +1593,114 @@ const ConSpeakers = ({ hideTitle = false }) => {
         //         },
     ]
 
-    return <TrainingModuleWrap id="conference-speakers">
-        <div className="container"><br /><br /> <br />
-            {!hideTitle && <h2>Conference Speakers</h2>}
-            <div className="py-4 px-2">
-                {SpeakersList.map((s) =>
-                    <Fade key={s.slug}>
-                        <div className="mb-4">
-                            <SpeakerCard  {...s} />
-                        </div>
-                    </Fade>
-                )}
-            </div>
-        </div>
-        <div className="container"><br /><br /> <br />
-            {!hideTitle && <h2>Pre-Conference Speakers</h2>}
-            <div className="py-4 px-2">
-                {PreConfList.map((s) =>
-                    <Fade key={s.slug}>
-                        <div className="mb-4">
-                            <SpeakerCard  {...s} />
-                        </div>
-                    </Fade>
-                )}
-            </div>
-        </div>
+    const main_speaker = [
+        {
+            "name": "Ajay Prakash Sawhney",
+            "designation": "Secretary. Ministry of Electronics & IT",
+            "isTrainer": true,
+            "speakType": "Keynote",
+            "company": "Government of India",
+            "image": require('../../images/speakers/Ajay-Prakash-Sawhney.jpeg').default
+        },
+        {
+            "name": "Lt. General (Dr) Rajesh Pant (retd.)",
+            "designation": "National Cyber Security Coordinator",
+            "isTrainer": true,
+            "speakType": "Keynote",
+            "company": "National Security Council Secretariat of India",
+            "image": require("../../images/speakers/rajeshPant.jpg").default,
+        },
+        {
+            "name": "Arundhati Bhattacharya",
+            "designation": "Chairperson and Chief Executive Officer ",
+            "isTrainer": true,
+            "speakType": "Keynote",
+            "company": "Salesforce India",
+            "image": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
+        },
+        {
+            "name": "Shri. Atanu Chakraborty",
+            "designation": "Chairman",
+            "company": "HDFC Bank",
+            "image": require("../../images/speakers/HDFC-Chairman.jpg").default,
+        },
+    ]
+    return <div>
+        <SpeakersContainer id="speakers">
+            <div className="container">
+            <div className="row mx-0">
+                <div className="col-12 px-2 py-3 text-center"><br /><br /> <br />
+                    {/* <Fade left> */}
+                    {!hideTitle && <h2>Distinguished Speakers</h2>}
+                    {/* </Fade> */}
+                </div>
 
-    </TrainingModuleWrap>
+                {main_speaker.map((s, index) =>
+                    <div key={shortid.generate()} className="col-xl-3 col-lg-3 col-md-4 col-12 p-2">
+                        <SpeakerCardMain isTrainer={s.isTrainer}><br/><br/>
+                            <div>
+                                {/* {s.isTrainer ?
+                                    <div className="trainer-badge">{s.speakType}</div>
+                                    : <div className="speaker-badge">Speaker</div>
+                                } */}
+                                <div className="d-flex justify-content-center">
+                                    {s.image && <img src={s.image} alt={s.name} draggable="false" />}
+                                </div>
+                                <h3>{s.name}</h3>
+                            </div>
+                            {s.company && <div>
+                                <h4>{s.designation}</h4>
+                                <h5>{s.company}</h5>
+                            </div>}
+                            {/*{s.links &&*/}
+                            {/*<div className="social-media-links">*/}
+                            {/*    {s.links?.twitter &&*/}
+                            {/*    <a href={s.links.twitter} rel="noreferrer nofollow" target="_blank">*/}
+                            {/*        <i className="fab fa-twitter" />*/}
+                            {/*    </a>}*/}
+                            {/*    {s.links?.linkedin &&*/}
+                            {/*    <a href={s.links.linkedin} rel="noreferrer nofollow" target="_blank">*/}
+                            {/*        <i className="fab fa-linkedin" />*/}
+                            {/*    </a>}*/}
+                            {/*    {s.links?.website &&*/}
+                            {/*    <a href={s.links.website} rel="noreferrer nofollow" target="_blank">*/}
+                            {/*        <i className="far fa-globe" />*/}
+                            {/*    </a>}*/}
+                            {/*</div>}*/}
+                        </SpeakerCardMain><br/><br/>
+                    </div>
+                )}
+            </div>
+            </div>
+        </SpeakersContainer>
+        <TrainingModuleWrap id="conference-speakers">
+            <div className="container">
+               
+                <div className="py-4 px-2">
+                    {SpeakersList.map((s) =>
+                        <Fade key={s.slug}>
+                            <div className="mb-4">
+                                <SpeakerCard  {...s} />
+                            </div>
+                        </Fade>
+                    )}
+                </div>
+            </div>
+            <div className="container"><br /><br /> <br />
+                {!hideTitle && <h2>Pre-Conference Speakers</h2>}
+                <div className="py-4 px-2">
+                    {PreConfList.map((s) =>
+                        <Fade key={s.slug}>
+                            <div className="mb-4">
+                                <SpeakerCard  {...s} />
+                            </div>
+                        </Fade>
+                    )}
+                </div>
+            </div>
+
+        </TrainingModuleWrap>
+    </div>
 
 };
 
