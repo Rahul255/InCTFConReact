@@ -76,7 +76,7 @@ const SideBarMenu = styled.div`
         }
     }
     &:hover {
-      background: rgba(74,20,140,0.8);
+      
       a{ color: white!important; }
     }   
   }
