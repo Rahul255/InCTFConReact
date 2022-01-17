@@ -138,11 +138,17 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
         },
         {
-            "name": "Prof. Krishnashree Achuthan",
-            "designation": "Dean & Director, Centre for Cybersecurity Systems & Networks",
-            "company": "Amrita Vishwa Vidyapeetham",
-            "image": require("../../images/speakers/krishnashree.jpg").default,
+            "name": "Shri. Atanu Chakraborty",
+            "designation": "Chairman",
+            "company": "HDFC Bank",
+            "image": require("../../images/speakers/HDFC-Chairman.jpg").default,
         },
+        // {
+        //     "name": "Prof. Krishnashree Achuthan",
+        //     "designation": "Dean & Director, Centre for Cybersecurity Systems & Networks",
+        //     "company": "Amrita Vishwa Vidyapeetham",
+        //     "image": require("../../images/speakers/krishnashree.jpg").default,
+        // },
         {
             "name": "Joshua Brown",
             "designation": "Vice President – Global Chief Information Security Officer",
@@ -155,12 +161,7 @@ const ConferenceSpeakers = () => {
             "company": "Turnitin",
             "image": require("../../images/speakers/Chris-Caren.jpeg").default,
         },
-        {
-            "name": "Shri. Atanu Chakraborty",
-            "designation": "Chairman",
-            "company": "HDFC Bank",
-            "image": require("../../images/speakers/HDFC-Chairman.jpg").default,
-        },
+        
         {
             "name": "Dotan Sagi",
             "designation": "Founder & CEO ",
@@ -222,12 +223,12 @@ const ConferenceSpeakers = () => {
             "company": "Ministry of Home Affairs",
             "image": require('../../images/speakers/rushi.jpg').default,
         },
-        {
-            "name": "Prof. Raghu Raman",
-            "designation": "Dean, Amrita School of Business",
-            "company": "Amrita Vishwa Vidyapeetham",
-            "image": require("../../images/speakers/RaghuRaman.jpg").default,
-        },
+        // {
+        //     "name": "Prof. Raghu Raman",
+        //     "designation": "Dean, Amrita School of Business",
+        //     "company": "Amrita Vishwa Vidyapeetham",
+        //     "image": require("../../images/speakers/RaghuRaman.jpg").default,
+        // },
         {
             "name": "Uri Shai",
             "designation": "",

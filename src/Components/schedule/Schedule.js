@@ -144,7 +144,7 @@ const Schedule = () => {
                 
                 {
                     "time": "11:15 - 12:00 IST",
-                    "title": "Talk title will update soon",
+                    "title": "Keynote Address",
                     "speakers": [
                         {
                             "name": "Shri. Atanu Chakraborty",
@@ -405,7 +405,7 @@ const Schedule = () => {
                 // },
                 {
                     "time": "08:45 - 09:30 IST",
-                    "title": "Talk title Will update soon",
+                    "title": "Keynote Address",
                     "speakers": [
                         {
                             "name": "Yogi Kapur",
@@ -504,7 +504,7 @@ const Schedule = () => {
             <div className="p-1 p-md-2">
                 <ScheduleDay {...scheduleList[activeDay]} />
             </div>
-            <div className="d-flex align-items-center justify-content-end  mb-3 my-md-0 px-2">
+            {/* <div className="d-flex align-items-center justify-content-end  mb-3 my-md-0 px-2">
                 <TabSwitcher>
                     {scheduleList?.map((day, index) =>
                         <button
@@ -515,7 +515,7 @@ const Schedule = () => {
                         </button>
                     )}
                 </TabSwitcher>
-            </div>
+            </div> */}
         </div>
     </ScheduleModuleWrap>
 
