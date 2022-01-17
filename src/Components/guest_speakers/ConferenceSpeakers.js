@@ -202,7 +202,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
             </>,
             "speaker": {
                 "name": "Dotan Sagi",
-                "designation": "Founder & CEO ",
+                "designation": "Founder & CEO",
                 "company": "Be-Strategic Solutions",
                 "image": require("../../images/speakers/DotanSagi_BeST.png").default,
                 "links": {
@@ -356,7 +356,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
             </>,
             "speaker": {
                 "name": "Lavi Lazarovitz",
-                "designation": " Head of Research ",
+                "designation": " Head of Research",
                 "company": "Cyberark",
                 "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
                 "links": {
@@ -400,7 +400,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
 
             </>,
             "speaker": {
-                "name": "Nishaanth G , Akshay Jain",
+                "name": "Nishaanth G, Akshay Jain",
                 "designation": "Security Researcher",
                 "company": "MDSec & PhonePe",
                 "image": require("../../images/speakers/NishaanthSmall.png").default,
@@ -498,7 +498,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
             </>,
             "speaker": {
                 "name": "Ramesh Kumar",
-                "designation": "Senior Engineer ",
+                "designation": "Senior Engineer",
                 "company": "CrowdStrike",
                 "image": require("../../images/speakers/Ramesh-kumar.jpeg").default,
                 "links": {
@@ -681,7 +681,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
             </>,
             "speaker": {
                 "name": "Ajit Dhumale",
-                "designation": "Senior Engineer ",
+                "designation": "Senior Engineer",
                 "company": "CrowdStrike",
                 "image": require("../../images/speakers/AjitDhumale-Saurabh-Gawas.jpg").default,
                 "links": {
@@ -708,7 +708,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
 
             </>,
             "speaker": {
-                "name": "Prajeesh Prathap , Raphael de la Vienne",
+                "name": "Prajeesh Prathap, Raphael de la Vienne",
                 "designation": "",
                 "company": "IT&Care",
                 "image": require("../../images/speakers/prajeesh-Prathap.jpg").default,
