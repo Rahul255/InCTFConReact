@@ -62,15 +62,16 @@ const Schedule = () => {
                         }
                     ],
                 },
+                
                 {
                     "time": "10:25 - 10:45 IST",
                     "title": "Special Address",
                     "speakers": [
                         {
-                            "name": "Lt. General (Dr) Rajesh Pant (retd.)", 
-                            "designation": "National Cyber Security Coordinator",
-                            "organization": "National Security Council Secretariat of India",
-                            "avatar": require("../../images/speakers/rajeshPant.jpg").default,
+                            "name": "Arundhati Bhattacharya",
+                            "designation": "Chairperson and Chief Executive Officer",
+                            "organization": "Salesforce India",
+                            "avatar": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
                         }
                     ],
                 },
@@ -79,10 +80,10 @@ const Schedule = () => {
                     "title": "Special Address",
                     "speakers": [
                         {
-                            "name": "Arundhati Bhattacharya",
-                            "designation": "Chairperson and Chief Executive Officer",
-                            "organization": "Salesforce India",
-                            "avatar": require("../../images/speakers/Arundhati-Bhattacharya.jpg").default,
+                            "name": "Lt. General (Dr) Rajesh Pant (retd.)", 
+                            "designation": "National Cyber Security Coordinator",
+                            "organization": "National Security Council Secretariat of India",
+                            "avatar": require("../../images/speakers/rajeshPant.jpg").default,
                         }
                     ],
                 },
