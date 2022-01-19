@@ -62,43 +62,44 @@ const ScheduleDay = ({
             {/* <h6>Schedule of Events</h6> */}
         </div>
         {events?.length > 0 &&
-        <div className="py-3">
-            {events.map((e) =>
-                <ScheduleEvent className="row w-100 mb-3 mx-0">
-                    <div className="col-md-3 d-flex justify-content-md-center text-md-center p-2">
-                        <div className="schedule-time">{e.time}</div>
-                    </div>
-                    <div className="col-md-9 px-2">
-                        <h4>{e.title}</h4>
-                        {e.speakers?.length > 0 &&
-                        <div>
-                            {e.speakers.map((s) =>
-                                <SpeakerCard className="w-100 d-flex align-items-center mb-3">
-                                    {s.avatar &&
-                                    <div className="mr-2">
-                                        <img
-                                            src={s.avatar}
-                                            alt={s.name} draggable="false"
-                                        />
-                                    </div>}
-                                    <div className="px-2">
-                                        <h6 >{s.role}</h6>
-                                        <h5>{s.name}</h5>
-                                        <div>
-                                            {
-                                            (s.designation.length > 0) ?
-                                            <div>{s.designation}, <span>{s.organization}</span></div> :
-                                            <div><span>{s.organization}</span></div>
-                                            }
-                                        </div>
-                                    </div>
-                                </SpeakerCard>
-                            )}
-                        </div>}
-                    </div>
-                </ScheduleEvent>
-            )}
-        </div>}
+            <div className="py-3">
+                {events.map((e) =>
+                    <ScheduleEvent className="row w-100 mb-3 mx-0">
+                        <div className="col-md-3 d-flex justify-content-md-center text-md-center p-2">
+                            <div className="schedule-time">{e.time}</div>
+                        </div>
+                        <div className="col-md-9 px-2">
+                            <h4>{e.title}</h4>
+                            {e.speakers?.length > 0 &&
+                                <div>
+                                    {e.speakers.map((s) =>
+                                        <SpeakerCard className="w-100 d-flex align-items-center mb-3">
+                                            {s.avatar &&
+                                                <div className="mr-2">
+                                                    <img
+                                                        key={s.name}
+                                                        src={s.avatar}
+                                                        alt={s.name} draggable="false"
+                                                    />
+                                                </div>}
+                                            <div className="px-2">
+                                                <h6 >{s.role}</h6>
+                                                <h5>{s.name}</h5>
+                                                <div>
+                                                    {
+                                                        (s.designation.length > 0) ?
+                                                            <div>{s.designation}, <span>{s.organization}</span></div> :
+                                                            <div><span>{s.organization}</span></div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </SpeakerCard>
+                                    )}
+                                </div>}
+                        </div>
+                    </ScheduleEvent>
+                )}
+            </div>}
     </ScheduleDayWrap>
 
 };
