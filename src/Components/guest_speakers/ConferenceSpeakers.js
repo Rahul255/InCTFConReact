@@ -312,7 +312,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Dotan Sagi",
                 "designation": "Founder & CEO",
                 "company": "Be-Strategic Solutions",
-                "image": require("../../images/speakers/DotanSagi_BeST.png").default,
+                "image": require("../../images/speakers/DotanSagi_BeST.jpg").default,
                 "links": {
                     "linkedin": "",
                 },
@@ -380,7 +380,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Srinivas Bharadwaj",
                 "designation": "Lead Founder",
                 "company": "Jnana Marga Technologies",
-                "image": require('../../images/speakers/srinivas-final.png').default,
+                "image": require('../../images/speakers/srinivas-final.jpg').default,
                 "links": {
                     "linkedin": "",
                 },
@@ -442,7 +442,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Uri Shai",
                 "designation": "",
                 "company": "Independent Consultant",
-                "image": require("../../images/speakers/Uri-Shai.png").default,
+                "image": require("../../images/speakers/Uri-Shai.jpg").default,
                 "links": {
                     "linkedin": "",
                 },
@@ -466,7 +466,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Lavi Lazarovitz",
                 "designation": " Head of Research",
                 "company": "Cyberark",
-                "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
+                "image": require("../../images/speakers/Lazarovitz_CyberArk.jpg").default,
                 "links": {
                     "linkedin": "",
                 },
@@ -511,8 +511,8 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Nishaanth G, Akshay Jain",
                 "designation": "Security Researcher",
                 "company": "MDSec & PhonePe",
-                "image": require("../../images/speakers/NishaanthSmall.png").default,
-                "image1": require("../../images/speakers/AkshyJainSmall.png").default,
+                "image": require("../../images/speakers/NishaanthSmall.jpg").default,
+                "image1": require("../../images/speakers/AkshyJainSmall.jpg").default,
                 "links": {
                     "linkedin": "",
                 },
@@ -563,7 +563,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Sam Paterson",
                 "designation": "IR Analyst",
                 "company": "MDSec",
-                "image": require("../../images/speakers/sam.png").default,
+                "image": require("../../images/speakers/sam.jpg").default,
                 "links": {
                     "linkedin": "",
                 },

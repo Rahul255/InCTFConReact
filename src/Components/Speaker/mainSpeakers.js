@@ -171,7 +171,7 @@ const ConferenceSpeakers = () => {
             "name": "Dotan Sagi",
             "designation": "Founder & CEO ",
             "company": "Be-Strategic Solutions",
-            "image": require("../../images/speakers/DotanSagi_BeST.png").default,
+            "image": require("../../images/speakers/DotanSagi_BeST.jpg").default,
         },
         // {
         //     "name": "Madhusudhan H. N",
@@ -183,7 +183,7 @@ const ConferenceSpeakers = () => {
             "name": "Yogi Kapur",
             "designation": "Director, SOC",
             "company": "Salesforce",
-            "image": require("../../images/speakers/YogiPhoto.png").default,
+            "image": require("../../images/speakers/YogiPhoto.jpg").default,
         },
         {
             "name": "Sandeep Shukla",
@@ -202,7 +202,7 @@ const ConferenceSpeakers = () => {
             "name": "Srinivas Bharadwaj",
             "designation": "Lead Founder",
             "company": "Jnana Marga Technologies",
-            "image": require('../../images/speakers/srinivas-final.png').default,
+            "image": require('../../images/speakers/srinivas-final.jpg').default,
         },
         {
             "name": "Dr. Amir Schreiber",
@@ -214,7 +214,7 @@ const ConferenceSpeakers = () => {
             "name": "Lavi Lazarovitz",
             "designation": "Head of Research",
             "company": "Cyberark",
-            "image": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
+            "image": require("../../images/speakers/Lazarovitz_CyberArk.jpg").default,
         },
         {
             "name": "Richard Chow",
@@ -238,7 +238,7 @@ const ConferenceSpeakers = () => {
             "name": "Uri Shai",
             "designation": "",
             "company": "Independent Consultant",
-            "image": require("../../images/speakers/Uri-Shai.png").default,
+            "image": require("../../images/speakers/Uri-Shai.jpg").default,
             
         },
         {
@@ -258,7 +258,7 @@ const ConferenceSpeakers = () => {
             "name": "Sam Paterson",
             "designation": "IR Analyst",
             "company": "MDSec",
-            "image": require("../../images/speakers/sam.png").default,
+            "image": require("../../images/speakers/sam.jpg").default,
         },
         {
             "name": "Mini TT",
@@ -307,13 +307,13 @@ const ConferenceSpeakers = () => {
             "name": "Nishaanth G",
             "designation": "Security Researcher",
             "company": "MDSec",
-            "image": require("../../images/speakers/Nishaanth.png").default,
+            "image": require("../../images/speakers/NishaanthSmall.jpg").default,
         },
         {
             "name": "Akshay Jain",
             "designation": "Security Researcher",
             "company": "PhonePe",
-            "image": require("../../images/speakers/AkshyJain.png").default,
+            "image": require("../../images/speakers/AkshyJainSmall.jpg").default,
         },
         
         // {

@@ -163,13 +163,13 @@ const Schedule = () => {
                             "name": "Nishaanth G",
                             "designation": "Security Researcher",
                             "organization": "MDSec",
-                            "avatar": require("../../images/speakers/Nishaanth.png").default,
+                            "avatar": require("../../images/speakers/NishaanthSmall.jpg").default,
                         },
                         {
                                 "name": "Akshay Jain",
                                 "designation": "Security Researcher",
                                 "organization": "PhonePe",
-                                "avatar": require("../../images/speakers/AkshyJain.png").default,
+                                "avatar": require("../../images/speakers/AkshyJainSmall.jpg").default,
                             },
                         
                     ],
@@ -225,7 +225,7 @@ const Schedule = () => {
                             "name": "Dotan Sagi",
                             "designation": "Founder & CEO ",
                             "organization": "Be-Strategic Solutions",
-                            "avatar": require("../../images/speakers/DotanSagi_BeST.png").default,
+                            "avatar": require("../../images/speakers/DotanSagi_BeST.jpg").default,
                         },
                         
                     ],
@@ -346,7 +346,7 @@ const Schedule = () => {
                             "name": "Sam Paterson",
                             "designation": "IR Analyst",
                             "organization": "MDSec",
-                            "avatar": require("../../images/speakers/sam.png").default,
+                            "avatar": require("../../images/speakers/sam.jpg").default,
                         }
                     ],
                 },
@@ -412,7 +412,7 @@ const Schedule = () => {
                             "name": "Yogi Kapur",
                             "designation": "Director, SOC",
                             "organization": "Salesforce",
-                            "avatar": require("../../images/speakers/YogiPhoto.png").default,
+                            "avatar": require("../../images/speakers/YogiPhoto.jpg").default,
                         }
                     ],
                 },
@@ -424,7 +424,7 @@ const Schedule = () => {
                             "name": "Srinivas Bharadwaj",
                             "designation": "Lead Founder ",
                             "organization": "Jnana Marga Technologies",
-                            "avatar": require('../../images/speakers/srinivas-final.png').default
+                            "avatar": require('../../images/speakers/srinivas-final.jpg').default
                         },
                     ],
                 },
@@ -436,22 +436,22 @@ const Schedule = () => {
                             "name": "Lavi Lazarovitz",
                             "designation": "Head of Research",
                             "organization": "Cyberark",
-                            "avatar": require("../../images/speakers/Lazarovitz_CyberArk.png").default,
+                            "avatar": require("../../images/speakers/Lazarovitz_CyberArk.jpg").default,
                         },
                     ],
                 },
-                // {
-                //     "time": "11:00 - 11:45 IST",
-                //     "title": "speaker",
-                //     "speakers": [
-                //         {
-                //             "name": "Suvabrata Sinha",
-                //             "designation": "Chief Information Security Officer",
-                //             "organization": "NXP Semiconductors",
-                //             "avatar": require("../../images/speakers/Suvabrata-Sinha.jpg").default,
-                //         },  
-                //     ],
-                // },
+                {
+                    "time": "11:00 - 11:45 IST",
+                    "title": "Keynote Address",
+                    "speakers": [
+                        {
+                            "name": "Suvabrata Sinha",
+                            "designation": "Chief Information Security Officer",
+                            "organization": "NXP Semiconductors",
+                            "avatar": require("../../images/speakers/Suvabrata-Sinha.jpg").default,
+                        },  
+                    ],
+                },
                 {
                     "time": "11:45 - 12:30 IST",
                     "title": "The challenge of IOT Security",
@@ -460,7 +460,7 @@ const Schedule = () => {
                             "name": "Uri Shai",
                             "designation": "Independent Consultant",
                             "organization": "",
-                            "avatar": require("../../images/speakers/Uri-Shai.png").default,
+                            "avatar": require("../../images/speakers/Uri-Shai.jpg").default,
                         }
                     ],
                 },
