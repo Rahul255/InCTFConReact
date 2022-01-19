@@ -40,7 +40,7 @@ const SpeakerCard = styled.div`
     flex: 1 1;
     user-select: none;
     transition: all 0.5s ease;
-    border: ${({ isTrainer }) => isTrainer ? `2px solid tomato` : `2px solid tomato` };
+    border: ${({ isTrainer }) => isTrainer ? `2px solid tomato` : `2px solid tomato`};
     &:hover {
        transform: translateY(-8px);
        transition: all 0.5s ease;
@@ -166,7 +166,7 @@ const ConferenceSpeakers = () => {
             "designation": "Chief Information Security Officer",
             "company": "NXP Semiconductors",
             "image": require("../../images/speakers/Suvabrata-Sinha.jpg").default,
-        }, 
+        },
         {
             "name": "Dotan Sagi",
             "designation": "Founder & CEO ",
@@ -197,7 +197,7 @@ const ConferenceSpeakers = () => {
             "company": "Secfence",
             "image": require("../../images/speakers/atul-agarwal.jpg").default,
         },
-        
+
         {
             "name": "Srinivas Bharadwaj",
             "designation": "Lead Founder",
@@ -239,14 +239,14 @@ const ConferenceSpeakers = () => {
             "designation": "",
             "company": "Independent Consultant",
             "image": require("../../images/speakers/Uri-Shai.jpg").default,
-            
+
         },
         {
             "name": "Aniket Amdekar",
             "designation": "General Manager - Cyber Defence Education",
             "company": "Great Learning",
             "image": require("../../images/speakers/Aniket-Amdekar.jpg").default,
-            
+
         },
         {
             "name": "Prajeesh Prathap",
@@ -291,12 +291,18 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/altafshaik.jpeg").default,
         },
         {
+            "name": "Britto Sidhan",
+            "designation": "General Manager – Global Security Lab",
+            "company": "Schneider Electric",
+            "image": require("../../images/speakers/britto.jpg").default,
+        },
+        {
             "name": "Sagar Gulhane",
             "designation": "Sr. Threat Research Engineer",
             "company": "CrowdStrike",
             "image": require("../../images/speakers/Sagar_Gulhane.jpg").default,
         },
-        
+
         {
             "name": "Raphael de la Vienne",
             "designation": "Technical Security Officer",
@@ -315,7 +321,7 @@ const ConferenceSpeakers = () => {
             "company": "PhonePe",
             "image": require("../../images/speakers/AkshyJainSmall.jpg").default,
         },
-        
+
         // {
         //     "name": "Zoey Garvey",
         //     "isTrainer": true,
@@ -349,10 +355,10 @@ const ConferenceSpeakers = () => {
         <div className="row mx-0">
             <div className="col-12 px-2 py-3 text-center">
                 {/* <Fade left> */}
-                    <h2>Speakers</h2>
+                <h2>Speakers</h2>
                 {/* </Fade> */}
             </div>
-        
+
             {speakers.map((s, index) =>
                 <div key={shortid.generate()} className="col-xl-2 col-lg-3 col-md-4 col-6 p-2">
                     <SpeakerCard isTrainer={s.isTrainer}>

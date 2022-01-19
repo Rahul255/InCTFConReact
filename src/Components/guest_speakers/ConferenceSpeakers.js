@@ -500,6 +500,28 @@ const ConSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "threat-modeling",
+            "title": "Plugging into ICS Pentest",
+            "abstract": <>
+                In this overview session, participants will be presented with several "big picture" concepts of penetration testing industrial automation and control systems. This talk delves into the ICS cybersecurity myths and misconceptions. While there will always be difference between IT & OT cybersecurity, I can help you where to start learning for OT security. Explore attack for ICS (Industrial Control Systems).
+
+            </>,
+            "speaker": {
+                "name": "Britto Sidhan",
+                "designation": "General Manager – Global Security Lab",
+                "company": "Schneider Electric",
+                "image": require("../../images/speakers/britto.jpg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                    Britto Sidhan leads the Global Security Lab at Schneider Electric. He is responsible for Penetration Testing, ICS Security, and Red Teaming for product and systems offers. For more than a decade, he has worked extensively with telecommunications security, cloud and virtualization security, and vulnerability researcher.
+
+                    An expert in offensive security techniques, and has been involved in developing research skills for professional security teams. He has a team of highly skilled security professionals that focuses on critical infrastructure domain.
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
             "title": "Dynamic Instrumentation 101",
             "abstract": <>
                 Hooking into dynamically loaded classes has proven to be useful in investigating potential types of vulnerabilities, along with understanding a software's internals and discovering private APIs.
@@ -1628,54 +1650,54 @@ const ConSpeakers = ({ hideTitle = false }) => {
     return <div>
         <SpeakersContainer id="speakers">
             <div className="container">
-            <div className="row mx-0">
-                <div className="col-12 px-2 py-3 text-center"><br /><br /> <br />
-                    {/* <Fade left> */}
-                    {!hideTitle && <h2>Distinguished Speakers</h2>}
-                    {/* </Fade> */}
-                </div>
+                <div className="row mx-0">
+                    <div className="col-12 px-2 py-3 text-center"><br /><br /> <br />
+                        {/* <Fade left> */}
+                        {!hideTitle && <h2>Distinguished Speakers</h2>}
+                        {/* </Fade> */}
+                    </div>
 
-                {main_speaker.map((s, index) =>
-                    <div key={shortid.generate()} className="col-xl-3 col-lg-3 col-md-4 col-12 p-2">
-                        <SpeakerCardMain isTrainer={s.isTrainer}><br/><br/>
-                            <div>
-                                {/* {s.isTrainer ?
+                    {main_speaker.map((s, index) =>
+                        <div key={shortid.generate()} className="col-xl-3 col-lg-3 col-md-4 col-12 p-2">
+                            <SpeakerCardMain isTrainer={s.isTrainer}><br /><br />
+                                <div>
+                                    {/* {s.isTrainer ?
                                     <div className="trainer-badge">{s.speakType}</div>
                                     : <div className="speaker-badge">Speaker</div>
                                 } */}
-                                <div className="d-flex justify-content-center">
-                                    {s.image && <img src={s.image} alt={s.name} draggable="false" />}
+                                    <div className="d-flex justify-content-center">
+                                        {s.image && <img src={s.image} alt={s.name} draggable="false" />}
+                                    </div>
+                                    <h3>{s.name}</h3>
                                 </div>
-                                <h3>{s.name}</h3>
-                            </div>
-                            {s.company && <div>
-                                <h4>{s.designation}</h4>
-                                <h5>{s.company}</h5>
-                            </div>}
-                            {/*{s.links &&*/}
-                            {/*<div className="social-media-links">*/}
-                            {/*    {s.links?.twitter &&*/}
-                            {/*    <a href={s.links.twitter} rel="noreferrer nofollow" target="_blank">*/}
-                            {/*        <i className="fab fa-twitter" />*/}
-                            {/*    </a>}*/}
-                            {/*    {s.links?.linkedin &&*/}
-                            {/*    <a href={s.links.linkedin} rel="noreferrer nofollow" target="_blank">*/}
-                            {/*        <i className="fab fa-linkedin" />*/}
-                            {/*    </a>}*/}
-                            {/*    {s.links?.website &&*/}
-                            {/*    <a href={s.links.website} rel="noreferrer nofollow" target="_blank">*/}
-                            {/*        <i className="far fa-globe" />*/}
-                            {/*    </a>}*/}
-                            {/*</div>}*/}
-                        </SpeakerCardMain><br/><br/>
-                    </div>
-                )}
-            </div>
+                                {s.company && <div>
+                                    <h4>{s.designation}</h4>
+                                    <h5>{s.company}</h5>
+                                </div>}
+                                {/*{s.links &&*/}
+                                {/*<div className="social-media-links">*/}
+                                {/*    {s.links?.twitter &&*/}
+                                {/*    <a href={s.links.twitter} rel="noreferrer nofollow" target="_blank">*/}
+                                {/*        <i className="fab fa-twitter" />*/}
+                                {/*    </a>}*/}
+                                {/*    {s.links?.linkedin &&*/}
+                                {/*    <a href={s.links.linkedin} rel="noreferrer nofollow" target="_blank">*/}
+                                {/*        <i className="fab fa-linkedin" />*/}
+                                {/*    </a>}*/}
+                                {/*    {s.links?.website &&*/}
+                                {/*    <a href={s.links.website} rel="noreferrer nofollow" target="_blank">*/}
+                                {/*        <i className="far fa-globe" />*/}
+                                {/*    </a>}*/}
+                                {/*</div>}*/}
+                            </SpeakerCardMain><br /><br />
+                        </div>
+                    )}
+                </div>
             </div>
         </SpeakersContainer>
         <TrainingModuleWrap id="conference-speakers">
             <div className="container">
-               
+
                 <div className="py-4 px-2">
                     {SpeakersList.map((s) =>
                         <Fade key={s.slug}>

@@ -392,18 +392,18 @@ const Schedule = () => {
             "date": "23 January 2022",
             "title": "January 23",
             "events": [
-                // {
-                //     "time": "08:00 - 08:45 IST",
-                //     "title": "Speech",
-                //     "speakers": [
-                //         {
-                //             "name": "Rahul Manneri",
-                //             "designation": "Researcher",
-                //             "organization": "Amrita ",
-                //             "avatar": require('../../images/rahul.jpg').default
-                //         }
-                //     ],
-                // },
+                {
+                    "time": "08:00 - 08:45 IST",
+                    "title": "Plugging into ICS Pentest",
+                    "speakers": [
+                        {
+                            "name": "Britto Sidhan",
+                            "designation": "General Manager – Global Security Lab",
+                            "organization": "Schneider Electric",
+                            "avatar": require("../../images/speakers/britto.jpg").default,
+                        }
+                    ],
+                },
                 {
                     "time": "08:45 - 09:30 IST",
                     "title": "Keynote Address",
