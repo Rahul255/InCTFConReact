@@ -519,10 +519,10 @@ const Schedule = () => {
                     "title": "Panel Discussion 2: Fighting Cybercrime",
                     "speakers": [
                         {
-                            "name": "Prof. Krishnashree Achuthan",
-                            "designation": "Dean & Director, Centre for Cybersecurity Systems & Networks",
+                            "name": "Dr. M. Sethumadhavan",
+                            "designation": "Head - Cybersecurity, Professor",
                             "organization": "Amrita Vishwa Vidyapeetham",
-                            "avatar": require("../../images/speakers/krishnashree.jpg").default,
+                            "avatar": require("../../images/speakers/Sethumadhavan.jpg").default,
                         },
                         {
                             "name": "Adv. Prem Kamath  ",

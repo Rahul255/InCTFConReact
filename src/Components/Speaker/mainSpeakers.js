@@ -347,6 +347,12 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/AkshyJainSmall.jpg").default,
         },
         {
+            "name": "Dr. M. Sethumadhavan",
+            "designation": "Head - Cybersecurity, Professor",
+            "company": "Amrita Vishwa Vidyapeetham",
+            "image": require("../../images/speakers/Sethumadhavan.jpg").default,
+        },
+        {
             "name": "Dr. Bhavani Rao",
             "designation": "Dean, Social Sciences & Humanities",
             "company": "Amrita Vishwa Vidyapeetham",
