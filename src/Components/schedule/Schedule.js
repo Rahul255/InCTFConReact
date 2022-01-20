@@ -37,7 +37,7 @@ const Schedule = () => {
             "date": "21 January 2022",
             "title": "January 21",
             "events": [
-                
+
                 {
                     "time": "10:00 - 10:05 IST",
                     "title": "Introductory Remarks",
@@ -62,7 +62,7 @@ const Schedule = () => {
                         }
                     ],
                 },
-                
+
                 {
                     "time": "10:25 - 10:45 IST",
                     "title": "Special Address",
@@ -80,7 +80,7 @@ const Schedule = () => {
                     "title": "Special Address",
                     "speakers": [
                         {
-                            "name": "Lt. General (Dr) Rajesh Pant (retd.)", 
+                            "name": "Lt. General (Dr) Rajesh Pant (retd.)",
                             "designation": "National Cyber Security Coordinator",
                             "organization": "National Security Council Secretariat of India",
                             "avatar": require("../../images/speakers/rajeshPant.jpg").default,
@@ -99,7 +99,7 @@ const Schedule = () => {
                         }
                     ],
                 },
-                
+
                 // {
                 //     "time": "10:00 - 11:05 IST",
                 //     "title": "Inaugural Session",
@@ -139,10 +139,10 @@ const Schedule = () => {
                 //             "organization": "Amrita Vishwa Vidyapeetham",
                 //             "avatar": require("../../images/speakers/RaghuRaman.jpg").default,
                 //         },
-                        
+
                 //     ],
                 // },
-                
+
                 {
                     "time": "11:15 - 12:00 IST",
                     "title": "Keynote Address",
@@ -155,7 +155,7 @@ const Schedule = () => {
                         }
                     ],
                 },
-               {
+                {
                     "time": "14:00 - 14:45 IST",
                     "title": "Dynamic Instrumentation 101",
                     "speakers": [
@@ -166,12 +166,12 @@ const Schedule = () => {
                             "avatar": require("../../images/speakers/NishaanthSmall.jpg").default,
                         },
                         {
-                                "name": "Akshay Jain",
-                                "designation": "Security Researcher",
-                                "organization": "PhonePe",
-                                "avatar": require("../../images/speakers/AkshyJainSmall.jpg").default,
-                            },
-                        
+                            "name": "Akshay Jain",
+                            "designation": "Security Researcher",
+                            "organization": "PhonePe",
+                            "avatar": require("../../images/speakers/AkshyJainSmall.jpg").default,
+                        },
+
                     ],
                 },
                 {
@@ -203,7 +203,7 @@ const Schedule = () => {
                             "avatar": require("../../images/speakers/Raphael.jpg").default,
                         },
                     ]
-                },  
+                },
                 {
                     "time": "16:15 - 17:00 IST",
                     "title": "Introduction to Containers and Kubernetes",
@@ -214,9 +214,9 @@ const Schedule = () => {
                             "organization": "CrowdStrike",
                             "avatar": require("../../images/speakers/Ramesh-kumar.jpeg").default,
                         },
-                        
+
                     ],
-                },  
+                },
                 {
                     "time": "20:00 - 20:45 IST",
                     "title": "Lessons learned from managing crisis in a VUCA (volatility, uncertainty, complexity, and ambiguity) World",
@@ -227,7 +227,7 @@ const Schedule = () => {
                             "organization": "Be-Strategic Solutions",
                             "avatar": require("../../images/speakers/DotanSagi_BeST.jpg").default,
                         },
-                        
+
                     ],
                 },
                 {
@@ -240,10 +240,10 @@ const Schedule = () => {
                             "organization": "H&R Block",
                             "avatar": require("../../images/speakers/Joshua-Brown.jpg").default,
                         },
-                        
+
                     ],
                 },
-                    
+
             ]
         },
         {
@@ -310,7 +310,7 @@ const Schedule = () => {
                         }
                     ],
                 },
-                
+
                 {
                     "time": "11:45 - 12:30 IST",
                     "title": "End to End Device Security - Enhanced by Hardware",
@@ -321,11 +321,11 @@ const Schedule = () => {
                             "organization": "Dell",
                             "avatar": require("../../images/speakers/Mini-TT.jpeg").default,
                         },
-                    
+
                     ],
-                    },
-                    
-                    
+                },
+
+
                 // {
                 //     "time": "14:30 - 15:15 IST",
                 //     "title": "Speaker",
@@ -449,7 +449,7 @@ const Schedule = () => {
                             "designation": "Chief Information Security Officer",
                             "organization": "NXP Semiconductors",
                             "avatar": require("../../images/speakers/Suvabrata-Sinha.jpg").default,
-                        },  
+                        },
                     ],
                 },
                 {
@@ -464,12 +464,80 @@ const Schedule = () => {
                         }
                     ],
                 },
-                
+                {
+                    "time": "14:30 - 15:30 IST",
+                    "title": "Panel Discussion 1: Online Child Abuse: We Can & Must Stop It Societal and Health impact ",
+                    "speakers": [
+                        {
+                            "name": "Dr. Bhavani Rao",
+                            "designation": "Dean, Social Sciences & Humanities",
+                            "organization": "Amrita Vishwa Vidyapeetham",
+                            "avatar": require('../../images/speakers/Bhavani-Rao.jpg').default
+                        },
+                        {
+                            "name": "Dr. Reena Bodhini ",
+                            "designation": "Director",
+                            "organization": " Specialists Hospital",
+                            "avatar": require('../../images/speakers/Reena-Bodhini.jpeg').default
+                        },
+                        {
+                            "name": "Dr. Bindu Menon",
+                            "designation": "Professor and Head Psychiatry and Behavior Medicine",
+                            "organization": "Amrita Hospital",
+                            "avatar": require("../../images/speakers/bindu-menon.jpg").default
+                        },
+                        
+                        {
+                            "name": "Siddharth Pillai",
+                            "designation": "Co-Founder & Director",
+                            "organization": "AarambhIndia.org",
+                            "avatar": require('../../images/speakers/Sidharth-Pillai.png').default
+                        },
+                        {
+                            "name": "Ganesan Kumaresan",
+                            "designation": "Child Protection Specialist",
+                            "organization": "UNICEF",
+                            "avatar": require('../../images/speakers/Ganesan-Kumaresan.jpeg').default
+                        },
+                        
+                    ],
+                },
+                {
+                    "time": "15:30 - 16:30 IST",
+                    "title": "Panel Discussion 2: Fighting Cybercrime",
+                    "speakers": [
+                        {
+                            "name": "Prof. Krishnashree Achuthan",
+                            "designation": "Dean & Director, Centre for Cybersecurity Systems & Networks",
+                            "organization": "Amrita Vishwa Vidyapeetham",
+                            "avatar": require("../../images/speakers/krishnashree.jpg").default,
+                        },
+                        {
+                            "name": "Prem Kamath",
+                            "designation": "",
+                            "organization": "Lawyer & Cyber Law Consultant",
+                            "avatar": require('../../images/speakers/Prem-Kamath .jpeg').default
+                        },
+                        {
+                            "name": "Dr Varun Kapoor",
+                            "designation": "",
+                            "organization": "IPS",
+                            "avatar": require("../../images/speakers/varun-kapoor.jpg").default
+                        },
+                        
+                        {
+                            "name": "Prasad Patibandla",
+                            "designation": "",
+                            "organization": "Cyber Forensics investigation, Cyber Law consultant",
+                            "avatar": require('../../images/speakers/Prasad-Patibandla.jpeg').default
+                        },
+                    ],
+                },
                 {
                     "time": "17:00 - 18:00 IST",
                     "title": "Closing Ceremony",
                     "speakers": [
-                        
+
                         {
                             "name": "Vipin Pavithran",
                             "designation": "Founder & Chief Mentor of Team bi0s, amFOSS,Team Shakti, InCTF & InCTFj",
@@ -481,27 +549,27 @@ const Schedule = () => {
             ],
         }
     ]
-    
+
     return <ScheduleModuleWrap>
         <div className="container px-0 p-md-2">
             <div className="row mx-0">
                 <div className="col-md-8 my-5 my-md-0 px-3 px-md-2 pt-5">
-                    <h1 style={{fontWeight:"bold"}}>InCTFCon Schedule </h1>
+                    <h1 style={{ fontWeight: "bold" }}>InCTFCon Schedule </h1>
                 </div>
-                </div>  
-                <div className="d-flex align-items-center justify-content-end  mb-3 my-md-0 px-2">
-                    <TabSwitcher>
-                        {scheduleList?.map((day, index) =>
-                            <button
-                                className={index===activeDay ? 'is_active' : null}
-                                onClick={() => setActiveDay(index)}
-                            >
-                                {day.title}
-                            </button>
-                        )}
-                    </TabSwitcher>
-                </div>
-            
+            </div>
+            <div className="d-flex align-items-center justify-content-end  mb-3 my-md-0 px-2">
+                <TabSwitcher>
+                    {scheduleList?.map((day, index) =>
+                        <button
+                            className={index === activeDay ? 'is_active' : null}
+                            onClick={() => setActiveDay(index)}
+                        >
+                            {day.title}
+                        </button>
+                    )}
+                </TabSwitcher>
+            </div>
+
             <div className="p-1 p-md-2">
                 <ScheduleDay {...scheduleList[activeDay]} />
             </div>
