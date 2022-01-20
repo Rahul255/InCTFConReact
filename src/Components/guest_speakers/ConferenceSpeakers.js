@@ -368,6 +368,21 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "Inaugural Session",
+            "title": "Keynote Address",
+            "speaker": {
+                "name": "Yogi Kapur",
+                "designation": "Director, SOC",
+                "company": "Salesforce",
+                "bio": <p>
+                    Extensive operations background, widely regarded as thought leader within cyber security operations, technology integration and DevOps space.
+
+                    Originally from a development background, I am constantly evolving to meet the needs of the business and currently responsible for the team that provides L1 support for Salesforce Security Operations. Essentially a thought leader, technologist, people-friendly manager and problem solver, who brings about sustainable order out of chaotic situations.
+                </p>,
+                "image": require("../../images/speakers/YogiPhoto.jpg").default,
+            },
+        },
 
         {
             "slug": "threat-modeling",
@@ -855,6 +870,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </>
             },
         },
+        
         // {
         //     "slug": "threat-modeling",
         //     "title": "DevSecOps – Putting security in DevOps",
