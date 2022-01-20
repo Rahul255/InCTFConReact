@@ -4,6 +4,23 @@ import image from '../../images/inctfposter.jpg'
 import TweetEmbed from 'react-tweet-embed';
 
 function Promotes() {
+    // const imageslink = [
+    //     {
+    //         "image": require('../../images/posters/poster.jpg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/poster.jpg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/poster.jpg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/poster.jpg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/poster.jpg').default
+    //     },
+    // ]
     return (
         <div className="promote" style={{ backgroundColor: 'white' }}>
             <section id="organize">

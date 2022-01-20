@@ -410,10 +410,16 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "name": "Manoj Abraham IPS",
                 "designation": "Additional Director General of Police",
                 "company": "Kerala Police",
-                "bio": <p>
+                "bio":<> <p>
                     Shri. Manoj Abraham IPS is currently the Additional Director General of Police of Thiruvanthapuram Range and the Head of Cyber Security, in Kerala State, India. He worked as Supdt. of Police in Pathanamthitta, Kollam and Kannur Districts  followed by a Seven year stint as Commissioner of Police of Cochin and Thiruvananthapuram Cities and a five year tenure as IGP Thiruvananthapuram Range. 
                     He has done a lot of work in the area of Community Policing including Maitri and Janamaitri. He has also co-authored a book called- Global Community Policing- Problems and Prospects, published by Taylor and Francis Publications. 
-                </p>,
+                </p>
+                <p>
+                In the area of cybercrimes, he is the Chief architect of the c0c0n conference held annually on the theme of public private partnership for enhancing cyber Security.   He is also the Architect of Cyber Dome- a centre for private public participation in cyber policing, which has become a model center for Cyber Security in the PPP domain. 
+                
+                </p>
+                </>
+                ,
                 "image": require('../../images/speakers/Manoj-Abraham.jpeg').default
             },
         },
