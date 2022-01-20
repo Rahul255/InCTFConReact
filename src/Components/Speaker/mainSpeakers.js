@@ -223,7 +223,7 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/RichardChow.jpg").default,
         },
         {
-            "name": "Manoj Abraham",
+            "name": "Manoj Abraham IPS",
             "designation": "Additional Director General of Police",
             "company": "Kerala Police",
             "image": require('../../images/speakers/Manoj-Abraham.jpeg').default

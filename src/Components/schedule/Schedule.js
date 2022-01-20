@@ -367,7 +367,7 @@ const Schedule = () => {
                     "title": "Digital Trafficking of Children",
                     "speakers": [
                         {
-                            "name": "Manoj Abraham",
+                            "name": "Manoj Abraham IPS",
                             "designation": "Additional Director General of Police",
                             "organization": "Kerala Police",
                             "avatar": require('../../images/speakers/Manoj-Abraham.jpeg').default
