@@ -363,6 +363,18 @@ const Schedule = () => {
                     ],
                 },
                 {
+                    "time": "16:45 - 17:30 IST",
+                    "title": "Keynote Address",
+                    "speakers": [
+                        {
+                            "name": "Manoj Abraham",
+                            "designation": "Additional Director General of Police",
+                            "organization": "Kerala Police",
+                            "avatar": require('../../images/speakers/Manoj-Abraham.jpeg').default
+                        }
+                    ],
+                },
+                {
                     "time": "20.00 - 20.45 IST",
                     "title": "Indigenous Cyber Issues - Problem Statements",
                     "speakers": [
