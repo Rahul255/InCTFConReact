@@ -346,6 +346,37 @@ const ConferenceSpeakers = () => {
             "company": "PhonePe",
             "image": require("../../images/speakers/AkshyJainSmall.jpg").default,
         },
+        {
+            "name": "Dr. Bhavani Rao",
+            "designation": "Dean, Social Sciences & Humanities",
+            "company": "Amrita Vishwa Vidyapeetham",
+            "image": require('../../images/speakers/Bhavani-Rao.jpg').default
+        },
+        {
+            "name": "Dr. Reena Sabin",
+            "designation": "Director",
+            "company": " Specialists Hospital",
+            "image": require('../../images/speakers/Reena-Bodhini.jpeg').default
+        },
+        {
+            "name": "Dr. Bindu Menon",
+            "designation": "Professor and Head Psychiatry and Behavior Medicine",
+            "company": "Amrita Hospital",
+            "image": require("../../images/speakers/bindu-menon.jpg").default
+        },
+        
+        {
+            "name": "Siddharth Pillai",
+            "designation": "Co-Founder & Director",
+            "company": "AarambhIndia.org",
+            "image": require('../../images/speakers/Sidharth-Pillai.png').default
+        },
+        {
+            "name": "Ganesan Kumaresan",
+            "designation": "Child Protection Specialist",
+            "company": "UNICEF",
+            "image": require('../../images/speakers/Ganesan-Kumaresan.jpeg').default
+        },
 
         // {
         //     "name": "Zoey Garvey",
