@@ -344,6 +344,26 @@ const ConSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "threat-modeling",
+            "title": "Critical  Competencies Organisations Need to Succeed in Cyber Defence- A View from the Trenches",
+            "abstract": <>
+                Cyber security has emerged as a critical part of the threat landscape, and organisations across the world are scrambling to prepare themselves to react and respond to this very real threat. As technology evolves even faster, experts expect this threat will be very “real” for a long time to come. What are the competencies that organizations need to have a successful cyber defence strategy? While some of the hard technical skills are better known, there is a growing realization that it is not enough. This session will throw a different and interesting perspectives on how a multi-disciplinary approach is proving to be more impactful and how you should think differently about your role in the cyber-security team.
+
+            </>,
+            "speaker": {
+                "name": "Suvabrata Sinha",
+                "designation": "Chief Information Security Officer",
+                "company": "NXP Semiconductors",
+                "image": require("../../images/speakers/Suvabrata-Sinha.jpg").default,
+                "links": {
+                    "linkedin": "",
+                },
+                "bio": <p>
+                    Suvabrata Sinha is the Chief Information Security Officer of NXP Semiconductors ( www.nxp.com ), a leading multi-national semiconductor solutions company with presence in 30+ companies. NXP provides purpose-built semiconductor solutions in Automotive, Telecommunications, Smart Homes, Mobile, Industrial and Smart City segments. Suvabrata is based of India and leads a team across USA, Europe, India and Malaysia. Before NXP, he has played leadership roles in Microsoft, Bank of America and Big 4 consulting firms.
+                </p>
+            },
+        },
+        {
+            "slug": "threat-modeling",
             "title": "Android Exploitation & Protection: A 1-Click Full-Chain View ",
             "abstract": <>
                 In this talk, we will look at an Android Full Android Full Chain, with an objective to understand the key components (Remote Code Execution, Sandbox Escape & Local Privilege Escalation), mitigations and classes of vulnerabilities in such a chain.
