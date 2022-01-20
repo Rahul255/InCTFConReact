@@ -383,7 +383,20 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 "image": require("../../images/speakers/YogiPhoto.jpg").default,
             },
         },
-
+        {
+            "slug": "Inaugural Session",
+            "title": "Digital Trafficking of Children",
+            "speaker": {
+                "name": "Manoj Abraham IPS",
+                "designation": "Additional Director General of Police",
+                "company": "Kerala Police",
+                "bio": <p>
+                    Shri. Manoj Abraham IPS is currently the Additional Director General of Police of Thiruvanthapuram Range and the Head of Cyber Security, in Kerala State, India. He worked as Supdt. of Police in Pathanamthitta, Kollam and Kannur Districts  followed by a Seven year stint as Commissioner of Police of Cochin and Thiruvananthapuram Cities and a five year tenure as IGP Thiruvananthapuram Range. 
+                    He has done a lot of work in the area of Community Policing including Maitri and Janamaitri. He has also co-authored a book called- Global Community Policing- Problems and Prospects, published by Taylor and Francis Publications. 
+                </p>,
+                "image": require('../../images/speakers/Manoj-Abraham.jpeg').default
+            },
+        },
         {
             "slug": "threat-modeling",
             "title": "OWASP Security Code Review for Young Developers seeking Technology Careers - Backend Perspectives recommended for Java and other Cloud and Backend Engineer",

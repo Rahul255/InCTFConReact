@@ -531,9 +531,9 @@ const Schedule = () => {
                             "avatar": require('../../images/speakers/Prem-Kamath .jpeg').default
                         },
                         {
-                            "name": "Dr. Varun Kapoor",
-                            "designation": "",
-                            "organization": "IPS",
+                            "name": "Dr. Varun Kapoor IPS",
+                            "designation": "Additional Director General of Police",
+                            "organization": "",
                             "avatar": require("../../images/speakers/varun-kapoor.jpg").default
                         },
                         

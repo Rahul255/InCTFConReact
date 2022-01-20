@@ -303,9 +303,9 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/Prem-Kamath .jpeg').default
         },
         {
-            "name": "Dr. Varun Kapoor",
+            "name": "Dr. Varun Kapoor IPS",
             "designation": "",
-            "company": "IPS",
+            "company": "Additional Director General of Police",
             "image": require("../../images/speakers/varun-kapoor.jpg").default
         },
 
