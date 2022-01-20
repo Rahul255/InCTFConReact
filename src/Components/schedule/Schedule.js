@@ -540,7 +540,7 @@ const Schedule = () => {
                         {
                             "name": "Prasad Patibandla",
                             "designation": "",
-                            "organization": "Cyber Forensics investigation, Cyber Law consultant",
+                            "organization": "Director, Research and Operations at Centre for Research on Cyber Intelligence and Digital Forensics(CRCIDF)",
                             "avatar": require('../../images/speakers/Prasad-Patibandla.jpeg').default
                         },
                     ],

@@ -312,7 +312,7 @@ const ConferenceSpeakers = () => {
         {
             "name": "Prasad Patibandla",
             "designation": "",
-            "company": "Cyber Forensics investigation, Cyber Law consultant",
+            "company": "Director, Research and Operations at Centre for Research on Cyber Intelligence and Digital Forensics(CRCIDF)",
             "image": require('../../images/speakers/Prasad-Patibandla.jpeg').default
         },
         {
