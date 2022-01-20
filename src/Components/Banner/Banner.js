@@ -148,9 +148,9 @@ function Banner() {
                         <Fade left>
                         <a
                             className="register-button" target="_blank" rel="noreferrer nofollow"
-                            href="https://forms.gle/a9gPwADoyKcLkp5c7"
+                            href="https://inctf.in/join"
                         >
-                            Register 
+                            Join the Conference
                         </a>
                         </Fade>
                     </div>
