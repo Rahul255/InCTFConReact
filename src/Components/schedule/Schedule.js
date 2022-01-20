@@ -364,7 +364,7 @@ const Schedule = () => {
                 },
                 {
                     "time": "16:45 - 17:30 IST",
-                    "title": "Keynote Address",
+                    "title": "Digital Trafficking of Children",
                     "speakers": [
                         {
                             "name": "Manoj Abraham",

@@ -291,6 +291,25 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/altafshaik.jpeg").default,
         },
         {
+            "name": "Prem Kamath",
+            "designation": "",
+            "company": "Lawyer & Cyber Law Consultant",
+            "image": require('../../images/speakers/Prem-Kamath .jpeg').default
+        },
+        {
+            "name": "Dr. Varun Kapoor",
+            "designation": "",
+            "company": "IPS",
+            "image": require("../../images/speakers/varun-kapoor.jpg").default
+        },
+        
+        {
+            "name": "Prasad Patibandla",
+            "designation": "",
+            "company": "Cyber Forensics investigation, Cyber Law consultant",
+            "image": require('../../images/speakers/Prasad-Patibandla.jpeg').default
+        },
+        {
             "name": "Britto Sidhan",
             "designation": "General Manager – Global Security Lab",
             "company": "Schneider Electric",
