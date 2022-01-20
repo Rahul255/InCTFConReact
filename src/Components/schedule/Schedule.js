@@ -454,7 +454,7 @@ const Schedule = () => {
                 },
                 {
                     "time": "11:00 - 11:45 IST",
-                    "title": "Keynote Address",
+                    "title": "Critical  Competencies Organisations Need to Succeed in Cyber Defence- A View from the Trenches",
                     "speakers": [
                         {
                             "name": "Suvabrata Sinha",
