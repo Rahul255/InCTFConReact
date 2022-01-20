@@ -297,7 +297,7 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/altafshaik.jpeg").default,
         },
         {
-            "name": "Prem Kamath",
+            "name": "Adv. Prem Kamath",
             "designation": "",
             "company": "Lawyer & Cyber Law Consultant",
             "image": require('../../images/speakers/Prem-Kamath .jpeg').default
