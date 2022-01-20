@@ -91,7 +91,7 @@ function Promotes() {
                                                 </p>
                                             
                                             <a href={image} download>
-                                                <h4>Click Here To Download The Poster</h4>
+                                                <h4> Download The Poster</h4>
                                             </a>
                                         </div>
                                     </div>
