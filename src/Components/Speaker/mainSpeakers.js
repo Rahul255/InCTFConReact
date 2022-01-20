@@ -223,6 +223,12 @@ const ConferenceSpeakers = () => {
             "image": require("../../images/speakers/RichardChow.jpg").default,
         },
         {
+            "name": "Manoj Abraham",
+            "designation": "Additional Director General of Police",
+            "company": "Kerala Police",
+            "image": require('../../images/speakers/Manoj-Abraham.jpeg').default
+        },
+        {
             "name": "Rushi",
             "designation": "Senior Program Manager",
             "company": "Ministry of Home Affairs",
@@ -302,7 +308,7 @@ const ConferenceSpeakers = () => {
             "company": "IPS",
             "image": require("../../images/speakers/varun-kapoor.jpg").default
         },
-        
+
         {
             "name": "Prasad Patibandla",
             "designation": "",
