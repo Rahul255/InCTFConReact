@@ -32,6 +32,25 @@ function Promotes() {
                     </div>
                 </div>
             </section>
+            {/* <section>
+                <div className="container">
+                    <div className="row">
+                        <h4 className="poster">Our Posters</h4>
+                    </div>
+                    <div className="row">
+                        {imageslink.map((s, index) =>
+                            <div className="col-lg-4" style={{marginBottom:'20px'}}>
+                                <img src={s.image} alt="" style={{
+                                    width: '100%',
+                                    height: '100%',
+                                    objectFit: 'cover',
+                                }} />
+                                
+                            </div>
+                        )}
+                    </div>
+                </div>
+            </section> */}
             <section id="register">
                 <div className="container zindex">
                     <div className="row register-pa">
@@ -86,10 +105,10 @@ function Promotes() {
                             </div>
                             <div >
                                 <iframe title="new" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInCTF%2Fposts%2F10158391652432503&show_text=true&width=500" width="500" height="697" style={{ border: "none", overflow: "hidden", color: "white" }} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                                <br/>                         
+                                <br />
                             </div>
                             <div>
-                            <iframe title="new"
+                                <iframe title="new"
                                     src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FInCTF%2Fposts%2F10158342523247503&show_text=true&width=500"
                                     width="500" height="531" style={{ border: "nameNodeMap", overflow: "hidden" }} scrolling="no" frameborder="0"
                                     allowfullscreen="true"
@@ -104,11 +123,11 @@ function Promotes() {
                             <div>
                                 <TweetEmbed id='1433360732461043716' options={{ cards: 'hidden' }} />
                             </div>
-                            <br/>
+                            <br />
                             <div>
                                 <TweetEmbed id='1423298024453804033' options={{ cards: 'hidden' }} />
                             </div>
-                            <br/>
+                            <br />
                             <div>
                                 <TweetEmbed id='1401859079249612800' options={{ cards: 'hidden' }} />
                             </div>

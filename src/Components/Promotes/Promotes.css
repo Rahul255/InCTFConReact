@@ -6,7 +6,22 @@
     color: black;
 }
 
-
+.title{
+        font-size: calc(1.5rem + 2vw);
+        text-align: center;
+        color: tomato;
+        font-weight: 600;
+        padding: 1.5rem 0;
+        margin-bottom: 1rem;
+}
+.poster{
+    font-size: calc(1rem + 1.5vw);
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        padding: 1.5rem 0;
+        margin-bottom: 1rem;
+}
 
 .register-box {
     -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
