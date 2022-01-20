@@ -1,26 +1,54 @@
 import React from 'react';
 import './Promotes.css';
-import image from '../../images/inctfposter.jpg'
-import TweetEmbed from 'react-tweet-embed';
+import image from '../../images/inctfconposter.jpg'
+// import TweetEmbed from 'react-tweet-embed';
 
 function Promotes() {
-    // const imageslink = [
-    //     {
-    //         "image": require('../../images/posters/poster.jpg').default
-    //     },
-    //     {
-    //         "image": require('../../images/posters/poster.jpg').default
-    //     },
-    //     {
-    //         "image": require('../../images/posters/poster.jpg').default
-    //     },
-    //     {
-    //         "image": require('../../images/posters/poster.jpg').default
-    //     },
-    //     {
-    //         "image": require('../../images/posters/poster.jpg').default
-    //     },
-    // ]
+    const imageslink = [
+        {
+            "image": require('../../images/posters/inctfconFirstDay1.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay2.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay3.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay4.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay5.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay6.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay7.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay8.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay9.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay10.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay11.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay12.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay13.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay14.jpeg').default
+        },
+
+    ]
     return (
         <div className="promote" style={{ backgroundColor: 'white' }}>
             <section id="organize">
@@ -32,10 +60,49 @@ function Promotes() {
                     </div>
                 </div>
             </section>
-            {/* <section>
+            
+            <section id="register">
+                <div className="container zindex">
+                    <div className="row register-pa">
+                        <div className="col-lg-12">
+                            <div className="register-box">
+                                <div className="row">
+                                    <div className="col-lg-5 col-md-5 r-b-color">
+                                        <img style={{ maxHeight: '100%', maxWidth: '100%' }} draggable="false" src={image} alt="INCTF participant" />
+                                    </div><br/>
+                                    <div className="col-lg-7 col-md-7">
+                                        <div className="purchase-box">
+                                            <h3 style={{ color: 'tomato' }}>Poster content</h3> <br />
+                                            
+                                                <p className="">We are extremely excited to invite you to join the 11th edition of International Cyber Security Conference – <b>InCTFCon</b>. InCTFCon, will feature 3 days of inspiring sessions on both core and emerging areas of cybersecurity, privacy, and digital safety.
+                                                    Prize pool of 3 lakhs, placement and internship opportunity from our
+                                                    <br/>
+                                                    Our mission is to educate and promote a culture of online and technology safety and security. We want to empower those that are technologically savvy to take up the cybersecurity mantle in order to find a fulfilling career in cyberspace while serving those in need. 
+                                                    <br/>
+                                                    InCTFCon is jointly organized by Team bi0s, Amrita Centre for Cyber Security, and Traboda Cyberlabs. It will take place <b>Jan 21st - 23rd</b>, online. 
+                                                    <br/><br/>
+                                                    <b>Participation is free.</b><br/><br/>
+
+                                                    To attend the conference - <a href="https://inctf.in/join" style={{textDecoration:'none'}} >https://inctf.in/join</a> <br /><br />
+
+                                                </p>
+                                            
+                                            <a href={image} download>
+                                                <h4>Click Here To Download The Poster</h4>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br /><br /><br />
+            <section>
                 <div className="container">
                     <div className="row">
-                        <h4 className="poster">Our Posters</h4>
+                        <h4 className="poster" style={{color: 'tomato',paddingLeft:'15px    '}}>First Day Speakers</h4>
                     </div>
                     <div className="row">
                         {imageslink.map((s, index) =>
@@ -50,52 +117,8 @@ function Promotes() {
                         )}
                     </div>
                 </div>
-            </section> */}
-            <section id="register">
-                <div className="container zindex">
-                    <div className="row register-pa">
-                        <div className="col-lg-12">
-                            <div className="register-box">
-                                <div className="row">
-                                    <div className="col-lg-5 col-md-5 r-b-color">
-                                        <img style={{ maxHeight: '100%', maxWidth: '100%' }} draggable="false" src={image} alt="INCTF participant" />
-                                    </div>
-                                    <div className="col-lg-7 col-md-7">
-                                        <div className="purchase-box">
-                                            <h3 style={{ color: 'tomato' }}>Poster content</h3> <br />
-                                            <b>
-                                                <p className="ptag">A noob looking to learn cybersec? Or a pro looking for a
-                                                    refresh? Register now @ https://inctf.in/ <br />
-
-                                                    Prize pool of 3 lakhs, placement and internship opportunity from our
-                                                    sponsors awaits the participants <br />
-
-                                                    The registrations for the flagship #cybersecurity event of India - Amrita
-                                                    #InCTF 2021, has begun. <br />
-                                                    Grab this opportunity to gear up your cyber-security skills. <br /><br />
-
-                                                    Register now at https://inctf.in/ <br /><br />
-
-                                                    For more updates follow us on<br />
-                                                    Facebook - https://www.facebook.com/InCTF<br />
-                                                    Twitter - https://twitter.com/inctf<br />
-                                                    Instagram - https://www.instagram.com/inctf.in/<br />
-
-                                                </p>
-                                            </b>
-                                            <a href={image} download>
-                                                <h4>Click Here To Download The Poster</h4>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
-            <br /><br /><br />
-            <section>
+            {/* <section>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
@@ -134,7 +157,7 @@ function Promotes() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <br /><br />
         </div>
     )
