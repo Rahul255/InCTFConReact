@@ -487,7 +487,7 @@ const Schedule = () => {
                             "avatar": require('../../images/speakers/Bhavani-Rao.jpg').default
                         },
                         {
-                            "name": "Dr. Reena Bodhini ",
+                            "name": "Dr. Reena Sabin",
                             "designation": "Director",
                             "organization": " Specialists Hospital",
                             "avatar": require('../../images/speakers/Reena-Bodhini.jpeg').default
@@ -525,13 +525,13 @@ const Schedule = () => {
                             "avatar": require("../../images/speakers/krishnashree.jpg").default,
                         },
                         {
-                            "name": "Prem Kamath",
+                            "name": "Adv. Prem Kamath  ",
                             "designation": "",
                             "organization": "Lawyer & Cyber Law Consultant",
                             "avatar": require('../../images/speakers/Prem-Kamath .jpeg').default
                         },
                         {
-                            "name": "Dr Varun Kapoor",
+                            "name": "Dr. Varun Kapoor",
                             "designation": "",
                             "organization": "IPS",
                             "avatar": require("../../images/speakers/varun-kapoor.jpg").default
