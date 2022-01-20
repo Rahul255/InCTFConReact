@@ -418,7 +418,7 @@ const Schedule = () => {
                 },
                 {
                     "time": "08:45 - 09:30 IST",
-                    "title": "Keynote Address",
+                    "title": "Operating Tier 1 SOC: Learnings and best practices",
                     "speakers": [
                         {
                             "name": "Yogi Kapur",

@@ -390,17 +390,21 @@ const ConSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "Inaugural Session",
-            "title": "Keynote Address",
+            "title": "Operating Tier 1 SOC: Learnings and best practices",
+            "abstract": <>
+                Operating and working in a tier 1 SOC is infamous for its monotonous work and high attrition rate. However, being smart about investing in technology, process and employee success pays off in the long run. This talk will highlight some of the ways to do that.
+            </>,
             "speaker": {
                 "name": "Yogi Kapur",
                 "designation": "Director, SOC",
                 "company": "Salesforce",
+                "image": require("../../images/speakers/YogiPhoto.jpg").default,
                 "bio": <p>
                     Extensive operations background, widely regarded as thought leader within cyber security operations, technology integration and DevOps space.
 
                     Originally from a development background, I am constantly evolving to meet the needs of the business and currently responsible for the team that provides L1 support for Salesforce Security Operations. Essentially a thought leader, technologist, people-friendly manager and problem solver, who brings about sustainable order out of chaotic situations.
                 </p>,
-                "image": require("../../images/speakers/YogiPhoto.jpg").default,
+                
             },
         },
         {
@@ -416,7 +420,7 @@ const ConSpeakers = ({ hideTitle = false }) => {
                 </p>
                 <p>
                 In the area of cybercrimes, he is the Chief architect of the c0c0n conference held annually on the theme of public private partnership for enhancing cyber Security.   He is also the Architect of Cyber Dome- a centre for private public participation in cyber policing, which has become a model center for Cyber Security in the PPP domain. 
-                
+
                 </p>
                 </>
                 ,
