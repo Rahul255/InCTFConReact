@@ -9,8 +9,9 @@ function Promotes() {
             "image": require('../../images/posters/inctfconFirstDay1.jpeg').default
         },
         {
-            "image": require('../../images/posters/inctfconFirstDay2.jpeg').default
+            "image": require('../../images/posters/inctfconFirstDay5.jpeg').default
         },
+        
         {
             "image": require('../../images/posters/inctfconFirstDay3.jpeg').default
         },
@@ -18,7 +19,13 @@ function Promotes() {
             "image": require('../../images/posters/inctfconFirstDay4.jpeg').default
         },
         {
-            "image": require('../../images/posters/inctfconFirstDay5.jpeg').default
+            "image": require('../../images/posters/inctfconFirstDay2.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay8.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/inctfconFirstDay14.jpeg').default
         },
         {
             "image": require('../../images/posters/inctfconFirstDay6.jpeg').default
@@ -26,9 +33,7 @@ function Promotes() {
         {
             "image": require('../../images/posters/inctfconFirstDay7.jpeg').default
         },
-        {
-            "image": require('../../images/posters/inctfconFirstDay8.jpeg').default
-        },
+        
         {
             "image": require('../../images/posters/inctfconFirstDay9.jpeg').default
         },
@@ -44,9 +49,7 @@ function Promotes() {
         {
             "image": require('../../images/posters/inctfconFirstDay13.jpeg').default
         },
-        {
-            "image": require('../../images/posters/inctfconFirstDay14.jpeg').default
-        },
+       
 
     ]
     return (
@@ -107,13 +110,14 @@ function Promotes() {
                     <div className="row">
                         {imageslink.map((s, index) =>
                             <div className="col-lg-4" style={{marginBottom:'20px'}}>
-                                <img src={s.image} alt="" style={{
+                                <a href={s.image} download><img src={s.image} alt="" style={{
                                     width: '100%',
                                     height: '100%',
                                     objectFit: 'cover',
-                                }} />
+                                }} /> </a>
                                 
                             </div>
+                            
                         )}
                     </div>
                 </div>
