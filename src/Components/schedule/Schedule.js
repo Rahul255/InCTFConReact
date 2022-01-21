@@ -232,7 +232,7 @@ const Schedule = () => {
                 },
                 {
                     "time": "20:45 - 21:30 IST",
-                    "title": "Try your hand at Machine Learning for Security",
+                    "title": "Down the Rabbit Hole: the Future of CyberSecurity",
                     "speakers": [
                         {
                             "name": "Joshua Brown",
