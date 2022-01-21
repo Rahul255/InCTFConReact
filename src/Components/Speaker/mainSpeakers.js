@@ -358,12 +358,12 @@ const ConferenceSpeakers = () => {
             "company": "Amrita Vishwa Vidyapeetham",
             "image": require('../../images/speakers/Bhavani-Rao.jpg').default
         },
-        {
-            "name": "Dr. Reena Sabin",
-            "designation": "Director",
-            "company": " Specialists Hospital",
-            "image": require('../../images/speakers/Reena-Bodhini.jpeg').default
-        },
+        // {
+        //     "name": "Dr. Reena Sabin",
+        //     "designation": "Director",
+        //     "company": " Specialists Hospital",
+        //     "image": require('../../images/speakers/Reena-Bodhini.jpeg').default
+        // },
         {
             "name": "Dr. Bindu Menon",
             "designation": "Professor and Head Psychiatry and Behavior Medicine",
