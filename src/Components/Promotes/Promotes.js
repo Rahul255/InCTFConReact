@@ -6,48 +6,36 @@ import image from '../../images/inctfconposter.jpg'
 function Promotes() {
     const imageslink = [
         {
-            "image": require('../../images/posters/inctfconFirstDay1.jpeg').default
+            "image": require('../../images/posters/Chris.jpeg').default
         },
         {
-            "image": require('../../images/posters/inctfconFirstDay5.jpeg').default
-        },
-        
-        {
-            "image": require('../../images/posters/inctfconFirstDay3.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/inctfconFirstDay4.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/inctfconFirstDay2.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/inctfconFirstDay8.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/inctfconFirstDay14.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/inctfconFirstDay6.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/inctfconFirstDay7.jpeg').default
+            "image": require('../../images/posters/Sandeep.jpeg').default
         },
         
         {
-            "image": require('../../images/posters/inctfconFirstDay9.jpeg').default
+            "image": require('../../images/posters/Sam.jpeg').default
         },
         {
-            "image": require('../../images/posters/inctfconFirstDay10.jpeg').default
+            "image": require('../../images/posters/Richard.jpeg').default
         },
         {
-            "image": require('../../images/posters/inctfconFirstDay11.jpeg').default
+            "image": require('../../images/posters/Rushi.jpeg').default
         },
         {
-            "image": require('../../images/posters/inctfconFirstDay12.jpeg').default
+            "image": require('../../images/posters/Mini.jpeg').default
         },
         {
-            "image": require('../../images/posters/inctfconFirstDay13.jpeg').default
+            "image": require('../../images/posters/Manoj.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/Atul.jpeg').default
+        },
+        {
+            "image": require('../../images/posters/Amir.jpeg').default
+        },
+        
+        {
+            "image": require('../../images/posters/Ajith.jpeg').default
         },
        
 
@@ -105,7 +93,7 @@ function Promotes() {
             <section>
                 <div className="container">
                     <div className="row">
-                        <h4 className="poster" style={{color: 'tomato',paddingLeft:'15px    '}}>First Day Speakers</h4>
+                        <h4 className="poster" style={{color: 'tomato',paddingLeft:'15px    '}}>Second Day Speakers</h4>
                     </div>
                     <div className="row">
                         {imageslink.map((s, index) =>
