@@ -486,12 +486,12 @@ const Schedule = () => {
                             "organization": "Amrita Vishwa Vidyapeetham",
                             "avatar": require('../../images/speakers/Bhavani-Rao.jpg').default
                         },
-                        // {
-                        //     "name": "Dr. Reena Sabin",
-                        //     "designation": "Director",
-                        //     "organization": " Specialists Hospital",
-                        //     "avatar": require('../../images/speakers/Reena-Bodhini.jpeg').default
-                        // },
+                        {
+                            "name": "Ms. Reena",
+                            "designation": "",
+                            "organization": " Volunteer from Bodhini",
+                            "avatar": require('../../images/speakers/bodhini.jpg').default
+                        },
                         {
                             "name": "Dr. Bindu Menon",
                             "designation": "Professor and Head Psychiatry and Behavior Medicine",
