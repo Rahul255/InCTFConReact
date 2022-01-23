@@ -6,29 +6,29 @@ import image from '../../images/inctfconposter.jpg'
 function Promotes() {
     const imageslink = [
         {
-            "image": require('../../images/posters/Chris.jpeg').default
+            "image": require('../../images/posters/yogi.jpeg').default
         },
         {
-            "image": require('../../images/posters/Sandeep.jpeg').default
+            "image": require('../../images/posters/Suvabrata.jpeg').default
         },
         
         {
-            "image": require('../../images/posters/Sam.jpeg').default
+            "image": require('../../images/posters/Uri.jpeg').default
         },
         {
-            "image": require('../../images/posters/Richard.jpeg').default
+            "image": require('../../images/posters/Lavi.jpeg').default
         },
         {
-            "image": require('../../images/posters/Rushi.jpeg').default
+            "image": require('../../images/posters/Srinivas.jpeg').default
         },
         {
-            "image": require('../../images/posters/Mini.jpeg').default
+            "image": require('../../images/posters/Britto.jpeg').default
         },
         {
-            "image": require('../../images/posters/Manoj.jpeg').default
+            "image": require('../../images/posters/vipin.jpeg').default
         },
         {
-            "image": require('../../images/posters/Atul.jpeg').default
+            "image": require('../../images/posters/Panel-1.jpeg').default
         },
         {
             "image": require('../../images/posters/Amir.jpeg').default
