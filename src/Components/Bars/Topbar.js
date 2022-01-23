@@ -123,14 +123,14 @@ const Topbar = () => {
                             <a className="newone" href="/promote">Promote</a>
                         </Fade>
                     </nav>
-                    <Fade left>
+                    {/* <Fade left>
                         <a
                             className="register-button" target="_blank" rel="noreferrer nofollow"
                             href="https://inctf.in/join"
                         >
                             Join the Conference 
                         </a>
-                    </Fade>
+                    </Fade> */}
                 </div>
                 <div className="col-8 d-flex d-md-none align-items-center justify-content-end px-2">
                     <button onClick={onOpen}>

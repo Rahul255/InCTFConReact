@@ -145,14 +145,14 @@ function Banner() {
                         </div>*/}<br />
                             <h5 className="bold">January 21 - 23, 2022</h5>
                         </Fade><br/>
-                        <Fade left>
+                        {/* <Fade left>
                         <a
                             className="register-button" target="_blank" rel="noreferrer nofollow"
                             href="https://inctf.in/join"
                         >
                             Join the Conference
                         </a>
-                        </Fade>
+                        </Fade> */}
                     </div>
                    
                 </CoverWrap>

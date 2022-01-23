@@ -4,42 +4,42 @@ import image from '../../images/inctfconposter.jpg'
 // import TweetEmbed from 'react-tweet-embed';
 
 function Promotes() {
-    const imageslink = [
-        {
-            "image": require('../../images/posters/yogi.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/Suvabrata.jpeg').default
-        },
+    // const imageslink = [
+    //     {
+    //         "image": require('../../images/posters/yogi.jpeg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/Suvabrata.jpeg').default
+    //     },
         
-        {
-            "image": require('../../images/posters/Uri.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/Lavi.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/Srinivas.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/Britto.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/vipin.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/Panel-1.jpeg').default
-        },
-        {
-            "image": require('../../images/posters/Amir.jpeg').default
-        },
+    //     {
+    //         "image": require('../../images/posters/Uri.jpeg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/Lavi.jpeg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/Srinivas.jpeg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/Britto.jpeg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/vipin.jpeg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/Panel-1.jpeg').default
+    //     },
+    //     {
+    //         "image": require('../../images/posters/Amir.jpeg').default
+    //     },
         
-        {
-            "image": require('../../images/posters/Ajith.jpeg').default
-        },
+    //     {
+    //         "image": require('../../images/posters/Ajith.jpeg').default
+    //     },
        
 
-    ]
+    // ]
     return (
         <div className="promote" style={{ backgroundColor: 'white' }}>
             <section id="organize">
@@ -90,7 +90,7 @@ function Promotes() {
                 </div>
             </section>
             <br /><br /><br />
-            <section>
+            {/* <section>
                 <div className="container">
                     <div className="row">
                         <h4 className="poster" style={{color: 'tomato',paddingLeft:'15px    '}}>Second Day Speakers</h4>
@@ -109,7 +109,7 @@ function Promotes() {
                         )}
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/* <section>
                 <div className="container">
                     <div className="row">

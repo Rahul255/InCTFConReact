@@ -135,14 +135,14 @@ const SideBar = ({ onClose, darkenOnSidebar }) => {
                             </li>
                         </Fade>
                     )}</ol>
-                    <Fade left>
+                    {/* <Fade left>
                    <a
                 className="register-button" target="_blank" rel="noreferrer nofollow"
                 href="https://inctf.in/join"
                  >
                 Join the Conference
               </a>
-                </Fade>
+                </Fade> */}
                     <div style={{ color: '#999' }} className="text-center pt-4">
                         follow us on
                     </div>
